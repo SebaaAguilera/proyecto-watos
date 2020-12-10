@@ -1,0 +1,128 @@
+
+ # eg:dsd-under-five_mortality_rate
+eg:dsd-under-five_mortality_rate a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 3 ],
+    [ qb:dimension eg:refPeriod;               qb:order 2 ],
+    [ qb:dimension eg:peopleUnder5;               qb:order 2 ],
+    qb:component
+    [ qb:measure eg-measure:under-five-mortality-rate ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:per100000livebirths; ] ; 
+.
+
+ # eg:dsd-maternal-mortality
+eg:dsd-maternal-mortality a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:maternal-mortality-ratio ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:per100000livebirths; ] ; 
+.
+
+ # eg:dsd-child-malnutrition
+eg:dsd-child-malnutrition a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 3 ],
+    [ qb:dimension eg:refPeriod;               qb:order 2 ],
+    [ qb:dimension eg:peopleUnder5;               qb:order 2 ],
+    qb:component
+    [ qb:measure eg-measure:prevalence-stunting-height-age ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:percentage; ] ; 
+.
+
+
+ # eg:dsd-percentage-share-income
+eg:dsd-percentage-share-income a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:lowest20 ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:percentage; ] ; 
+.
+
+ # eg:dsd-gdp
+eg:dsd-gdp a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:gdp ];
+    [ qb:measure eg-measure:gdp_per_capita ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:percentage; ] ; 
+.
+
+ # eg:dsd-gni-ppp
+eg:dsd-gni-ppp a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:gni-ppp ];
+    [ qb:measure eg-measure:gni-ppp_per_capita ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:US$; ] ; 
+    sdmx-attribute:unitMultiplier  9; ] ; 
+.
+
+ # eg:dsd-gni
+eg:dsd-gni a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:gni ];
+    [ qb:measure eg-measure:gni_per_capita ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:US$; ] ; 
+    sdmx-attribute:unitMultiplier  9; ] ; 
+.
+
+ # eg:dsd-people-sq-km
+eg:dsd-people-sq-km a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:pop_density ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:people_per_sq_km; ] ; 
+.
+
+# eg:dsd-surface-area-sq-km
+eg:dsd-surface-area-sq-km a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:surface-area ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMeasure eg:sq_km; ] ; 
+.
+
+# eg:dsd-pop-millions
+eg:dsd-pop-millions a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension eg:refArea;               qb:order 2 ],
+    [ qb:dimension eg:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure eg-measure:population ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure ;
+    sdmx-attribute:unitMultiplier  6; ] ; 
+.

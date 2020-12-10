@@ -1,0 +1,70 @@
+
+
+c19-interval:Percentile0-20 a c19-interval:PercentileInterval ;
+    c19-interval:beginning 0 ;
+    c19-interval:end 20 ;
+    rdfs:label "p0-20" .
+
+
+
+c19-interval:Age0-5 a c19-interval:PercentileInterval ;
+    c19-interval:beginning 0 ;
+    c19-interval:end 5 ;
+    c19-interval:baseUnit wd:Q577 ;
+    rdfs:label "0-5" .
+
+c19-interval:Age15-49 a c19-interval:PercentileInterval ;
+    c19-interval:beginning 15 ;
+    c19-interval:end 49 ;
+    c19-interval:baseUnit wd:Q577 ;
+    rdfs:label "15-49" .
+
+c19-interval:Age20-24 a c19-interval:PercentileInterval ;
+    c19-interval:beginning 20 ;
+    c19-interval:end 24 ;
+    c19-interval:baseUnit wd:Q577 ;
+    rdfs:label "20-24" .
+
+
+
+c19-interval:Year2011-19 a time:Interval ;
+    time:hasBeginning "2011"^^xsd:gYear ;
+    time:hasEnd "2019"^^xsd:gYear ;
+    rdfs:label "2011-19" .
+
+c19-interval:Year2006-17 a time:Interval ;
+    time:hasBeginning "2006"^^xsd:gYear ;
+    time:hasEnd "2017"^^xsd:gYear ;
+    rdfs:label "2006-17" .
+
+
+
+c19-interval:Year2014 a time:Interval ;
+    time:hasBeginning "2014"^^xsd:gYear ;
+    time:hasEnd "2014"^^xsd:gYear ;
+    rdfs:label "2014" .
+
+c19-interval:Year2015 a time:Interval ;
+    time:hasBeginning "2015"^^xsd:gYear ;
+    time:hasEnd "2015"^^xsd:gYear ;
+    rdfs:label "2015" .
+
+c19-interval:Year2016 a time:Interval ;
+    time:hasBeginning "2016"^^xsd:gYear ;
+    time:hasEnd "2016"^^xsd:gYear ;
+    rdfs:label "2016" .
+
+c19-interval:Year2017 a time:Interval ;
+    time:hasBeginning "2017"^^xsd:gYear ;
+    time:hasEnd "2017"^^xsd:gYear ;
+    rdfs:label "2017" .
+
+c19-interval:Year2018 a time:Interval ;
+    time:hasBeginning "2018"^^xsd:gYear ;
+    time:hasEnd "2018"^^xsd:gYear ;
+    rdfs:label "2018" .
+    
+c19-interval:Year2019 a time:Interval ;
+    time:hasBeginning "2019"^^xsd:gYear ;
+    time:hasEnd "2019"^^xsd:gYear ;
+    rdfs:label "2019" .

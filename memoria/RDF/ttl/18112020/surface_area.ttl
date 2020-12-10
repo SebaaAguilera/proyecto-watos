@@ -1,0 +1,1494 @@
+eg:dataset-surface_area a qb:Dataset;
+    dct:title       "Surface area"@en;
+    rdfs:label      "surface_area"@en;
+    rdfs:comment    "The World Bank: WV.1 | Size of the economy"@en;
+    dct:description "Surface area is a country's total area, including areas under inland bodies of water and some coastal waterways."@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    dct:subject 
+        sdmx-subject: 3.1 ;
+    qb:structure eg:dsd-area-sqkm ;
+.
+
+
+<eg:surface_area-o0>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  652.9 ;
+        eg:refArea        "Q889" .
+
+<eg:surface_area-o1>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  28.8 ;
+        eg:refArea        "Q222" .
+
+<eg:surface_area-o2>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2381.7 ;
+        eg:refArea        "Q262" .
+
+<eg:surface_area-o3>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.2 ;
+        eg:refArea        "Q16641" .
+
+<eg:surface_area-o4>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.5 ;
+        eg:refArea        "Q228" .
+
+<eg:surface_area-o5>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1246.7 ;
+        eg:refArea        "Q916" .
+
+<eg:surface_area-o6>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.4 ;
+        eg:refArea        "Q781" .
+
+<eg:surface_area-o7>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2780.4 ;
+        eg:refArea        "Q414" .
+
+<eg:surface_area-o8>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  29.7 ;
+        eg:refArea        "Q399" .
+
+<eg:surface_area-o9>  rdf:type  qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.2 ;
+        eg:refArea        "Q21203" .
+
+<eg:surface_area-o10>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  7741.2 ;
+        eg:refArea        "Q408" .
+
+<eg:surface_area-o11>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  83.9 ;
+        eg:refArea        "Q40" .
+
+<eg:surface_area-o12>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  86.6 ;
+        eg:refArea        "Q227" .
+
+<eg:surface_area-o13>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  13.9 ;
+        eg:refArea        "Q778" .
+
+<eg:surface_area-o14>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.8 ;
+        eg:refArea        "Q398" .
+
+<eg:surface_area-o15>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  147.6 ;
+        eg:refArea        "Q902" .
+
+<eg:surface_area-o16>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.4 ;
+        eg:refArea        "Q244" .
+
+<eg:surface_area-o17>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  207.6 ;
+        eg:refArea        "Q184" .
+
+<eg:surface_area-o18>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  30.5 ;
+        eg:refArea        "Q31" .
+
+<eg:surface_area-o19>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  23.0 ;
+        eg:refArea        "Q242" .
+
+<eg:surface_area-o20>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  114.8 ;
+        eg:refArea        "Q962" .
+
+<eg:surface_area-o21>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  4.3 ;
+        eg:refArea        "Q23635" .
+
+<eg:surface_area-o22>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  38.4 ;
+        eg:refArea        "Q917" .
+
+<eg:surface_area-o23>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1098.6 ;
+        eg:refArea        "Q750" .
+
+<eg:surface_area-o24>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  51.2 ;
+        eg:refArea        "Q225" .
+
+<eg:surface_area-o25>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  581.7 ;
+        eg:refArea        "Q963" .
+
+<eg:surface_area-o26>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  8515.8 ;
+        eg:refArea        "Q155" .
+
+<eg:surface_area-o27>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  5.8 ;
+        eg:refArea        "Q921" .
+
+<eg:surface_area-o28>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  111.0 ;
+        eg:refArea        "Q219" .
+
+<eg:surface_area-o29>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  274.2 ;
+        eg:refArea        "Q965" .
+
+<eg:surface_area-o30>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  27.8 ;
+        eg:refArea        "Q967" .
+
+<eg:surface_area-o31>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  181.0 ;
+        eg:refArea        "Q424" .
+
+<eg:surface_area-o32>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  475.4 ;
+        eg:refArea        "Q1009" .
+
+<eg:surface_area-o33>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  9984.7 ;
+        eg:refArea        "Q16" .
+
+<eg:surface_area-o34>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  4.0 ;
+        eg:refArea        "Q1011" .
+
+<eg:surface_area-o35>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.3 ;
+        eg:refArea        "Q5785" .
+
+<eg:surface_area-o36>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  623.0 ;
+        eg:refArea        "Q929" .
+
+<eg:surface_area-o37>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1284.0 ;
+        eg:refArea        "Q657" .
+
+<eg:surface_area-o38>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.2 ;
+        eg:refArea        "Q42314" .
+
+<eg:surface_area-o39>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  756.7 ;
+        eg:refArea        "Q298" .
+
+<eg:surface_area-o40>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  9562.9 ;
+        eg:refArea        "Q148" .
+
+<eg:surface_area-o41>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1.1 ;
+        eg:refArea        "Q8646" .
+
+<eg:surface_area-o42>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.0 ;
+        eg:refArea        "Q14773" .
+
+<eg:surface_area-o43>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1141.7 ;
+        eg:refArea        "Q739" .
+
+<eg:surface_area-o44>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1.9 ;
+        eg:refArea        "Q970" .
+
+<eg:surface_area-o45>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2344.9 ;
+        eg:refArea        "Q974" .
+
+<eg:surface_area-o46>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  342.0 ;
+        eg:refArea        "Q971" .
+
+<eg:surface_area-o47>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  51.1 ;
+        eg:refArea        "Q800" .
+
+<eg:surface_area-o48>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  322.5 ;
+        eg:refArea        "Q1008" .
+
+<eg:surface_area-o49>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  56.6 ;
+        eg:refArea        "Q224" .
+
+<eg:surface_area-o50>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  109.9 ;
+        eg:refArea        "Q241" .
+
+<eg:surface_area-o51>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.4 ;
+        eg:refArea        "Q25279" .
+
+<eg:surface_area-o52>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  9.3 ;
+        eg:refArea        "Q229" .
+
+<eg:surface_area-o53>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  78.9 ;
+        eg:refArea        "Q213" .
+
+<eg:surface_area-o54>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  42.9 ;
+        eg:refArea        "Q35" .
+
+<eg:surface_area-o55>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  23.2 ;
+        eg:refArea        "Q977" .
+
+<eg:surface_area-o56>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.8 ;
+        eg:refArea        "Q784" .
+
+<eg:surface_area-o57>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  48.7 ;
+        eg:refArea        "Q786" .
+
+<eg:surface_area-o58>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  256.4 ;
+        eg:refArea        "Q736" .
+
+<eg:surface_area-o59>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1001.5 ;
+        eg:refArea        "Q79" .
+
+<eg:surface_area-o60>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  21.0 ;
+        eg:refArea        "Q792" .
+
+<eg:surface_area-o61>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  28.1 ;
+        eg:refArea        "Q983" .
+
+<eg:surface_area-o62>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  117.6 ;
+        eg:refArea        "Q986" .
+
+<eg:surface_area-o63>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  45.3 ;
+        eg:refArea        "Q191" .
+
+<eg:surface_area-o64>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  17.4 ;
+        eg:refArea        "Q1050" .
+
+<eg:surface_area-o65>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1104.3 ;
+        eg:refArea        "Q115" .
+
+<eg:surface_area-o66>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1.4 ;
+        eg:refArea        "Q4628" .
+
+<eg:surface_area-o67>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  18.3 ;
+        eg:refArea        "Q712" .
+
+<eg:surface_area-o68>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  338.5 ;
+        eg:refArea        "Q33" .
+
+<eg:surface_area-o69>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  549.1 ;
+        eg:refArea        "Q142" .
+
+<eg:surface_area-o70>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  4.0 ;
+        eg:refArea        "Q30971" .
+
+<eg:surface_area-o71>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  267.7 ;
+        eg:refArea        "Q1000" .
+
+<eg:surface_area-o72>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  11.3 ;
+        eg:refArea        "Q1005" .
+
+<eg:surface_area-o73>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  69.7 ;
+        eg:refArea        "Q230" .
+
+<eg:surface_area-o74>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  357.6 ;
+        eg:refArea        "Q183" .
+
+<eg:surface_area-o75>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  238.5 ;
+        eg:refArea        "Q117" .
+
+<eg:surface_area-o76>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  132.0 ;
+        eg:refArea        "Q41" .
+
+<eg:surface_area-o77>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  410.5 ;
+        eg:refArea        "Q223" .
+
+<eg:surface_area-o78>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.3 ;
+        eg:refArea        "Q769" .
+
+<eg:surface_area-o79>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.5 ;
+        eg:refArea        "Q16635" .
+
+<eg:surface_area-o80>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  108.9 ;
+        eg:refArea        "Q774" .
+
+<eg:surface_area-o81>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  245.9 ;
+        eg:refArea        "Q1006" .
+
+<eg:surface_area-o82>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  36.1 ;
+        eg:refArea        "Q1007" .
+
+<eg:surface_area-o83>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  215.0 ;
+        eg:refArea        "Q734" .
+
+<eg:surface_area-o84>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  27.8 ;
+        eg:refArea        "Q790" .
+
+<eg:surface_area-o85>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  112.5 ;
+        eg:refArea        "Q783" .
+
+<eg:surface_area-o86>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  93.0 ;
+        eg:refArea        "Q28" .
+
+<eg:surface_area-o87>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  103.0 ;
+        eg:refArea        "Q189" .
+
+<eg:surface_area-o88>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  3287.3 ;
+        eg:refArea        "Q668" .
+
+<eg:surface_area-o89>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1913.6 ;
+        eg:refArea        "Q252" .
+
+<eg:surface_area-o90>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1745.2 ;
+        eg:refArea        "Q794" .
+
+<eg:surface_area-o91>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  435.1 ;
+        eg:refArea        "Q796" .
+
+<eg:surface_area-o92>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  70.3 ;
+        eg:refArea        "Q27" .
+
+<eg:surface_area-o93>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.6 ;
+        eg:refArea        "Q9676" .
+
+<eg:surface_area-o94>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  22.1 ;
+        eg:refArea        "Q801" .
+
+<eg:surface_area-o95>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  301.3 ;
+        eg:refArea        "Q38" .
+
+<eg:surface_area-o96>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  11.0 ;
+        eg:refArea        "Q766" .
+
+<eg:surface_area-o97>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  378.0 ;
+        eg:refArea        "Q17" .
+
+<eg:surface_area-o98>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  89.3 ;
+        eg:refArea        "Q810" .
+
+<eg:surface_area-o99>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2724.9 ;
+        eg:refArea        "Q232" .
+
+<eg:surface_area-o100>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  580.4 ;
+        eg:refArea        "Q114" .
+
+<eg:surface_area-o101>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.8 ;
+        eg:refArea        "Q710" .
+
+<eg:surface_area-o102>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  120.5 ;
+        eg:refArea        "Q423" .
+
+<eg:surface_area-o103>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  100.3 ;
+        eg:refArea        "Q884" .
+
+<eg:surface_area-o104>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  10.9 ;
+        eg:refArea        "Q1246" .
+
+<eg:surface_area-o105>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  17.8 ;
+        eg:refArea        "Q817" .
+
+<eg:surface_area-o106>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  200.0 ;
+        eg:refArea        "Q813" .
+
+<eg:surface_area-o107>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  236.8 ;
+        eg:refArea        "Q819" .
+
+<eg:surface_area-o108>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  64.5 ;
+        eg:refArea        "Q211" .
+
+<eg:surface_area-o109>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  10.5 ;
+        eg:refArea        "Q822" .
+
+<eg:surface_area-o110>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  30.4 ;
+        eg:refArea        "Q1013" .
+
+<eg:surface_area-o111>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  111.4 ;
+        eg:refArea        "Q1014" .
+
+<eg:surface_area-o112>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1759.5 ;
+        eg:refArea        "Q1016" .
+
+<eg:surface_area-o113>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.2 ;
+        eg:refArea        "Q347" .
+
+<eg:surface_area-o114>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  65.3 ;
+        eg:refArea        "Q37" .
+
+<eg:surface_area-o115>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2.6 ;
+        eg:refArea        "Q32" .
+
+<eg:surface_area-o116>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  587.3 ;
+        eg:refArea        "Q1019" .
+
+<eg:surface_area-o117>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  118.5 ;
+        eg:refArea        "Q1020" .
+
+<eg:surface_area-o118>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  330.3 ;
+        eg:refArea        "Q833" .
+
+<eg:surface_area-o119>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.3 ;
+        eg:refArea        "Q826" .
+
+<eg:surface_area-o120>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1240.2 ;
+        eg:refArea        "Q912" .
+
+<eg:surface_area-o121>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.3 ;
+        eg:refArea        "Q233" .
+
+<eg:surface_area-o122>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.2 ;
+        eg:refArea        "Q709" .
+
+<eg:surface_area-o123>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1030.7 ;
+        eg:refArea        "Q1025" .
+
+<eg:surface_area-o124>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2.0 ;
+        eg:refArea        "Q1027" .
+
+<eg:surface_area-o125>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1964.4 ;
+        eg:refArea        "Q96" .
+
+<eg:surface_area-o126>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.7 ;
+        eg:refArea        "Q702" .
+
+<eg:surface_area-o127>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  33.9 ;
+        eg:refArea        "Q217" .
+
+<eg:surface_area-o128>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.0 ;
+        eg:refArea        "Q235" .
+
+<eg:surface_area-o129>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1564.1 ;
+        eg:refArea        "Q711" .
+
+<eg:surface_area-o130>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  13.8 ;
+        eg:refArea        "Q236" .
+
+<eg:surface_area-o131>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  446.6 ;
+        eg:refArea        "Q1028" .
+
+<eg:surface_area-o132>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  786.4 ;
+        eg:refArea        "Q1029" .
+
+<eg:surface_area-o133>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  676.6 ;
+        eg:refArea        "Q836" .
+
+<eg:surface_area-o134>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  824.3 ;
+        eg:refArea        "Q1030" .
+
+<eg:surface_area-o135>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.0 ;
+        eg:refArea        "Q697" .
+
+<eg:surface_area-o136>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  147.2 ;
+        eg:refArea        "Q837" .
+
+<eg:surface_area-o137>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  41.5 ;
+        eg:refArea        "Q55" .
+
+<eg:surface_area-o138>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  18.6 ;
+        eg:refArea        "Q33788" .
+
+<eg:surface_area-o139>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  267.7 ;
+        eg:refArea        "Q664" .
+
+<eg:surface_area-o140>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  130.4 ;
+        eg:refArea        "Q811" .
+
+<eg:surface_area-o141>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1267.0 ;
+        eg:refArea        "Q1032" .
+
+<eg:surface_area-o142>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  923.8 ;
+        eg:refArea        "Q1033" .
+
+<eg:surface_area-o143>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  25.7 ;
+        eg:refArea        "Q221" .
+
+<eg:surface_area-o144>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.5 ;
+        eg:refArea        "Q16644" .
+
+<eg:surface_area-o145>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  625.2 ;
+        eg:refArea        "Q20" .
+
+<eg:surface_area-o146>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  309.5 ;
+        eg:refArea        "Q842" .
+
+<eg:surface_area-o147>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  796.1 ;
+        eg:refArea        "Q843" .
+
+<eg:surface_area-o148>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.5 ;
+        eg:refArea        "Q695" .
+
+<eg:surface_area-o149>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  75.4 ;
+        eg:refArea        "Q804" .
+
+<eg:surface_area-o150>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  462.8 ;
+        eg:refArea        "Q691" .
+
+<eg:surface_area-o151>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  406.8 ;
+        eg:refArea        "Q733" .
+
+<eg:surface_area-o152>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1285.2 ;
+        eg:refArea        "Q419" .
+
+<eg:surface_area-o153>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  300.0 ;
+        eg:refArea        "Q928" .
+
+<eg:surface_area-o154>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  312.7 ;
+        eg:refArea        "Q36" .
+
+<eg:surface_area-o155>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  92.2 ;
+        eg:refArea        "Q45" .
+
+<eg:surface_area-o156>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  8.9 ;
+        eg:refArea        "Q1183" .
+
+<eg:surface_area-o157>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  11.6 ;
+        eg:refArea        "Q846" .
+
+<eg:surface_area-o158>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  238.4 ;
+        eg:refArea        "Q218" .
+
+<eg:surface_area-o159>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  17098.3 ;
+        eg:refArea        "Q159" .
+
+<eg:surface_area-o160>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  26.3 ;
+        eg:refArea        "Q1037" .
+
+<eg:surface_area-o161>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2.8 ;
+        eg:refArea        "Q683" .
+
+<eg:surface_area-o162>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.1 ;
+        eg:refArea        "Q238" .
+
+<eg:surface_area-o163>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1.0 ;
+        eg:refArea        "Q1039" .
+
+<eg:surface_area-o164>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  2149.7 ;
+        eg:refArea        "Q851" .
+
+<eg:surface_area-o165>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  196.7 ;
+        eg:refArea        "Q1041" .
+
+<eg:surface_area-o166>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  88.4 ;
+        eg:refArea        "Q403" .
+
+<eg:surface_area-o167>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.5 ;
+        eg:refArea        "Q1042" .
+
+<eg:surface_area-o168>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  72.3 ;
+        eg:refArea        "Q1044" .
+
+<eg:surface_area-o169>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.7 ;
+        eg:refArea        "Q334" .
+
+<eg:surface_area-o170>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.0 ;
+        eg:refArea        "Q26273" .
+
+<eg:surface_area-o171>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  49.0 ;
+        eg:refArea        "Q214" .
+
+<eg:surface_area-o172>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  20.7 ;
+        eg:refArea        "Q215" .
+
+<eg:surface_area-o173>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  28.9 ;
+        eg:refArea        "Q685" .
+
+<eg:surface_area-o174>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  637.7 ;
+        eg:refArea        "Q1045" .
+
+<eg:surface_area-o175>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1219.1 ;
+        eg:refArea        "Q258" .
+
+<eg:surface_area-o176>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  505.9 ;
+        eg:refArea        "Q29" .
+
+<eg:surface_area-o177>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  65.6 ;
+        eg:refArea        "Q854" .
+
+<eg:surface_area-o178>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.3 ;
+        eg:refArea        "Q763" .
+
+<eg:surface_area-o179>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.6 ;
+        eg:refArea        "Q760" .
+
+<eg:surface_area-o180>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.1 ;
+        eg:refArea        "Q126125" .
+
+<eg:surface_area-o181>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.4 ;
+        eg:refArea        "Q757" .
+
+<eg:surface_area-o182>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  163.8 ;
+        eg:refArea        "Q730" .
+
+<eg:surface_area-o183>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  447.4 ;
+        eg:refArea        "Q34" .
+
+<eg:surface_area-o184>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  41.3 ;
+        eg:refArea        "Q39" .
+
+<eg:surface_area-o185>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  185.2 ;
+        eg:refArea        "Q858" .
+
+<eg:surface_area-o186>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  141.4 ;
+        eg:refArea        "Q863" .
+
+<eg:surface_area-o187>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  947.3 ;
+        eg:refArea        "Q924" .
+
+<eg:surface_area-o188>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  513.1 ;
+        eg:refArea        "Q869" .
+
+<eg:surface_area-o189>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  14.9 ;
+        eg:refArea        "Q574" .
+
+<eg:surface_area-o190>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  56.8 ;
+        eg:refArea        "Q945" .
+
+<eg:surface_area-o191>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.8 ;
+        eg:refArea        "Q678" .
+
+<eg:surface_area-o192>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  5.1 ;
+        eg:refArea        "Q754" .
+
+<eg:surface_area-o193>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  163.6 ;
+        eg:refArea        "Q948" .
+
+<eg:surface_area-o194>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  785.4 ;
+        eg:refArea        "Q43" .
+
+<eg:surface_area-o195>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  488.1 ;
+        eg:refArea        "Q874" .
+
+<eg:surface_area-o196>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  1.0 ;
+        eg:refArea        "Q18221" .
+
+<eg:surface_area-o197>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.0 ;
+        eg:refArea        "Q672" .
+
+<eg:surface_area-o198>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  241.6 ;
+        eg:refArea        "Q1036" .
+
+<eg:surface_area-o199>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  603.6 ;
+        eg:refArea        "Q212" .
+
+<eg:surface_area-o200>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  83.6 ;
+        eg:refArea        "Q878" .
+
+<eg:surface_area-o201>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  243.6 ;
+        eg:refArea        "Q145" .
+
+<eg:surface_area-o202>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  9831.5 ;
+        eg:refArea        "Q30" .
+
+<eg:surface_area-o203>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  176.2 ;
+        eg:refArea        "Q77" .
+
+<eg:surface_area-o204>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  447.4 ;
+        eg:refArea        "Q265" .
+
+<eg:surface_area-o205>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  12.2 ;
+        eg:refArea        "Q686" .
+
+<eg:surface_area-o206>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  912.1 ;
+        eg:refArea        "Q717" .
+
+<eg:surface_area-o207>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  331.2 ;
+        eg:refArea        "Q881" .
+
+<eg:surface_area-o208>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  0.4 ;
+        eg:refArea        "Q11703" .
+
+<eg:surface_area-o209>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  6.0 ;
+        eg:refArea        "Q407199" .
+
+<eg:surface_area-o210>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  528.0 ;
+        eg:refArea        "Q805" .
+
+<eg:surface_area-o211>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  752.6 ;
+        eg:refArea        "Q953" .
+
+<eg:surface_area-o212>
+        rdf:type          qb:Observation ;
+        qb:dataSet        "dataset-surface_area" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:sq_km  390.8 ;
+        eg:refArea        "Q954" .

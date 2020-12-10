@@ -1,0 +1,831 @@
+eg:dataset-prevalence_child_malnutrition a qb:Dataset;
+    dct:title       "Prevalence of child malnutrition"@en;
+    rdfs:label      "prevalence_child_malnutrition"@en;
+    rdfs:comment    "The World Bank: WV.2 | Global goals: ending poverty and improving lives"@en;
+    dct:description "Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference population ages 0-59 months"@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    dct:subject 
+        sdmx-subject: 1.4 ;
+    qb:structure      eg:dsd-percentage-childrenUnder5 ; 
+.
+
+<eg:prevalence_child_malnutrition-o00>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  38.2 ;
+        eg:refArea    "Q889" .
+
+<eg:prevalence_child_malnutrition-o01>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  11.3 ;
+        eg:refArea    "Q222" .
+
+<eg:prevalence_child_malnutrition-o02>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  11.7 ;
+        eg:refArea    "Q262" .
+
+<eg:prevalence_child_malnutrition-o03>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  37.6 ;
+        eg:refArea    "Q916" .
+
+<eg:prevalence_child_malnutrition-o04>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  7.9 ;
+        eg:refArea    "Q414" .
+
+<eg:prevalence_child_malnutrition-o05>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  9.4 ;
+        eg:refArea    "Q399" .
+
+<eg:prevalence_child_malnutrition-o06>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  17.8 ;
+        eg:refArea    "Q227" .
+
+<eg:prevalence_child_malnutrition-o07>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  30.8 ;
+        eg:refArea    "Q902" .
+
+<eg:prevalence_child_malnutrition-o08>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  7.7 ;
+        eg:refArea    "Q244" .
+
+<eg:prevalence_child_malnutrition-o09>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  15.0 ;
+        eg:refArea    "Q242" .
+
+<eg:prevalence_child_malnutrition-o010>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  32.2 ;
+        eg:refArea    "Q962" .
+
+<eg:prevalence_child_malnutrition-o011>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  16.1 ;
+        eg:refArea    "Q750" .
+
+<eg:prevalence_child_malnutrition-o012>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  8.9 ;
+        eg:refArea    "Q225" .
+
+<eg:prevalence_child_malnutrition-o013>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  7.0 ;
+        eg:refArea    "Q219" .
+
+<eg:prevalence_child_malnutrition-o014>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  24.9 ;
+        eg:refArea    "Q965" .
+
+<eg:prevalence_child_malnutrition-o015>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  54.2 ;
+        eg:refArea    "Q967" .
+
+<eg:prevalence_child_malnutrition-o016>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  32.4 ;
+        eg:refArea    "Q424" .
+
+<eg:prevalence_child_malnutrition-o017>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  28.9 ;
+        eg:refArea    "Q1009" .
+
+<eg:prevalence_child_malnutrition-o018>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  40.8 ;
+        eg:refArea    "Q929" .
+
+<eg:prevalence_child_malnutrition-o019>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  39.8 ;
+        eg:refArea    "Q657" .
+
+<eg:prevalence_child_malnutrition-o020>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  1.8 ;
+        eg:refArea    "Q298" .
+
+<eg:prevalence_child_malnutrition-o021>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  8.1 ;
+        eg:refArea    "Q148" .
+
+<eg:prevalence_child_malnutrition-o022>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  12.7 ;
+        eg:refArea    "Q739" .
+
+<eg:prevalence_child_malnutrition-o023>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  31.1 ;
+        eg:refArea    "Q970" .
+
+<eg:prevalence_child_malnutrition-o024>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  42.7 ;
+        eg:refArea    "Q974" .
+
+<eg:prevalence_child_malnutrition-o025>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  21.2 ;
+        eg:refArea    "Q971" .
+
+<eg:prevalence_child_malnutrition-o026>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  21.6 ;
+        eg:refArea    "Q1008" .
+
+<eg:prevalence_child_malnutrition-o027>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  33.5 ;
+        eg:refArea    "Q977" .
+
+<eg:prevalence_child_malnutrition-o028>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  7.1 ;
+        eg:refArea    "Q786" .
+
+<eg:prevalence_child_malnutrition-o029>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  23.9 ;
+        eg:refArea    "Q736" .
+
+<eg:prevalence_child_malnutrition-o030>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  22.3 ;
+        eg:refArea    "Q79" .
+
+<eg:prevalence_child_malnutrition-o031>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  13.6 ;
+        eg:refArea    "Q792" .
+
+<eg:prevalence_child_malnutrition-o032>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  26.2 ;
+        eg:refArea    "Q983" .
+
+<eg:prevalence_child_malnutrition-o033>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  25.5 ;
+        eg:refArea    "Q1050" .
+
+<eg:prevalence_child_malnutrition-o034>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  36.8 ;
+        eg:refArea    "Q115" .
+
+<eg:prevalence_child_malnutrition-o035>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  17.0 ;
+        eg:refArea    "Q1000" .
+
+<eg:prevalence_child_malnutrition-o036>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  13.6 ;
+        eg:refArea    "Q1005" .
+
+<eg:prevalence_child_malnutrition-o037>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  1.7 ;
+        eg:refArea    "Q183" .
+
+<eg:prevalence_child_malnutrition-o038>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  17.5 ;
+        eg:refArea    "Q117" .
+
+<eg:prevalence_child_malnutrition-o039>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  46.7 ;
+        eg:refArea    "Q774" .
+
+<eg:prevalence_child_malnutrition-o040>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  30.3 ;
+        eg:refArea    "Q1006" .
+
+<eg:prevalence_child_malnutrition-o041>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  27.6 ;
+        eg:refArea    "Q1007" .
+
+<eg:prevalence_child_malnutrition-o042>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  11.3 ;
+        eg:refArea    "Q734" .
+
+<eg:prevalence_child_malnutrition-o043>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  21.9 ;
+        eg:refArea    "Q790" .
+
+<eg:prevalence_child_malnutrition-o044>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  22.6 ;
+        eg:refArea    "Q783" .
+
+<eg:prevalence_child_malnutrition-o045>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  34.7 ;
+        eg:refArea    "Q668" .
+
+<eg:prevalence_child_malnutrition-o046>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  30.5 ;
+        eg:refArea    "Q252" .
+
+<eg:prevalence_child_malnutrition-o047>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  6.8 ;
+        eg:refArea    "Q794" .
+
+<eg:prevalence_child_malnutrition-o048>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  12.6 ;
+        eg:refArea    "Q796" .
+
+<eg:prevalence_child_malnutrition-o049>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  6.0 ;
+        eg:refArea    "Q766" .
+
+<eg:prevalence_child_malnutrition-o050>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  7.8 ;
+        eg:refArea    "Q810" .
+
+<eg:prevalence_child_malnutrition-o051>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  8.0 ;
+        eg:refArea    "Q232" .
+
+<eg:prevalence_child_malnutrition-o052>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  26.2 ;
+        eg:refArea    "Q114" .
+
+<eg:prevalence_child_malnutrition-o053>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  19.1 ;
+        eg:refArea    "Q423" .
+
+<eg:prevalence_child_malnutrition-o054>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  6.4 ;
+        eg:refArea    "Q817" .
+
+<eg:prevalence_child_malnutrition-o055>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  11.8 ;
+        eg:refArea    "Q813" .
+
+<eg:prevalence_child_malnutrition-o056>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  33.1 ;
+        eg:refArea    "Q819" .
+
+<eg:prevalence_child_malnutrition-o057>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  34.6 ;
+        eg:refArea    "Q1013" .
+
+<eg:prevalence_child_malnutrition-o058>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  30.1 ;
+        eg:refArea    "Q1014" .
+
+<eg:prevalence_child_malnutrition-o059>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  38.1 ;
+        eg:refArea    "Q1016" .
+
+<eg:prevalence_child_malnutrition-o060>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  41.6 ;
+        eg:refArea    "Q1019" .
+
+<eg:prevalence_child_malnutrition-o061>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  39.0 ;
+        eg:refArea    "Q1020" .
+
+<eg:prevalence_child_malnutrition-o062>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  20.7 ;
+        eg:refArea    "Q833" .
+
+<eg:prevalence_child_malnutrition-o063>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  26.9 ;
+        eg:refArea    "Q912" .
+
+<eg:prevalence_child_malnutrition-o064>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  34.8 ;
+        eg:refArea    "Q709" .
+
+<eg:prevalence_child_malnutrition-o065>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  22.8 ;
+        eg:refArea    "Q1025" .
+
+<eg:prevalence_child_malnutrition-o066>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  10.0 ;
+        eg:refArea    "Q96" .
+
+<eg:prevalence_child_malnutrition-o067>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  6.4 ;
+        eg:refArea    "Q217" .
+
+<eg:prevalence_child_malnutrition-o068>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  9.4 ;
+        eg:refArea    "Q711" .
+
+<eg:prevalence_child_malnutrition-o069>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  9.4 ;
+        eg:refArea    "Q236" .
+
+<eg:prevalence_child_malnutrition-o070>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  15.1 ;
+        eg:refArea    "Q1028" .
+
+<eg:prevalence_child_malnutrition-o071>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  42.3 ;
+        eg:refArea    "Q1029" .
+
+<eg:prevalence_child_malnutrition-o072>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  29.4 ;
+        eg:refArea    "Q836" .
+
+<eg:prevalence_child_malnutrition-o073>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  22.7 ;
+        eg:refArea    "Q1030" .
+
+<eg:prevalence_child_malnutrition-o074>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  36.0 ;
+        eg:refArea    "Q837" .
+
+<eg:prevalence_child_malnutrition-o075>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  17.3 ;
+        eg:refArea    "Q811" .
+
+<eg:prevalence_child_malnutrition-o076>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  48.5 ;
+        eg:refArea    "Q1032" .
+
+<eg:prevalence_child_malnutrition-o077>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  36.8 ;
+        eg:refArea    "Q1033" .
+
+<eg:prevalence_child_malnutrition-o078>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  4.9 ;
+        eg:refArea    "Q221" .
+
+<eg:prevalence_child_malnutrition-o079>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  11.4 ;
+        eg:refArea    "Q842" .
+
+<eg:prevalence_child_malnutrition-o080>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  37.6 ;
+        eg:refArea    "Q843" .
+
+<eg:prevalence_child_malnutrition-o081>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  5.6 ;
+        eg:refArea    "Q733" .
+
+<eg:prevalence_child_malnutrition-o082>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  12.2 ;
+        eg:refArea    "Q419" .
+
+<eg:prevalence_child_malnutrition-o083>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  30.3 ;
+        eg:refArea    "Q928" .
+
+<eg:prevalence_child_malnutrition-o084>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  2.6 ;
+        eg:refArea    "Q36" .
+
+<eg:prevalence_child_malnutrition-o085>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  36.9 ;
+        eg:refArea    "Q1037" .
+
+<eg:prevalence_child_malnutrition-o086>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  4.9 ;
+        eg:refArea    "Q683" .
+
+<eg:prevalence_child_malnutrition-o087>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  17.2 ;
+        eg:refArea    "Q1039" .
+
+<eg:prevalence_child_malnutrition-o088>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  18.8 ;
+        eg:refArea    "Q1041" .
+
+<eg:prevalence_child_malnutrition-o089>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  6.0 ;
+        eg:refArea    "Q403" .
+
+<eg:prevalence_child_malnutrition-o090>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  7.9 ;
+        eg:refArea    "Q1042" .
+
+<eg:prevalence_child_malnutrition-o091>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  29.5 ;
+        eg:refArea    "Q1044" .
+
+<eg:prevalence_child_malnutrition-o092>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  31.7 ;
+        eg:refArea    "Q685" .
+
+<eg:prevalence_child_malnutrition-o093>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  27.4 ;
+        eg:refArea    "Q258" .
+
+<eg:prevalence_child_malnutrition-o094>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  17.3 ;
+        eg:refArea    "Q854" .
+
+<eg:prevalence_child_malnutrition-o095>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  2.5 ;
+        eg:refArea    "Q760" .
+
+<eg:prevalence_child_malnutrition-o096>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  38.2 ;
+        eg:refArea    "Q1049" .
+
+<eg:prevalence_child_malnutrition-o097>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  17.5 ;
+        eg:refArea    "Q863" .
+
+<eg:prevalence_child_malnutrition-o098>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  31.8 ;
+        eg:refArea    "Q924" .
+
+<eg:prevalence_child_malnutrition-o099>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  10.5 ;
+        eg:refArea    "Q869" .
+
+<eg:prevalence_child_malnutrition-o0100>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  51.7 ;
+        eg:refArea    "Q574" .
+
+<eg:prevalence_child_malnutrition-o0101>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  23.8 ;
+        eg:refArea    "Q945" .
+
+<eg:prevalence_child_malnutrition-o0102>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  8.1 ;
+        eg:refArea    "Q678" .
+
+<eg:prevalence_child_malnutrition-o0103>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  9.2 ;
+        eg:refArea    "Q754" .
+
+<eg:prevalence_child_malnutrition-o0104>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  8.4 ;
+        eg:refArea    "Q948" .
+
+<eg:prevalence_child_malnutrition-o0105>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  6.0 ;
+        eg:refArea    "Q43" .
+
+<eg:prevalence_child_malnutrition-o0106>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  11.5 ;
+        eg:refArea    "Q874" .
+
+<eg:prevalence_child_malnutrition-o0107>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  28.9 ;
+        eg:refArea    "Q1036" .
+
+<eg:prevalence_child_malnutrition-o0108>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  3.5 ;
+        eg:refArea    "Q30" .
+
+<eg:prevalence_child_malnutrition-o0109>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  10.7 ;
+        eg:refArea    "Q77" .
+
+<eg:prevalence_child_malnutrition-o0110>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  10.8 ;
+        eg:refArea    "Q265" .
+
+<eg:prevalence_child_malnutrition-o0111>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  28.9 ;
+        eg:refArea    "Q686" .
+
+<eg:prevalence_child_malnutrition-o0112>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  23.8 ;
+        eg:refArea    "Q881" .
+
+<eg:prevalence_child_malnutrition-o0113>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  7.4 ;
+        eg:refArea    "Q407199" .
+
+<eg:prevalence_child_malnutrition-o0114>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  46.4 ;
+        eg:refArea    "Q805" .
+
+<eg:prevalence_child_malnutrition-o0115>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  34.6 ;
+        eg:refArea    "Q953" .
+
+<eg:prevalence_child_malnutrition-o0116>
+        rdf:type      qb:Observation ;
+        qb:dataSet    "dataset-prevalence_child_malnutrition" ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:percentage_childrenUnder5  23.5 ;
+        eg:refArea    "Q954" .

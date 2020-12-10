@@ -1,0 +1,2844 @@
+eg:dataset-gross_domestic_product a qb:Dataset;
+    dct:title       "Gross domestic product"@en;
+    rdfs:label      "gross_domestic_product"@en;
+    rdfs:comment    "The World Bank: WV.1 | Size of the economy"@en;
+    dct:description "Annual percentage growth rate of GDP at market prices based on constant local currency"@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    dct:subject 
+        sdmx-subject: 2.2 ;
+    qb:structure      eg:dsd-percentage-millions-percapita ; 
+.
+# Col: Billions
+<eg:gross_domestic_product-o00>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.9 ;
+        eg:refArea                 "Q889" .
+
+<eg:gross_domestic_product-o01>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q222" .
+
+<eg:gross_domestic_product-o02>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.8 ;
+        eg:refArea                 "Q262" .
+
+<eg:gross_domestic_product-o03>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q16641" .
+
+<eg:gross_domestic_product-o04>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.8 ;
+        eg:refArea                 "Q228" .
+
+<eg:gross_domestic_product-o05>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.9 ;
+        eg:refArea                 "Q916" .
+
+<eg:gross_domestic_product-o06>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.7 ;
+        eg:refArea                 "Q781" .
+
+<eg:gross_domestic_product-o07>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -2.2 ;
+        eg:refArea                 "Q414" .
+
+<eg:gross_domestic_product-o08>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   7.6 ;
+        eg:refArea                 "Q399" .
+
+<eg:gross_domestic_product-o09>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.0 ;
+        eg:refArea                 "Q21203" .
+
+<eg:gross_domestic_product-o010>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.9 ;
+        eg:refArea                 "Q408" .
+
+<eg:gross_domestic_product-o011>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.6 ;
+        eg:refArea                 "Q40" .
+
+<eg:gross_domestic_product-o012>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q227" .
+
+<eg:gross_domestic_product-o013>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.8 ;
+        eg:refArea                 "Q778" .
+
+<eg:gross_domestic_product-o014>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.8 ;
+        eg:refArea                 "Q398" .
+
+<eg:gross_domestic_product-o015>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   8.2 ;
+        eg:refArea                 "Q902" .
+
+<eg:gross_domestic_product-o016>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.1 ;
+        eg:refArea                 "Q244" .
+
+<eg:gross_domestic_product-o017>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.2 ;
+        eg:refArea                 "Q184" .
+
+<eg:gross_domestic_product-o018>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.4 ;
+        eg:refArea                 "Q31" .
+
+<eg:gross_domestic_product-o019>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.3 ;
+        eg:refArea                 "Q242" .
+
+<eg:gross_domestic_product-o020>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.9 ;
+        eg:refArea                 "Q962" .
+
+<eg:gross_domestic_product-o021>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.0 ;
+        eg:refArea                 "Q917" .
+
+<eg:gross_domestic_product-o022>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q750" .
+
+<eg:gross_domestic_product-o023>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.6 ;
+        eg:refArea                 "Q225" .
+
+<eg:gross_domestic_product-o024>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.0 ;
+        eg:refArea                 "Q963" .
+
+<eg:gross_domestic_product-o025>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.1 ;
+        eg:refArea                 "Q155" .
+
+<eg:gross_domestic_product-o026>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.9 ;
+        eg:refArea                 "Q921" .
+
+<eg:gross_domestic_product-o027>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.4 ;
+        eg:refArea                 "Q219" .
+
+<eg:gross_domestic_product-o028>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.7 ;
+        eg:refArea                 "Q965" .
+
+<eg:gross_domestic_product-o029>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.8 ;
+        eg:refArea                 "Q967" .
+
+<eg:gross_domestic_product-o030>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   7.1 ;
+        eg:refArea                 "Q424" .
+
+<eg:gross_domestic_product-o031>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.0 ;
+        eg:refArea                 "Q1009" .
+
+<eg:gross_domestic_product-o032>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.7 ;
+        eg:refArea                 "Q16" .
+
+<eg:gross_domestic_product-o033>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.7 ;
+        eg:refArea                 "Q1011" .
+
+<eg:gross_domestic_product-o034>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.3 ;
+        eg:refArea                 "Q5785" .
+
+<eg:gross_domestic_product-o035>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.0 ;
+        eg:refArea                 "Q929" .
+
+<eg:gross_domestic_product-o036>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.2 ;
+        eg:refArea                 "Q657" .
+
+<eg:gross_domestic_product-o037>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.1 ;
+        eg:refArea                 "Q298" .
+
+<eg:gross_domestic_product-o038>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.1 ;
+        eg:refArea                 "Q148" .
+
+<eg:gross_domestic_product-o039>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -1.2 ;
+        eg:refArea                 "Q8646" .
+
+<eg:gross_domestic_product-o040>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -4.7 ;
+        eg:refArea                 "Q14773" .
+
+<eg:gross_domestic_product-o041>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.3 ;
+        eg:refArea                 "Q739" .
+
+<eg:gross_domestic_product-o042>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.7 ;
+        eg:refArea                 "Q970" .
+
+<eg:gross_domestic_product-o043>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.4 ;
+        eg:refArea                 "Q974" .
+
+<eg:gross_domestic_product-o044>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.9 ;
+        eg:refArea                 "Q971" .
+
+<eg:gross_domestic_product-o045>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.1 ;
+        eg:refArea                 "Q800" .
+
+<eg:gross_domestic_product-o046>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.9 ;
+        eg:refArea                 "Q1008" .
+
+<eg:gross_domestic_product-o047>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.9 ;
+        eg:refArea                 "Q224" .
+
+<eg:gross_domestic_product-o048>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q241" .
+
+<eg:gross_domestic_product-o049>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -2.2 ;
+        eg:refArea                 "Q25279" .
+
+<eg:gross_domestic_product-o050>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.2 ;
+        eg:refArea                 "Q229" .
+
+<eg:gross_domestic_product-o051>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.6 ;
+        eg:refArea                 "Q213" .
+
+<eg:gross_domestic_product-o052>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.4 ;
+        eg:refArea                 "Q35" .
+
+<eg:gross_domestic_product-o053>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   7.5 ;
+        eg:refArea                 "Q977" .
+
+<eg:gross_domestic_product-o054>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.7 ;
+        eg:refArea                 "Q784" .
+
+<eg:gross_domestic_product-o055>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.1 ;
+        eg:refArea                 "Q786" .
+
+<eg:gross_domestic_product-o056>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.1 ;
+        eg:refArea                 "Q736" .
+
+<eg:gross_domestic_product-o057>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.6 ;
+        eg:refArea                 "Q79" .
+
+<eg:gross_domestic_product-o058>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.4 ;
+        eg:refArea                 "Q792" .
+
+<eg:gross_domestic_product-o059>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -5.6 ;
+        eg:refArea                 "Q983" .
+
+<eg:gross_domestic_product-o060>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.3 ;
+        eg:refArea                 "Q191" .
+
+<eg:gross_domestic_product-o061>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.0 ;
+        eg:refArea                 "Q1050" .
+
+<eg:gross_domestic_product-o062>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   8.3 ;
+        eg:refArea                 "Q115" .
+
+<eg:gross_domestic_product-o063>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.1 ;
+        eg:refArea                 "Q712" .
+
+<eg:gross_domestic_product-o064>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.0 ;
+        eg:refArea                 "Q33" .
+
+<eg:gross_domestic_product-o065>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.5 ;
+        eg:refArea                 "Q142" .
+
+<eg:gross_domestic_product-o066>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.4 ;
+        eg:refArea                 "Q1000" .
+
+<eg:gross_domestic_product-o067>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.0 ;
+        eg:refArea                 "Q1005" .
+
+<eg:gross_domestic_product-o068>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.1 ;
+        eg:refArea                 "Q230" .
+
+<eg:gross_domestic_product-o069>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.6 ;
+        eg:refArea                 "Q183" .
+
+<eg:gross_domestic_product-o070>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.5 ;
+        eg:refArea                 "Q117" .
+
+<eg:gross_domestic_product-o071>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.9 ;
+        eg:refArea                 "Q41" .
+
+<eg:gross_domestic_product-o072>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.2 ;
+        eg:refArea                 "Q223" .
+
+<eg:gross_domestic_product-o073>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.1 ;
+        eg:refArea                 "Q769" .
+
+<eg:gross_domestic_product-o074>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.3 ;
+        eg:refArea                 "Q16635" .
+
+<eg:gross_domestic_product-o075>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.8 ;
+        eg:refArea                 "Q774" .
+
+<eg:gross_domestic_product-o076>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.6 ;
+        eg:refArea                 "Q1006" .
+
+<eg:gross_domestic_product-o077>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.6 ;
+        eg:refArea                 "Q1007" .
+
+<eg:gross_domestic_product-o078>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.7 ;
+        eg:refArea                 "Q734" .
+
+<eg:gross_domestic_product-o079>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.9 ;
+        eg:refArea                 "Q790" .
+
+<eg:gross_domestic_product-o080>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.7 ;
+        eg:refArea                 "Q783" .
+
+<eg:gross_domestic_product-o081>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.9 ;
+        eg:refArea                 "Q28" .
+
+<eg:gross_domestic_product-o082>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.9 ;
+        eg:refArea                 "Q189" .
+
+<eg:gross_domestic_product-o083>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.0 ;
+        eg:refArea                 "Q668" .
+
+<eg:gross_domestic_product-o084>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.0 ;
+        eg:refArea                 "Q252" .
+
+<eg:gross_domestic_product-o085>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.8 ;
+        eg:refArea                 "Q794" .
+
+<eg:gross_domestic_product-o086>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.4 ;
+        eg:refArea                 "Q796" .
+
+<eg:gross_domestic_product-o087>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.5 ;
+        eg:refArea                 "Q27" .
+
+<eg:gross_domestic_product-o088>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.6 ;
+        eg:refArea                 "Q9676" .
+
+<eg:gross_domestic_product-o089>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.5 ;
+        eg:refArea                 "Q801" .
+
+<eg:gross_domestic_product-o090>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.3 ;
+        eg:refArea                 "Q38" .
+
+<eg:gross_domestic_product-o091>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.7 ;
+        eg:refArea                 "Q766" .
+
+<eg:gross_domestic_product-o092>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.7 ;
+        eg:refArea                 "Q17" .
+
+<eg:gross_domestic_product-o093>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.0 ;
+        eg:refArea                 "Q810" .
+
+<eg:gross_domestic_product-o094>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.5 ;
+        eg:refArea                 "Q232" .
+
+<eg:gross_domestic_product-o095>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.4 ;
+        eg:refArea                 "Q114" .
+
+<eg:gross_domestic_product-o096>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q710" .
+
+<eg:gross_domestic_product-o097>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.0 ;
+        eg:refArea                 "Q884" .
+
+<eg:gross_domestic_product-o098>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.2 ;
+        eg:refArea                 "Q1246" .
+
+<eg:gross_domestic_product-o099>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.4 ;
+        eg:refArea                 "Q817" .
+
+<eg:gross_domestic_product-o0100>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.5 ;
+        eg:refArea                 "Q813" .
+
+<eg:gross_domestic_product-o0101>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.7 ;
+        eg:refArea                 "Q819" .
+
+<eg:gross_domestic_product-o0102>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q211" .
+
+<eg:gross_domestic_product-o0103>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -5.6 ;
+        eg:refArea                 "Q822" .
+
+<eg:gross_domestic_product-o0104>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.5 ;
+        eg:refArea                 "Q1013" .
+
+<eg:gross_domestic_product-o0105>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -2.3 ;
+        eg:refArea                 "Q1014" .
+
+<eg:gross_domestic_product-o0106>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.5 ;
+        eg:refArea                 "Q1016" .
+
+<eg:gross_domestic_product-o0107>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.9 ;
+        eg:refArea                 "Q37" .
+
+<eg:gross_domestic_product-o0108>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.3 ;
+        eg:refArea                 "Q32" .
+
+<eg:gross_domestic_product-o0109>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.8 ;
+        eg:refArea                 "Q1019" .
+
+<eg:gross_domestic_product-o0110>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.4 ;
+        eg:refArea                 "Q1020" .
+
+<eg:gross_domestic_product-o0111>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.3 ;
+        eg:refArea                 "Q833" .
+
+<eg:gross_domestic_product-o0112>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.2 ;
+        eg:refArea                 "Q826" .
+
+<eg:gross_domestic_product-o0113>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.0 ;
+        eg:refArea                 "Q912" .
+
+<eg:gross_domestic_product-o0114>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.4 ;
+        eg:refArea                 "Q233" .
+
+<eg:gross_domestic_product-o0115>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.6 ;
+        eg:refArea                 "Q709" .
+
+<eg:gross_domestic_product-o0116>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.9 ;
+        eg:refArea                 "Q1025" .
+
+<eg:gross_domestic_product-o0117>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.6 ;
+        eg:refArea                 "Q1027" .
+
+<eg:gross_domestic_product-o0118>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.1 ;
+        eg:refArea                 "Q96" .
+
+<eg:gross_domestic_product-o0119>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.2 ;
+        eg:refArea                 "Q702" .
+
+<eg:gross_domestic_product-o0120>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.5 ;
+        eg:refArea                 "Q217" .
+
+<eg:gross_domestic_product-o0121>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.1 ;
+        eg:refArea                 "Q235" .
+
+<eg:gross_domestic_product-o0122>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.1 ;
+        eg:refArea                 "Q711" .
+
+<eg:gross_domestic_product-o0123>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.6 ;
+        eg:refArea                 "Q236" .
+
+<eg:gross_domestic_product-o0124>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.3 ;
+        eg:refArea                 "Q1028" .
+
+<eg:gross_domestic_product-o0125>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q1029" .
+
+<eg:gross_domestic_product-o0126>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.9 ;
+        eg:refArea                 "Q836" .
+
+<eg:gross_domestic_product-o0127>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -1.1 ;
+        eg:refArea                 "Q1030" .
+
+<eg:gross_domestic_product-o0128>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.0 ;
+        eg:refArea                 "Q697" .
+
+<eg:gross_domestic_product-o0129>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   7.0 ;
+        eg:refArea                 "Q837" .
+
+<eg:gross_domestic_product-o0130>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.8 ;
+        eg:refArea                 "Q55" .
+
+<eg:gross_domestic_product-o0131>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q664" .
+
+<eg:gross_domestic_product-o0132>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -3.9 ;
+        eg:refArea                 "Q811" .
+
+<eg:gross_domestic_product-o0133>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.8 ;
+        eg:refArea                 "Q1032" .
+
+<eg:gross_domestic_product-o0134>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q1033" .
+
+<eg:gross_domestic_product-o0135>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.6 ;
+        eg:refArea                 "Q221" .
+
+<eg:gross_domestic_product-o0136>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -19.6 ;
+        eg:refArea                 "Q16644" .
+
+<eg:gross_domestic_product-o0137>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.2 ;
+        eg:refArea                 "Q20" .
+
+<eg:gross_domestic_product-o0138>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.5 ;
+        eg:refArea                 "Q842" .
+
+<eg:gross_domestic_product-o0139>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.0 ;
+        eg:refArea                 "Q843" .
+
+<eg:gross_domestic_product-o0140>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.7 ;
+        eg:refArea                 "Q695" .
+
+<eg:gross_domestic_product-o0141>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.0 ;
+        eg:refArea                 "Q804" .
+
+<eg:gross_domestic_product-o0142>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.6 ;
+        eg:refArea                 "Q691" .
+
+<eg:gross_domestic_product-o0143>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.0 ;
+        eg:refArea                 "Q733" .
+
+<eg:gross_domestic_product-o0144>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q419" .
+
+<eg:gross_domestic_product-o0145>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.0 ;
+        eg:refArea                 "Q928" .
+
+<eg:gross_domestic_product-o0146>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.1 ;
+        eg:refArea                 "Q36" .
+
+<eg:gross_domestic_product-o0147>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.2 ;
+        eg:refArea                 "Q45" .
+
+<eg:gross_domestic_product-o0148>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.2 ;
+        eg:refArea                 "Q1183" .
+
+<eg:gross_domestic_product-o0149>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.2 ;
+        eg:refArea                 "Q846" .
+
+<eg:gross_domestic_product-o0150>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.1 ;
+        eg:refArea                 "Q218" .
+
+<eg:gross_domestic_product-o0151>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.3 ;
+        eg:refArea                 "Q159" .
+
+<eg:gross_domestic_product-o0152>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   9.4 ;
+        eg:refArea                 "Q1037" .
+
+<eg:gross_domestic_product-o0153>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.5 ;
+        eg:refArea                 "Q683" .
+
+<eg:gross_domestic_product-o0154>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.2 ;
+        eg:refArea                 "Q238" .
+
+<eg:gross_domestic_product-o0155>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.4 ;
+        eg:refArea                 "Q1039" .
+
+<eg:gross_domestic_product-o0156>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.3 ;
+        eg:refArea                 "Q851" .
+
+<eg:gross_domestic_product-o0157>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.3 ;
+        eg:refArea                 "Q1041" .
+
+<eg:gross_domestic_product-o0158>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.2 ;
+        eg:refArea                 "Q403" .
+
+<eg:gross_domestic_product-o0159>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   4.7 ;
+        eg:refArea                 "Q1042" .
+
+<eg:gross_domestic_product-o0160>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.5 ;
+        eg:refArea                 "Q1044" .
+
+<eg:gross_domestic_product-o0161>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.7 ;
+        eg:refArea                 "Q334" .
+
+<eg:gross_domestic_product-o0162>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -8.4 ;
+        eg:refArea                 "Q26273" .
+
+<eg:gross_domestic_product-o0163>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.4 ;
+        eg:refArea                 "Q214" .
+
+<eg:gross_domestic_product-o0164>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.4 ;
+        eg:refArea                 "Q215" .
+
+<eg:gross_domestic_product-o0165>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.7 ;
+        eg:refArea                 "Q685" .
+
+<eg:gross_domestic_product-o0166>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.2 ;
+        eg:refArea                 "Q258" .
+
+<eg:gross_domestic_product-o0167>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.0 ;
+        eg:refArea                 "Q29" .
+
+<eg:gross_domestic_product-o0168>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.3 ;
+        eg:refArea                 "Q854" .
+
+<eg:gross_domestic_product-o0169>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.5 ;
+        eg:refArea                 "Q763" .
+
+<eg:gross_domestic_product-o0170>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.7 ;
+        eg:refArea                 "Q760" .
+
+<eg:gross_domestic_product-o0171>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.3 ;
+        eg:refArea                 "Q757" .
+
+<eg:gross_domestic_product-o0172>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -2.6 ;
+        eg:refArea                 "Q1049" .
+
+<eg:gross_domestic_product-o0173>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -0.8 ;
+        eg:refArea                 "Q730" .
+
+<eg:gross_domestic_product-o0174>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.2 ;
+        eg:refArea                 "Q34" .
+
+<eg:gross_domestic_product-o0175>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.9 ;
+        eg:refArea                 "Q39" .
+
+<eg:gross_domestic_product-o0176>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   7.0 ;
+        eg:refArea                 "Q863" .
+
+<eg:gross_domestic_product-o0177>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.8 ;
+        eg:refArea                 "Q924" .
+
+<eg:gross_domestic_product-o0178>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.4 ;
+        eg:refArea                 "Q869" .
+
+<eg:gross_domestic_product-o0179>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.4 ;
+        eg:refArea                 "Q574" .
+
+<eg:gross_domestic_product-o0180>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.3 ;
+        eg:refArea                 "Q945" .
+
+<eg:gross_domestic_product-o0181>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.3 ;
+        eg:refArea                 "Q678" .
+
+<eg:gross_domestic_product-o0182>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.0 ;
+        eg:refArea                 "Q754" .
+
+<eg:gross_domestic_product-o0183>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.0 ;
+        eg:refArea                 "Q948" .
+
+<eg:gross_domestic_product-o0184>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.9 ;
+        eg:refArea                 "Q43" .
+
+<eg:gross_domestic_product-o0185>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.2 ;
+        eg:refArea                 "Q874" .
+
+<eg:gross_domestic_product-o0186>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.3 ;
+        eg:refArea                 "Q18221" .
+
+<eg:gross_domestic_product-o0187>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   9.8 ;
+        eg:refArea                 "Q672" .
+
+<eg:gross_domestic_product-o0188>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   6.5 ;
+        eg:refArea                 "Q1036" .
+
+<eg:gross_domestic_product-o0189>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   3.2 ;
+        eg:refArea                 "Q212" .
+
+<eg:gross_domestic_product-o0190>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.7 ;
+        eg:refArea                 "Q878" .
+
+<eg:gross_domestic_product-o0191>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.4 ;
+        eg:refArea                 "Q145" .
+
+<eg:gross_domestic_product-o0192>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.3 ;
+        eg:refArea                 "Q30" .
+
+<eg:gross_domestic_product-o0193>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.2 ;
+        eg:refArea                 "Q77" .
+
+<eg:gross_domestic_product-o0194>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   5.6 ;
+        eg:refArea                 "Q265" .
+
+<eg:gross_domestic_product-o0195>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   2.9 ;
+        eg:refArea                 "Q686" .
+
+<eg:gross_domestic_product-o0196>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   7.0 ;
+        eg:refArea                 "Q881" .
+
+<eg:gross_domestic_product-o0197>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -1.7 ;
+        eg:refArea                 "Q11703" .
+
+<eg:gross_domestic_product-o0198>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.9 ;
+        eg:refArea                 "Q407199" .
+
+<eg:gross_domestic_product-o0199>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   0.8 ;
+        eg:refArea                 "Q805" .
+
+<eg:gross_domestic_product-o0200>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   1.7 ;
+        eg:refArea                 "Q953" .
+
+<eg:gross_domestic_product-o0201>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-gross_domestic_product" ;
+        eg:refPeriod                    eg:Interval2019;
+        eg-measure:dolar_billion   -8.1 ;
+        eg:refArea                 "Q954" .
+
+
+
+# Col: Per capita
+
+<eg:gross_domestic_product-o10>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.5 ;
+        eg:refArea                      "Q889" .
+
+<eg:gross_domestic_product-o11>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.7 ;
+        eg:refArea                      "Q222" .
+
+<eg:gross_domestic_product-o12>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.1 ;
+        eg:refArea                      "Q262" .
+
+<eg:gross_domestic_product-o13>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.5 ;
+        eg:refArea                      "Q16641" .
+
+<eg:gross_domestic_product-o14>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.7 ;
+        eg:refArea                      "Q228" .
+
+<eg:gross_domestic_product-o15>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -4.0 ;
+        eg:refArea                      "Q916" .
+
+<eg:gross_domestic_product-o16>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.8 ;
+        eg:refArea                      "Q781" .
+
+<eg:gross_domestic_product-o17>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -3.1 ;
+        eg:refArea                      "Q414" .
+
+<eg:gross_domestic_product-o18>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  7.4 ;
+        eg:refArea                      "Q399" .
+
+<eg:gross_domestic_product-o19>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.5 ;
+        eg:refArea                      "Q21203" .
+
+<eg:gross_domestic_product-o110>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.4 ;
+        eg:refArea                      "Q408" .
+
+<eg:gross_domestic_product-o111>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.2 ;
+        eg:refArea                      "Q40" .
+
+<eg:gross_domestic_product-o112>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.4 ;
+        eg:refArea                      "Q227" .
+
+<eg:gross_domestic_product-o113>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.8 ;
+        eg:refArea                      "Q778" .
+
+<eg:gross_domestic_product-o114>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -2.6 ;
+        eg:refArea                      "Q398" .
+
+<eg:gross_domestic_product-o115>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  7.0 ;
+        eg:refArea                      "Q902" .
+
+<eg:gross_domestic_product-o116>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.2 ;
+        eg:refArea                      "Q244" .
+
+<eg:gross_domestic_product-o117>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.4 ;
+        eg:refArea                      "Q184" .
+
+<eg:gross_domestic_product-o118>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.9 ;
+        eg:refArea                      "Q31" .
+
+<eg:gross_domestic_product-o119>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.6 ;
+        eg:refArea                      "Q242" .
+
+<eg:gross_domestic_product-o120>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.0 ;
+        eg:refArea                      "Q962" .
+
+<eg:gross_domestic_product-o121>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.8 ;
+        eg:refArea                      "Q917" .
+
+<eg:gross_domestic_product-o122>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.8 ;
+        eg:refArea                      "Q750" .
+
+<eg:gross_domestic_product-o123>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.3 ;
+        eg:refArea                      "Q225" .
+
+<eg:gross_domestic_product-o124>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.8 ;
+        eg:refArea                      "Q963" .
+
+<eg:gross_domestic_product-o125>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.4 ;
+        eg:refArea                      "Q155" .
+
+<eg:gross_domestic_product-o126>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.8 ;
+        eg:refArea                      "Q921" .
+
+<eg:gross_domestic_product-o127>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.1 ;
+        eg:refArea                      "Q219" .
+
+<eg:gross_domestic_product-o128>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.7 ;
+        eg:refArea                      "Q965" .
+
+<eg:gross_domestic_product-o129>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.3 ;
+        eg:refArea                      "Q967" .
+
+<eg:gross_domestic_product-o130>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.5 ;
+        eg:refArea                      "Q424" .
+
+<eg:gross_domestic_product-o131>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.4 ;
+        eg:refArea                      "Q1009" .
+
+<eg:gross_domestic_product-o132>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.2 ;
+        eg:refArea                      "Q16" .
+
+<eg:gross_domestic_product-o133>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.5 ;
+        eg:refArea                      "Q1011" .
+
+<eg:gross_domestic_product-o134>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.0 ;
+        eg:refArea                      "Q5785" .
+
+<eg:gross_domestic_product-o135>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.3 ;
+        eg:refArea                      "Q929" .
+
+<eg:gross_domestic_product-o136>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.2 ;
+        eg:refArea                      "Q657" .
+
+<eg:gross_domestic_product-o137>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.1 ;
+        eg:refArea                      "Q298" .
+
+<eg:gross_domestic_product-o138>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.7 ;
+        eg:refArea                      "Q148" .
+
+<eg:gross_domestic_product-o139>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.9 ;
+        eg:refArea                      "Q8646" .
+
+<eg:gross_domestic_product-o140>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -6.0 ;
+        eg:refArea                      "Q14773" .
+
+<eg:gross_domestic_product-o141>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.9 ;
+        eg:refArea                      "Q739" .
+
+<eg:gross_domestic_product-o142>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.5 ;
+        eg:refArea                      "Q970" .
+
+<eg:gross_domestic_product-o143>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.1 ;
+        eg:refArea                      "Q974" .
+
+<eg:gross_domestic_product-o144>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -3.4 ;
+        eg:refArea                      "Q971" .
+
+<eg:gross_domestic_product-o145>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.1 ;
+        eg:refArea                      "Q800" .
+
+<eg:gross_domestic_product-o146>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.2 ;
+        eg:refArea                      "Q1008" .
+
+<eg:gross_domestic_product-o147>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.5 ;
+        eg:refArea                      "Q224" .
+
+<eg:gross_domestic_product-o148>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.3 ;
+        eg:refArea                      "Q241" .
+
+<eg:gross_domestic_product-o149>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.9 ;
+        eg:refArea                      "Q25279" .
+
+<eg:gross_domestic_product-o150>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.9 ;
+        eg:refArea                      "Q229" .
+
+<eg:gross_domestic_product-o151>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.2 ;
+        eg:refArea                      "Q213" .
+
+<eg:gross_domestic_product-o152>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.9 ;
+        eg:refArea                      "Q35" .
+
+<eg:gross_domestic_product-o153>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.9 ;
+        eg:refArea                      "Q977" .
+
+<eg:gross_domestic_product-o154>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.4 ;
+        eg:refArea                      "Q784" .
+
+<eg:gross_domestic_product-o155>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.0 ;
+        eg:refArea                      "Q786" .
+
+<eg:gross_domestic_product-o156>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.6 ;
+        eg:refArea                      "Q736" .
+
+<eg:gross_domestic_product-o157>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.5 ;
+        eg:refArea                      "Q79" .
+
+<eg:gross_domestic_product-o158>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.9 ;
+        eg:refArea                      "Q792" .
+
+<eg:gross_domestic_product-o159>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -8.8 ;
+        eg:refArea                      "Q983" .
+
+<eg:gross_domestic_product-o160>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.0 ;
+        eg:refArea                      "Q191" .
+
+<eg:gross_domestic_product-o161>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.0 ;
+        eg:refArea                      "Q1050" .
+
+<eg:gross_domestic_product-o162>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.5 ;
+        eg:refArea                      "Q115" .
+
+<eg:gross_domestic_product-o163>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.3 ;
+        eg:refArea                      "Q712" .
+
+<eg:gross_domestic_product-o164>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.9 ;
+        eg:refArea                      "Q33" .
+
+<eg:gross_domestic_product-o165>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.4 ;
+        eg:refArea                      "Q142" .
+
+<eg:gross_domestic_product-o166>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.9 ;
+        eg:refArea                      "Q1000" .
+
+<eg:gross_domestic_product-o167>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.9 ;
+        eg:refArea                      "Q1005" .
+
+<eg:gross_domestic_product-o168>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.3 ;
+        eg:refArea                      "Q230" .
+
+<eg:gross_domestic_product-o169>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.3 ;
+        eg:refArea                      "Q183" .
+
+<eg:gross_domestic_product-o170>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.2 ;
+        eg:refArea                      "Q117" .
+
+<eg:gross_domestic_product-o171>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.0 ;
+        eg:refArea                      "Q41" .
+
+<eg:gross_domestic_product-o172>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.5 ;
+        eg:refArea                      "Q223" .
+
+<eg:gross_domestic_product-o173>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.6 ;
+        eg:refArea                      "Q769" .
+
+<eg:gross_domestic_product-o174>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.2 ;
+        eg:refArea                      "Q16635" .
+
+<eg:gross_domestic_product-o175>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.2 ;
+        eg:refArea                      "Q774" .
+
+<eg:gross_domestic_product-o176>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.6 ;
+        eg:refArea                      "Q1006" .
+
+<eg:gross_domestic_product-o177>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.1 ;
+        eg:refArea                      "Q1007" .
+
+<eg:gross_domestic_product-o178>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.2 ;
+        eg:refArea                      "Q734" .
+
+<eg:gross_domestic_product-o179>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -2.2 ;
+        eg:refArea                      "Q790" .
+
+<eg:gross_domestic_product-o180>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.0 ;
+        eg:refArea                      "Q783" .
+
+<eg:gross_domestic_product-o181>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.0 ;
+        eg:refArea                      "Q28" .
+
+<eg:gross_domestic_product-o182>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.5 ;
+        eg:refArea                      "Q189" .
+
+<eg:gross_domestic_product-o183>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.0 ;
+        eg:refArea                      "Q668" .
+
+<eg:gross_domestic_product-o184>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.9 ;
+        eg:refArea                      "Q252" .
+
+<eg:gross_domestic_product-o185>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.3 ;
+        eg:refArea                      "Q794" .
+
+<eg:gross_domestic_product-o186>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.1 ;
+        eg:refArea                      "Q796" .
+
+<eg:gross_domestic_product-o187>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.0 ;
+        eg:refArea                      "Q27" .
+
+<eg:gross_domestic_product-o188>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.2 ;
+        eg:refArea                      "Q9676" .
+
+<eg:gross_domestic_product-o189>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.6 ;
+        eg:refArea                      "Q801" .
+
+<eg:gross_domestic_product-o190>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.5 ;
+        eg:refArea                      "Q38" .
+
+<eg:gross_domestic_product-o191>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.2 ;
+        eg:refArea                      "Q766" .
+
+<eg:gross_domestic_product-o192>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.9 ;
+        eg:refArea                      "Q17" .
+
+<eg:gross_domestic_product-o193>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.5 ;
+        eg:refArea                      "Q810" .
+
+<eg:gross_domestic_product-o194>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.2 ;
+        eg:refArea                      "Q232" .
+
+<eg:gross_domestic_product-o195>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.0 ;
+        eg:refArea                      "Q114" .
+
+<eg:gross_domestic_product-o196>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.7 ;
+        eg:refArea                      "Q710" .
+
+<eg:gross_domestic_product-o197>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.8 ;
+        eg:refArea                      "Q884" .
+
+<eg:gross_domestic_product-o198>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.3 ;
+        eg:refArea                      "Q1246" .
+
+<eg:gross_domestic_product-o199>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.3 ;
+        eg:refArea                      "Q817" .
+
+<eg:gross_domestic_product-o1100>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.3 ;
+        eg:refArea                      "Q813" .
+
+<eg:gross_domestic_product-o1101>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.1 ;
+        eg:refArea                      "Q819" .
+
+<eg:gross_domestic_product-o1102>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.0 ;
+        eg:refArea                      "Q211" .
+
+<eg:gross_domestic_product-o1103>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -5.7 ;
+        eg:refArea                      "Q822" .
+
+<eg:gross_domestic_product-o1104>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.7 ;
+        eg:refArea                      "Q1013" .
+
+<eg:gross_domestic_product-o1105>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -4.6 ;
+        eg:refArea                      "Q1014" .
+
+<eg:gross_domestic_product-o1106>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.0 ;
+        eg:refArea                      "Q1016" .
+
+<eg:gross_domestic_product-o1107>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.5 ;
+        eg:refArea                      "Q37" .
+
+<eg:gross_domestic_product-o1108>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.3 ;
+        eg:refArea                      "Q32" .
+
+<eg:gross_domestic_product-o1109>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.1 ;
+        eg:refArea                      "Q1019" .
+
+<eg:gross_domestic_product-o1110>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.6 ;
+        eg:refArea                      "Q1020" .
+
+<eg:gross_domestic_product-o1111>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.0 ;
+        eg:refArea                      "Q833" .
+
+<eg:gross_domestic_product-o1112>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.2 ;
+        eg:refArea                      "Q826" .
+
+<eg:gross_domestic_product-o1113>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.9 ;
+        eg:refArea                      "Q912" .
+
+<eg:gross_domestic_product-o1114>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.6 ;
+        eg:refArea                      "Q233" .
+
+<eg:gross_domestic_product-o1115>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.0 ;
+        eg:refArea                      "Q709" .
+
+<eg:gross_domestic_product-o1116>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.1 ;
+        eg:refArea                      "Q1025" .
+
+<eg:gross_domestic_product-o1117>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.5 ;
+        eg:refArea                      "Q1027" .
+
+<eg:gross_domestic_product-o1118>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.2 ;
+        eg:refArea                      "Q96" .
+
+<eg:gross_domestic_product-o1119>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.8 ;
+        eg:refArea                      "Q702" .
+
+<eg:gross_domestic_product-o1120>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.3 ;
+        eg:refArea                      "Q217" .
+
+<eg:gross_domestic_product-o1121>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.3 ;
+        eg:refArea                      "Q235" .
+
+<eg:gross_domestic_product-o1122>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.3 ;
+        eg:refArea                      "Q711" .
+
+<eg:gross_domestic_product-o1123>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.6 ;
+        eg:refArea                      "Q236" .
+
+<eg:gross_domestic_product-o1124>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.0 ;
+        eg:refArea                      "Q1028" .
+
+<eg:gross_domestic_product-o1125>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.7 ;
+        eg:refArea                      "Q1029" .
+
+<eg:gross_domestic_product-o1126>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.2 ;
+        eg:refArea                      "Q836" .
+
+<eg:gross_domestic_product-o1127>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -3.0 ;
+        eg:refArea                      "Q1030" .
+
+<eg:gross_domestic_product-o1128>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.0 ;
+        eg:refArea                      "Q697" .
+
+<eg:gross_domestic_product-o1129>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  5.0 ;
+        eg:refArea                      "Q837" .
+
+<eg:gross_domestic_product-o1130>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.2 ;
+        eg:refArea                      "Q55" .
+
+<eg:gross_domestic_product-o1131>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.6 ;
+        eg:refArea                      "Q664" .
+
+<eg:gross_domestic_product-o1132>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -5.1 ;
+        eg:refArea                      "Q811" .
+
+<eg:gross_domestic_product-o1133>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.9 ;
+        eg:refArea                      "Q1032" .
+
+<eg:gross_domestic_product-o1134>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.4 ;
+        eg:refArea                      "Q1033" .
+
+<eg:gross_domestic_product-o1135>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.5 ;
+        eg:refArea                      "Q221" .
+
+<eg:gross_domestic_product-o1136>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -20.1 ;
+        eg:refArea                      "Q16644" .
+
+<eg:gross_domestic_product-o1137>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.5 ;
+        eg:refArea                      "Q20" .
+
+<eg:gross_domestic_product-o1138>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -2.4 ;
+        eg:refArea                      "Q842" .
+
+<eg:gross_domestic_product-o1139>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.0 ;
+        eg:refArea                      "Q843" .
+
+<eg:gross_domestic_product-o1140>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.1 ;
+        eg:refArea                      "Q695" .
+
+<eg:gross_domestic_product-o1141>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.3 ;
+        eg:refArea                      "Q804" .
+
+<eg:gross_domestic_product-o1142>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.6 ;
+        eg:refArea                      "Q691" .
+
+<eg:gross_domestic_product-o1143>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.3 ;
+        eg:refArea                      "Q733" .
+
+<eg:gross_domestic_product-o1144>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.5 ;
+        eg:refArea                      "Q419" .
+
+<eg:gross_domestic_product-o1145>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.6 ;
+        eg:refArea                      "Q928" .
+
+<eg:gross_domestic_product-o1146>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.2 ;
+        eg:refArea                      "Q36" .
+
+<eg:gross_domestic_product-o1147>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.3 ;
+        eg:refArea                      "Q45" .
+
+<eg:gross_domestic_product-o1148>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.2 ;
+        eg:refArea                      "Q1183" .
+
+<eg:gross_domestic_product-o1149>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -2.0 ;
+        eg:refArea                      "Q846" .
+
+<eg:gross_domestic_product-o1150>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.7 ;
+        eg:refArea                      "Q218" .
+
+<eg:gross_domestic_product-o1151>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.4 ;
+        eg:refArea                      "Q159" .
+
+<eg:gross_domestic_product-o1152>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  6.6 ;
+        eg:refArea                      "Q1037" .
+
+<eg:gross_domestic_product-o1153>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.0 ;
+        eg:refArea                      "Q683" .
+
+<eg:gross_domestic_product-o1154>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.8 ;
+        eg:refArea                      "Q238" .
+
+<eg:gross_domestic_product-o1155>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.5 ;
+        eg:refArea                      "Q1039" .
+
+<eg:gross_domestic_product-o1156>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.3 ;
+        eg:refArea                      "Q851" .
+
+<eg:gross_domestic_product-o1157>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.4 ;
+        eg:refArea                      "Q1041" .
+
+<eg:gross_domestic_product-o1158>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.8 ;
+        eg:refArea                      "Q403" .
+
+<eg:gross_domestic_product-o1159>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.8 ;
+        eg:refArea                      "Q1042" .
+
+<eg:gross_domestic_product-o1160>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.3 ;
+        eg:refArea                      "Q1044" .
+
+<eg:gross_domestic_product-o1161>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.4 ;
+        eg:refArea                      "Q334" .
+
+<eg:gross_domestic_product-o1162>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -9.8 ;
+        eg:refArea                      "Q26273" .
+
+<eg:gross_domestic_product-o1163>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.3 ;
+        eg:refArea                      "Q214" .
+
+<eg:gross_domestic_product-o1164>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.8 ;
+        eg:refArea                      "Q215" .
+
+<eg:gross_domestic_product-o1165>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.1 ;
+        eg:refArea                      "Q685" .
+
+<eg:gross_domestic_product-o1166>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.2 ;
+        eg:refArea                      "Q258" .
+
+<eg:gross_domestic_product-o1167>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.4 ;
+        eg:refArea                      "Q29" .
+
+<eg:gross_domestic_product-o1168>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.7 ;
+        eg:refArea                      "Q854" .
+
+<eg:gross_domestic_product-o1169>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.8 ;
+        eg:refArea                      "Q763" .
+
+<eg:gross_domestic_product-o1170>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.2 ;
+        eg:refArea                      "Q760" .
+
+<eg:gross_domestic_product-o1171>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.0 ;
+        eg:refArea                      "Q757" .
+
+<eg:gross_domestic_product-o1172>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -4.9 ;
+        eg:refArea                      "Q1049" .
+
+<eg:gross_domestic_product-o1173>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.7 ;
+        eg:refArea                      "Q730" .
+
+<eg:gross_domestic_product-o1174>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.1 ;
+        eg:refArea                      "Q34" .
+
+<eg:gross_domestic_product-o1175>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.2 ;
+        eg:refArea                      "Q39" .
+
+<eg:gross_domestic_product-o1176>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.5 ;
+        eg:refArea                      "Q863" .
+
+<eg:gross_domestic_product-o1177>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.7 ;
+        eg:refArea                      "Q924" .
+
+<eg:gross_domestic_product-o1178>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.1 ;
+        eg:refArea                      "Q869" .
+
+<eg:gross_domestic_product-o1179>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.4 ;
+        eg:refArea                      "Q574" .
+
+<eg:gross_domestic_product-o1180>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.8 ;
+        eg:refArea                      "Q945" .
+
+<eg:gross_domestic_product-o1181>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.9 ;
+        eg:refArea                      "Q678" .
+
+<eg:gross_domestic_product-o1182>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.4 ;
+        eg:refArea                      "Q754" .
+
+<eg:gross_domestic_product-o1183>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.1 ;
+        eg:refArea                      "Q948" .
+
+<eg:gross_domestic_product-o1184>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.5 ;
+        eg:refArea                      "Q43" .
+
+<eg:gross_domestic_product-o1185>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  4.5 ;
+        eg:refArea                      "Q874" .
+
+<eg:gross_domestic_product-o1186>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.7 ;
+        eg:refArea                      "Q18221" .
+
+<eg:gross_domestic_product-o1187>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  8.5 ;
+        eg:refArea                      "Q672" .
+
+<eg:gross_domestic_product-o1188>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  2.8 ;
+        eg:refArea                      "Q1036" .
+
+<eg:gross_domestic_product-o1189>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.8 ;
+        eg:refArea                      "Q212" .
+
+<eg:gross_domestic_product-o1190>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.2 ;
+        eg:refArea                      "Q878" .
+
+<eg:gross_domestic_product-o1191>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.8 ;
+        eg:refArea                      "Q145" .
+
+<eg:gross_domestic_product-o1192>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  1.8 ;
+        eg:refArea                      "Q30" .
+
+<eg:gross_domestic_product-o1193>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -0.1 ;
+        eg:refArea                      "Q77" .
+
+<eg:gross_domestic_product-o1194>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  3.6 ;
+        eg:refArea                      "Q265" .
+
+<eg:gross_domestic_product-o1195>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  0.4 ;
+        eg:refArea                      "Q686" .
+
+<eg:gross_domestic_product-o1196>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  6.0 ;
+        eg:refArea                      "Q881" .
+
+<eg:gross_domestic_product-o1197>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.5 ;
+        eg:refArea                      "Q11703" .
+
+<eg:gross_domestic_product-o1198>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.6 ;
+        eg:refArea                      "Q407199" .
+
+<eg:gross_domestic_product-o1199>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.6 ;
+        eg:refArea                      "Q805" .
+
+<eg:gross_domestic_product-o1200>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -1.2 ;
+        eg:refArea                      "Q953" .
+
+<eg:gross_domestic_product-o1201>
+        rdf:type                        qb:Observation ;
+        qb:dataSet                      "dataset-gross_domestic_product" ;
+        sdmx-dimension:timePeriod       "2019"^^xsd:gYear ;
+        eg-measure:percentage-billions  -9.4 ;
+        eg:refArea                      "Q954" .

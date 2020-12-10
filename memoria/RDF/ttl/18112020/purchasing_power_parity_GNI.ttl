@@ -1,0 +1,2690 @@
+eg:dataset-purchasing_power_parity_GNI a qb:Dataset;
+    dct:title       "Purchasing power parity gross national income"@en;
+    rdfs:label      "purchasing_power_parity_GNI"@en;
+    rdfs:comment    "The World Bank: WV.1 | Size of the economy"@en;
+    dct:description "This indicator provides values for gross national income (GNI. Formerly GNP) expressed in current international dollars converted by purchasing power parity (PPP) conversion factor"@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    dct:subject 
+        sdmx-subject: 2.2 ;
+    qb:structure      eg:dsd-dolar-billion-percapita ; 
+.
+
+# Col: Billions
+<eg:purchasing_power_parity_GNI-o00>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   88.6 ;
+        eg:refArea                 "Q889" .
+
+<eg:purchasing_power_parity_GNI-o01>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   40.9 ;
+        eg:refArea                 "Q222" .
+
+<eg:purchasing_power_parity_GNI-o02>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   496.3 ;
+        eg:refArea                 "Q262" .
+
+<eg:purchasing_power_parity_GNI-o03>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   203.2 ;
+        eg:refArea                 "Q916" .
+
+<eg:purchasing_power_parity_GNI-o04>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2.1 ;
+        eg:refArea                 "Q781" .
+
+<eg:purchasing_power_parity_GNI-o05>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   991.4 ;
+        eg:refArea                 "Q414" .
+
+<eg:purchasing_power_parity_GNI-o06>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   42.8 ;
+        eg:refArea                 "Q399" .
+
+<eg:purchasing_power_parity_GNI-o07>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   3.8 ;
+        eg:refArea                 "Q21203" .
+
+<eg:purchasing_power_parity_GNI-o08>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1307.7 ;
+        eg:refArea                 "Q408" .
+
+<eg:purchasing_power_parity_GNI-o09>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   524.3 ;
+        eg:refArea                 "Q40" .
+
+<eg:purchasing_power_parity_GNI-o010>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   143.9 ;
+        eg:refArea                 "Q227" .
+
+<eg:purchasing_power_parity_GNI-o011>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   13.9 ;
+        eg:refArea                 "Q778" .
+
+<eg:purchasing_power_parity_GNI-o012>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   72.4 ;
+        eg:refArea                 "Q398" .
+
+<eg:purchasing_power_parity_GNI-o013>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   845.4 ;
+        eg:refArea                 "Q902" .
+
+<eg:purchasing_power_parity_GNI-o014>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   4.5 ;
+        eg:refArea                 "Q244" .
+
+<eg:purchasing_power_parity_GNI-o015>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   183.1 ;
+        eg:refArea                 "Q184" .
+
+<eg:purchasing_power_parity_GNI-o016>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   628.5 ;
+        eg:refArea                 "Q31" .
+
+<eg:purchasing_power_parity_GNI-o017>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2.6 ;
+        eg:refArea                 "Q242" .
+
+<eg:purchasing_power_parity_GNI-o018>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   40.0 ;
+        eg:refArea                 "Q962" .
+
+<eg:purchasing_power_parity_GNI-o019>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   8.0 ;
+        eg:refArea                 "Q917" .
+
+<eg:purchasing_power_parity_GNI-o020>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   102.6 ;
+        eg:refArea                 "Q750" .
+
+<eg:purchasing_power_parity_GNI-o021>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   52.0 ;
+        eg:refArea                 "Q225" .
+
+<eg:purchasing_power_parity_GNI-o022>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   39.4 ;
+        eg:refArea                 "Q963" .
+
+<eg:purchasing_power_parity_GNI-o023>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   3135.0 ;
+        eg:refArea                 "Q155" .
+
+<eg:purchasing_power_parity_GNI-o024>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   28.8 ;
+        eg:refArea                 "Q921" .
+
+<eg:purchasing_power_parity_GNI-o025>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   166.6 ;
+        eg:refArea                 "Q219" .
+
+<eg:purchasing_power_parity_GNI-o026>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   45.1 ;
+        eg:refArea                 "Q965" .
+
+<eg:purchasing_power_parity_GNI-o027>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   9.0 ;
+        eg:refArea                 "Q967" .
+
+<eg:purchasing_power_parity_GNI-o028>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   68.9 ;
+        eg:refArea                 "Q424" .
+
+<eg:purchasing_power_parity_GNI-o029>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   96.5 ;
+        eg:refArea                 "Q1009" .
+
+<eg:purchasing_power_parity_GNI-o030>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1910.0 ;
+        eg:refArea                 "Q16" .
+
+<eg:purchasing_power_parity_GNI-o031>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   4.0 ;
+        eg:refArea                 "Q1011" .
+
+<eg:purchasing_power_parity_GNI-o032>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2.6 ;
+        eg:refArea                 "Q5785" .
+
+<eg:purchasing_power_parity_GNI-o033>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   5.0 ;
+        eg:refArea                 "Q929" .
+
+<eg:purchasing_power_parity_GNI-o034>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   25.8 ;
+        eg:refArea                 "Q657" .
+
+<eg:purchasing_power_parity_GNI-o035>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   457.6 ;
+        eg:refArea                 "Q298" .
+
+<eg:purchasing_power_parity_GNI-o036>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   23403.2 ;
+        eg:refArea                 "Q148" .
+
+<eg:purchasing_power_parity_GNI-o037>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   492.5 ;
+        eg:refArea                 "Q8646" .
+
+<eg:purchasing_power_parity_GNI-o038>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   77.9 ;
+        eg:refArea                 "Q14773" .
+
+<eg:purchasing_power_parity_GNI-o039>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   762.4 ;
+        eg:refArea                 "Q739" .
+
+<eg:purchasing_power_parity_GNI-o040>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2.7 ;
+        eg:refArea                 "Q970" .
+
+<eg:purchasing_power_parity_GNI-o041>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   96.2 ;
+        eg:refArea                 "Q974" .
+
+<eg:purchasing_power_parity_GNI-o042>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   16.5 ;
+        eg:refArea                 "Q971" .
+
+<eg:purchasing_power_parity_GNI-o043>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   97.2 ;
+        eg:refArea                 "Q800" .
+
+<eg:purchasing_power_parity_GNI-o044>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   136.0 ;
+        eg:refArea                 "Q1008" .
+
+<eg:purchasing_power_parity_GNI-o045>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   120.1 ;
+        eg:refArea                 "Q224" .
+
+<eg:purchasing_power_parity_GNI-o046>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   4.1 ;
+        eg:refArea                 "Q25279" .
+
+<eg:purchasing_power_parity_GNI-o047>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   35.1 ;
+        eg:refArea                 "Q229" .
+
+<eg:purchasing_power_parity_GNI-o048>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   433.9 ;
+        eg:refArea                 "Q213" .
+
+<eg:purchasing_power_parity_GNI-o049>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   357.3 ;
+        eg:refArea                 "Q35" .
+
+<eg:purchasing_power_parity_GNI-o050>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   5.8 ;
+        eg:refArea                 "Q977" .
+
+<eg:purchasing_power_parity_GNI-o051>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.9 ;
+        eg:refArea                 "Q784" .
+
+<eg:purchasing_power_parity_GNI-o052>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   196.3 ;
+        eg:refArea                 "Q786" .
+
+<eg:purchasing_power_parity_GNI-o053>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   199.9 ;
+        eg:refArea                 "Q736" .
+
+<eg:purchasing_power_parity_GNI-o054>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1185.1 ;
+        eg:refArea                 "Q79" .
+
+<eg:purchasing_power_parity_GNI-o055>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   56.1 ;
+        eg:refArea                 "Q792" .
+
+<eg:purchasing_power_parity_GNI-o056>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   19.8 ;
+        eg:refArea                 "Q983" .
+
+<eg:purchasing_power_parity_GNI-o057>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   50.4 ;
+        eg:refArea                 "Q191" .
+
+<eg:purchasing_power_parity_GNI-o058>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   9.1 ;
+        eg:refArea                 "Q1050" .
+
+<eg:purchasing_power_parity_GNI-o059>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   257.8 ;
+        eg:refArea                 "Q115" .
+
+<eg:purchasing_power_parity_GNI-o060>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   11.8 ;
+        eg:refArea                 "Q712" .
+
+<eg:purchasing_power_parity_GNI-o061>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   282.7 ;
+        eg:refArea                 "Q33" .
+
+<eg:purchasing_power_parity_GNI-o062>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   3379.2 ;
+        eg:refArea                 "Q142" .
+
+<eg:purchasing_power_parity_GNI-o063>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   31.3 ;
+        eg:refArea                 "Q1000" .
+
+<eg:purchasing_power_parity_GNI-o064>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   5.3 ;
+        eg:refArea                 "Q1005" .
+
+<eg:purchasing_power_parity_GNI-o065>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   55.9 ;
+        eg:refArea                 "Q230" .
+
+<eg:purchasing_power_parity_GNI-o066>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   4795.7 ;
+        eg:refArea                 "Q183" .
+
+<eg:purchasing_power_parity_GNI-o067>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   167.7 ;
+        eg:refArea                 "Q117" .
+
+<eg:purchasing_power_parity_GNI-o068>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   336.0 ;
+        eg:refArea                 "Q41" .
+
+<eg:purchasing_power_parity_GNI-o069>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.8 ;
+        eg:refArea                 "Q769" .
+
+<eg:purchasing_power_parity_GNI-o070>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   146.9 ;
+        eg:refArea                 "Q774" .
+
+<eg:purchasing_power_parity_GNI-o071>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   32.2 ;
+        eg:refArea                 "Q1006" .
+
+<eg:purchasing_power_parity_GNI-o072>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   4.3 ;
+        eg:refArea                 "Q1007" .
+
+<eg:purchasing_power_parity_GNI-o073>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   7.7 ;
+        eg:refArea                 "Q734" .
+
+<eg:purchasing_power_parity_GNI-o074>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   20.2 ;
+        eg:refArea                 "Q790" .
+
+<eg:purchasing_power_parity_GNI-o075>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   53.7 ;
+        eg:refArea                 "Q783" .
+
+<eg:purchasing_power_parity_GNI-o076>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   320.0 ;
+        eg:refArea                 "Q28" .
+
+<eg:purchasing_power_parity_GNI-o077>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   22.1 ;
+        eg:refArea                 "Q189" .
+
+<eg:purchasing_power_parity_GNI-o078>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   9507.2 ;
+        eg:refArea                 "Q668" .
+
+<eg:purchasing_power_parity_GNI-o079>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   3229.6 ;
+        eg:refArea                 "Q252" .
+
+<eg:purchasing_power_parity_GNI-o080>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1174.8 ;
+        eg:refArea                 "Q794" .
+
+<eg:purchasing_power_parity_GNI-o081>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   443.3 ;
+        eg:refArea                 "Q796" .
+
+<eg:purchasing_power_parity_GNI-o082>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   336.3 ;
+        eg:refArea                 "Q27" .
+
+<eg:purchasing_power_parity_GNI-o083>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   381.5 ;
+        eg:refArea                 "Q801" .
+
+<eg:purchasing_power_parity_GNI-o084>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2687.8 ;
+        eg:refArea                 "Q38" .
+
+<eg:purchasing_power_parity_GNI-o085>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   28.8 ;
+        eg:refArea                 "Q766" .
+
+<eg:purchasing_power_parity_GNI-o086>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   5654.4 ;
+        eg:refArea                 "Q17" .
+
+<eg:purchasing_power_parity_GNI-o087>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   103.5 ;
+        eg:refArea                 "Q810" .
+
+<eg:purchasing_power_parity_GNI-o088>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   445.2 ;
+        eg:refArea                 "Q232" .
+
+<eg:purchasing_power_parity_GNI-o089>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   232.3 ;
+        eg:refArea                 "Q114" .
+
+<eg:purchasing_power_parity_GNI-o090>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.5 ;
+        eg:refArea                 "Q710" .
+
+<eg:purchasing_power_parity_GNI-o091>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2245.5 ;
+        eg:refArea                 "Q884" .
+
+<eg:purchasing_power_parity_GNI-o092>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   21.7 ;
+        eg:refArea                 "Q1246" .
+
+<eg:purchasing_power_parity_GNI-o093>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   247.1 ;
+        eg:refArea                 "Q817" .
+
+<eg:purchasing_power_parity_GNI-o094>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   32.7 ;
+        eg:refArea                 "Q813" .
+
+<eg:purchasing_power_parity_GNI-o095>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   57.1 ;
+        eg:refArea                 "Q819" .
+
+<eg:purchasing_power_parity_GNI-o096>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   60.8 ;
+        eg:refArea                 "Q211" .
+
+<eg:purchasing_power_parity_GNI-o097>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   104.6 ;
+        eg:refArea                 "Q822" .
+
+<eg:purchasing_power_parity_GNI-o098>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   7.0 ;
+        eg:refArea                 "Q1013" .
+
+<eg:purchasing_power_parity_GNI-o099>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   6.5 ;
+        eg:refArea                 "Q1014" .
+
+<eg:purchasing_power_parity_GNI-o0100>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   109.0 ;
+        eg:refArea                 "Q1016" .
+
+<eg:purchasing_power_parity_GNI-o0101>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   103.2 ;
+        eg:refArea                 "Q37" .
+
+<eg:purchasing_power_parity_GNI-o0102>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   48.1 ;
+        eg:refArea                 "Q32" .
+
+<eg:purchasing_power_parity_GNI-o0103>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   44.7 ;
+        eg:refArea                 "Q1019" .
+
+<eg:purchasing_power_parity_GNI-o0104>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   20.1 ;
+        eg:refArea                 "Q1020" .
+
+<eg:purchasing_power_parity_GNI-o0105>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   916.2 ;
+        eg:refArea                 "Q833" .
+
+<eg:purchasing_power_parity_GNI-o0106>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   9.5 ;
+        eg:refArea                 "Q826" .
+
+<eg:purchasing_power_parity_GNI-o0107>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   46.4 ;
+        eg:refArea                 "Q912" .
+
+<eg:purchasing_power_parity_GNI-o0108>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   21.0 ;
+        eg:refArea                 "Q233" .
+
+<eg:purchasing_power_parity_GNI-o0109>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.3 ;
+        eg:refArea                 "Q709" .
+
+<eg:purchasing_power_parity_GNI-o0110>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   24.2 ;
+        eg:refArea                 "Q1025" .
+
+<eg:purchasing_power_parity_GNI-o0111>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   33.4 ;
+        eg:refArea                 "Q1027" .
+
+<eg:purchasing_power_parity_GNI-o0112>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2527.0 ;
+        eg:refArea                 "Q96" .
+
+<eg:purchasing_power_parity_GNI-o0113>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.4 ;
+        eg:refArea                 "Q702" .
+
+<eg:purchasing_power_parity_GNI-o0114>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   35.9 ;
+        eg:refArea                 "Q217" .
+
+<eg:purchasing_power_parity_GNI-o0115>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   36.7 ;
+        eg:refArea                 "Q711" .
+
+<eg:purchasing_power_parity_GNI-o0116>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   14.4 ;
+        eg:refArea                 "Q236" .
+
+<eg:purchasing_power_parity_GNI-o0117>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   284.4 ;
+        eg:refArea                 "Q1028" .
+
+<eg:purchasing_power_parity_GNI-o0118>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   39.5 ;
+        eg:refArea                 "Q1029" .
+
+<eg:purchasing_power_parity_GNI-o0119>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   278.8 ;
+        eg:refArea                 "Q836" .
+
+<eg:purchasing_power_parity_GNI-o0120>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   24.3 ;
+        eg:refArea                 "Q1030" .
+
+<eg:purchasing_power_parity_GNI-o0121>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.2 ;
+        eg:refArea                 "Q697" .
+
+<eg:purchasing_power_parity_GNI-o0122>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   103.0 ;
+        eg:refArea                 "Q837" .
+
+<eg:purchasing_power_parity_GNI-o0123>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1038.1 ;
+        eg:refArea                 "Q55" .
+
+<eg:purchasing_power_parity_GNI-o0124>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   210.0 ;
+        eg:refArea                 "Q664" .
+
+<eg:purchasing_power_parity_GNI-o0125>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   35.9 ;
+        eg:refArea                 "Q811" .
+
+<eg:purchasing_power_parity_GNI-o0126>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   29.2 ;
+        eg:refArea                 "Q1032" .
+
+<eg:purchasing_power_parity_GNI-o0127>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1039.6 ;
+        eg:refArea                 "Q1033" .
+
+<eg:purchasing_power_parity_GNI-o0128>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   35.6 ;
+        eg:refArea                 "Q221" .
+
+<eg:purchasing_power_parity_GNI-o0129>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   372.3 ;
+        eg:refArea                 "Q20" .
+
+<eg:purchasing_power_parity_GNI-o0130>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   142.2 ;
+        eg:refArea                 "Q842" .
+
+<eg:purchasing_power_parity_GNI-o0131>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1129.1 ;
+        eg:refArea                 "Q843" .
+
+<eg:purchasing_power_parity_GNI-o0132>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.3 ;
+        eg:refArea                 "Q695" .
+
+<eg:purchasing_power_parity_GNI-o0133>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   130.0 ;
+        eg:refArea                 "Q804" .
+
+<eg:purchasing_power_parity_GNI-o0134>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   39.2 ;
+        eg:refArea                 "Q691" .
+
+<eg:purchasing_power_parity_GNI-o0135>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   89.7 ;
+        eg:refArea                 "Q733" .
+
+<eg:purchasing_power_parity_GNI-o0136>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   414.7 ;
+        eg:refArea                 "Q419" .
+
+<eg:purchasing_power_parity_GNI-o0137>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1102.8 ;
+        eg:refArea                 "Q928" .
+
+<eg:purchasing_power_parity_GNI-o0138>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1242.1 ;
+        eg:refArea                 "Q36" .
+
+<eg:purchasing_power_parity_GNI-o0139>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   365.6 ;
+        eg:refArea                 "Q45" .
+
+<eg:purchasing_power_parity_GNI-o0140>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   77.4 ;
+        eg:refArea                 "Q1183" .
+
+<eg:purchasing_power_parity_GNI-o0141>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   266.7 ;
+        eg:refArea                 "Q846" .
+
+<eg:purchasing_power_parity_GNI-o0142>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   616.6 ;
+        eg:refArea                 "Q218" .
+
+<eg:purchasing_power_parity_GNI-o0143>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   4147.4 ;
+        eg:refArea                 "Q159" .
+
+<eg:purchasing_power_parity_GNI-o0144>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   28.3 ;
+        eg:refArea                 "Q1037" .
+
+<eg:purchasing_power_parity_GNI-o0145>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.3 ;
+        eg:refArea                 "Q683" .
+
+<eg:purchasing_power_parity_GNI-o0146>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.9 ;
+        eg:refArea                 "Q1039" .
+
+<eg:purchasing_power_parity_GNI-o0147>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1692.9 ;
+        eg:refArea                 "Q851" .
+
+<eg:purchasing_power_parity_GNI-o0148>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   56.1 ;
+        eg:refArea                 "Q1041" .
+
+<eg:purchasing_power_parity_GNI-o0149>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   124.8 ;
+        eg:refArea                 "Q403" .
+
+<eg:purchasing_power_parity_GNI-o0150>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2.9 ;
+        eg:refArea                 "Q1042" .
+
+<eg:purchasing_power_parity_GNI-o0151>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   13.0 ;
+        eg:refArea                 "Q1044" .
+
+<eg:purchasing_power_parity_GNI-o0152>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   524.8 ;
+        eg:refArea                 "Q334" .
+
+<eg:purchasing_power_parity_GNI-o0153>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.3 ;
+        eg:refArea                 "Q26273" .
+
+<eg:purchasing_power_parity_GNI-o0154>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   183.7 ;
+        eg:refArea                 "Q214" .
+
+<eg:purchasing_power_parity_GNI-o0155>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   83.7 ;
+        eg:refArea                 "Q215" .
+
+<eg:purchasing_power_parity_GNI-o0156>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.6 ;
+        eg:refArea                 "Q685" .
+
+<eg:purchasing_power_parity_GNI-o0157>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   739.7 ;
+        eg:refArea                 "Q258" .
+
+<eg:purchasing_power_parity_GNI-o0158>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1991.3 ;
+        eg:refArea                 "Q29" .
+
+<eg:purchasing_power_parity_GNI-o0159>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   288.4 ;
+        eg:refArea                 "Q854" .
+
+<eg:purchasing_power_parity_GNI-o0160>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.4 ;
+        eg:refArea                 "Q763" .
+
+<eg:purchasing_power_parity_GNI-o0161>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2.8 ;
+        eg:refArea                 "Q760" .
+
+<eg:purchasing_power_parity_GNI-o0162>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.4 ;
+        eg:refArea                 "Q757" .
+
+<eg:purchasing_power_parity_GNI-o0163>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   170.7 ;
+        eg:refArea                 "Q1049" .
+
+<eg:purchasing_power_parity_GNI-o0164>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   8.8 ;
+        eg:refArea                 "Q730" .
+
+<eg:purchasing_power_parity_GNI-o0165>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   589.3 ;
+        eg:refArea                 "Q34" .
+
+<eg:purchasing_power_parity_GNI-o0166>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   620.7 ;
+        eg:refArea                 "Q39" .
+
+<eg:purchasing_power_parity_GNI-o0167>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   38.2 ;
+        eg:refArea                 "Q863" .
+
+<eg:purchasing_power_parity_GNI-o0168>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   152.0 ;
+        eg:refArea                 "Q924" .
+
+<eg:purchasing_power_parity_GNI-o0169>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1289.4 ;
+        eg:refArea                 "Q869" .
+
+<eg:purchasing_power_parity_GNI-o0170>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   6.1 ;
+        eg:refArea                 "Q574" .
+
+<eg:purchasing_power_parity_GNI-o0171>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   13.5 ;
+        eg:refArea                 "Q945" .
+
+<eg:purchasing_power_parity_GNI-o0172>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.7 ;
+        eg:refArea                 "Q678" .
+
+<eg:purchasing_power_parity_GNI-o0173>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   37.6 ;
+        eg:refArea                 "Q754" .
+
+<eg:purchasing_power_parity_GNI-o0174>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   126.2 ;
+        eg:refArea                 "Q948" .
+
+<eg:purchasing_power_parity_GNI-o0175>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   2287.0 ;
+        eg:refArea                 "Q43" .
+
+<eg:purchasing_power_parity_GNI-o0176>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   85.2 ;
+        eg:refArea                 "Q874" .
+
+<eg:purchasing_power_parity_GNI-o0177>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.0 ;
+        eg:refArea                 "Q18221" .
+
+<eg:purchasing_power_parity_GNI-o0178>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   0.1 ;
+        eg:refArea                 "Q672" .
+
+<eg:purchasing_power_parity_GNI-o0179>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   97.9 ;
+        eg:refArea                 "Q1036" .
+
+<eg:purchasing_power_parity_GNI-o0180>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   578.0 ;
+        eg:refArea                 "Q212" .
+
+<eg:purchasing_power_parity_GNI-o0181>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   686.3 ;
+        eg:refArea                 "Q878" .
+
+<eg:purchasing_power_parity_GNI-o0182>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   3210.9 ;
+        eg:refArea                 "Q145" .
+
+<eg:purchasing_power_parity_GNI-o0183>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   21625.0 ;
+        eg:refArea                 "Q30" .
+
+<eg:purchasing_power_parity_GNI-o0184>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   73.1 ;
+        eg:refArea                 "Q77" .
+
+<eg:purchasing_power_parity_GNI-o0185>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   248.5 ;
+        eg:refArea                 "Q265" .
+
+<eg:purchasing_power_parity_GNI-o0186>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   1.0 ;
+        eg:refArea                 "Q686" .
+
+<eg:purchasing_power_parity_GNI-o0187>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   747.2 ;
+        eg:refArea                 "Q881" .
+
+<eg:purchasing_power_parity_GNI-o0188>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   30.8 ;
+        eg:refArea                 "Q407199" .
+
+<eg:purchasing_power_parity_GNI-o0189>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   63.9 ;
+        eg:refArea                 "Q953" .
+
+<eg:purchasing_power_parity_GNI-o0190>
+        rdf:type                   qb:Observation ;
+        qb:dataSet                 "dataset-purchasing_power_parity_GNI" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:dolar_billion   40.0 ;
+        eg:refArea                 "Q954" .
+
+
+# Col: Per capita
+
+<eg:purchasing_power_parity_GNI-o10>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.33 ;
+        eg:refArea                  "Q889" .
+
+<eg:purchasing_power_parity_GNI-o11>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.35 ;
+        eg:refArea                  "Q222" .
+
+<eg:purchasing_power_parity_GNI-o12>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  11.53 ;
+        eg:refArea                  "Q262" .
+
+<eg:purchasing_power_parity_GNI-o13>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  6.39 ;
+        eg:refArea                  "Q916" .
+
+<eg:purchasing_power_parity_GNI-o14>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  21.5 ;
+        eg:refArea                  "Q781" .
+
+<eg:purchasing_power_parity_GNI-o15>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  22.06 ;
+        eg:refArea                  "Q414" .
+
+<eg:purchasing_power_parity_GNI-o16>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.46 ;
+        eg:refArea                  "Q399" .
+
+<eg:purchasing_power_parity_GNI-o17>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  36.3 ;
+        eg:refArea                  "Q21203" .
+
+<eg:purchasing_power_parity_GNI-o18>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  51.56 ;
+        eg:refArea                  "Q408" .
+
+<eg:purchasing_power_parity_GNI-o19>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  59.06 ;
+        eg:refArea                  "Q40" .
+
+<eg:purchasing_power_parity_GNI-o110>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.36 ;
+        eg:refArea                  "Q227" .
+
+<eg:purchasing_power_parity_GNI-o111>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  35.76 ;
+        eg:refArea                  "Q778" .
+
+<eg:purchasing_power_parity_GNI-o112>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  44.14 ;
+        eg:refArea                  "Q398" .
+
+<eg:purchasing_power_parity_GNI-o113>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.19 ;
+        eg:refArea                  "Q902" .
+
+<eg:purchasing_power_parity_GNI-o114>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  15.73 ;
+        eg:refArea                  "Q244" .
+
+<eg:purchasing_power_parity_GNI-o115>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  19.34 ;
+        eg:refArea                  "Q184" .
+
+<eg:purchasing_power_parity_GNI-o116>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  54.73 ;
+        eg:refArea                  "Q31" .
+
+<eg:purchasing_power_parity_GNI-o117>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  6.63 ;
+        eg:refArea                  "Q242" .
+
+<eg:purchasing_power_parity_GNI-o118>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.39 ;
+        eg:refArea                  "Q962" .
+
+<eg:purchasing_power_parity_GNI-o119>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  10.57 ;
+        eg:refArea                  "Q917" .
+
+<eg:purchasing_power_parity_GNI-o120>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  8.91 ;
+        eg:refArea                  "Q750" .
+
+<eg:purchasing_power_parity_GNI-o121>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  15.77 ;
+        eg:refArea                  "Q225" .
+
+<eg:purchasing_power_parity_GNI-o122>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  17.11 ;
+        eg:refArea                  "Q963" .
+
+<eg:purchasing_power_parity_GNI-o123>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.85 ;
+        eg:refArea                  "Q155" .
+
+<eg:purchasing_power_parity_GNI-o124>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  66.41 ;
+        eg:refArea                  "Q921" .
+
+<eg:purchasing_power_parity_GNI-o125>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  23.88 ;
+        eg:refArea                  "Q219" .
+
+<eg:purchasing_power_parity_GNI-o126>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.22 ;
+        eg:refArea                  "Q965" .
+
+<eg:purchasing_power_parity_GNI-o127>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  780.0 ;
+        eg:refArea                  "Q967" .
+
+<eg:purchasing_power_parity_GNI-o128>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  4.18 ;
+        eg:refArea                  "Q424" .
+
+<eg:purchasing_power_parity_GNI-o129>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.73 ;
+        eg:refArea                  "Q1009" .
+
+<eg:purchasing_power_parity_GNI-o130>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  50.81 ;
+        eg:refArea                  "Q16" .
+
+<eg:purchasing_power_parity_GNI-o131>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  7.31 ;
+        eg:refArea                  "Q1011" .
+
+<eg:purchasing_power_parity_GNI-o132>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  41.64 ;
+        eg:refArea                  "Q5785" .
+
+<eg:purchasing_power_parity_GNI-o133>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.06 ;
+        eg:refArea                  "Q929" .
+
+<eg:purchasing_power_parity_GNI-o134>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.62 ;
+        eg:refArea                  "Q657" .
+
+<eg:purchasing_power_parity_GNI-o135>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  24.14 ;
+        eg:refArea                  "Q298" .
+
+<eg:purchasing_power_parity_GNI-o136>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  16.74 ;
+        eg:refArea                  "Q148" .
+
+<eg:purchasing_power_parity_GNI-o137>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  65.6 ;
+        eg:refArea                  "Q8646" .
+
+<eg:purchasing_power_parity_GNI-o138>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  123.29 ;
+        eg:refArea                  "Q14773" .
+
+<eg:purchasing_power_parity_GNI-o139>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  15.15 ;
+        eg:refArea                  "Q739" .
+
+<eg:purchasing_power_parity_GNI-o140>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.22 ;
+        eg:refArea                  "Q970" .
+
+<eg:purchasing_power_parity_GNI-o141>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.11 ;
+        eg:refArea                  "Q974" .
+
+<eg:purchasing_power_parity_GNI-o142>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.06 ;
+        eg:refArea                  "Q971" .
+
+<eg:purchasing_power_parity_GNI-o143>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  19.25 ;
+        eg:refArea                  "Q800" .
+
+<eg:purchasing_power_parity_GNI-o144>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.29 ;
+        eg:refArea                  "Q1008" .
+
+<eg:purchasing_power_parity_GNI-o145>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  29.52 ;
+        eg:refArea                  "Q224" .
+
+<eg:purchasing_power_parity_GNI-o146>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  25.86 ;
+        eg:refArea                  "Q25279" .
+
+<eg:purchasing_power_parity_GNI-o147>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  39.83 ;
+        eg:refArea                  "Q229" .
+
+<eg:purchasing_power_parity_GNI-o148>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  40.66 ;
+        eg:refArea                  "Q213" .
+
+<eg:purchasing_power_parity_GNI-o149>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  61.41 ;
+        eg:refArea                  "Q35" .
+
+<eg:purchasing_power_parity_GNI-o150>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.98 ;
+        eg:refArea                  "Q977" .
+
+<eg:purchasing_power_parity_GNI-o151>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  12.46 ;
+        eg:refArea                  "Q784" .
+
+<eg:purchasing_power_parity_GNI-o152>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  18.28 ;
+        eg:refArea                  "Q786" .
+
+<eg:purchasing_power_parity_GNI-o153>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  11.5 ;
+        eg:refArea                  "Q736" .
+
+<eg:purchasing_power_parity_GNI-o154>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  11.81 ;
+        eg:refArea                  "Q79" .
+
+<eg:purchasing_power_parity_GNI-o155>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  8.7 ;
+        eg:refArea                  "Q792" .
+
+<eg:purchasing_power_parity_GNI-o156>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.6 ;
+        eg:refArea                  "Q983" .
+
+<eg:purchasing_power_parity_GNI-o157>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  38.01 ;
+        eg:refArea                  "Q191" .
+
+<eg:purchasing_power_parity_GNI-o158>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  7.94 ;
+        eg:refArea                  "Q1050" .
+
+<eg:purchasing_power_parity_GNI-o159>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.3 ;
+        eg:refArea                  "Q115" .
+
+<eg:purchasing_power_parity_GNI-o160>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  13.26 ;
+        eg:refArea                  "Q712" .
+
+<eg:purchasing_power_parity_GNI-o161>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  51.21 ;
+        eg:refArea                  "Q33" .
+
+<eg:purchasing_power_parity_GNI-o162>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  50.39 ;
+        eg:refArea                  "Q142" .
+
+<eg:purchasing_power_parity_GNI-o163>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.42 ;
+        eg:refArea                  "Q1000" .
+
+<eg:purchasing_power_parity_GNI-o164>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.26 ;
+        eg:refArea                  "Q1005" .
+
+<eg:purchasing_power_parity_GNI-o165>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  15.02 ;
+        eg:refArea                  "Q230" .
+
+<eg:purchasing_power_parity_GNI-o166>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  57.69 ;
+        eg:refArea                  "Q183" .
+
+<eg:purchasing_power_parity_GNI-o167>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.51 ;
+        eg:refArea                  "Q117" .
+
+<eg:purchasing_power_parity_GNI-o168>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  31.35 ;
+        eg:refArea                  "Q41" .
+
+<eg:purchasing_power_parity_GNI-o169>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  16.25 ;
+        eg:refArea                  "Q769" .
+
+<eg:purchasing_power_parity_GNI-o170>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  8.85 ;
+        eg:refArea                  "Q774" .
+
+<eg:purchasing_power_parity_GNI-o171>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.52 ;
+        eg:refArea                  "Q1006" .
+
+<eg:purchasing_power_parity_GNI-o172>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.22 ;
+        eg:refArea                  "Q1007" .
+
+<eg:purchasing_power_parity_GNI-o173>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  9.9 ;
+        eg:refArea                  "Q734" .
+
+<eg:purchasing_power_parity_GNI-o174>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.79 ;
+        eg:refArea                  "Q790" .
+
+<eg:purchasing_power_parity_GNI-o175>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.51 ;
+        eg:refArea                  "Q783" .
+
+<eg:purchasing_power_parity_GNI-o176>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  32.75 ;
+        eg:refArea                  "Q28" .
+
+<eg:purchasing_power_parity_GNI-o177>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  61.17 ;
+        eg:refArea                  "Q189" .
+
+<eg:purchasing_power_parity_GNI-o178>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  6.96 ;
+        eg:refArea                  "Q668" .
+
+<eg:purchasing_power_parity_GNI-o179>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  11.93 ;
+        eg:refArea                  "Q252" .
+
+<eg:purchasing_power_parity_GNI-o180>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.56 ;
+        eg:refArea                  "Q794" .
+
+<eg:purchasing_power_parity_GNI-o181>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  11.28 ;
+        eg:refArea                  "Q796" .
+
+<eg:purchasing_power_parity_GNI-o182>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  68.05 ;
+        eg:refArea                  "Q27" .
+
+<eg:purchasing_power_parity_GNI-o183>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  42.14 ;
+        eg:refArea                  "Q801" .
+
+<eg:purchasing_power_parity_GNI-o184>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  44.58 ;
+        eg:refArea                  "Q38" .
+
+<eg:purchasing_power_parity_GNI-o185>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  9.77 ;
+        eg:refArea                  "Q766" .
+
+<eg:purchasing_power_parity_GNI-o186>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  44.78 ;
+        eg:refArea                  "Q17" .
+
+<eg:purchasing_power_parity_GNI-o187>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  10.24 ;
+        eg:refArea                  "Q810" .
+
+<eg:purchasing_power_parity_GNI-o188>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  24.05 ;
+        eg:refArea                  "Q232" .
+
+<eg:purchasing_power_parity_GNI-o189>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  4.42 ;
+        eg:refArea                  "Q114" .
+
+<eg:purchasing_power_parity_GNI-o190>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  4.65 ;
+        eg:refArea                  "Q710" .
+
+<eg:purchasing_power_parity_GNI-o191>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  43.43 ;
+        eg:refArea                  "Q884" .
+
+<eg:purchasing_power_parity_GNI-o192>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  12.09 ;
+        eg:refArea                  "Q1246" .
+
+<eg:purchasing_power_parity_GNI-o193>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  59.72 ;
+        eg:refArea                  "Q817" .
+
+<eg:purchasing_power_parity_GNI-o194>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.07 ;
+        eg:refArea                  "Q813" .
+
+<eg:purchasing_power_parity_GNI-o195>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  7.96 ;
+        eg:refArea                  "Q819" .
+
+<eg:purchasing_power_parity_GNI-o196>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  31.77 ;
+        eg:refArea                  "Q211" .
+
+<eg:purchasing_power_parity_GNI-o197>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  15.26 ;
+        eg:refArea                  "Q822" .
+
+<eg:purchasing_power_parity_GNI-o198>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.29 ;
+        eg:refArea                  "Q1013" .
+
+<eg:purchasing_power_parity_GNI-o199>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.32 ;
+        eg:refArea                  "Q1014" .
+
+<eg:purchasing_power_parity_GNI-o1100>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  16.09 ;
+        eg:refArea                  "Q1016" .
+
+<eg:purchasing_power_parity_GNI-o1101>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  37.01 ;
+        eg:refArea                  "Q37" .
+
+<eg:purchasing_power_parity_GNI-o1102>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  77.57 ;
+        eg:refArea                  "Q32" .
+
+<eg:purchasing_power_parity_GNI-o1103>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.66 ;
+        eg:refArea                  "Q1019" .
+
+<eg:purchasing_power_parity_GNI-o1104>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.08 ;
+        eg:refArea                  "Q1020" .
+
+<eg:purchasing_power_parity_GNI-o1105>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  28.68 ;
+        eg:refArea                  "Q833" .
+
+<eg:purchasing_power_parity_GNI-o1106>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  17.88 ;
+        eg:refArea                  "Q826" .
+
+<eg:purchasing_power_parity_GNI-o1107>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.36 ;
+        eg:refArea                  "Q912" .
+
+<eg:purchasing_power_parity_GNI-o1108>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  41.69 ;
+        eg:refArea                  "Q233" .
+
+<eg:purchasing_power_parity_GNI-o1109>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.09 ;
+        eg:refArea                  "Q709" .
+
+<eg:purchasing_power_parity_GNI-o1110>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.35 ;
+        eg:refArea                  "Q1025" .
+
+<eg:purchasing_power_parity_GNI-o1111>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  26.41 ;
+        eg:refArea                  "Q1027" .
+
+<eg:purchasing_power_parity_GNI-o1112>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  19.81 ;
+        eg:refArea                  "Q96" .
+
+<eg:purchasing_power_parity_GNI-o1113>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.64 ;
+        eg:refArea                  "Q702" .
+
+<eg:purchasing_power_parity_GNI-o1114>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  13.28 ;
+        eg:refArea                  "Q217" .
+
+<eg:purchasing_power_parity_GNI-o1115>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  11.37 ;
+        eg:refArea                  "Q711" .
+
+<eg:purchasing_power_parity_GNI-o1116>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  23.07 ;
+        eg:refArea                  "Q236" .
+
+<eg:purchasing_power_parity_GNI-o1117>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  7.68 ;
+        eg:refArea                  "Q1028" .
+
+<eg:purchasing_power_parity_GNI-o1118>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.3 ;
+        eg:refArea                  "Q1029" .
+
+<eg:purchasing_power_parity_GNI-o1119>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.16 ;
+        eg:refArea                  "Q836" .
+
+<eg:purchasing_power_parity_GNI-o1120>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  9.75 ;
+        eg:refArea                  "Q1030" .
+
+<eg:purchasing_power_parity_GNI-o1121>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  17.79 ;
+        eg:refArea                  "Q697" .
+
+<eg:purchasing_power_parity_GNI-o1122>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.6 ;
+        eg:refArea                  "Q837" .
+
+<eg:purchasing_power_parity_GNI-o1123>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  59.89 ;
+        eg:refArea                  "Q55" .
+
+<eg:purchasing_power_parity_GNI-o1124>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  42.71 ;
+        eg:refArea                  "Q664" .
+
+<eg:purchasing_power_parity_GNI-o1125>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.49 ;
+        eg:refArea                  "Q811" .
+
+<eg:purchasing_power_parity_GNI-o1126>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.25 ;
+        eg:refArea                  "Q1032" .
+
+<eg:purchasing_power_parity_GNI-o1127>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.17 ;
+        eg:refArea                  "Q1033" .
+
+<eg:purchasing_power_parity_GNI-o1128>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  17.11 ;
+        eg:refArea                  "Q221" .
+
+<eg:purchasing_power_parity_GNI-o1129>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  69.61 ;
+        eg:refArea                  "Q20" .
+
+<eg:purchasing_power_parity_GNI-o1130>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  28.59 ;
+        eg:refArea                  "Q842" .
+
+<eg:purchasing_power_parity_GNI-o1131>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  5.21 ;
+        eg:refArea                  "Q843" .
+
+<eg:purchasing_power_parity_GNI-o1132>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  19.5 ;
+        eg:refArea                  "Q695" .
+
+<eg:purchasing_power_parity_GNI-o1133>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  30.6 ;
+        eg:refArea                  "Q804" .
+
+<eg:purchasing_power_parity_GNI-o1134>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  4.47 ;
+        eg:refArea                  "Q691" .
+
+<eg:purchasing_power_parity_GNI-o1135>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  12.73 ;
+        eg:refArea                  "Q733" .
+
+<eg:purchasing_power_parity_GNI-o1136>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  12.76 ;
+        eg:refArea                  "Q419" .
+
+<eg:purchasing_power_parity_GNI-o1137>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  10.2 ;
+        eg:refArea                  "Q928" .
+
+<eg:purchasing_power_parity_GNI-o1138>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  32.71 ;
+        eg:refArea                  "Q36" .
+
+<eg:purchasing_power_parity_GNI-o1139>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  35.6 ;
+        eg:refArea                  "Q45" .
+
+<eg:purchasing_power_parity_GNI-o1140>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  24.24 ;
+        eg:refArea                  "Q1183" .
+
+<eg:purchasing_power_parity_GNI-o1141>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  94.17 ;
+        eg:refArea                  "Q846" .
+
+<eg:purchasing_power_parity_GNI-o1142>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  31.86 ;
+        eg:refArea                  "Q218" .
+
+<eg:purchasing_power_parity_GNI-o1143>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  28.27 ;
+        eg:refArea                  "Q159" .
+
+<eg:purchasing_power_parity_GNI-o1144>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.24 ;
+        eg:refArea                  "Q1037" .
+
+<eg:purchasing_power_parity_GNI-o1145>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  6.49 ;
+        eg:refArea                  "Q683" .
+
+<eg:purchasing_power_parity_GNI-o1146>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  4.09 ;
+        eg:refArea                  "Q1039" .
+
+<eg:purchasing_power_parity_GNI-o1147>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  49.4 ;
+        eg:refArea                  "Q851" .
+
+<eg:purchasing_power_parity_GNI-o1148>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.44 ;
+        eg:refArea                  "Q1041" .
+
+<eg:purchasing_power_parity_GNI-o1149>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  17.96 ;
+        eg:refArea                  "Q403" .
+
+<eg:purchasing_power_parity_GNI-o1150>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  29.3 ;
+        eg:refArea                  "Q1042" .
+
+<eg:purchasing_power_parity_GNI-o1151>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.67 ;
+        eg:refArea                  "Q1044" .
+
+<eg:purchasing_power_parity_GNI-o1152>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  92.02 ;
+        eg:refArea                  "Q334" .
+
+<eg:purchasing_power_parity_GNI-o1153>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  31.34 ;
+        eg:refArea                  "Q26273" .
+
+<eg:purchasing_power_parity_GNI-o1154>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  33.68 ;
+        eg:refArea                  "Q214" .
+
+<eg:purchasing_power_parity_GNI-o1155>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  40.07 ;
+        eg:refArea                  "Q215" .
+
+<eg:purchasing_power_parity_GNI-o1156>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.35 ;
+        eg:refArea                  "Q685" .
+
+<eg:purchasing_power_parity_GNI-o1157>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  12.63 ;
+        eg:refArea                  "Q258" .
+
+<eg:purchasing_power_parity_GNI-o1158>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  42.3 ;
+        eg:refArea                  "Q29" .
+
+<eg:purchasing_power_parity_GNI-o1159>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  13.23 ;
+        eg:refArea                  "Q854" .
+
+<eg:purchasing_power_parity_GNI-o1160>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  25.92 ;
+        eg:refArea                  "Q763" .
+
+<eg:purchasing_power_parity_GNI-o1161>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  15.14 ;
+        eg:refArea                  "Q760" .
+
+<eg:purchasing_power_parity_GNI-o1162>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  12.88 ;
+        eg:refArea                  "Q757" .
+
+<eg:purchasing_power_parity_GNI-o1163>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.99 ;
+        eg:refArea                  "Q1049" .
+
+<eg:purchasing_power_parity_GNI-o1164>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  15.2 ;
+        eg:refArea                  "Q730" .
+
+<eg:purchasing_power_parity_GNI-o1165>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  57.3 ;
+        eg:refArea                  "Q34" .
+
+<eg:purchasing_power_parity_GNI-o1166>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  72.39 ;
+        eg:refArea                  "Q39" .
+
+<eg:purchasing_power_parity_GNI-o1167>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  4.1 ;
+        eg:refArea                  "Q863" .
+
+<eg:purchasing_power_parity_GNI-o1168>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.7 ;
+        eg:refArea                  "Q924" .
+
+<eg:purchasing_power_parity_GNI-o1169>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  18.52 ;
+        eg:refArea                  "Q869" .
+
+<eg:purchasing_power_parity_GNI-o1170>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  4.73 ;
+        eg:refArea                  "Q574" .
+
+<eg:purchasing_power_parity_GNI-o1171>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  1.67 ;
+        eg:refArea                  "Q945" .
+
+<eg:purchasing_power_parity_GNI-o1172>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  6.51 ;
+        eg:refArea                  "Q678" .
+
+<eg:purchasing_power_parity_GNI-o1173>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  26.95 ;
+        eg:refArea                  "Q754" .
+
+<eg:purchasing_power_parity_GNI-o1174>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  10.8 ;
+        eg:refArea                  "Q948" .
+
+<eg:purchasing_power_parity_GNI-o1175>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  27.41 ;
+        eg:refArea                  "Q43" .
+
+<eg:purchasing_power_parity_GNI-o1176>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  14.56 ;
+        eg:refArea                  "Q874" .
+
+<eg:purchasing_power_parity_GNI-o1177>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  26.21 ;
+        eg:refArea                  "Q18221" .
+
+<eg:purchasing_power_parity_GNI-o1178>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  6.17 ;
+        eg:refArea                  "Q672" .
+
+<eg:purchasing_power_parity_GNI-o1179>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.21 ;
+        eg:refArea                  "Q1036" .
+
+<eg:purchasing_power_parity_GNI-o1180>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  13.75 ;
+        eg:refArea                  "Q212" .
+
+<eg:purchasing_power_parity_GNI-o1181>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  70.24 ;
+        eg:refArea                  "Q878" .
+
+<eg:purchasing_power_parity_GNI-o1182>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  48.04 ;
+        eg:refArea                  "Q145" .
+
+<eg:purchasing_power_parity_GNI-o1183>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  65.88 ;
+        eg:refArea                  "Q30" .
+
+<eg:purchasing_power_parity_GNI-o1184>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  21.12 ;
+        eg:refArea                  "Q77" .
+
+<eg:purchasing_power_parity_GNI-o1185>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  7.4 ;
+        eg:refArea                  "Q265" .
+
+<eg:purchasing_power_parity_GNI-o1186>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.31 ;
+        eg:refArea                  "Q686" .
+
+<eg:purchasing_power_parity_GNI-o1187>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  7.75 ;
+        eg:refArea                  "Q881" .
+
+<eg:purchasing_power_parity_GNI-o1188>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  6.74 ;
+        eg:refArea                  "Q407199" .
+
+<eg:purchasing_power_parity_GNI-o1189>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  3.58 ;
+        eg:refArea                  "Q953" .
+
+<eg:purchasing_power_parity_GNI-o1190>
+        rdf:type                    qb:Observation ;
+        qb:dataSet                  "dataset-purchasing_power_parity_GNI" ;
+        sdmx-dimension:timePeriod   "2019"^^xsd:gYear ;
+        eg-measure:dolar_percapita  2.73 ;
+        eg:refArea                  "Q954" .

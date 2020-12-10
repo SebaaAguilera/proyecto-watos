@@ -1,0 +1,1308 @@
+eg:dataset-maternal_mortality_ratio a qb:Dataset;
+    dct:title       "Maternal mortality ratio"@en;
+    rdfs:label      "maternal_mortality_ratio"@en;
+    rdfs:comment    "The World Bank: WV.2 | Global goals: ending poverty and improving lives"@en;
+    dct:description "
+Maternal mortality ratio is the number of women who die from pregnancy-related causes while pregnant or within 42 days of pregnancy termination per 100,000 live births. The data are estimated with a regression model using information on the proportion of maternal deaths among non-AIDS deaths in women ages 15-49, fertility, birth attendants, and GDP measured using purchasing power parities (PPPs).
+"@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    qb:structure      eg:dsd-maternal-mortality ; 
+.
+
+
+eg:maternal_mortality_ratio-o00
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  638.0 ;
+        eg:refArea    eg:Q889 .
+
+eg:maternal_mortality_ratio-o01
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  15.0 ;
+        eg:refArea    eg:Q222 .
+
+eg:maternal_mortality_ratio-o02
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  112.0 ;
+        eg:refArea    eg:Q262 .
+
+eg:maternal_mortality_ratio-o03
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  241.0 ;
+        eg:refArea    eg:Q916 .
+
+eg:maternal_mortality_ratio-o04
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  42.0 ;
+        eg:refArea    eg:Q781 .
+
+eg:maternal_mortality_ratio-o05
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  39.0 ;
+        eg:refArea    eg:Q414 .
+
+eg:maternal_mortality_ratio-o06
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  26.0 ;
+        eg:refArea    eg:Q399 .
+
+eg:maternal_mortality_ratio-o07
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  6.0 ;
+        eg:refArea    eg:Q408 .
+
+eg:maternal_mortality_ratio-o08
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q40 .
+
+eg:maternal_mortality_ratio-o09
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  26.0 ;
+        eg:refArea    eg:Q227 .
+
+eg:maternal_mortality_ratio-o010
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  70.0 ;
+        eg:refArea    eg:Q778 .
+
+eg:maternal_mortality_ratio-o011
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  14.0 ;
+        eg:refArea    eg:Q398 .
+
+eg:maternal_mortality_ratio-o012
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  173.0 ;
+        eg:refArea    eg:Q902 .
+
+eg:maternal_mortality_ratio-o013
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  27.0 ;
+        eg:refArea    eg:Q244 .
+
+eg:maternal_mortality_ratio-o014
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  2.0 ;
+        eg:refArea    eg:Q184 .
+
+eg:maternal_mortality_ratio-o015
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q31 .
+
+eg:maternal_mortality_ratio-o016
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  36.0 ;
+        eg:refArea    eg:Q242 .
+
+eg:maternal_mortality_ratio-o017
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  397.0 ;
+        eg:refArea    eg:Q962 .
+
+eg:maternal_mortality_ratio-o018
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  183.0 ;
+        eg:refArea    eg:Q917 .
+
+eg:maternal_mortality_ratio-o019
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  155.0 ;
+        eg:refArea    eg:Q750 .
+
+eg:maternal_mortality_ratio-o020
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  10.0 ;
+        eg:refArea    eg:Q225 .
+
+eg:maternal_mortality_ratio-o021
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  144.0 ;
+        eg:refArea    eg:Q963 .
+
+eg:maternal_mortality_ratio-o022
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  60.0 ;
+        eg:refArea    eg:Q155 .
+
+eg:maternal_mortality_ratio-o023
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  31.0 ;
+        eg:refArea    eg:Q921 .
+
+eg:maternal_mortality_ratio-o024
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  10.0 ;
+        eg:refArea    eg:Q219 .
+
+eg:maternal_mortality_ratio-o025
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  320.0 ;
+        eg:refArea    eg:Q965 .
+
+eg:maternal_mortality_ratio-o026
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  548.0 ;
+        eg:refArea    eg:Q967 .
+
+eg:maternal_mortality_ratio-o027
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  58.0 ;
+        eg:refArea    eg:Q1011 .
+
+eg:maternal_mortality_ratio-o028
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  160.0 ;
+        eg:refArea    eg:Q424 .
+
+eg:maternal_mortality_ratio-o029
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  529.0 ;
+        eg:refArea    eg:Q1009 .
+
+eg:maternal_mortality_ratio-o030
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  10.0 ;
+        eg:refArea    eg:Q16 .
+
+eg:maternal_mortality_ratio-o031
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  829.0 ;
+        eg:refArea    eg:Q929 .
+
+eg:maternal_mortality_ratio-o032
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  1.14 ;
+        eg:refArea    eg:Q657 .
+
+eg:maternal_mortality_ratio-o033
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  13.0 ;
+        eg:refArea    eg:Q298 .
+
+eg:maternal_mortality_ratio-o034
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  29.0 ;
+        eg:refArea    eg:Q148 .
+
+eg:maternal_mortality_ratio-o035
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  83.0 ;
+        eg:refArea    eg:Q739 .
+
+eg:maternal_mortality_ratio-o036
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  273.0 ;
+        eg:refArea    eg:Q970 .
+
+eg:maternal_mortality_ratio-o037
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  473.0 ;
+        eg:refArea    eg:Q974 .
+
+eg:maternal_mortality_ratio-o038
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  378.0 ;
+        eg:refArea    eg:Q971 .
+
+eg:maternal_mortality_ratio-o039
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  27.0 ;
+        eg:refArea    eg:Q800 .
+
+eg:maternal_mortality_ratio-o040
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  617.0 ;
+        eg:refArea    eg:Q1008 .
+
+eg:maternal_mortality_ratio-o041
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  8.0 ;
+        eg:refArea    eg:Q224 .
+
+eg:maternal_mortality_ratio-o042
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  36.0 ;
+        eg:refArea    eg:Q241 .
+
+eg:maternal_mortality_ratio-o043
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  6.0 ;
+        eg:refArea    eg:Q229 .
+
+eg:maternal_mortality_ratio-o044
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  3.0 ;
+        eg:refArea    eg:Q213 .
+
+eg:maternal_mortality_ratio-o045
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  4.0 ;
+        eg:refArea    eg:Q35 .
+
+eg:maternal_mortality_ratio-o046
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  248.0 ;
+        eg:refArea    eg:Q977 .
+
+eg:maternal_mortality_ratio-o047
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  95.0 ;
+        eg:refArea    eg:Q786 .
+
+eg:maternal_mortality_ratio-o048
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  59.0 ;
+        eg:refArea    eg:Q736 .
+
+eg:maternal_mortality_ratio-o049
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  37.0 ;
+        eg:refArea    eg:Q79 .
+
+eg:maternal_mortality_ratio-o050
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  46.0 ;
+        eg:refArea    eg:Q792 .
+
+eg:maternal_mortality_ratio-o051
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  301.0 ;
+        eg:refArea    eg:Q983 .
+
+eg:maternal_mortality_ratio-o052
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  480.0 ;
+        eg:refArea    eg:Q986 .
+
+eg:maternal_mortality_ratio-o053
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  9.0 ;
+        eg:refArea    eg:Q191 .
+
+eg:maternal_mortality_ratio-o054
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  437.0 ;
+        eg:refArea    eg:Q1050 .
+
+eg:maternal_mortality_ratio-o055
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  401.0 ;
+        eg:refArea    eg:Q115 .
+
+eg:maternal_mortality_ratio-o056
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  34.0 ;
+        eg:refArea    eg:Q712 .
+
+eg:maternal_mortality_ratio-o057
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  3.0 ;
+        eg:refArea    eg:Q33 .
+
+eg:maternal_mortality_ratio-o058
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  8.0 ;
+        eg:refArea    eg:Q142 .
+
+eg:maternal_mortality_ratio-o059
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  252.0 ;
+        eg:refArea    eg:Q1000 .
+
+eg:maternal_mortality_ratio-o060
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  597.0 ;
+        eg:refArea    eg:Q1005 .
+
+eg:maternal_mortality_ratio-o061
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  25.0 ;
+        eg:refArea    eg:Q230 .
+
+eg:maternal_mortality_ratio-o062
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  7.0 ;
+        eg:refArea    eg:Q183 .
+
+eg:maternal_mortality_ratio-o063
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  308.0 ;
+        eg:refArea    eg:Q117 .
+
+eg:maternal_mortality_ratio-o064
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  3.0 ;
+        eg:refArea    eg:Q41 .
+
+eg:maternal_mortality_ratio-o065
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  25.0 ;
+        eg:refArea    eg:Q769 .
+
+eg:maternal_mortality_ratio-o066
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  95.0 ;
+        eg:refArea    eg:Q774 .
+
+eg:maternal_mortality_ratio-o067
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  576.0 ;
+        eg:refArea    eg:Q1006 .
+
+eg:maternal_mortality_ratio-o068
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  667.0 ;
+        eg:refArea    eg:Q1007 .
+
+eg:maternal_mortality_ratio-o069
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  169.0 ;
+        eg:refArea    eg:Q734 .
+
+eg:maternal_mortality_ratio-o070
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  480.0 ;
+        eg:refArea    eg:Q790 .
+
+eg:maternal_mortality_ratio-o071
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  65.0 ;
+        eg:refArea    eg:Q783 .
+
+eg:maternal_mortality_ratio-o072
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  12.0 ;
+        eg:refArea    eg:Q28 .
+
+eg:maternal_mortality_ratio-o073
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  4.0 ;
+        eg:refArea    eg:Q189 .
+
+eg:maternal_mortality_ratio-o074
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  145.0 ;
+        eg:refArea    eg:Q668 .
+
+eg:maternal_mortality_ratio-o075
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  177.0 ;
+        eg:refArea    eg:Q252 .
+
+eg:maternal_mortality_ratio-o076
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  16.0 ;
+        eg:refArea    eg:Q794 .
+
+eg:maternal_mortality_ratio-o077
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  79.0 ;
+        eg:refArea    eg:Q796 .
+
+eg:maternal_mortality_ratio-o078
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q27 .
+
+eg:maternal_mortality_ratio-o079
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  3.0 ;
+        eg:refArea    eg:Q801 .
+
+eg:maternal_mortality_ratio-o080
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  2.0 ;
+        eg:refArea    eg:Q38 .
+
+eg:maternal_mortality_ratio-o081
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  80.0 ;
+        eg:refArea    eg:Q766 .
+
+eg:maternal_mortality_ratio-o082
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q17 .
+
+eg:maternal_mortality_ratio-o083
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  46.0 ;
+        eg:refArea    eg:Q810 .
+
+eg:maternal_mortality_ratio-o084
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  10.0 ;
+        eg:refArea    eg:Q232 .
+
+eg:maternal_mortality_ratio-o085
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  342.0 ;
+        eg:refArea    eg:Q114 .
+
+eg:maternal_mortality_ratio-o086
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  92.0 ;
+        eg:refArea    eg:Q710 .
+
+eg:maternal_mortality_ratio-o087
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  89.0 ;
+        eg:refArea    eg:Q423 .
+
+eg:maternal_mortality_ratio-o088
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  11.0 ;
+        eg:refArea    eg:Q884 .
+
+eg:maternal_mortality_ratio-o089
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  12.0 ;
+        eg:refArea    eg:Q817 .
+
+eg:maternal_mortality_ratio-o090
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  60.0 ;
+        eg:refArea    eg:Q813 .
+
+eg:maternal_mortality_ratio-o091
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  185.0 ;
+        eg:refArea    eg:Q819 .
+
+eg:maternal_mortality_ratio-o092
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  19.0 ;
+        eg:refArea    eg:Q211 .
+
+eg:maternal_mortality_ratio-o093
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  29.0 ;
+        eg:refArea    eg:Q822 .
+
+eg:maternal_mortality_ratio-o094
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  544.0 ;
+        eg:refArea    eg:Q1013 .
+
+eg:maternal_mortality_ratio-o095
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  661.0 ;
+        eg:refArea    eg:Q1014 .
+
+eg:maternal_mortality_ratio-o096
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  72.0 ;
+        eg:refArea    eg:Q1016 .
+
+eg:maternal_mortality_ratio-o097
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  8.0 ;
+        eg:refArea    eg:Q37 .
+
+eg:maternal_mortality_ratio-o098
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q32 .
+
+eg:maternal_mortality_ratio-o099
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  335.0 ;
+        eg:refArea    eg:Q1019 .
+
+eg:maternal_mortality_ratio-o0100
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  349.0 ;
+        eg:refArea    eg:Q1020 .
+
+eg:maternal_mortality_ratio-o0101
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  29.0 ;
+        eg:refArea    eg:Q833 .
+
+eg:maternal_mortality_ratio-o0102
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  53.0 ;
+        eg:refArea    eg:Q826 .
+
+eg:maternal_mortality_ratio-o0103
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  562.0 ;
+        eg:refArea    eg:Q912 .
+
+eg:maternal_mortality_ratio-o0104
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  6.0 ;
+        eg:refArea    eg:Q233 .
+
+eg:maternal_mortality_ratio-o0105
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  766.0 ;
+        eg:refArea    eg:Q1025 .
+
+eg:maternal_mortality_ratio-o0106
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  61.0 ;
+        eg:refArea    eg:Q1027 .
+
+eg:maternal_mortality_ratio-o0107
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  33.0 ;
+        eg:refArea    eg:Q96 .
+
+eg:maternal_mortality_ratio-o0108
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  88.0 ;
+        eg:refArea    eg:Q702 .
+
+eg:maternal_mortality_ratio-o0109
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  19.0 ;
+        eg:refArea    eg:Q217 .
+
+eg:maternal_mortality_ratio-o0110
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  45.0 ;
+        eg:refArea    eg:Q711 .
+
+eg:maternal_mortality_ratio-o0111
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  6.0 ;
+        eg:refArea    eg:Q236 .
+
+eg:maternal_mortality_ratio-o0112
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  70.0 ;
+        eg:refArea    eg:Q1028 .
+
+eg:maternal_mortality_ratio-o0113
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  289.0 ;
+        eg:refArea    eg:Q1029 .
+
+eg:maternal_mortality_ratio-o0114
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  250.0 ;
+        eg:refArea    eg:Q836 .
+
+eg:maternal_mortality_ratio-o0115
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  195.0 ;
+        eg:refArea    eg:Q1030 .
+
+eg:maternal_mortality_ratio-o0116
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  186.0 ;
+        eg:refArea    eg:Q837 .
+
+eg:maternal_mortality_ratio-o0117
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q55 .
+
+eg:maternal_mortality_ratio-o0118
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  9.0 ;
+        eg:refArea    eg:Q664 .
+
+eg:maternal_mortality_ratio-o0119
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  98.0 ;
+        eg:refArea    eg:Q811 .
+
+eg:maternal_mortality_ratio-o0120
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  509.0 ;
+        eg:refArea    eg:Q1032 .
+
+eg:maternal_mortality_ratio-o0121
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  917.0 ;
+        eg:refArea    eg:Q1033 .
+
+eg:maternal_mortality_ratio-o0122
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  7.0 ;
+        eg:refArea    eg:Q221 .
+
+eg:maternal_mortality_ratio-o0123
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  2.0 ;
+        eg:refArea    eg:Q20 .
+
+eg:maternal_mortality_ratio-o0124
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  19.0 ;
+        eg:refArea    eg:Q842 .
+
+eg:maternal_mortality_ratio-o0125
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  140.0 ;
+        eg:refArea    eg:Q843 .
+
+eg:maternal_mortality_ratio-o0126
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  52.0 ;
+        eg:refArea    eg:Q804 .
+
+eg:maternal_mortality_ratio-o0127
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  145.0 ;
+        eg:refArea    eg:Q691 .
+
+eg:maternal_mortality_ratio-o0128
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  129.0 ;
+        eg:refArea    eg:Q733 .
+
+eg:maternal_mortality_ratio-o0129
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  88.0 ;
+        eg:refArea    eg:Q419 .
+
+eg:maternal_mortality_ratio-o0130
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  121.0 ;
+        eg:refArea    eg:Q928 .
+
+eg:maternal_mortality_ratio-o0131
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  2.0 ;
+        eg:refArea    eg:Q36 .
+
+eg:maternal_mortality_ratio-o0132
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  8.0 ;
+        eg:refArea    eg:Q45 .
+
+eg:maternal_mortality_ratio-o0133
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  21.0 ;
+        eg:refArea    eg:Q1183 .
+
+eg:maternal_mortality_ratio-o0134
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  9.0 ;
+        eg:refArea    eg:Q846 .
+
+eg:maternal_mortality_ratio-o0135
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  19.0 ;
+        eg:refArea    eg:Q218 .
+
+eg:maternal_mortality_ratio-o0136
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  17.0 ;
+        eg:refArea    eg:Q159 .
+
+eg:maternal_mortality_ratio-o0137
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  248.0 ;
+        eg:refArea    eg:Q1037 .
+
+eg:maternal_mortality_ratio-o0138
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  43.0 ;
+        eg:refArea    eg:Q683 .
+
+eg:maternal_mortality_ratio-o0139
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  130.0 ;
+        eg:refArea    eg:Q1039 .
+
+eg:maternal_mortality_ratio-o0140
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  17.0 ;
+        eg:refArea    eg:Q851 .
+
+eg:maternal_mortality_ratio-o0141
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  315.0 ;
+        eg:refArea    eg:Q1041 .
+
+eg:maternal_mortality_ratio-o0142
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  12.0 ;
+        eg:refArea    eg:Q403 .
+
+eg:maternal_mortality_ratio-o0143
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  53.0 ;
+        eg:refArea    eg:Q1042 .
+
+eg:maternal_mortality_ratio-o0144
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  1.12 ;
+        eg:refArea    eg:Q1044 .
+
+eg:maternal_mortality_ratio-o0145
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  8.0 ;
+        eg:refArea    eg:Q334 .
+
+eg:maternal_mortality_ratio-o0146
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q214 .
+
+eg:maternal_mortality_ratio-o0147
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  7.0 ;
+        eg:refArea    eg:Q215 .
+
+eg:maternal_mortality_ratio-o0148
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  104.0 ;
+        eg:refArea    eg:Q685 .
+
+eg:maternal_mortality_ratio-o0149
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  829.0 ;
+        eg:refArea    eg:Q1045 .
+
+eg:maternal_mortality_ratio-o0150
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  119.0 ;
+        eg:refArea    eg:Q258 .
+
+eg:maternal_mortality_ratio-o0151
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  1.15 ;
+        eg:refArea    eg:Q958 .
+
+eg:maternal_mortality_ratio-o0152
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  4.0 ;
+        eg:refArea    eg:Q29 .
+
+eg:maternal_mortality_ratio-o0153
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  36.0 ;
+        eg:refArea    eg:Q854 .
+
+eg:maternal_mortality_ratio-o0154
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  117.0 ;
+        eg:refArea    eg:Q760 .
+
+eg:maternal_mortality_ratio-o0155
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  68.0 ;
+        eg:refArea    eg:Q757 .
+
+eg:maternal_mortality_ratio-o0156
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  295.0 ;
+        eg:refArea    eg:Q1049 .
+
+eg:maternal_mortality_ratio-o0157
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  120.0 ;
+        eg:refArea    eg:Q730 .
+
+eg:maternal_mortality_ratio-o0158
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  4.0 ;
+        eg:refArea    eg:Q34 .
+
+eg:maternal_mortality_ratio-o0159
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  5.0 ;
+        eg:refArea    eg:Q39 .
+
+eg:maternal_mortality_ratio-o0160
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  31.0 ;
+        eg:refArea    eg:Q858 .
+
+eg:maternal_mortality_ratio-o0161
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  17.0 ;
+        eg:refArea    eg:Q863 .
+
+eg:maternal_mortality_ratio-o0162
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  524.0 ;
+        eg:refArea    eg:Q924 .
+
+eg:maternal_mortality_ratio-o0163
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  37.0 ;
+        eg:refArea    eg:Q869 .
+
+eg:maternal_mortality_ratio-o0164
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  142.0 ;
+        eg:refArea    eg:Q574 .
+
+eg:maternal_mortality_ratio-o0165
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  396.0 ;
+        eg:refArea    eg:Q945 .
+
+eg:maternal_mortality_ratio-o0166
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  52.0 ;
+        eg:refArea    eg:Q678 .
+
+eg:maternal_mortality_ratio-o0167
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  67.0 ;
+        eg:refArea    eg:Q754 .
+
+eg:maternal_mortality_ratio-o0168
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  43.0 ;
+        eg:refArea    eg:Q948 .
+
+eg:maternal_mortality_ratio-o0169
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  17.0 ;
+        eg:refArea    eg:Q43 .
+
+eg:maternal_mortality_ratio-o0170
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  7.0 ;
+        eg:refArea    eg:Q874 .
+
+eg:maternal_mortality_ratio-o0171
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  375.0 ;
+        eg:refArea    eg:Q1036 .
+
+eg:maternal_mortality_ratio-o0172
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  19.0 ;
+        eg:refArea    eg:Q212 .
+
+eg:maternal_mortality_ratio-o0173
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  3.0 ;
+        eg:refArea    eg:Q878 .
+
+eg:maternal_mortality_ratio-o0174
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  7.0 ;
+        eg:refArea    eg:Q145 .
+
+eg:maternal_mortality_ratio-o0175
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  19.0 ;
+        eg:refArea    eg:Q30 .
+
+eg:maternal_mortality_ratio-o0176
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  17.0 ;
+        eg:refArea    eg:Q77 .
+
+eg:maternal_mortality_ratio-o0177
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  29.0 ;
+        eg:refArea    eg:Q265 .
+
+eg:maternal_mortality_ratio-o0178
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  72.0 ;
+        eg:refArea    eg:Q686 .
+
+eg:maternal_mortality_ratio-o0179
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  125.0 ;
+        eg:refArea    eg:Q717 .
+
+eg:maternal_mortality_ratio-o0180
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  43.0 ;
+        eg:refArea    eg:Q881 .
+
+eg:maternal_mortality_ratio-o0181
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  27.0 ;
+        eg:refArea    eg:Q407199 .
+
+eg:maternal_mortality_ratio-o0182
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  164.0 ;
+        eg:refArea    eg:Q805 .
+
+eg:maternal_mortality_ratio-o0183
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  213.0 ;
+        eg:refArea    eg:Q953 .
+
+eg:maternal_mortality_ratio-o0184
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-maternal_mortality_ratio ;
+        eg:refPeriod  eg:Interval2017 ;
+        eg-measure:maternal-mortality-ratio  458.0 ;
+        eg:refArea    eg:Q954 .

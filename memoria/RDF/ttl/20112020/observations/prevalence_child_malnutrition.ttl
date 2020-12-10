@@ -1,0 +1,833 @@
+eg:dataset-prevalence_child_malnutrition a qb:Dataset;
+    dct:title       "Prevalence of child malnutrition"@en;
+    rdfs:label      "prevalence_child_malnutrition"@en;
+    rdfs:comment    "The World Bank: WV.2 | Global goals: ending poverty and improving lives"@en;
+    dct:description "
+Prevalence of stunting is the percentage of children under age 5 whose height for age is more than two standard deviations below the median for the international reference p
+"@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    qb:structure      eg:dsd-child-malnutrition ; 
+.
+
+
+
+eg:prevalence_child_malnutrition-o00
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  38.2 ;
+        eg:refArea    eg:Q889 .
+
+eg:prevalence_child_malnutrition-o01
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  11.3 ;
+        eg:refArea    eg:Q222 .
+
+eg:prevalence_child_malnutrition-o02
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  11.7 ;
+        eg:refArea    eg:Q262 .
+
+eg:prevalence_child_malnutrition-o03
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  37.6 ;
+        eg:refArea    eg:Q916 .
+
+eg:prevalence_child_malnutrition-o04
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  7.9 ;
+        eg:refArea    eg:Q414 .
+
+eg:prevalence_child_malnutrition-o05
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  9.4 ;
+        eg:refArea    eg:Q399 .
+
+eg:prevalence_child_malnutrition-o06
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  17.8 ;
+        eg:refArea    eg:Q227 .
+
+eg:prevalence_child_malnutrition-o07
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  30.8 ;
+        eg:refArea    eg:Q902 .
+
+eg:prevalence_child_malnutrition-o08
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  7.7 ;
+        eg:refArea    eg:Q244 .
+
+eg:prevalence_child_malnutrition-o09
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  15.0 ;
+        eg:refArea    eg:Q242 .
+
+eg:prevalence_child_malnutrition-o010
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  32.2 ;
+        eg:refArea    eg:Q962 .
+
+eg:prevalence_child_malnutrition-o011
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  16.1 ;
+        eg:refArea    eg:Q750 .
+
+eg:prevalence_child_malnutrition-o012
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  8.9 ;
+        eg:refArea    eg:Q225 .
+
+eg:prevalence_child_malnutrition-o013
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  7.0 ;
+        eg:refArea    eg:Q219 .
+
+eg:prevalence_child_malnutrition-o014
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  24.9 ;
+        eg:refArea    eg:Q965 .
+
+eg:prevalence_child_malnutrition-o015
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  54.2 ;
+        eg:refArea    eg:Q967 .
+
+eg:prevalence_child_malnutrition-o016
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  32.4 ;
+        eg:refArea    eg:Q424 .
+
+eg:prevalence_child_malnutrition-o017
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  28.9 ;
+        eg:refArea    eg:Q1009 .
+
+eg:prevalence_child_malnutrition-o018
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  40.8 ;
+        eg:refArea    eg:Q929 .
+
+eg:prevalence_child_malnutrition-o019
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  39.8 ;
+        eg:refArea    eg:Q657 .
+
+eg:prevalence_child_malnutrition-o020
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  1.8 ;
+        eg:refArea    eg:Q298 .
+
+eg:prevalence_child_malnutrition-o021
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  8.1 ;
+        eg:refArea    eg:Q148 .
+
+eg:prevalence_child_malnutrition-o022
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  12.7 ;
+        eg:refArea    eg:Q739 .
+
+eg:prevalence_child_malnutrition-o023
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  31.1 ;
+        eg:refArea    eg:Q970 .
+
+eg:prevalence_child_malnutrition-o024
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  42.7 ;
+        eg:refArea    eg:Q974 .
+
+eg:prevalence_child_malnutrition-o025
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  21.2 ;
+        eg:refArea    eg:Q971 .
+
+eg:prevalence_child_malnutrition-o026
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  21.6 ;
+        eg:refArea    eg:Q1008 .
+
+eg:prevalence_child_malnutrition-o027
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  33.5 ;
+        eg:refArea    eg:Q977 .
+
+eg:prevalence_child_malnutrition-o028
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  7.1 ;
+        eg:refArea    eg:Q786 .
+
+eg:prevalence_child_malnutrition-o029
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  23.9 ;
+        eg:refArea    eg:Q736 .
+
+eg:prevalence_child_malnutrition-o030
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  22.3 ;
+        eg:refArea    eg:Q79 .
+
+eg:prevalence_child_malnutrition-o031
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  13.6 ;
+        eg:refArea    eg:Q792 .
+
+eg:prevalence_child_malnutrition-o032
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  26.2 ;
+        eg:refArea    eg:Q983 .
+
+eg:prevalence_child_malnutrition-o033
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  25.5 ;
+        eg:refArea    eg:Q1050 .
+
+eg:prevalence_child_malnutrition-o034
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  36.8 ;
+        eg:refArea    eg:Q115 .
+
+eg:prevalence_child_malnutrition-o035
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  17.0 ;
+        eg:refArea    eg:Q1000 .
+
+eg:prevalence_child_malnutrition-o036
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  13.6 ;
+        eg:refArea    eg:Q1005 .
+
+eg:prevalence_child_malnutrition-o037
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  1.7 ;
+        eg:refArea    eg:Q183 .
+
+eg:prevalence_child_malnutrition-o038
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  17.5 ;
+        eg:refArea    eg:Q117 .
+
+eg:prevalence_child_malnutrition-o039
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  46.7 ;
+        eg:refArea    eg:Q774 .
+
+eg:prevalence_child_malnutrition-o040
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  30.3 ;
+        eg:refArea    eg:Q1006 .
+
+eg:prevalence_child_malnutrition-o041
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  27.6 ;
+        eg:refArea    eg:Q1007 .
+
+eg:prevalence_child_malnutrition-o042
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  11.3 ;
+        eg:refArea    eg:Q734 .
+
+eg:prevalence_child_malnutrition-o043
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  21.9 ;
+        eg:refArea    eg:Q790 .
+
+eg:prevalence_child_malnutrition-o044
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  22.6 ;
+        eg:refArea    eg:Q783 .
+
+eg:prevalence_child_malnutrition-o045
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  34.7 ;
+        eg:refArea    eg:Q668 .
+
+eg:prevalence_child_malnutrition-o046
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  30.5 ;
+        eg:refArea    eg:Q252 .
+
+eg:prevalence_child_malnutrition-o047
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  6.8 ;
+        eg:refArea    eg:Q794 .
+
+eg:prevalence_child_malnutrition-o048
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  12.6 ;
+        eg:refArea    eg:Q796 .
+
+eg:prevalence_child_malnutrition-o049
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  6.0 ;
+        eg:refArea    eg:Q766 .
+
+eg:prevalence_child_malnutrition-o050
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  7.8 ;
+        eg:refArea    eg:Q810 .
+
+eg:prevalence_child_malnutrition-o051
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  8.0 ;
+        eg:refArea    eg:Q232 .
+
+eg:prevalence_child_malnutrition-o052
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  26.2 ;
+        eg:refArea    eg:Q114 .
+
+eg:prevalence_child_malnutrition-o053
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  19.1 ;
+        eg:refArea    eg:Q423 .
+
+eg:prevalence_child_malnutrition-o054
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  6.4 ;
+        eg:refArea    eg:Q817 .
+
+eg:prevalence_child_malnutrition-o055
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  11.8 ;
+        eg:refArea    eg:Q813 .
+
+eg:prevalence_child_malnutrition-o056
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  33.1 ;
+        eg:refArea    eg:Q819 .
+
+eg:prevalence_child_malnutrition-o057
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  34.6 ;
+        eg:refArea    eg:Q1013 .
+
+eg:prevalence_child_malnutrition-o058
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  30.1 ;
+        eg:refArea    eg:Q1014 .
+
+eg:prevalence_child_malnutrition-o059
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  38.1 ;
+        eg:refArea    eg:Q1016 .
+
+eg:prevalence_child_malnutrition-o060
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  41.6 ;
+        eg:refArea    eg:Q1019 .
+
+eg:prevalence_child_malnutrition-o061
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  39.0 ;
+        eg:refArea    eg:Q1020 .
+
+eg:prevalence_child_malnutrition-o062
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  20.7 ;
+        eg:refArea    eg:Q833 .
+
+eg:prevalence_child_malnutrition-o063
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  26.9 ;
+        eg:refArea    eg:Q912 .
+
+eg:prevalence_child_malnutrition-o064
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  34.8 ;
+        eg:refArea    eg:Q709 .
+
+eg:prevalence_child_malnutrition-o065
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  22.8 ;
+        eg:refArea    eg:Q1025 .
+
+eg:prevalence_child_malnutrition-o066
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  10.0 ;
+        eg:refArea    eg:Q96 .
+
+eg:prevalence_child_malnutrition-o067
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  6.4 ;
+        eg:refArea    eg:Q217 .
+
+eg:prevalence_child_malnutrition-o068
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  9.4 ;
+        eg:refArea    eg:Q711 .
+
+eg:prevalence_child_malnutrition-o069
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  9.4 ;
+        eg:refArea    eg:Q236 .
+
+eg:prevalence_child_malnutrition-o070
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  15.1 ;
+        eg:refArea    eg:Q1028 .
+
+eg:prevalence_child_malnutrition-o071
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  42.3 ;
+        eg:refArea    eg:Q1029 .
+
+eg:prevalence_child_malnutrition-o072
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  29.4 ;
+        eg:refArea    eg:Q836 .
+
+eg:prevalence_child_malnutrition-o073
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  22.7 ;
+        eg:refArea    eg:Q1030 .
+
+eg:prevalence_child_malnutrition-o074
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  36.0 ;
+        eg:refArea    eg:Q837 .
+
+eg:prevalence_child_malnutrition-o075
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  17.3 ;
+        eg:refArea    eg:Q811 .
+
+eg:prevalence_child_malnutrition-o076
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  48.5 ;
+        eg:refArea    eg:Q1032 .
+
+eg:prevalence_child_malnutrition-o077
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  36.8 ;
+        eg:refArea    eg:Q1033 .
+
+eg:prevalence_child_malnutrition-o078
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  4.9 ;
+        eg:refArea    eg:Q221 .
+
+eg:prevalence_child_malnutrition-o079
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  11.4 ;
+        eg:refArea    eg:Q842 .
+
+eg:prevalence_child_malnutrition-o080
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  37.6 ;
+        eg:refArea    eg:Q843 .
+
+eg:prevalence_child_malnutrition-o081
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  5.6 ;
+        eg:refArea    eg:Q733 .
+
+eg:prevalence_child_malnutrition-o082
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  12.2 ;
+        eg:refArea    eg:Q419 .
+
+eg:prevalence_child_malnutrition-o083
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  30.3 ;
+        eg:refArea    eg:Q928 .
+
+eg:prevalence_child_malnutrition-o084
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  2.6 ;
+        eg:refArea    eg:Q36 .
+
+eg:prevalence_child_malnutrition-o085
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  36.9 ;
+        eg:refArea    eg:Q1037 .
+
+eg:prevalence_child_malnutrition-o086
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  4.9 ;
+        eg:refArea    eg:Q683 .
+
+eg:prevalence_child_malnutrition-o087
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  17.2 ;
+        eg:refArea    eg:Q1039 .
+
+eg:prevalence_child_malnutrition-o088
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  18.8 ;
+        eg:refArea    eg:Q1041 .
+
+eg:prevalence_child_malnutrition-o089
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  6.0 ;
+        eg:refArea    eg:Q403 .
+
+eg:prevalence_child_malnutrition-o090
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  7.9 ;
+        eg:refArea    eg:Q1042 .
+
+eg:prevalence_child_malnutrition-o091
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  29.5 ;
+        eg:refArea    eg:Q1044 .
+
+eg:prevalence_child_malnutrition-o092
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  31.7 ;
+        eg:refArea    eg:Q685 .
+
+eg:prevalence_child_malnutrition-o093
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  27.4 ;
+        eg:refArea    eg:Q258 .
+
+eg:prevalence_child_malnutrition-o094
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  17.3 ;
+        eg:refArea    eg:Q854 .
+
+eg:prevalence_child_malnutrition-o095
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  2.5 ;
+        eg:refArea    eg:Q760 .
+
+eg:prevalence_child_malnutrition-o096
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  38.2 ;
+        eg:refArea    eg:Q1049 .
+
+eg:prevalence_child_malnutrition-o097
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  17.5 ;
+        eg:refArea    eg:Q863 .
+
+eg:prevalence_child_malnutrition-o098
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  31.8 ;
+        eg:refArea    eg:Q924 .
+
+eg:prevalence_child_malnutrition-o099
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  10.5 ;
+        eg:refArea    eg:Q869 .
+
+eg:prevalence_child_malnutrition-o0100
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  51.7 ;
+        eg:refArea    eg:Q574 .
+
+eg:prevalence_child_malnutrition-o0101
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  23.8 ;
+        eg:refArea    eg:Q945 .
+
+eg:prevalence_child_malnutrition-o0102
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  8.1 ;
+        eg:refArea    eg:Q678 .
+
+eg:prevalence_child_malnutrition-o0103
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  9.2 ;
+        eg:refArea    eg:Q754 .
+
+eg:prevalence_child_malnutrition-o0104
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  8.4 ;
+        eg:refArea    eg:Q948 .
+
+eg:prevalence_child_malnutrition-o0105
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  6.0 ;
+        eg:refArea    eg:Q43 .
+
+eg:prevalence_child_malnutrition-o0106
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  11.5 ;
+        eg:refArea    eg:Q874 .
+
+eg:prevalence_child_malnutrition-o0107
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  28.9 ;
+        eg:refArea    eg:Q1036 .
+
+eg:prevalence_child_malnutrition-o0108
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  3.5 ;
+        eg:refArea    eg:Q30 .
+
+eg:prevalence_child_malnutrition-o0109
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  10.7 ;
+        eg:refArea    eg:Q77 .
+
+eg:prevalence_child_malnutrition-o0110
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  10.8 ;
+        eg:refArea    eg:Q265 .
+
+eg:prevalence_child_malnutrition-o0111
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  28.9 ;
+        eg:refArea    eg:Q686 .
+
+eg:prevalence_child_malnutrition-o0112
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  23.8 ;
+        eg:refArea    eg:Q881 .
+
+eg:prevalence_child_malnutrition-o0113
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  7.4 ;
+        eg:refArea    eg:Q407199 .
+
+eg:prevalence_child_malnutrition-o0114
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  46.4 ;
+        eg:refArea    eg:Q805 .
+
+eg:prevalence_child_malnutrition-o0115
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  34.6 ;
+        eg:refArea    eg:Q953 .
+
+eg:prevalence_child_malnutrition-o0116
+        rdf:type      qb:Observation ;
+        qb:dataSet    eg:dataset-prevalence_child_malnutrition ;
+        eg:refPeriod  eg:Interval2011-19 ;
+        eg-measure:prevalence-stunting-height-age  23.5 ;
+        eg:refArea    eg:Q954 .

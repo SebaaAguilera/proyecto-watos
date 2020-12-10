@@ -1,0 +1,445 @@
+
+ # c19-structure:dsd-ecdcCumulative
+c19-structure:dsd-ecdcCumulative a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:patient;               qb:order 2 ],
+    [ qb:dimension c19-dimension:disease;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:cumulativeCases ;
+      qb:measure c19-measure:cases ;];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+      qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+
+ # c19-structure:dsd-excessMortalityPScores
+c19-structure:dsd-excessMortalityPScores a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:patient;               qb:order 2 ],
+    [ qb:dimension c19-dimension:disease;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:pScore ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMultiplier ];
+.
+
+
+ # c19-structure:dsd-CSSERecoveredGlobal
+c19-structure:dsd-CSSERecoveredGlobal a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 5 ],
+    [ qb:dimension c19-dimension:refArea;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refSubArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:patient;               qb:order 2 ],
+    [ qb:dimension c19-dimension:disease;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:cases ];
+.
+
+ # c19-structure:dsd-CSSEDeathsGlobal
+c19-structure:dsd-CSSEDeathsGlobal a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 5 ],
+    [ qb:dimension c19-dimension:refArea;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refSubArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:patient;               qb:order 2 ],
+    [ qb:dimension c19-dimension:disease;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:cases ];
+.
+
+ # c19-structure:dsd-CSSEConfirmedGlobal
+c19-structure:dsd-CSSEConfirmedGlobal a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 5 ],
+    [ qb:dimension c19-dimension:refArea;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refSubArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:patient;               qb:order 2 ],
+    [ qb:dimension c19-dimension:disease;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:cases ];
+.
+
+ # c19-structure:dsd-salaryWorkers
+c19-structure:dsd-salaryWorkers a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
+    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:salaryWorkers ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+
+ # c19-structure:dsd-accountOwnership
+c19-structure:dsd-accountOwnership a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 3 ],
+    [ qb:dimension c19-dimension:ageInterval;               qb:order 2 ],
+    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:accountOwnership ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-womenFirstMarried
+c19-structure:dsd-womenFirstMarried a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 3 ],
+    [ qb:dimension c19-dimension:ageInterval;               qb:order 2 ],
+    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:womenFirstMarried ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+
+
+ # c19-structure:dsd-lifeExpectancyBirth
+c19-structure:dsd-lifeExpectancyBirth a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
+    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:lifeExpectancyBirth ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;]
+.
+
+ # c19-structure:dsd-intentionalHomicides
+c19-structure:dsd-intentionalHomicides a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:intentionalHomicides ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-terrestrialMarineProtectedAreas
+c19-structure:dsd-terrestrialMarineProtectedAreas a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:terrestrialMarineProtectedAreas ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-carbonDioxideEmissions
+c19-structure:dsd-carbonDioxideEmissions a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:carbonDioxideEmissionsPerCapita ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ];
+.
+
+ # c19-structure:dsd-adjustedNetSavings
+c19-structure:dsd-adjustedNetSavings a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:adjustedNetSavings ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-PM25AirPollution
+c19-structure:dsd-PM25AirPollution a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:meanAnnualExposurePM25 ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+     qb:attribute sdmx-attribute:unitMeasure ;];
+.
+
+
+ # c19-structure:dsd-populationLivingSlums
+c19-structure:dsd-populationLivingSlums a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:populationLivingSlums ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-gdpOnResearchDevelopment
+c19-structure:dsd-gdpOnResearchDevelopment a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:gdpOnResearchDevelopment ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-renewableEnergyConsumption
+c19-structure:dsd-renewableEnergyConsumption a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:renewableEnergyConsumption ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-accessElectricity
+c19-structure:dsd-accessElectricity a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:accessElectricity ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-peopleUsingSanitationServices
+c19-structure:dsd-peopleUsingSanitationServices a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:peopleUsingSanitationServices ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+
+
+ # c19-structure:dsd-peopleUsingDrinkingWaterServices
+c19-structure:dsd-peopleUsingDrinkingWaterServices a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:peopleUsingDrinkingWaterServices ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+
+ # c19-structure:dsd-contributingFamilyWorkers
+c19-structure:dsd-contributingFamilyWorkers a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
+    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:contributingFamilyWorkers ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-primaryCompletionRate
+c19-structure:dsd-primaryCompletionRate a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:completionRate ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-mortalityByTrafficInjury
+c19-structure:dsd-mortalityByTrafficInjury a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:mortality ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-incidenceTuberculosis
+c19-structure:dsd-incidenceTuberculosis a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:incidenceTuberculosis ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-hivInfections
+c19-structure:dsd-hivInfections a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
+    [ qb:dimension c19-dimension:ageInterval;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:hivInfections ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-childMortalityRate
+c19-structure:dsd-childMortalityRate a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
+    [ qb:dimension c19-dimension:ageInterval;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:mortalityRate ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-maternalMortalityRatio
+c19-structure:dsd-maternalMortalityRatio a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:maternalMortalityRatio ];
+    qb:component
+    [qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-prevalenceStuntingHeight
+c19-structure:dsd-prevalenceStuntingHeight a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
+    [ qb:dimension c19-dimension:ageInterval;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:prevalenceStuntingHeight ];
+    qb:component
+    [qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-shareIncome
+c19-structure:dsd-shareIncome a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
+    [ qb:dimension c19-dimension:percentileInterval;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:shareIncome ];
+    qb:component
+    [qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-grossDomesticProduct
+c19-structure:dsd-grossDomesticProduct a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:grossDomesticProductGrowthRate ;
+     qb:measure c19-measure:grossDomesticProductGrowthRatePerCapita; ];
+    qb:component
+    [qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-grossNationalIncomePPP
+c19-structure:dsd-grossNationalIncomePPP a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:grossNationalIncomePPP ;
+     qb:measure c19-measure:grossNationalIncomePPPPerCapita; ];
+    qb:component
+    [qb:attribute sdmx-attribute:currency ;
+    qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-grossNationalIncome
+c19-structure:dsd-grossNationalIncome a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:grossNationalIncome ;
+     qb:measure c19-measure:grossNationalIncomePerCapita; ];
+    qb:component
+    [qb:attribute sdmx-attribute:currency ;
+    qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-populationDensity
+c19-structure:dsd-populationDensity a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:populationDensity ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure;] ;
+.
+
+ # c19-structure:dsd-surfaceArea
+c19-structure:dsd-surfaceArea a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:surface_area ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMeasure; ;
+    qb:attribute sdmx-attribute:unitMultiplier] ;
+.
+
+ # c19-structure:dsd-populationMillions
+c19-structure:dsd-populationMillions a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ];
+    qb:component
+    [ qb:measure c19-measure:population ];
+    qb:component
+    [ qb:attribute sdmx-attribute:unitMultiplier ; ] ; 
+.

@@ -1,0 +1,1409 @@
+eg:dataset-population a qb:Dataset;
+    dct:title       "Population"@en;
+    rdfs:label      "population"@en;
+    rdfs:comment    "The World Bank: WV.1 | Size of the economy"@en;
+    dct:description "Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates."@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    qb:structure      eg:dsd-pop-millions ; 
+.
+
+
+eg:population-o00  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  38.0 ;
+        eg:refArea             eg:Q889 .
+
+eg:population-o01  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.9 ;
+        eg:refArea             eg:Q222 .
+
+eg:population-o02  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  43.1 ;
+        eg:refArea             eg:Q262 .
+
+eg:population-o03  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q16641 .
+
+eg:population-o04  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q228 .
+
+eg:population-o05  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  31.8 ;
+        eg:refArea             eg:Q916 .
+
+eg:population-o06  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q781 .
+
+eg:population-o07  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  44.9 ;
+        eg:refArea             eg:Q414 .
+
+eg:population-o08  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  3.0 ;
+        eg:refArea             eg:Q399 .
+
+eg:population-o09  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q21203 .
+
+eg:population-o010  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  25.4 ;
+        eg:refArea             eg:Q408 .
+
+eg:population-o011  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  8.9 ;
+        eg:refArea             eg:Q40 .
+
+eg:population-o012  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  10.0 ;
+        eg:refArea             eg:Q227 .
+
+eg:population-o013  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.4 ;
+        eg:refArea             eg:Q778 .
+
+eg:population-o014  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.6 ;
+        eg:refArea             eg:Q398 .
+
+eg:population-o015  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  163.0 ;
+        eg:refArea             eg:Q902 .
+
+eg:population-o016  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.3 ;
+        eg:refArea             eg:Q244 .
+
+eg:population-o017  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  9.5 ;
+        eg:refArea             eg:Q184 .
+
+eg:population-o018  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.5 ;
+        eg:refArea             eg:Q31 .
+
+eg:population-o019  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.4 ;
+        eg:refArea             eg:Q242 .
+
+eg:population-o020  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.8 ;
+        eg:refArea             eg:Q962 .
+
+eg:population-o021  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q23635 .
+
+eg:population-o022  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.8 ;
+        eg:refArea             eg:Q917 .
+
+eg:population-o023  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.5 ;
+        eg:refArea             eg:Q750 .
+
+eg:population-o024  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  3.3 ;
+        eg:refArea             eg:Q225 .
+
+eg:population-o025  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.3 ;
+        eg:refArea             eg:Q963 .
+
+eg:population-o026  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  211.0 ;
+        eg:refArea             eg:Q155 .
+
+eg:population-o027  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.4 ;
+        eg:refArea             eg:Q921 .
+
+eg:population-o028  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  7.0 ;
+        eg:refArea             eg:Q219 .
+
+eg:population-o029  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  20.3 ;
+        eg:refArea             eg:Q965 .
+
+eg:population-o030  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.5 ;
+        eg:refArea             eg:Q967 .
+
+eg:population-o031  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  16.5 ;
+        eg:refArea             eg:Q424 .
+
+eg:population-o032  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  25.9 ;
+        eg:refArea             eg:Q1009 .
+
+eg:population-o033  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  37.6 ;
+        eg:refArea             eg:Q16 .
+
+eg:population-o034  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.5 ;
+        eg:refArea             eg:Q1011 .
+
+eg:population-o035  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q5785 .
+
+eg:population-o036  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.7 ;
+        eg:refArea             eg:Q929 .
+
+eg:population-o037  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  15.9 ;
+        eg:refArea             eg:Q657 .
+
+eg:population-o038  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.2 ;
+        eg:refArea             eg:Q42314 .
+
+eg:population-o039  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  19.0 ;
+        eg:refArea             eg:Q298 .
+
+eg:population-o040  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1397.7 ;
+        eg:refArea             eg:Q148 .
+
+eg:population-o041  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  7.5 ;
+        eg:refArea             eg:Q8646 .
+
+eg:population-o042  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.6 ;
+        eg:refArea             eg:Q14773 .
+
+eg:population-o043  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  50.3 ;
+        eg:refArea             eg:Q739 .
+
+eg:population-o044  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.9 ;
+        eg:refArea             eg:Q970 .
+
+eg:population-o045  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  86.8 ;
+        eg:refArea             eg:Q974 .
+
+eg:population-o046  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.4 ;
+        eg:refArea             eg:Q971 .
+
+eg:population-o047  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.0 ;
+        eg:refArea             eg:Q800 .
+
+eg:population-o048  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  25.7 ;
+        eg:refArea             eg:Q1008 .
+
+eg:population-o049  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.1 ;
+        eg:refArea             eg:Q224 .
+
+eg:population-o050  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.3 ;
+        eg:refArea             eg:Q241 .
+
+eg:population-o051  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.2 ;
+        eg:refArea             eg:Q25279 .
+
+eg:population-o052  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.2 ;
+        eg:refArea             eg:Q229 .
+
+eg:population-o053  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  10.7 ;
+        eg:refArea             eg:Q213 .
+
+eg:population-o054  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.8 ;
+        eg:refArea             eg:Q35 .
+
+eg:population-o055  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.0 ;
+        eg:refArea             eg:Q977 .
+
+eg:population-o056  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q784 .
+
+eg:population-o057  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  10.7 ;
+        eg:refArea             eg:Q786 .
+
+eg:population-o058  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  17.4 ;
+        eg:refArea             eg:Q736 .
+
+eg:population-o059  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  100.4 ;
+        eg:refArea             eg:Q79 .
+
+eg:population-o060  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  6.5 ;
+        eg:refArea             eg:Q792 .
+
+eg:population-o061  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.4 ;
+        eg:refArea             eg:Q983 .
+
+eg:population-o062  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.3 ;
+        eg:refArea             eg:Q191 .
+
+eg:population-o063  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.1 ;
+        eg:refArea             eg:Q1050 .
+
+eg:population-o064  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  112.1 ;
+        eg:refArea             eg:Q115 .
+
+eg:population-o065  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q4628 .
+
+eg:population-o066  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.9 ;
+        eg:refArea             eg:Q712 .
+
+eg:population-o067  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.5 ;
+        eg:refArea             eg:Q33 .
+
+eg:population-o068  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  67.1 ;
+        eg:refArea             eg:Q142 .
+
+eg:population-o069  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.3 ;
+        eg:refArea             eg:Q30971 .
+
+eg:population-o070  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.2 ;
+        eg:refArea             eg:Q1000 .
+
+eg:population-o071  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.3 ;
+        eg:refArea             eg:Q1005 .
+
+eg:population-o072  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  3.7 ;
+        eg:refArea             eg:Q230 .
+
+eg:population-o073  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  83.1 ;
+        eg:refArea             eg:Q183 .
+
+eg:population-o074  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  30.4 ;
+        eg:refArea             eg:Q117 .
+
+eg:population-o075  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  10.7 ;
+        eg:refArea             eg:Q41 .
+
+eg:population-o076  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q223 .
+
+eg:population-o077  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q769 .
+
+eg:population-o078  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.2 ;
+        eg:refArea             eg:Q16635 .
+
+eg:population-o079  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  16.6 ;
+        eg:refArea             eg:Q774 .
+
+eg:population-o080  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  12.8 ;
+        eg:refArea             eg:Q1006 .
+
+eg:population-o081  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.9 ;
+        eg:refArea             eg:Q1007 .
+
+eg:population-o082  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.8 ;
+        eg:refArea             eg:Q734 .
+
+eg:population-o083  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.3 ;
+        eg:refArea             eg:Q790 .
+
+eg:population-o084  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  9.7 ;
+        eg:refArea             eg:Q783 .
+
+eg:population-o085  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  9.8 ;
+        eg:refArea             eg:Q28 .
+
+eg:population-o086  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.4 ;
+        eg:refArea             eg:Q189 .
+
+eg:population-o087  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1366.4 ;
+        eg:refArea             eg:Q668 .
+
+eg:population-o088  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  270.6 ;
+        eg:refArea             eg:Q252 .
+
+eg:population-o089  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  82.9 ;
+        eg:refArea             eg:Q794 .
+
+eg:population-o090  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  39.3 ;
+        eg:refArea             eg:Q796 .
+
+eg:population-o091  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.9 ;
+        eg:refArea             eg:Q27 .
+
+eg:population-o092  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q9676 .
+
+eg:population-o093  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  9.1 ;
+        eg:refArea             eg:Q801 .
+
+eg:population-o094  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  60.3 ;
+        eg:refArea             eg:Q38 .
+
+eg:population-o095  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.9 ;
+        eg:refArea             eg:Q766 .
+
+eg:population-o096  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  126.3 ;
+        eg:refArea             eg:Q17 .
+
+eg:population-o097  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  10.1 ;
+        eg:refArea             eg:Q810 .
+
+eg:population-o098  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  18.5 ;
+        eg:refArea             eg:Q232 .
+
+eg:population-o099  rdf:type  qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  52.6 ;
+        eg:refArea             eg:Q114 .
+
+eg:population-o0100
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q710 .
+
+eg:population-o0101
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  25.7 ;
+        eg:refArea             eg:Q423 .
+
+eg:population-o0102
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  51.7 ;
+        eg:refArea             eg:Q884 .
+
+eg:population-o0103
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.8 ;
+        eg:refArea             eg:Q1246 .
+
+eg:population-o0104
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.2 ;
+        eg:refArea             eg:Q817 .
+
+eg:population-o0105
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  6.5 ;
+        eg:refArea             eg:Q813 .
+
+eg:population-o0106
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  7.2 ;
+        eg:refArea             eg:Q819 .
+
+eg:population-o0107
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.9 ;
+        eg:refArea             eg:Q211 .
+
+eg:population-o0108
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  6.9 ;
+        eg:refArea             eg:Q822 .
+
+eg:population-o0109
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.1 ;
+        eg:refArea             eg:Q1013 .
+
+eg:population-o0110
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.9 ;
+        eg:refArea             eg:Q1014 .
+
+eg:population-o0111
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  6.8 ;
+        eg:refArea             eg:Q1016 .
+
+eg:population-o0112
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q347 .
+
+eg:population-o0113
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.8 ;
+        eg:refArea             eg:Q37 .
+
+eg:population-o0114
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.6 ;
+        eg:refArea             eg:Q32 .
+
+eg:population-o0115
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  27.0 ;
+        eg:refArea             eg:Q1019 .
+
+eg:population-o0116
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  18.6 ;
+        eg:refArea             eg:Q1020 .
+
+eg:population-o0117
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  31.9 ;
+        eg:refArea             eg:Q833 .
+
+eg:population-o0118
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.5 ;
+        eg:refArea             eg:Q826 .
+
+eg:population-o0119
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  19.7 ;
+        eg:refArea             eg:Q912 .
+
+eg:population-o0120
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.5 ;
+        eg:refArea             eg:Q233 .
+
+eg:population-o0121
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q709 .
+
+eg:population-o0122
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.5 ;
+        eg:refArea             eg:Q1025 .
+
+eg:population-o0123
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.3 ;
+        eg:refArea             eg:Q1027 .
+
+eg:population-o0124
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  127.6 ;
+        eg:refArea             eg:Q96 .
+
+eg:population-o0125
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q702 .
+
+eg:population-o0126
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.7 ;
+        eg:refArea             eg:Q217 .
+
+eg:population-o0127
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q235 .
+
+eg:population-o0128
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  3.2 ;
+        eg:refArea             eg:Q711 .
+
+eg:population-o0129
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.6 ;
+        eg:refArea             eg:Q236 .
+
+eg:population-o0130
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  36.5 ;
+        eg:refArea             eg:Q1028 .
+
+eg:population-o0131
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  30.4 ;
+        eg:refArea             eg:Q1029 .
+
+eg:population-o0132
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  54.0 ;
+        eg:refArea             eg:Q836 .
+
+eg:population-o0133
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.5 ;
+        eg:refArea             eg:Q1030 .
+
+eg:population-o0134
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q697 .
+
+eg:population-o0135
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  28.6 ;
+        eg:refArea             eg:Q837 .
+
+eg:population-o0136
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  17.3 ;
+        eg:refArea             eg:Q55 .
+
+eg:population-o0137
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.3 ;
+        eg:refArea             eg:Q33788 .
+
+eg:population-o0138
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.9 ;
+        eg:refArea             eg:Q664 .
+
+eg:population-o0139
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  6.5 ;
+        eg:refArea             eg:Q811 .
+
+eg:population-o0140
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  23.3 ;
+        eg:refArea             eg:Q1032 .
+
+eg:population-o0141
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  201.0 ;
+        eg:refArea             eg:Q1033 .
+
+eg:population-o0142
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.1 ;
+        eg:refArea             eg:Q221 .
+
+eg:population-o0143
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q16644 .
+
+eg:population-o0144
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.3 ;
+        eg:refArea             eg:Q20 .
+
+eg:population-o0145
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.0 ;
+        eg:refArea             eg:Q842 .
+
+eg:population-o0146
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  216.6 ;
+        eg:refArea             eg:Q843 .
+
+eg:population-o0147
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q695 .
+
+eg:population-o0148
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.2 ;
+        eg:refArea             eg:Q804 .
+
+eg:population-o0149
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  8.8 ;
+        eg:refArea             eg:Q691 .
+
+eg:population-o0150
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  7.0 ;
+        eg:refArea             eg:Q733 .
+
+eg:population-o0151
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  32.5 ;
+        eg:refArea             eg:Q419 .
+
+eg:population-o0152
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  108.1 ;
+        eg:refArea             eg:Q928 .
+
+eg:population-o0153
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  38.0 ;
+        eg:refArea             eg:Q36 .
+
+eg:population-o0154
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  10.3 ;
+        eg:refArea             eg:Q45 .
+
+eg:population-o0155
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  3.2 ;
+        eg:refArea             eg:Q1183 .
+
+eg:population-o0156
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.8 ;
+        eg:refArea             eg:Q846 .
+
+eg:population-o0157
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  19.4 ;
+        eg:refArea             eg:Q218 .
+
+eg:population-o0158
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  144.4 ;
+        eg:refArea             eg:Q159 .
+
+eg:population-o0159
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  12.6 ;
+        eg:refArea             eg:Q1037 .
+
+eg:population-o0160
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.2 ;
+        eg:refArea             eg:Q683 .
+
+eg:population-o0161
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q238 .
+
+eg:population-o0162
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.2 ;
+        eg:refArea             eg:Q1039 .
+
+eg:population-o0163
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  34.3 ;
+        eg:refArea             eg:Q851 .
+
+eg:population-o0164
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  16.3 ;
+        eg:refArea             eg:Q1041 .
+
+eg:population-o0165
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  6.9 ;
+        eg:refArea             eg:Q403 .
+
+eg:population-o0166
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q1042 .
+
+eg:population-o0167
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  7.8 ;
+        eg:refArea             eg:Q1044 .
+
+eg:population-o0168
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.7 ;
+        eg:refArea             eg:Q334 .
+
+eg:population-o0169
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q26273 .
+
+eg:population-o0170
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.5 ;
+        eg:refArea             eg:Q214 .
+
+eg:population-o0171
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  2.1 ;
+        eg:refArea             eg:Q215 .
+
+eg:population-o0172
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.7 ;
+        eg:refArea             eg:Q685 .
+
+eg:population-o0173
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  15.4 ;
+        eg:refArea             eg:Q1045 .
+
+eg:population-o0174
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  58.6 ;
+        eg:refArea             eg:Q258 .
+
+eg:population-o0175
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.1 ;
+        eg:refArea             eg:Q958 .
+
+eg:population-o0176
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  47.1 ;
+        eg:refArea             eg:Q29 .
+
+eg:population-o0177
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  21.8 ;
+        eg:refArea             eg:Q854 .
+
+eg:population-o0178
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q763 .
+
+eg:population-o0179
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.2 ;
+        eg:refArea             eg:Q760 .
+
+eg:population-o0180
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q126125 .
+
+eg:population-o0181
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q757 .
+
+eg:population-o0182
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  42.8 ;
+        eg:refArea             eg:Q1049 .
+
+eg:population-o0183
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.6 ;
+        eg:refArea             eg:Q730 .
+
+eg:population-o0184
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  10.3 ;
+        eg:refArea             eg:Q34 .
+
+eg:population-o0185
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  8.6 ;
+        eg:refArea             eg:Q39 .
+
+eg:population-o0186
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  17.1 ;
+        eg:refArea             eg:Q858 .
+
+eg:population-o0187
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  9.3 ;
+        eg:refArea             eg:Q863 .
+
+eg:population-o0188
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  58.0 ;
+        eg:refArea             eg:Q924 .
+
+eg:population-o0189
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  69.6 ;
+        eg:refArea             eg:Q869 .
+
+eg:population-o0190
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.3 ;
+        eg:refArea             eg:Q574 .
+
+eg:population-o0191
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  8.1 ;
+        eg:refArea             eg:Q945 .
+
+eg:population-o0192
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q678 .
+
+eg:population-o0193
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  1.4 ;
+        eg:refArea             eg:Q754 .
+
+eg:population-o0194
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  11.7 ;
+        eg:refArea             eg:Q948 .
+
+eg:population-o0195
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  83.4 ;
+        eg:refArea             eg:Q43 .
+
+eg:population-o0196
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  5.9 ;
+        eg:refArea             eg:Q874 .
+
+eg:population-o0197
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q18221 .
+
+eg:population-o0198
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.0 ;
+        eg:refArea             eg:Q672 .
+
+eg:population-o0199
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  44.3 ;
+        eg:refArea             eg:Q1036 .
+
+eg:population-o0200
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  44.4 ;
+        eg:refArea             eg:Q212 .
+
+eg:population-o0201
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  9.8 ;
+        eg:refArea             eg:Q878 .
+
+eg:population-o0202
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  66.8 ;
+        eg:refArea             eg:Q145 .
+
+eg:population-o0203
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  328.2 ;
+        eg:refArea             eg:Q30 .
+
+eg:population-o0204
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  3.5 ;
+        eg:refArea             eg:Q77 .
+
+eg:population-o0205
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  33.6 ;
+        eg:refArea             eg:Q265 .
+
+eg:population-o0206
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.3 ;
+        eg:refArea             eg:Q686 .
+
+eg:population-o0207
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  28.5 ;
+        eg:refArea             eg:Q717 .
+
+eg:population-o0208
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  96.5 ;
+        eg:refArea             eg:Q881 .
+
+eg:population-o0209
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  0.1 ;
+        eg:refArea             eg:Q11703 .
+
+eg:population-o0210
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  4.7 ;
+        eg:refArea             eg:Q407199 .
+
+eg:population-o0211
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  29.2 ;
+        eg:refArea             eg:Q805 .
+
+eg:population-o0212
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  17.9 ;
+        eg:refArea             eg:Q953 .
+
+eg:population-o0213
+        rdf:type               qb:Observation ;
+        qb:dataSet             eg:dataset-population ;
+        eg:refPeriod           eg:Interval2019 ;
+        eg-measure:population  14.6 ;
+        eg:refArea             eg:Q954 .

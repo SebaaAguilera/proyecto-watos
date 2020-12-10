@@ -1,0 +1,1420 @@
+eg:dataset-percentage_share_income a qb:Dataset;
+    dct:title       "Percentage share of income or consumption"@en;
+    rdfs:label      "percentage_share_income"@en;
+    rdfs:comment    "The World Bank: WV.2 | Global goals: ending poverty and improving lives"@en;
+    dct:description "
+Income share held by lowest 20%. Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding.
+"@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    qb:structure      eg:dsd-percentage-share-income ; 
+.
+
+
+eg:percentage_share_income-o00
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.9 ;
+        eg:refArea           eg:Q889 .
+
+eg:percentage_share_income-o01
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q222 .
+
+eg:percentage_share_income-o02
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.8 ;
+        eg:refArea           eg:Q262 .
+
+eg:percentage_share_income-o03
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q16641 .
+
+eg:percentage_share_income-o04
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.8 ;
+        eg:refArea           eg:Q228 .
+
+eg:percentage_share_income-o05
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.9 ;
+        eg:refArea           eg:Q916 .
+
+eg:percentage_share_income-o06
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.7 ;
+        eg:refArea           eg:Q781 .
+
+eg:percentage_share_income-o07
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -2.2 ;
+        eg:refArea           eg:Q414 .
+
+eg:percentage_share_income-o08
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  7.6 ;
+        eg:refArea           eg:Q399 .
+
+eg:percentage_share_income-o09
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.0 ;
+        eg:refArea           eg:Q21203 .
+
+eg:percentage_share_income-o010
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.9 ;
+        eg:refArea           eg:Q408 .
+
+eg:percentage_share_income-o011
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.6 ;
+        eg:refArea           eg:Q40 .
+
+eg:percentage_share_income-o012
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q227 .
+
+eg:percentage_share_income-o013
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.8 ;
+        eg:refArea           eg:Q778 .
+
+eg:percentage_share_income-o014
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.8 ;
+        eg:refArea           eg:Q398 .
+
+eg:percentage_share_income-o015
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  8.2 ;
+        eg:refArea           eg:Q902 .
+
+eg:percentage_share_income-o016
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.1 ;
+        eg:refArea           eg:Q244 .
+
+eg:percentage_share_income-o017
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.2 ;
+        eg:refArea           eg:Q184 .
+
+eg:percentage_share_income-o018
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.4 ;
+        eg:refArea           eg:Q31 .
+
+eg:percentage_share_income-o019
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.3 ;
+        eg:refArea           eg:Q242 .
+
+eg:percentage_share_income-o020
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.9 ;
+        eg:refArea           eg:Q962 .
+
+eg:percentage_share_income-o021
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.0 ;
+        eg:refArea           eg:Q917 .
+
+eg:percentage_share_income-o022
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q750 .
+
+eg:percentage_share_income-o023
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.6 ;
+        eg:refArea           eg:Q225 .
+
+eg:percentage_share_income-o024
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.0 ;
+        eg:refArea           eg:Q963 .
+
+eg:percentage_share_income-o025
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.1 ;
+        eg:refArea           eg:Q155 .
+
+eg:percentage_share_income-o026
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.9 ;
+        eg:refArea           eg:Q921 .
+
+eg:percentage_share_income-o027
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.4 ;
+        eg:refArea           eg:Q219 .
+
+eg:percentage_share_income-o028
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.7 ;
+        eg:refArea           eg:Q965 .
+
+eg:percentage_share_income-o029
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.8 ;
+        eg:refArea           eg:Q967 .
+
+eg:percentage_share_income-o030
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  7.1 ;
+        eg:refArea           eg:Q1011 .
+
+eg:percentage_share_income-o031
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.0 ;
+        eg:refArea           eg:Q424 .
+
+eg:percentage_share_income-o032
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.7 ;
+        eg:refArea           eg:Q1009 .
+
+eg:percentage_share_income-o033
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.7 ;
+        eg:refArea           eg:Q16 .
+
+eg:percentage_share_income-o034
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.3 ;
+        eg:refArea           eg:Q5785 .
+
+eg:percentage_share_income-o035
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.0 ;
+        eg:refArea           eg:Q929 .
+
+eg:percentage_share_income-o036
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.2 ;
+        eg:refArea           eg:Q657 .
+
+eg:percentage_share_income-o037
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.1 ;
+        eg:refArea           eg:Q298 .
+
+eg:percentage_share_income-o038
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.1 ;
+        eg:refArea           eg:Q148 .
+
+eg:percentage_share_income-o039
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -1.2 ;
+        eg:refArea           eg:Q8646 .
+
+eg:percentage_share_income-o040
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -4.7 ;
+        eg:refArea           eg:Q14773 .
+
+eg:percentage_share_income-o041
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.3 ;
+        eg:refArea           eg:Q739 .
+
+eg:percentage_share_income-o042
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.7 ;
+        eg:refArea           eg:Q970 .
+
+eg:percentage_share_income-o043
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.4 ;
+        eg:refArea           eg:Q974 .
+
+eg:percentage_share_income-o044
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.9 ;
+        eg:refArea           eg:Q971 .
+
+eg:percentage_share_income-o045
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.1 ;
+        eg:refArea           eg:Q800 .
+
+eg:percentage_share_income-o046
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.9 ;
+        eg:refArea           eg:Q1008 .
+
+eg:percentage_share_income-o047
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.9 ;
+        eg:refArea           eg:Q224 .
+
+eg:percentage_share_income-o048
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q241 .
+
+eg:percentage_share_income-o049
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -2.2 ;
+        eg:refArea           eg:Q25279 .
+
+eg:percentage_share_income-o050
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.2 ;
+        eg:refArea           eg:Q229 .
+
+eg:percentage_share_income-o051
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.6 ;
+        eg:refArea           eg:Q213 .
+
+eg:percentage_share_income-o052
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.4 ;
+        eg:refArea           eg:Q35 .
+
+eg:percentage_share_income-o053
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  7.5 ;
+        eg:refArea           eg:Q977 .
+
+eg:percentage_share_income-o054
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.7 ;
+        eg:refArea           eg:Q784 .
+
+eg:percentage_share_income-o055
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.1 ;
+        eg:refArea           eg:Q786 .
+
+eg:percentage_share_income-o056
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.1 ;
+        eg:refArea           eg:Q736 .
+
+eg:percentage_share_income-o057
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.6 ;
+        eg:refArea           eg:Q79 .
+
+eg:percentage_share_income-o058
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.4 ;
+        eg:refArea           eg:Q792 .
+
+eg:percentage_share_income-o059
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -5.6 ;
+        eg:refArea           eg:Q983 .
+
+eg:percentage_share_income-o060
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.3 ;
+        eg:refArea           eg:Q191 .
+
+eg:percentage_share_income-o061
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.0 ;
+        eg:refArea           eg:Q1050 .
+
+eg:percentage_share_income-o062
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  8.3 ;
+        eg:refArea           eg:Q115 .
+
+eg:percentage_share_income-o063
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.1 ;
+        eg:refArea           eg:Q712 .
+
+eg:percentage_share_income-o064
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.0 ;
+        eg:refArea           eg:Q33 .
+
+eg:percentage_share_income-o065
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.5 ;
+        eg:refArea           eg:Q142 .
+
+eg:percentage_share_income-o066
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.4 ;
+        eg:refArea           eg:Q1000 .
+
+eg:percentage_share_income-o067
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.0 ;
+        eg:refArea           eg:Q1005 .
+
+eg:percentage_share_income-o068
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.1 ;
+        eg:refArea           eg:Q230 .
+
+eg:percentage_share_income-o069
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.6 ;
+        eg:refArea           eg:Q183 .
+
+eg:percentage_share_income-o070
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.5 ;
+        eg:refArea           eg:Q117 .
+
+eg:percentage_share_income-o071
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.9 ;
+        eg:refArea           eg:Q41 .
+
+eg:percentage_share_income-o072
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.2 ;
+        eg:refArea           eg:Q223 .
+
+eg:percentage_share_income-o073
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.1 ;
+        eg:refArea           eg:Q769 .
+
+eg:percentage_share_income-o074
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.3 ;
+        eg:refArea           eg:Q16635 .
+
+eg:percentage_share_income-o075
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.8 ;
+        eg:refArea           eg:Q774 .
+
+eg:percentage_share_income-o076
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.6 ;
+        eg:refArea           eg:Q1006 .
+
+eg:percentage_share_income-o077
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.6 ;
+        eg:refArea           eg:Q1007 .
+
+eg:percentage_share_income-o078
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.7 ;
+        eg:refArea           eg:Q734 .
+
+eg:percentage_share_income-o079
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.9 ;
+        eg:refArea           eg:Q790 .
+
+eg:percentage_share_income-o080
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.7 ;
+        eg:refArea           eg:Q783 .
+
+eg:percentage_share_income-o081
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.9 ;
+        eg:refArea           eg:Q28 .
+
+eg:percentage_share_income-o082
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.9 ;
+        eg:refArea           eg:Q189 .
+
+eg:percentage_share_income-o083
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.0 ;
+        eg:refArea           eg:Q668 .
+
+eg:percentage_share_income-o084
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.0 ;
+        eg:refArea           eg:Q252 .
+
+eg:percentage_share_income-o085
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.8 ;
+        eg:refArea           eg:Q794 .
+
+eg:percentage_share_income-o086
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.4 ;
+        eg:refArea           eg:Q796 .
+
+eg:percentage_share_income-o087
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.5 ;
+        eg:refArea           eg:Q27 .
+
+eg:percentage_share_income-o088
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.6 ;
+        eg:refArea           eg:Q9676 .
+
+eg:percentage_share_income-o089
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.5 ;
+        eg:refArea           eg:Q801 .
+
+eg:percentage_share_income-o090
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.3 ;
+        eg:refArea           eg:Q38 .
+
+eg:percentage_share_income-o091
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.7 ;
+        eg:refArea           eg:Q766 .
+
+eg:percentage_share_income-o092
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.7 ;
+        eg:refArea           eg:Q17 .
+
+eg:percentage_share_income-o093
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.0 ;
+        eg:refArea           eg:Q810 .
+
+eg:percentage_share_income-o094
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.5 ;
+        eg:refArea           eg:Q232 .
+
+eg:percentage_share_income-o095
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.4 ;
+        eg:refArea           eg:Q114 .
+
+eg:percentage_share_income-o096
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q710 .
+
+eg:percentage_share_income-o097
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.0 ;
+        eg:refArea           eg:Q884 .
+
+eg:percentage_share_income-o098
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.2 ;
+        eg:refArea           eg:Q1246 .
+
+eg:percentage_share_income-o099
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.4 ;
+        eg:refArea           eg:Q817 .
+
+eg:percentage_share_income-o0100
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.5 ;
+        eg:refArea           eg:Q813 .
+
+eg:percentage_share_income-o0101
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.7 ;
+        eg:refArea           eg:Q819 .
+
+eg:percentage_share_income-o0102
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q211 .
+
+eg:percentage_share_income-o0103
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -5.6 ;
+        eg:refArea           eg:Q822 .
+
+eg:percentage_share_income-o0104
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.5 ;
+        eg:refArea           eg:Q1013 .
+
+eg:percentage_share_income-o0105
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -2.3 ;
+        eg:refArea           eg:Q1014 .
+
+eg:percentage_share_income-o0106
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.5 ;
+        eg:refArea           eg:Q1016 .
+
+eg:percentage_share_income-o0107
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.9 ;
+        eg:refArea           eg:Q37 .
+
+eg:percentage_share_income-o0108
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.3 ;
+        eg:refArea           eg:Q32 .
+
+eg:percentage_share_income-o0109
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.8 ;
+        eg:refArea           eg:Q1019 .
+
+eg:percentage_share_income-o0110
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.4 ;
+        eg:refArea           eg:Q1020 .
+
+eg:percentage_share_income-o0111
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.3 ;
+        eg:refArea           eg:Q833 .
+
+eg:percentage_share_income-o0112
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.2 ;
+        eg:refArea           eg:Q826 .
+
+eg:percentage_share_income-o0113
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.0 ;
+        eg:refArea           eg:Q912 .
+
+eg:percentage_share_income-o0114
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.4 ;
+        eg:refArea           eg:Q233 .
+
+eg:percentage_share_income-o0115
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.6 ;
+        eg:refArea           eg:Q709 .
+
+eg:percentage_share_income-o0116
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.9 ;
+        eg:refArea           eg:Q1025 .
+
+eg:percentage_share_income-o0117
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.6 ;
+        eg:refArea           eg:Q1027 .
+
+eg:percentage_share_income-o0118
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.1 ;
+        eg:refArea           eg:Q96 .
+
+eg:percentage_share_income-o0119
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.2 ;
+        eg:refArea           eg:Q702 .
+
+eg:percentage_share_income-o0120
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.5 ;
+        eg:refArea           eg:Q217 .
+
+eg:percentage_share_income-o0121
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.1 ;
+        eg:refArea           eg:Q235 .
+
+eg:percentage_share_income-o0122
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.1 ;
+        eg:refArea           eg:Q711 .
+
+eg:percentage_share_income-o0123
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.6 ;
+        eg:refArea           eg:Q236 .
+
+eg:percentage_share_income-o0124
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.3 ;
+        eg:refArea           eg:Q1028 .
+
+eg:percentage_share_income-o0125
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q1029 .
+
+eg:percentage_share_income-o0126
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.9 ;
+        eg:refArea           eg:Q836 .
+
+eg:percentage_share_income-o0127
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -1.1 ;
+        eg:refArea           eg:Q1030 .
+
+eg:percentage_share_income-o0128
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.0 ;
+        eg:refArea           eg:Q837 .
+
+eg:percentage_share_income-o0129
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  7.0 ;
+        eg:refArea           eg:Q55 .
+
+eg:percentage_share_income-o0130
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.8 ;
+        eg:refArea           eg:Q33788 .
+
+eg:percentage_share_income-o0131
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q811 .
+
+eg:percentage_share_income-o0132
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -3.9 ;
+        eg:refArea           eg:Q1032 .
+
+eg:percentage_share_income-o0133
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.8 ;
+        eg:refArea           eg:Q1033 .
+
+eg:percentage_share_income-o0134
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q221 .
+
+eg:percentage_share_income-o0135
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.6 ;
+        eg:refArea           eg:Q16644 .
+
+eg:percentage_share_income-o0136
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -19.6 ;
+        eg:refArea           eg:Q20 .
+
+eg:percentage_share_income-o0137
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.2 ;
+        eg:refArea           eg:Q842 .
+
+eg:percentage_share_income-o0138
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.5 ;
+        eg:refArea           eg:Q843 .
+
+eg:percentage_share_income-o0139
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.0 ;
+        eg:refArea           eg:Q695 .
+
+eg:percentage_share_income-o0140
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.7 ;
+        eg:refArea           eg:Q804 .
+
+eg:percentage_share_income-o0141
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.0 ;
+        eg:refArea           eg:Q691 .
+
+eg:percentage_share_income-o0142
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.6 ;
+        eg:refArea           eg:Q733 .
+
+eg:percentage_share_income-o0143
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.0 ;
+        eg:refArea           eg:Q419 .
+
+eg:percentage_share_income-o0144
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q928 .
+
+eg:percentage_share_income-o0145
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.0 ;
+        eg:refArea           eg:Q36 .
+
+eg:percentage_share_income-o0146
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.1 ;
+        eg:refArea           eg:Q45 .
+
+eg:percentage_share_income-o0147
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.2 ;
+        eg:refArea           eg:Q1183 .
+
+eg:percentage_share_income-o0148
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.2 ;
+        eg:refArea           eg:Q846 .
+
+eg:percentage_share_income-o0149
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.2 ;
+        eg:refArea           eg:Q218 .
+
+eg:percentage_share_income-o0150
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.1 ;
+        eg:refArea           eg:Q159 .
+
+eg:percentage_share_income-o0151
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.3 ;
+        eg:refArea           eg:Q1037 .
+
+eg:percentage_share_income-o0152
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  9.4 ;
+        eg:refArea           eg:Q683 .
+
+eg:percentage_share_income-o0153
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.5 ;
+        eg:refArea           eg:Q238 .
+
+eg:percentage_share_income-o0154
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.2 ;
+        eg:refArea           eg:Q1039 .
+
+eg:percentage_share_income-o0155
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.4 ;
+        eg:refArea           eg:Q851 .
+
+eg:percentage_share_income-o0156
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.3 ;
+        eg:refArea           eg:Q1041 .
+
+eg:percentage_share_income-o0157
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.3 ;
+        eg:refArea           eg:Q403 .
+
+eg:percentage_share_income-o0158
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.2 ;
+        eg:refArea           eg:Q1042 .
+
+eg:percentage_share_income-o0159
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  4.7 ;
+        eg:refArea           eg:Q1044 .
+
+eg:percentage_share_income-o0160
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.5 ;
+        eg:refArea           eg:Q334 .
+
+eg:percentage_share_income-o0161
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.7 ;
+        eg:refArea           eg:Q26273 .
+
+eg:percentage_share_income-o0162
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -8.4 ;
+        eg:refArea           eg:Q214 .
+
+eg:percentage_share_income-o0163
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.4 ;
+        eg:refArea           eg:Q215 .
+
+eg:percentage_share_income-o0164
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.4 ;
+        eg:refArea           eg:Q685 .
+
+eg:percentage_share_income-o0165
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.7 ;
+        eg:refArea           eg:Q1045 .
+
+eg:percentage_share_income-o0166
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.2 ;
+        eg:refArea           eg:Q958 .
+
+eg:percentage_share_income-o0167
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.0 ;
+        eg:refArea           eg:Q854 .
+
+eg:percentage_share_income-o0168
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.3 ;
+        eg:refArea           eg:Q763 .
+
+eg:percentage_share_income-o0169
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.5 ;
+        eg:refArea           eg:Q760 .
+
+eg:percentage_share_income-o0170
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.7 ;
+        eg:refArea           eg:Q126125 .
+
+eg:percentage_share_income-o0171
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.3 ;
+        eg:refArea           eg:Q1049 .
+
+eg:percentage_share_income-o0172
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -2.6 ;
+        eg:refArea           eg:Q730 .
+
+eg:percentage_share_income-o0173
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -0.8 ;
+        eg:refArea           eg:Q34 .
+
+eg:percentage_share_income-o0174
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.2 ;
+        eg:refArea           eg:Q39 .
+
+eg:percentage_share_income-o0175
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.9 ;
+        eg:refArea           eg:Q858 .
+
+eg:percentage_share_income-o0176
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  7.0 ;
+        eg:refArea           eg:Q924 .
+
+eg:percentage_share_income-o0177
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.8 ;
+        eg:refArea           eg:Q869 .
+
+eg:percentage_share_income-o0178
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.4 ;
+        eg:refArea           eg:Q574 .
+
+eg:percentage_share_income-o0179
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.4 ;
+        eg:refArea           eg:Q945 .
+
+eg:percentage_share_income-o0180
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.3 ;
+        eg:refArea           eg:Q678 .
+
+eg:percentage_share_income-o0181
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.3 ;
+        eg:refArea           eg:Q754 .
+
+eg:percentage_share_income-o0182
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.0 ;
+        eg:refArea           eg:Q948 .
+
+eg:percentage_share_income-o0183
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.0 ;
+        eg:refArea           eg:Q43 .
+
+eg:percentage_share_income-o0184
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.9 ;
+        eg:refArea           eg:Q874 .
+
+eg:percentage_share_income-o0185
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.2 ;
+        eg:refArea           eg:Q18221 .
+
+eg:percentage_share_income-o0186
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.3 ;
+        eg:refArea           eg:Q672 .
+
+eg:percentage_share_income-o0187
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  9.8 ;
+        eg:refArea           eg:Q1036 .
+
+eg:percentage_share_income-o0188
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  6.5 ;
+        eg:refArea           eg:Q212 .
+
+eg:percentage_share_income-o0189
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  3.2 ;
+        eg:refArea           eg:Q878 .
+
+eg:percentage_share_income-o0190
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.7 ;
+        eg:refArea           eg:Q145 .
+
+eg:percentage_share_income-o0191
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.4 ;
+        eg:refArea           eg:Q30 .
+
+eg:percentage_share_income-o0192
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.3 ;
+        eg:refArea           eg:Q77 .
+
+eg:percentage_share_income-o0193
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.2 ;
+        eg:refArea           eg:Q265 .
+
+eg:percentage_share_income-o0194
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  5.6 ;
+        eg:refArea           eg:Q686 .
+
+eg:percentage_share_income-o0195
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  2.9 ;
+        eg:refArea           eg:Q717 .
+
+eg:percentage_share_income-o0196
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  7.0 ;
+        eg:refArea           eg:Q11703 .
+
+eg:percentage_share_income-o0197
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  -1.7 ;
+        eg:refArea           eg:Q407199 .
+
+eg:percentage_share_income-o0198
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.9 ;
+        eg:refArea           eg:Q805 .
+
+eg:percentage_share_income-o0199
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  0.8 ;
+        eg:refArea           eg:Q953 .
+
+eg:percentage_share_income-o0200
+        rdf:type             qb:Observation ;
+        qb:dataSet           eg:dataset-percentage_share_income ;
+        eg:refPeriod         eg:Interval2006-17 ;
+        eg-measure:lowest20  1.7 ;
+        eg:refArea           eg:Q954 .

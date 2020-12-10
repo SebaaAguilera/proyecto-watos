@@ -1,0 +1,1497 @@
+eg:dataset-population_density a qb:Dataset;
+    dct:title       "Population density"@en;
+    rdfs:label      "population_density"@en;
+    rdfs:comment    "The World Bank: WV.1 | Size of the economy"@en;
+    dct:description "Population density is midyear population divided by land area in square kilometers"@en;
+    dct:publisher   eg:The World Bank;
+    dct:issued      "2020-09-22 00:00:00"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/tables> ;
+    dct:subject 
+        sdmx-subject: 1.1 ;
+    qb:structure eg:dsd-n-sqkm ;
+.
+
+
+<eg:population_density-o0>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  57.0 ;
+        eg:refArea          "Q889" .
+
+<eg:population_density-o1>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  105.0 ;
+        eg:refArea          "Q222" .
+
+<eg:population_density-o2>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  18.0 ;
+        eg:refArea          "Q262" .
+
+<eg:population_density-o3>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  277.0 ;
+        eg:refArea          "Q16641" .
+
+<eg:population_density-o4>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  164.0 ;
+        eg:refArea          "Q228" .
+
+<eg:population_density-o5>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  25.0 ;
+        eg:refArea          "Q916" .
+
+<eg:population_density-o6>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  219.0 ;
+        eg:refArea          "Q781" .
+
+<eg:population_density-o7>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  16.0 ;
+        eg:refArea          "Q414" .
+
+<eg:population_density-o8>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  104.0 ;
+        eg:refArea          "Q399" .
+
+<eg:population_density-o9>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  588.0 ;
+        eg:refArea          "Q21203" .
+
+<eg:population_density-o10>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  3.0 ;
+        eg:refArea          "Q408" .
+
+<eg:population_density-o11>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  107.0 ;
+        eg:refArea          "Q40" .
+
+<eg:population_density-o12>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  120.0 ;
+        eg:refArea          "Q227" .
+
+<eg:population_density-o13>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  39.0 ;
+        eg:refArea          "Q778" .
+
+<eg:population_density-o14>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  2017.0 ;
+        eg:refArea          "Q398" .
+
+<eg:population_density-o15>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  124.0 ;
+        eg:refArea          "Q902" .
+
+<eg:population_density-o16>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  667.0 ;
+        eg:refArea          "Q244" .
+
+<eg:population_density-o17>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  47.0 ;
+        eg:refArea          "Q184" .
+
+<eg:population_density-o18>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  377.0 ;
+        eg:refArea          "Q31" .
+
+<eg:population_density-o19>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  17.0 ;
+        eg:refArea          "Q242" .
+
+<eg:population_density-o20>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  102.0 ;
+        eg:refArea          "Q962" .
+
+<eg:population_density-o21>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  1184.0 ;
+        eg:refArea          "Q23635" .
+
+<eg:population_density-o22>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  20.0 ;
+        eg:refArea          "Q917" .
+
+<eg:population_density-o23>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  10.0 ;
+        eg:refArea          "Q750" .
+
+<eg:population_density-o24>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  65.0 ;
+        eg:refArea          "Q225" .
+
+<eg:population_density-o25>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  4.0 ;
+        eg:refArea          "Q963" .
+
+<eg:population_density-o26>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  25.0 ;
+        eg:refArea          "Q155" .
+
+<eg:population_density-o27>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  81.0 ;
+        eg:refArea          "Q921" .
+
+<eg:population_density-o28>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  65.0 ;
+        eg:refArea          "Q219" .
+
+<eg:population_density-o29>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  72.0 ;
+        eg:refArea          "Q965" .
+
+<eg:population_density-o30>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  435.0 ;
+        eg:refArea          "Q967" .
+
+<eg:population_density-o31>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  92.0 ;
+        eg:refArea          "Q424" .
+
+<eg:population_density-o32>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  53.0 ;
+        eg:refArea          "Q1009" .
+
+<eg:population_density-o33>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  4.0 ;
+        eg:refArea          "Q16" .
+
+<eg:population_density-o34>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  135.0 ;
+        eg:refArea          "Q1011" .
+
+<eg:population_density-o35>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  267.0 ;
+        eg:refArea          "Q5785" .
+
+<eg:population_density-o36>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  7.0 ;
+        eg:refArea          "Q929" .
+
+<eg:population_density-o37>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  12.0 ;
+        eg:refArea          "Q657" .
+
+<eg:population_density-o38>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  861.0 ;
+        eg:refArea          "Q42314" .
+
+<eg:population_density-o39>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  25.0 ;
+        eg:refArea          "Q298" .
+
+<eg:population_density-o40>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  148.0 ;
+        eg:refArea          "Q148" .
+
+<eg:population_density-o41>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  7096.0 ;
+        eg:refArea          "Q8646" .
+
+<eg:population_density-o42>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  20778.0 ;
+        eg:refArea          "Q14773" .
+
+<eg:population_density-o43>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  45.0 ;
+        eg:refArea          "Q739" .
+
+<eg:population_density-o44>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  447.0 ;
+        eg:refArea          "Q970" .
+
+<eg:population_density-o45>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  37.0 ;
+        eg:refArea          "Q974" .
+
+<eg:population_density-o46>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  15.0 ;
+        eg:refArea          "Q971" .
+
+<eg:population_density-o47>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  98.0 ;
+        eg:refArea          "Q800" .
+
+<eg:population_density-o48>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  79.0 ;
+        eg:refArea          "Q1008" .
+
+<eg:population_density-o49>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  73.0 ;
+        eg:refArea          "Q224" .
+
+<eg:population_density-o50>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  109.0 ;
+        eg:refArea          "Q241" .
+
+<eg:population_density-o51>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  361.0 ;
+        eg:refArea          "Q25279" .
+
+<eg:population_density-o52>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  129.0 ;
+        eg:refArea          "Q229" .
+
+<eg:population_density-o53>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  138.0 ;
+        eg:refArea          "Q213" .
+
+<eg:population_density-o54>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  138.0 ;
+        eg:refArea          "Q35" .
+
+<eg:population_density-o55>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  41.0 ;
+        eg:refArea          "Q977" .
+
+<eg:population_density-o56>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  96.0 ;
+        eg:refArea          "Q784" .
+
+<eg:population_density-o57>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  220.0 ;
+        eg:refArea          "Q786" .
+
+<eg:population_density-o58>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  69.0 ;
+        eg:refArea          "Q736" .
+
+<eg:population_density-o59>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  99.0 ;
+        eg:refArea          "Q79" .
+
+<eg:population_density-o60>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  310.0 ;
+        eg:refArea          "Q792" .
+
+<eg:population_density-o61>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  47.0 ;
+        eg:refArea          "Q983" .
+
+<eg:population_density-o62>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  30.0 ;
+        eg:refArea          "Q191" .
+
+<eg:population_density-o63>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  66.0 ;
+        eg:refArea          "Q1050" .
+
+<eg:population_density-o64>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  109.0 ;
+        eg:refArea          "Q115" .
+
+<eg:population_density-o65>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  35.0 ;
+        eg:refArea          "Q4628" .
+
+<eg:population_density-o66>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  48.0 ;
+        eg:refArea          "Q712" .
+
+<eg:population_density-o67>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  18.0 ;
+        eg:refArea          "Q33" .
+
+<eg:population_density-o68>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  122.0 ;
+        eg:refArea          "Q142" .
+
+<eg:population_density-o69>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  76.0 ;
+        eg:refArea          "Q30971" .
+
+<eg:population_density-o70>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  8.0 ;
+        eg:refArea          "Q1000" .
+
+<eg:population_density-o71>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  225.0 ;
+        eg:refArea          "Q1005" .
+
+<eg:population_density-o72>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  65.0 ;
+        eg:refArea          "Q230" .
+
+<eg:population_density-o73>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  237.0 ;
+        eg:refArea          "Q183" .
+
+<eg:population_density-o74>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  131.0 ;
+        eg:refArea          "Q117" .
+
+<eg:population_density-o75>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  83.0 ;
+        eg:refArea          "Q41" .
+
+<eg:population_density-o76>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  0.0 ;
+        eg:refArea          "Q223" .
+
+<eg:population_density-o77>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  328.0 ;
+        eg:refArea          "Q769" .
+
+<eg:population_density-o78>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  307.0 ;
+        eg:refArea          "Q16635" .
+
+<eg:population_density-o79>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  153.0 ;
+        eg:refArea          "Q774" .
+
+<eg:population_density-o80>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  51.0 ;
+        eg:refArea          "Q1006" .
+
+<eg:population_density-o81>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  67.0 ;
+        eg:refArea          "Q1007" .
+
+<eg:population_density-o82>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  4.0 ;
+        eg:refArea          "Q734" .
+
+<eg:population_density-o83>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  404.0 ;
+        eg:refArea          "Q790" .
+
+<eg:population_density-o84>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  86.0 ;
+        eg:refArea          "Q783" .
+
+<eg:population_density-o85>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  108.0 ;
+        eg:refArea          "Q28" .
+
+<eg:population_density-o86>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  4.0 ;
+        eg:refArea          "Q189" .
+
+<eg:population_density-o87>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  455.0 ;
+        eg:refArea          "Q668" .
+
+<eg:population_density-o88>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  148.0 ;
+        eg:refArea          "Q252" .
+
+<eg:population_density-o89>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  50.0 ;
+        eg:refArea          "Q794" .
+
+<eg:population_density-o90>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  89.0 ;
+        eg:refArea          "Q796" .
+
+<eg:population_density-o91>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  71.0 ;
+        eg:refArea          "Q27" .
+
+<eg:population_density-o92>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  148.0 ;
+        eg:refArea          "Q9676" .
+
+<eg:population_density-o93>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  410.0 ;
+        eg:refArea          "Q801" .
+
+<eg:population_density-o94>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  205.0 ;
+        eg:refArea          "Q38" .
+
+<eg:population_density-o95>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  271.0 ;
+        eg:refArea          "Q766" .
+
+<eg:population_density-o96>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  347.0 ;
+        eg:refArea          "Q17" .
+
+<eg:population_density-o97>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  112.0 ;
+        eg:refArea          "Q810" .
+
+<eg:population_density-o98>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  7.0 ;
+        eg:refArea          "Q232" .
+
+<eg:population_density-o99>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  90.0 ;
+        eg:refArea          "Q114" .
+
+<eg:population_density-o100>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  143.0 ;
+        eg:refArea          "Q710" .
+
+<eg:population_density-o101>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  212.0 ;
+        eg:refArea          "Q423" .
+
+<eg:population_density-o102>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  529.0 ;
+        eg:refArea          "Q884" .
+
+<eg:population_density-o103>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  165.0 ;
+        eg:refArea          "Q1246" .
+
+<eg:population_density-o104>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  232.0 ;
+        eg:refArea          "Q817" .
+
+<eg:population_density-o105>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  33.0 ;
+        eg:refArea          "Q813" .
+
+<eg:population_density-o106>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  31.0 ;
+        eg:refArea          "Q819" .
+
+<eg:population_density-o107>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  31.0 ;
+        eg:refArea          "Q211" .
+
+<eg:population_density-o108>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  669.0 ;
+        eg:refArea          "Q822" .
+
+<eg:population_density-o109>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  69.0 ;
+        eg:refArea          "Q1013" .
+
+<eg:population_density-o110>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  50.0 ;
+        eg:refArea          "Q1014" .
+
+<eg:population_density-o111>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  4.0 ;
+        eg:refArea          "Q1016" .
+
+<eg:population_density-o112>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  237.0 ;
+        eg:refArea          "Q347" .
+
+<eg:population_density-o113>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  45.0 ;
+        eg:refArea          "Q37" .
+
+<eg:population_density-o114>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  250.0 ;
+        eg:refArea          "Q32" .
+
+<eg:population_density-o115>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  45.0 ;
+        eg:refArea          "Q1019" .
+
+<eg:population_density-o116>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  192.0 ;
+        eg:refArea          "Q1020" .
+
+<eg:population_density-o117>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  96.0 ;
+        eg:refArea          "Q833" .
+
+<eg:population_density-o118>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  1719.0 ;
+        eg:refArea          "Q826" .
+
+<eg:population_density-o119>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  16.0 ;
+        eg:refArea          "Q912" .
+
+<eg:population_density-o120>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  1514.0 ;
+        eg:refArea          "Q233" .
+
+<eg:population_density-o121>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  325.0 ;
+        eg:refArea          "Q709" .
+
+<eg:population_density-o122>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  4.0 ;
+        eg:refArea          "Q1025" .
+
+<eg:population_density-o123>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  623.0 ;
+        eg:refArea          "Q1027" .
+
+<eg:population_density-o124>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  65.0 ;
+        eg:refArea          "Q96" .
+
+<eg:population_density-o125>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  161.0 ;
+        eg:refArea          "Q702" .
+
+<eg:population_density-o126>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  94.0 ;
+        eg:refArea          "Q217" .
+
+<eg:population_density-o127>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  19196.0 ;
+        eg:refArea          "Q235" .
+
+<eg:population_density-o128>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  2.0 ;
+        eg:refArea          "Q711" .
+
+<eg:population_density-o129>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  46.0 ;
+        eg:refArea          "Q236" .
+
+<eg:population_density-o130>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  81.0 ;
+        eg:refArea          "Q1028" .
+
+<eg:population_density-o131>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  38.0 ;
+        eg:refArea          "Q1029" .
+
+<eg:population_density-o132>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  82.0 ;
+        eg:refArea          "Q836" .
+
+<eg:population_density-o133>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  3.0 ;
+        eg:refArea          "Q1030" .
+
+<eg:population_density-o134>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  635.0 ;
+        eg:refArea          "Q697" .
+
+<eg:population_density-o135>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  196.0 ;
+        eg:refArea          "Q837" .
+
+<eg:population_density-o136>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  511.0 ;
+        eg:refArea          "Q55" .
+
+<eg:population_density-o137>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  16.0 ;
+        eg:refArea          "Q33788" .
+
+<eg:population_density-o138>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  18.0 ;
+        eg:refArea          "Q664" .
+
+<eg:population_density-o139>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  54.0 ;
+        eg:refArea          "Q811" .
+
+<eg:population_density-o140>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  18.0 ;
+        eg:refArea          "Q1032" .
+
+<eg:population_density-o141>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  215.0 ;
+        eg:refArea          "Q1033" .
+
+<eg:population_density-o142>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  83.0 ;
+        eg:refArea          "Q221" .
+
+<eg:population_density-o143>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  124.0 ;
+        eg:refArea          "Q16644" .
+
+<eg:population_density-o144>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  15.0 ;
+        eg:refArea          "Q20" .
+
+<eg:population_density-o145>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  16.0 ;
+        eg:refArea          "Q842" .
+
+<eg:population_density-o146>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  275.0 ;
+        eg:refArea          "Q843" .
+
+<eg:population_density-o147>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  39.0 ;
+        eg:refArea          "Q695" .
+
+<eg:population_density-o148>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  56.0 ;
+        eg:refArea          "Q804" .
+
+<eg:population_density-o149>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  19.0 ;
+        eg:refArea          "Q691" .
+
+<eg:population_density-o150>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  18.0 ;
+        eg:refArea          "Q733" .
+
+<eg:population_density-o151>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  25.0 ;
+        eg:refArea          "Q419" .
+
+<eg:population_density-o152>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  358.0 ;
+        eg:refArea          "Q928" .
+
+<eg:population_density-o153>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  124.0 ;
+        eg:refArea          "Q36" .
+
+<eg:population_density-o154>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  112.0 ;
+        eg:refArea          "Q45" .
+
+<eg:population_density-o155>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  360.0 ;
+        eg:refArea          "Q1183" .
+
+<eg:population_density-o156>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  240.0 ;
+        eg:refArea          "Q846" .
+
+<eg:population_density-o157>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  85.0 ;
+        eg:refArea          "Q218" .
+
+<eg:population_density-o158>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  9.0 ;
+        eg:refArea          "Q159" .
+
+<eg:population_density-o159>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  499.0 ;
+        eg:refArea          "Q1037" .
+
+<eg:population_density-o160>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  69.0 ;
+        eg:refArea          "Q683" .
+
+<eg:population_density-o161>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  563.0 ;
+        eg:refArea          "Q238" .
+
+<eg:population_density-o162>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  220.0 ;
+        eg:refArea          "Q1039" .
+
+<eg:population_density-o163>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  16.0 ;
+        eg:refArea          "Q851" .
+
+<eg:population_density-o164>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  82.0 ;
+        eg:refArea          "Q1041" .
+
+<eg:population_density-o165>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  80.0 ;
+        eg:refArea          "Q403" .
+
+<eg:population_density-o166>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  210.0 ;
+        eg:refArea          "Q1042" .
+
+<eg:population_density-o167>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  106.0 ;
+        eg:refArea          "Q1044" .
+
+<eg:population_density-o168>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  7953.0 ;
+        eg:refArea          "Q334" .
+
+<eg:population_density-o169>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  1193.0 ;
+        eg:refArea          "Q26273" .
+
+<eg:population_density-o170>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  113.0 ;
+        eg:refArea          "Q214" .
+
+<eg:population_density-o171>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  103.0 ;
+        eg:refArea          "Q215" .
+
+<eg:population_density-o172>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  23.0 ;
+        eg:refArea          "Q685" .
+
+<eg:population_density-o173>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  24.0 ;
+        eg:refArea          "Q1045" .
+
+<eg:population_density-o174>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  48.0 ;
+        eg:refArea          "Q258" .
+
+<eg:population_density-o175>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  94.0 ;
+        eg:refArea          "Q29" .
+
+<eg:population_density-o176>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  346.0 ;
+        eg:refArea          "Q854" .
+
+<eg:population_density-o177>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  202.0 ;
+        eg:refArea          "Q763" .
+
+<eg:population_density-o178>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  298.0 ;
+        eg:refArea          "Q760" .
+
+<eg:population_density-o179>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  672.0 ;
+        eg:refArea          "Q126125" .
+
+<eg:population_density-o180>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  283.0 ;
+        eg:refArea          "Q757" .
+
+<eg:population_density-o181>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  4.0 ;
+        eg:refArea          "Q730" .
+
+<eg:population_density-o182>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  25.0 ;
+        eg:refArea          "Q34" .
+
+<eg:population_density-o183>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  215.0 ;
+        eg:refArea          "Q39" .
+
+<eg:population_density-o184>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  92.0 ;
+        eg:refArea          "Q858" .
+
+<eg:population_density-o185>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  66.0 ;
+        eg:refArea          "Q863" .
+
+<eg:population_density-o186>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  64.0 ;
+        eg:refArea          "Q924" .
+
+<eg:population_density-o187>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  136.0 ;
+        eg:refArea          "Q869" .
+
+<eg:population_density-o188>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  85.0 ;
+        eg:refArea          "Q574" .
+
+<eg:population_density-o189>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  145.0 ;
+        eg:refArea          "Q945" .
+
+<eg:population_density-o190>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  143.0 ;
+        eg:refArea          "Q678" .
+
+<eg:population_density-o191>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  271.0 ;
+        eg:refArea          "Q754" .
+
+<eg:population_density-o192>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  74.0 ;
+        eg:refArea          "Q948" .
+
+<eg:population_density-o193>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  107.0 ;
+        eg:refArea          "Q43" .
+
+<eg:population_density-o194>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  12.0 ;
+        eg:refArea          "Q874" .
+
+<eg:population_density-o195>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  40.0 ;
+        eg:refArea          "Q18221" .
+
+<eg:population_density-o196>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  384.0 ;
+        eg:refArea          "Q672" .
+
+<eg:population_density-o197>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  213.0 ;
+        eg:refArea          "Q1036" .
+
+<eg:population_density-o198>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  77.0 ;
+        eg:refArea          "Q212" .
+
+<eg:population_density-o199>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  136.0 ;
+        eg:refArea          "Q878" .
+
+<eg:population_density-o200>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  275.0 ;
+        eg:refArea          "Q145" .
+
+<eg:population_density-o201>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  36.0 ;
+        eg:refArea          "Q30" .
+
+<eg:population_density-o202>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  20.0 ;
+        eg:refArea          "Q77" .
+
+<eg:population_density-o203>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  77.0 ;
+        eg:refArea          "Q265" .
+
+<eg:population_density-o204>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  24.0 ;
+        eg:refArea          "Q686" .
+
+<eg:population_density-o205>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  33.0 ;
+        eg:refArea          "Q717" .
+
+<eg:population_density-o206>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  308.0 ;
+        eg:refArea          "Q881" .
+
+<eg:population_density-o207>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  306.0 ;
+        eg:refArea          "Q11703" .
+
+<eg:population_density-o208>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  759.0 ;
+        eg:refArea          "Q407199" .
+
+<eg:population_density-o209>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  54.0 ;
+        eg:refArea          "Q805" .
+
+<eg:population_density-o210>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  23.0 ;
+        eg:refArea          "Q953" .
+
+<eg:population_density-o211>
+        rdf:type            qb:Observation ;
+        qb:dataSet          "dataset-population_density" ;
+        eg:refPeriod                    eg:Interval2019 ;
+        eg-measure:n_sq_km  37.0 ;
+        eg:refArea          "Q954" .

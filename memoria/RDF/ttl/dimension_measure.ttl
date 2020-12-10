@@ -1,0 +1,288 @@
+
+eg-measure:cumulativeCases a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Cumulative cases"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    .
+
+eg-measure:pScore a rdf:Property, qb:MeasureProperty;
+    rdfs:label "P-score"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    .
+
+c19-dimension:patient  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "Patient"@en;
+    rdfs:subPropertyOf sdmx-dimension:patient;
+    qb:concept sdmx-concept:patient ;
+    .
+
+
+eg-measure:cases a rdf:Property, qb:MeasureProperty;
+    rdfs:label "cases"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    .
+        
+
+c19-dimension:refSubArea  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "reference sub-area, like state or province"@en;
+    rdfs:subPropertyOf sdmx-dimension:refArea;
+    qb:concept sdmx-concept:refArea ;
+    .
+
+
+c19-measure:salaryWorkers  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Wage and salaried workers, by sex (% of corresponding sex employment)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:accountOwnership  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Account ownership at a financial institution or with a mobile-money-service provider, by sex (% of population ages 15+)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:womenFirstMarried  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Women who were first married by age 18 (% of women ages 20-24)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:lifeExpectancyBirth  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Life expectancy at birth"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:intentionalHomicides  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Intentional homicides (per 100,000 people)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:terrestrialMarineProtectedAreas  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Terrestrial and marine protected areas (% of total territorial area)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:carbonDioxideEmissionsPerCapita  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "CO2 emissions (metric tons per capita) "@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:adjustedNetSavings  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Adjusted net savings, including particulate emission damage (% of GNI)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:meanAnnualExposurePM25  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:populationLivingSlums  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Population living in slums"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:gdpOnResearchDevelopment  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Research and development expenditure (% of GDP)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:renewableEnergyConsumption  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Renewable energy consumption"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:accessElectricity  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Access to electricity"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:peopleUsingSanitationServices  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "People using safely managed sanitation services"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:peopleUsingDrinkingWaterServices  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "People using safely managed drinking water services"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:contributingFamilyWorkers  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Contributing Family Workers"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:completionRate  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Completion Rate"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:mortality  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Mortality"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:incidenceTuberculosis  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Incidence of tuberculosis"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:hivInfections  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "HIV infections"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:mortalityRate  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Mortality rate"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:maternalMortalityRatio  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Maternal mortality ratio"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:prevalenceStuntingHeight  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "prevalence stunting height age"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-dimension:ageInterval  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "age interval"@en;
+    rdfs:subPropertyOf sdmx-dimension:ageInterval;
+    rdfs:range interval:Interval;
+    qb:concept sdmx-concept:ageInterval ;
+    .
+
+c19-dimension:percentileInterval  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "Percentile Inverval"@en;
+    rdfs:subPropertyOf sdmx-dimension:percentileInterval;
+    qb:concept sdmx-concept:percentileInterval ;
+    .
+
+c19-measure:shareIncome  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Income share"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:grossDomesticProduct  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "GDP growth per capita"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:grossDomesticProduct  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "GDP growth"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:grossNationalIncomePPPPeCapita  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income by purchasing power parity per capita"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:grossNationalIncomePPP  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income by purchasing power parity"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:grossNationalIncomePerCapita  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income per capita"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:grossNationalIncome  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:populationDensity  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "population density"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:surfaceArea  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "surface area"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-measure:population  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "population"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+c19-dimension:refPeriod  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "reference period"@en;
+    rdfs:subPropertyOf sdmx-dimension:refPeriod;
+    rdfs:range interval:Interval;
+    qb:concept sdmx-concept:refPeriod ;
+    .
+    
+
+c19-dimension:refArea  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "reference area"@en;
+    rdfs:subPropertyOf sdmx-dimension:refArea;
+    qb:concept sdmx-concept:refArea ;
+    .

@@ -1,0 +1,111 @@
+
+eg-measure:under-five-mortality-rate  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Under-five mortality rate"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:maternal-mortality-ratio  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Maternal mortality ratio"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:prevalence-stunting-height-age  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "prevalence stunting height age"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg:peopleUnder5  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "people under age 5"@en;
+    .
+
+eg-measure:lowest20  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Income share held by lowest 20%"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+    
+
+eg-measure:gdp_per_capita  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "GDP growth per capita"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:gdp  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "GDP growth"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:gni-ppp_per_capita  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income by purchasing power parity per capita"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:gni-ppp  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income by purchasing power parity"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+
+eg-measure:gni_per_capita  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income per capita"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:gni  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Gross national income"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:pop_density  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "population density"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:surface-area  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "surface area"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+
+eg-measure:population  a rdf:Property, qb:MeasureProperty;
+    rdfs:label "population"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+    .
+    
+    
+eg:refPeriod  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "reference period"@en;
+    rdfs:subPropertyOf sdmx-dimension:refPeriod;
+    rdfs:range interval:Interval;
+    qb:concept sdmx-concept:refPeriod ;
+    .
+    
+
+eg:refArea  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "reference area"@en;
+    rdfs:subPropertyOf sdmx-dimension:refArea;
+    qb:concept sdmx-concept:refArea ;
+    .
