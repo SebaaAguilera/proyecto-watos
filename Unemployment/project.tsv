@@ -1,0 +1,8 @@
+Variable	Key name	Header	Unit of measurement	Date of access	Owner	Comment
+Unemployment, male (% of male labor force) (modeled ILO estimate)	unemployment_male	Country, %_2000, %_2018	% of male labor force, % of male labor force	22-09-2020	The World Bank	2.5 | Unemployment
+Unemployment, female (% of female labor force) (modeled ILO estimate)	unemployment_female	Country, %_2000, %_2019	% of female labor force, % of female labor force	22-09-2020	The World Bank	2.5 | Unemployment
+Unemployment, youth male (% of male labor force ages 15-24) (modeled ILO estimate)	unemployment_youth_male	Country, %_2000, %_2020	% of male labor force ages 15-24, % of male labor force ages 15-24	22-09-2020	The World Bank	2.5 | Unemployment
+Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)	unemployment_youth_female	Country, %_2000, %_2021	% of female labor force ages 15-24, % of male labor force ages 15-25	22-09-2020	The World Bank	2.5 | Unemployment
+Unemployment with basic education (% of total labor force with basic education)	unemployment_basic_education	Country, % unemployment	% of total labor force with basic education	22-09-2020	The World Bank	2.5 | Unemployment
+Unemployment with intermediate education (% of total labor force with intermediate education)	unemployment_intermediate_education	Country, % unemployment	% of total labor force with intermediate education	22-09-2020	The World Bank	2.5 | Unemployment
+Unemployment with advanced education (% of total labor force with advanced education)	unemployment_advanced _education	Country, % unemployment	% of total labor force with advanced education	22-09-2020	The World Bank	2.5 | Unemployment
