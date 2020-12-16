@@ -1,0 +1,3377 @@
+c19:dataset-unemploymentFemale a qb:Dataset;
+    dct:title       "Unemployment, female (% of female labor force) (modeled ILO estimate)"@en;
+    rdfs:label      "unemployment_female"@en;
+    rdfs:comment    "The World Bank: 2.5 | Unemployment"@en;
+    dct:description "Unemployment, female (% of female labor force) (modeled ILO estimate)"@en;
+    dct:publisher   wd:Q7164;
+    dct:issued      "2020-09-22"^^xsd:date;
+    dct:source      <http://wdi.worldbank.org/table/2.5> ;
+    qb:structure    c19-structure:dsd-unemploymentFemale ; 
+.
+
+
+c19:dataset-unemploymentFemale00 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	14.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q889 .
+
+c19:dataset-unemploymentFemale10 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q889 .
+
+c19:dataset-unemploymentFemale01 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	16.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q222 .
+
+c19:dataset-unemploymentFemale11 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q222 .
+
+c19:dataset-unemploymentFemale02 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	29.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q262 .
+
+c19:dataset-unemploymentFemale12 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	21.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q262 .
+
+c19:dataset-unemploymentFemale03 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q916 .
+
+c19:dataset-unemploymentFemale13 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q916 .
+
+c19:dataset-unemploymentFemale04 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	16.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q414 .
+
+c19:dataset-unemploymentFemale14 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q414 .
+
+c19:dataset-unemploymentFemale05 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	14.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q399 .
+
+c19:dataset-unemploymentFemale15 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	17.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q399 .
+
+c19:dataset-unemploymentFemale06 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q408 .
+
+c19:dataset-unemploymentFemale16 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q408 .
+
+c19:dataset-unemploymentFemale07 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q40 .
+
+c19:dataset-unemploymentFemale17 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q40 .
+
+c19:dataset-unemploymentFemale08 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q227 .
+
+c19:dataset-unemploymentFemale18 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q227 .
+
+c19:dataset-unemploymentFemale09 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q778 .
+
+c19:dataset-unemploymentFemale19 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q778 .
+
+c19:dataset-unemploymentFemale010 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q398 .
+
+c19:dataset-unemploymentFemale110 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q398 .
+
+c19:dataset-unemploymentFemale011 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q902 .
+
+c19:dataset-unemploymentFemale111 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q902 .
+
+c19:dataset-unemploymentFemale012 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q244 .
+
+c19:dataset-unemploymentFemale112 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q244 .
+
+c19:dataset-unemploymentFemale013 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q184 .
+
+c19:dataset-unemploymentFemale113 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q184 .
+
+c19:dataset-unemploymentFemale014 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q31 .
+
+c19:dataset-unemploymentFemale114 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q31 .
+
+c19:dataset-unemploymentFemale015 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	18.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q242 .
+
+c19:dataset-unemploymentFemale115 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q242 .
+
+c19:dataset-unemploymentFemale016 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q962 .
+
+c19:dataset-unemploymentFemale116 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q962 .
+
+c19:dataset-unemploymentFemale017 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q917 .
+
+c19:dataset-unemploymentFemale117 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q917 .
+
+c19:dataset-unemploymentFemale018 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q750 .
+
+c19:dataset-unemploymentFemale118 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q750 .
+
+c19:dataset-unemploymentFemale019 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	29.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q225 .
+
+c19:dataset-unemploymentFemale119 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q225 .
+
+c19:dataset-unemploymentFemale020 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	17.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q963 .
+
+c19:dataset-unemploymentFemale120 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q963 .
+
+c19:dataset-unemploymentFemale021 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q155 .
+
+c19:dataset-unemploymentFemale121 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	14.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q155 .
+
+c19:dataset-unemploymentFemale022 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q921 .
+
+c19:dataset-unemploymentFemale122 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q921 .
+
+c19:dataset-unemploymentFemale023 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	15.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q219 .
+
+c19:dataset-unemploymentFemale123 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q219 .
+
+c19:dataset-unemploymentFemale024 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q965 .
+
+c19:dataset-unemploymentFemale124 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q965 .
+
+c19:dataset-unemploymentFemale025 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q967 .
+
+c19:dataset-unemploymentFemale125 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q967 .
+
+c19:dataset-unemploymentFemale026 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1011 .
+
+c19:dataset-unemploymentFemale126 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1011 .
+
+c19:dataset-unemploymentFemale027 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q424 .
+
+c19:dataset-unemploymentFemale127 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q424 .
+
+c19:dataset-unemploymentFemale028 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1009 .
+
+c19:dataset-unemploymentFemale128 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1009 .
+
+c19:dataset-unemploymentFemale029 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q16 .
+
+c19:dataset-unemploymentFemale129 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q16 .
+
+c19:dataset-unemploymentFemale030 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q929 .
+
+c19:dataset-unemploymentFemale130 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q929 .
+
+c19:dataset-unemploymentFemale031 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q657 .
+
+c19:dataset-unemploymentFemale131 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q657 .
+
+c19:dataset-unemploymentFemale032 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q42314 .
+
+c19:dataset-unemploymentFemale132 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q42314 .
+
+c19:dataset-unemploymentFemale033 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q298 .
+
+c19:dataset-unemploymentFemale133 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q298 .
+
+c19:dataset-unemploymentFemale034 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q148 .
+
+c19:dataset-unemploymentFemale134 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q148 .
+
+c19:dataset-unemploymentFemale035 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	25.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q739 .
+
+c19:dataset-unemploymentFemale135 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q739 .
+
+c19:dataset-unemploymentFemale036 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q970 .
+
+c19:dataset-unemploymentFemale136 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q970 .
+
+c19:dataset-unemploymentFemale037 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q974 .
+
+c19:dataset-unemploymentFemale137 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q974 .
+
+c19:dataset-unemploymentFemale038 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	21.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q971 .
+
+c19:dataset-unemploymentFemale138 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q971 .
+
+c19:dataset-unemploymentFemale039 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q800 .
+
+c19:dataset-unemploymentFemale139 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q800 .
+
+c19:dataset-unemploymentFemale040 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1008 .
+
+c19:dataset-unemploymentFemale140 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1008 .
+
+c19:dataset-unemploymentFemale041 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	17.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q224 .
+
+c19:dataset-unemploymentFemale141 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q224 .
+
+c19:dataset-unemploymentFemale042 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q241 .
+
+c19:dataset-unemploymentFemale142 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q241 .
+
+c19:dataset-unemploymentFemale043 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q229 .
+
+c19:dataset-unemploymentFemale143 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q229 .
+
+c19:dataset-unemploymentFemale044 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q213 .
+
+c19:dataset-unemploymentFemale144 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q213 .
+
+c19:dataset-unemploymentFemale045 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q35 .
+
+c19:dataset-unemploymentFemale145 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q35 .
+
+c19:dataset-unemploymentFemale046 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q977 .
+
+c19:dataset-unemploymentFemale146 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q977 .
+
+c19:dataset-unemploymentFemale047 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q786 .
+
+c19:dataset-unemploymentFemale147 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q786 .
+
+c19:dataset-unemploymentFemale048 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q736 .
+
+c19:dataset-unemploymentFemale148 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q736 .
+
+c19:dataset-unemploymentFemale049 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	23.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q79 .
+
+c19:dataset-unemploymentFemale149 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	23.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q79 .
+
+c19:dataset-unemploymentFemale050 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q792 .
+
+c19:dataset-unemploymentFemale150 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q792 .
+
+c19:dataset-unemploymentFemale051 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q983 .
+
+c19:dataset-unemploymentFemale151 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q983 .
+
+c19:dataset-unemploymentFemale052 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q986 .
+
+c19:dataset-unemploymentFemale152 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q986 .
+
+c19:dataset-unemploymentFemale053 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q191 .
+
+c19:dataset-unemploymentFemale153 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q191 .
+
+c19:dataset-unemploymentFemale054 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	27.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1050 .
+
+c19:dataset-unemploymentFemale154 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	23.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1050 .
+
+c19:dataset-unemploymentFemale055 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q115 .
+
+c19:dataset-unemploymentFemale155 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q115 .
+
+c19:dataset-unemploymentFemale056 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q712 .
+
+c19:dataset-unemploymentFemale156 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q712 .
+
+c19:dataset-unemploymentFemale057 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q33 .
+
+c19:dataset-unemploymentFemale157 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q33 .
+
+c19:dataset-unemploymentFemale058 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q142 .
+
+c19:dataset-unemploymentFemale158 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q142 .
+
+c19:dataset-unemploymentFemale059 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q30971 .
+
+c19:dataset-unemploymentFemale159 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q30971 .
+
+c19:dataset-unemploymentFemale060 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1000 .
+
+c19:dataset-unemploymentFemale160 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	28.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1000 .
+
+c19:dataset-unemploymentFemale061 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1005 .
+
+c19:dataset-unemploymentFemale161 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1005 .
+
+c19:dataset-unemploymentFemale062 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q230 .
+
+c19:dataset-unemploymentFemale162 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q230 .
+
+c19:dataset-unemploymentFemale063 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q183 .
+
+c19:dataset-unemploymentFemale163 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q183 .
+
+c19:dataset-unemploymentFemale064 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q117 .
+
+c19:dataset-unemploymentFemale164 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q117 .
+
+c19:dataset-unemploymentFemale065 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	17.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q41 .
+
+c19:dataset-unemploymentFemale165 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	24.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q41 .
+
+c19:dataset-unemploymentFemale066 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q16635 .
+
+c19:dataset-unemploymentFemale166 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q16635 .
+
+c19:dataset-unemploymentFemale067 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q774 .
+
+c19:dataset-unemploymentFemale167 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q774 .
+
+c19:dataset-unemploymentFemale068 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1006 .
+
+c19:dataset-unemploymentFemale168 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1006 .
+
+c19:dataset-unemploymentFemale069 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1007 .
+
+c19:dataset-unemploymentFemale169 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1007 .
+
+c19:dataset-unemploymentFemale070 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	15.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q734 .
+
+c19:dataset-unemploymentFemale170 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	15.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q734 .
+
+c19:dataset-unemploymentFemale071 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q790 .
+
+c19:dataset-unemploymentFemale171 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	16.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q790 .
+
+c19:dataset-unemploymentFemale072 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q783 .
+
+c19:dataset-unemploymentFemale172 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q783 .
+
+c19:dataset-unemploymentFemale073 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q8646 .
+
+c19:dataset-unemploymentFemale173 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q8646 .
+
+c19:dataset-unemploymentFemale074 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q28 .
+
+c19:dataset-unemploymentFemale174 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q28 .
+
+c19:dataset-unemploymentFemale075 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q189 .
+
+c19:dataset-unemploymentFemale175 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q189 .
+
+c19:dataset-unemploymentFemale076 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q668 .
+
+c19:dataset-unemploymentFemale176 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q668 .
+
+c19:dataset-unemploymentFemale077 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q252 .
+
+c19:dataset-unemploymentFemale177 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q252 .
+
+c19:dataset-unemploymentFemale078 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	18.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q794 .
+
+c19:dataset-unemploymentFemale178 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	19.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q794 .
+
+c19:dataset-unemploymentFemale079 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q796 .
+
+c19:dataset-unemploymentFemale179 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	30.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q796 .
+
+c19:dataset-unemploymentFemale080 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q27 .
+
+c19:dataset-unemploymentFemale180 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q27 .
+
+c19:dataset-unemploymentFemale081 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q801 .
+
+c19:dataset-unemploymentFemale181 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q801 .
+
+c19:dataset-unemploymentFemale082 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	14.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q38 .
+
+c19:dataset-unemploymentFemale182 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q38 .
+
+c19:dataset-unemploymentFemale083 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	22.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q766 .
+
+c19:dataset-unemploymentFemale183 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q766 .
+
+c19:dataset-unemploymentFemale084 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q17 .
+
+c19:dataset-unemploymentFemale184 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q17 .
+
+c19:dataset-unemploymentFemale085 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	21.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q810 .
+
+c19:dataset-unemploymentFemale185 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	23.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q810 .
+
+c19:dataset-unemploymentFemale086 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	14.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q232 .
+
+c19:dataset-unemploymentFemale186 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q232 .
+
+c19:dataset-unemploymentFemale087 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q114 .
+
+c19:dataset-unemploymentFemale187 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q114 .
+
+c19:dataset-unemploymentFemale088 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q423 .
+
+c19:dataset-unemploymentFemale188 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q423 .
+
+c19:dataset-unemploymentFemale089 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q884 .
+
+c19:dataset-unemploymentFemale189 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q884 .
+
+c19:dataset-unemploymentFemale090 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q817 .
+
+c19:dataset-unemploymentFemale190 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q817 .
+
+c19:dataset-unemploymentFemale091 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q813 .
+
+c19:dataset-unemploymentFemale191 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q813 .
+
+c19:dataset-unemploymentFemale092 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q819 .
+
+c19:dataset-unemploymentFemale192 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q819 .
+
+c19:dataset-unemploymentFemale093 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q211 .
+
+c19:dataset-unemploymentFemale193 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q211 .
+
+c19:dataset-unemploymentFemale094 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q822 .
+
+c19:dataset-unemploymentFemale194 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q822 .
+
+c19:dataset-unemploymentFemale095 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	43.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1013 .
+
+c19:dataset-unemploymentFemale195 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	27.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1013 .
+
+c19:dataset-unemploymentFemale096 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1014 .
+
+c19:dataset-unemploymentFemale196 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1014 .
+
+c19:dataset-unemploymentFemale097 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	25.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1016 .
+
+c19:dataset-unemploymentFemale197 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	24.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1016 .
+
+c19:dataset-unemploymentFemale098 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q37 .
+
+c19:dataset-unemploymentFemale198 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q37 .
+
+c19:dataset-unemploymentFemale099 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q32 .
+
+c19:dataset-unemploymentFemale199 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q32 .
+
+c19:dataset-unemploymentFemale0100 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q14773 .
+
+c19:dataset-unemploymentFemale1100 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q14773 .
+
+c19:dataset-unemploymentFemale0101 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1019 .
+
+c19:dataset-unemploymentFemale1101 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1019 .
+
+c19:dataset-unemploymentFemale0102 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1020 .
+
+c19:dataset-unemploymentFemale1102 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1020 .
+
+c19:dataset-unemploymentFemale0103 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q833 .
+
+c19:dataset-unemploymentFemale1103 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q833 .
+
+c19:dataset-unemploymentFemale0104 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q826 .
+
+c19:dataset-unemploymentFemale1104 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q826 .
+
+c19:dataset-unemploymentFemale0105 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q912 .
+
+c19:dataset-unemploymentFemale1105 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q912 .
+
+c19:dataset-unemploymentFemale0106 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q233 .
+
+c19:dataset-unemploymentFemale1106 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q233 .
+
+c19:dataset-unemploymentFemale0107 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1025 .
+
+c19:dataset-unemploymentFemale1107 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1025 .
+
+c19:dataset-unemploymentFemale0108 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1027 .
+
+c19:dataset-unemploymentFemale1108 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1027 .
+
+c19:dataset-unemploymentFemale0109 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q96 .
+
+c19:dataset-unemploymentFemale1109 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q96 .
+
+c19:dataset-unemploymentFemale0110 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q217 .
+
+c19:dataset-unemploymentFemale1110 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q217 .
+
+c19:dataset-unemploymentFemale0111 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q711 .
+
+c19:dataset-unemploymentFemale1111 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q711 .
+
+c19:dataset-unemploymentFemale0112 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	35.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q236 .
+
+c19:dataset-unemploymentFemale1112 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	15.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q236 .
+
+c19:dataset-unemploymentFemale0113 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1028 .
+
+c19:dataset-unemploymentFemale1113 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1028 .
+
+c19:dataset-unemploymentFemale0114 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1029 .
+
+c19:dataset-unemploymentFemale1114 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1029 .
+
+c19:dataset-unemploymentFemale0115 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q836 .
+
+c19:dataset-unemploymentFemale1115 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q836 .
+
+c19:dataset-unemploymentFemale0116 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	21.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1030 .
+
+c19:dataset-unemploymentFemale1116 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	18.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1030 .
+
+c19:dataset-unemploymentFemale0117 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q837 .
+
+c19:dataset-unemploymentFemale1117 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q837 .
+
+c19:dataset-unemploymentFemale0118 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q55 .
+
+c19:dataset-unemploymentFemale1118 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q55 .
+
+c19:dataset-unemploymentFemale0119 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q33788 .
+
+c19:dataset-unemploymentFemale1119 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	14.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q33788 .
+
+c19:dataset-unemploymentFemale0120 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q664 .
+
+c19:dataset-unemploymentFemale1120 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q664 .
+
+c19:dataset-unemploymentFemale0121 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q811 .
+
+c19:dataset-unemploymentFemale1121 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q811 .
+
+c19:dataset-unemploymentFemale0122 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1032 .
+
+c19:dataset-unemploymentFemale1122 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1032 .
+
+c19:dataset-unemploymentFemale0123 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1033 .
+
+c19:dataset-unemploymentFemale1123 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1033 .
+
+c19:dataset-unemploymentFemale0124 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	34.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q221 .
+
+c19:dataset-unemploymentFemale1124 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	19.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q221 .
+
+c19:dataset-unemploymentFemale0125 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q20 .
+
+c19:dataset-unemploymentFemale1125 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q20 .
+
+c19:dataset-unemploymentFemale0126 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q842 .
+
+c19:dataset-unemploymentFemale1126 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q842 .
+
+c19:dataset-unemploymentFemale0127 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q843 .
+
+c19:dataset-unemploymentFemale1127 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q843 .
+
+c19:dataset-unemploymentFemale0128 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q804 .
+
+c19:dataset-unemploymentFemale1128 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q804 .
+
+c19:dataset-unemploymentFemale0129 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q691 .
+
+c19:dataset-unemploymentFemale1129 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q691 .
+
+c19:dataset-unemploymentFemale0130 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q733 .
+
+c19:dataset-unemploymentFemale1130 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q733 .
+
+c19:dataset-unemploymentFemale0131 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q419 .
+
+c19:dataset-unemploymentFemale1131 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q419 .
+
+c19:dataset-unemploymentFemale0132 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q928 .
+
+c19:dataset-unemploymentFemale1132 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q928 .
+
+c19:dataset-unemploymentFemale0133 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	18.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q36 .
+
+c19:dataset-unemploymentFemale1133 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q36 .
+
+c19:dataset-unemploymentFemale0134 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q45 .
+
+c19:dataset-unemploymentFemale1134 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q45 .
+
+c19:dataset-unemploymentFemale0135 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1183 .
+
+c19:dataset-unemploymentFemale1135 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1183 .
+
+c19:dataset-unemploymentFemale0136 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q846 .
+
+c19:dataset-unemploymentFemale1136 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q846 .
+
+c19:dataset-unemploymentFemale0137 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q218 .
+
+c19:dataset-unemploymentFemale1137 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q218 .
+
+c19:dataset-unemploymentFemale0138 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q159 .
+
+c19:dataset-unemploymentFemale1138 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q159 .
+
+c19:dataset-unemploymentFemale0139 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1037 .
+
+c19:dataset-unemploymentFemale1139 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1037 .
+
+c19:dataset-unemploymentFemale0140 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q683 .
+
+c19:dataset-unemploymentFemale1140 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q683 .
+
+c19:dataset-unemploymentFemale0141 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	17.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1039 .
+
+c19:dataset-unemploymentFemale1141 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1039 .
+
+c19:dataset-unemploymentFemale0142 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q851 .
+
+c19:dataset-unemploymentFemale1142 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	22.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q851 .
+
+c19:dataset-unemploymentFemale0143 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1041 .
+
+c19:dataset-unemploymentFemale1143 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1041 .
+
+c19:dataset-unemploymentFemale0144 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	15.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q403 .
+
+c19:dataset-unemploymentFemale1144 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q403 .
+
+c19:dataset-unemploymentFemale0145 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1044 .
+
+c19:dataset-unemploymentFemale1145 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1044 .
+
+c19:dataset-unemploymentFemale0146 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q334 .
+
+c19:dataset-unemploymentFemale1146 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q334 .
+
+c19:dataset-unemploymentFemale0147 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	18.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q214 .
+
+c19:dataset-unemploymentFemale1147 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q214 .
+
+c19:dataset-unemploymentFemale0148 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q215 .
+
+c19:dataset-unemploymentFemale1148 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q215 .
+
+c19:dataset-unemploymentFemale0149 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q685 .
+
+c19:dataset-unemploymentFemale1149 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q685 .
+
+c19:dataset-unemploymentFemale0150 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1045 .
+
+c19:dataset-unemploymentFemale1150 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1045 .
+
+c19:dataset-unemploymentFemale0151 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	36.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q258 .
+
+c19:dataset-unemploymentFemale1151 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	29.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q258 .
+
+c19:dataset-unemploymentFemale0152 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q958 .
+
+c19:dataset-unemploymentFemale1152 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q958 .
+
+c19:dataset-unemploymentFemale0153 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q29 .
+
+c19:dataset-unemploymentFemale1153 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	17.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q29 .
+
+c19:dataset-unemploymentFemale0154 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q854 .
+
+c19:dataset-unemploymentFemale1154 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q854 .
+
+c19:dataset-unemploymentFemale0155 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	21.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q760 .
+
+c19:dataset-unemploymentFemale1155 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	23.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q760 .
+
+c19:dataset-unemploymentFemale0156 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	19.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q757 .
+
+c19:dataset-unemploymentFemale1156 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	16.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q757 .
+
+c19:dataset-unemploymentFemale0157 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1049 .
+
+c19:dataset-unemploymentFemale1157 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	29.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1049 .
+
+c19:dataset-unemploymentFemale0158 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	19.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q730 .
+
+c19:dataset-unemploymentFemale1158 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q730 .
+
+c19:dataset-unemploymentFemale0159 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q34 .
+
+c19:dataset-unemploymentFemale1159 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q34 .
+
+c19:dataset-unemploymentFemale0160 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q39 .
+
+c19:dataset-unemploymentFemale1160 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q39 .
+
+c19:dataset-unemploymentFemale0161 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	19.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q858 .
+
+c19:dataset-unemploymentFemale1161 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	20.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q858 .
+
+c19:dataset-unemploymentFemale0162 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q863 .
+
+c19:dataset-unemploymentFemale1162 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q863 .
+
+c19:dataset-unemploymentFemale0163 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q924 .
+
+c19:dataset-unemploymentFemale1163 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q924 .
+
+c19:dataset-unemploymentFemale0164 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q869 .
+
+c19:dataset-unemploymentFemale1164 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	0.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q869 .
+
+c19:dataset-unemploymentFemale0165 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q574 .
+
+c19:dataset-unemploymentFemale1165 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q574 .
+
+c19:dataset-unemploymentFemale0166 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q945 .
+
+c19:dataset-unemploymentFemale1166 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q945 .
+
+c19:dataset-unemploymentFemale0167 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q678 .
+
+c19:dataset-unemploymentFemale1167 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q678 .
+
+c19:dataset-unemploymentFemale0168 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q754 .
+
+c19:dataset-unemploymentFemale1168 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q754 .
+
+c19:dataset-unemploymentFemale0169 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	16.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q948 .
+
+c19:dataset-unemploymentFemale1169 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	23.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q948 .
+
+c19:dataset-unemploymentFemale0170 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q43 .
+
+c19:dataset-unemploymentFemale1170 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	13.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q43 .
+
+c19:dataset-unemploymentFemale0171 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q874 .
+
+c19:dataset-unemploymentFemale1171 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q874 .
+
+c19:dataset-unemploymentFemale0172 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1036 .
+
+c19:dataset-unemploymentFemale1172 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q1036 .
+
+c19:dataset-unemploymentFemale0173 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q212 .
+
+c19:dataset-unemploymentFemale1173 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	7.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q212 .
+
+c19:dataset-unemploymentFemale0174 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.7 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q878 .
+
+c19:dataset-unemploymentFemale1174 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	6.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q878 .
+
+c19:dataset-unemploymentFemale0175 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q145 .
+
+c19:dataset-unemploymentFemale1175 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q145 .
+
+c19:dataset-unemploymentFemale0176 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q30 .
+
+c19:dataset-unemploymentFemale1176 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	3.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q30 .
+
+c19:dataset-unemploymentFemale0177 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	15.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q77 .
+
+c19:dataset-unemploymentFemale1177 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q77 .
+
+c19:dataset-unemploymentFemale0178 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q265 .
+
+c19:dataset-unemploymentFemale1178 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.5 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q265 .
+
+c19:dataset-unemploymentFemale0179 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.2 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q686 .
+
+c19:dataset-unemploymentFemale1179 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q686 .
+
+c19:dataset-unemploymentFemale0180 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	14.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q717 .
+
+c19:dataset-unemploymentFemale1180 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q717 .
+
+c19:dataset-unemploymentFemale0181 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	2.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q881 .
+
+c19:dataset-unemploymentFemale1181 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	1.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q881 .
+
+c19:dataset-unemploymentFemale0182 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	10.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q11703 .
+
+c19:dataset-unemploymentFemale1182 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	9.1 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q11703 .
+
+c19:dataset-unemploymentFemale0183 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.0 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q407199 .
+
+c19:dataset-unemploymentFemale1183 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	41.8 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q407199 .
+
+c19:dataset-unemploymentFemale0184 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	8.9 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q805 .
+
+c19:dataset-unemploymentFemale1184 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	25.3 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q805 .
+
+c19:dataset-unemploymentFemale0185 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	11.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q953 .
+
+c19:dataset-unemploymentFemale1185 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	12.4 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q953 .
+
+c19:dataset-unemploymentFemale0186 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2000
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	4.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q954 .
+
+c19:dataset-unemploymentFemale1186 a qb:Observation;
+    qb:dataSet                      c19:dataset-unemploymentFemale;
+    c19-dimension:refPeriod         c19-interval:Year2018
+    sdmx-dimension:sex              sdmx-code:sex-F ;
+    c19-measure:unemploymentFemale	5.6 ;
+    sdmx-attribute:unitMultiplier   -2 ;
+    sdmx-attribute:decimals         1 ;
+    c19-dimension:refArea           wd:Q954 .
