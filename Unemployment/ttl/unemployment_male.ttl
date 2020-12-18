@@ -13,7 +13,7 @@ c19:dataset-unemploymentMale a qb:Dataset;
 c19:dataset-unemploymentMale00 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -22,7 +22,7 @@ c19:dataset-unemploymentMale00 a qb:Observation;
 c19:dataset-unemploymentMale10 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -31,7 +31,7 @@ c19:dataset-unemploymentMale10 a qb:Observation;
 c19:dataset-unemploymentMale01 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	16.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -40,7 +40,7 @@ c19:dataset-unemploymentMale01 a qb:Observation;
 c19:dataset-unemploymentMale11 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -49,7 +49,7 @@ c19:dataset-unemploymentMale11 a qb:Observation;
 c19:dataset-unemploymentMale02 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	29.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -58,7 +58,7 @@ c19:dataset-unemploymentMale02 a qb:Observation;
 c19:dataset-unemploymentMale12 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -67,7 +67,7 @@ c19:dataset-unemploymentMale12 a qb:Observation;
 c19:dataset-unemploymentMale03 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -76,7 +76,7 @@ c19:dataset-unemploymentMale03 a qb:Observation;
 c19:dataset-unemploymentMale13 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -85,7 +85,7 @@ c19:dataset-unemploymentMale13 a qb:Observation;
 c19:dataset-unemploymentMale04 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -94,7 +94,7 @@ c19:dataset-unemploymentMale04 a qb:Observation;
 c19:dataset-unemploymentMale14 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -103,7 +103,7 @@ c19:dataset-unemploymentMale14 a qb:Observation;
 c19:dataset-unemploymentMale05 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -112,7 +112,7 @@ c19:dataset-unemploymentMale05 a qb:Observation;
 c19:dataset-unemploymentMale15 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	17.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -121,7 +121,7 @@ c19:dataset-unemploymentMale15 a qb:Observation;
 c19:dataset-unemploymentMale06 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -130,7 +130,7 @@ c19:dataset-unemploymentMale06 a qb:Observation;
 c19:dataset-unemploymentMale16 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -139,7 +139,7 @@ c19:dataset-unemploymentMale16 a qb:Observation;
 c19:dataset-unemploymentMale07 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -148,7 +148,7 @@ c19:dataset-unemploymentMale07 a qb:Observation;
 c19:dataset-unemploymentMale17 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -157,7 +157,7 @@ c19:dataset-unemploymentMale17 a qb:Observation;
 c19:dataset-unemploymentMale08 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -166,7 +166,7 @@ c19:dataset-unemploymentMale08 a qb:Observation;
 c19:dataset-unemploymentMale18 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -175,7 +175,7 @@ c19:dataset-unemploymentMale18 a qb:Observation;
 c19:dataset-unemploymentMale09 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -184,7 +184,7 @@ c19:dataset-unemploymentMale09 a qb:Observation;
 c19:dataset-unemploymentMale19 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -193,7 +193,7 @@ c19:dataset-unemploymentMale19 a qb:Observation;
 c19:dataset-unemploymentMale010 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -202,7 +202,7 @@ c19:dataset-unemploymentMale010 a qb:Observation;
 c19:dataset-unemploymentMale110 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -211,7 +211,7 @@ c19:dataset-unemploymentMale110 a qb:Observation;
 c19:dataset-unemploymentMale011 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -220,7 +220,7 @@ c19:dataset-unemploymentMale011 a qb:Observation;
 c19:dataset-unemploymentMale111 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -229,7 +229,7 @@ c19:dataset-unemploymentMale111 a qb:Observation;
 c19:dataset-unemploymentMale012 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -238,7 +238,7 @@ c19:dataset-unemploymentMale012 a qb:Observation;
 c19:dataset-unemploymentMale112 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -247,7 +247,7 @@ c19:dataset-unemploymentMale112 a qb:Observation;
 c19:dataset-unemploymentMale013 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -256,7 +256,7 @@ c19:dataset-unemploymentMale013 a qb:Observation;
 c19:dataset-unemploymentMale113 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -265,7 +265,7 @@ c19:dataset-unemploymentMale113 a qb:Observation;
 c19:dataset-unemploymentMale014 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -274,7 +274,7 @@ c19:dataset-unemploymentMale014 a qb:Observation;
 c19:dataset-unemploymentMale114 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -283,7 +283,7 @@ c19:dataset-unemploymentMale114 a qb:Observation;
 c19:dataset-unemploymentMale015 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -292,7 +292,7 @@ c19:dataset-unemploymentMale015 a qb:Observation;
 c19:dataset-unemploymentMale115 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -301,7 +301,7 @@ c19:dataset-unemploymentMale115 a qb:Observation;
 c19:dataset-unemploymentMale016 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -310,7 +310,7 @@ c19:dataset-unemploymentMale016 a qb:Observation;
 c19:dataset-unemploymentMale116 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -319,7 +319,7 @@ c19:dataset-unemploymentMale116 a qb:Observation;
 c19:dataset-unemploymentMale017 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -328,7 +328,7 @@ c19:dataset-unemploymentMale017 a qb:Observation;
 c19:dataset-unemploymentMale117 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -337,7 +337,7 @@ c19:dataset-unemploymentMale117 a qb:Observation;
 c19:dataset-unemploymentMale018 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -346,7 +346,7 @@ c19:dataset-unemploymentMale018 a qb:Observation;
 c19:dataset-unemploymentMale118 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -355,7 +355,7 @@ c19:dataset-unemploymentMale118 a qb:Observation;
 c19:dataset-unemploymentMale019 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	23.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -364,7 +364,7 @@ c19:dataset-unemploymentMale019 a qb:Observation;
 c19:dataset-unemploymentMale119 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	17.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -373,7 +373,7 @@ c19:dataset-unemploymentMale119 a qb:Observation;
 c19:dataset-unemploymentMale020 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -382,7 +382,7 @@ c19:dataset-unemploymentMale020 a qb:Observation;
 c19:dataset-unemploymentMale120 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -391,7 +391,7 @@ c19:dataset-unemploymentMale120 a qb:Observation;
 c19:dataset-unemploymentMale021 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -400,7 +400,7 @@ c19:dataset-unemploymentMale021 a qb:Observation;
 c19:dataset-unemploymentMale121 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -409,7 +409,7 @@ c19:dataset-unemploymentMale121 a qb:Observation;
 c19:dataset-unemploymentMale022 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -418,7 +418,7 @@ c19:dataset-unemploymentMale022 a qb:Observation;
 c19:dataset-unemploymentMale122 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -427,7 +427,7 @@ c19:dataset-unemploymentMale122 a qb:Observation;
 c19:dataset-unemploymentMale023 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	16.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -436,7 +436,7 @@ c19:dataset-unemploymentMale023 a qb:Observation;
 c19:dataset-unemploymentMale123 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -445,7 +445,7 @@ c19:dataset-unemploymentMale123 a qb:Observation;
 c19:dataset-unemploymentMale024 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -454,7 +454,7 @@ c19:dataset-unemploymentMale024 a qb:Observation;
 c19:dataset-unemploymentMale124 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -463,7 +463,7 @@ c19:dataset-unemploymentMale124 a qb:Observation;
 c19:dataset-unemploymentMale025 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -472,7 +472,7 @@ c19:dataset-unemploymentMale025 a qb:Observation;
 c19:dataset-unemploymentMale125 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -481,7 +481,7 @@ c19:dataset-unemploymentMale125 a qb:Observation;
 c19:dataset-unemploymentMale026 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -490,7 +490,7 @@ c19:dataset-unemploymentMale026 a qb:Observation;
 c19:dataset-unemploymentMale126 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -499,7 +499,7 @@ c19:dataset-unemploymentMale126 a qb:Observation;
 c19:dataset-unemploymentMale027 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -508,7 +508,7 @@ c19:dataset-unemploymentMale027 a qb:Observation;
 c19:dataset-unemploymentMale127 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -517,7 +517,7 @@ c19:dataset-unemploymentMale127 a qb:Observation;
 c19:dataset-unemploymentMale028 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -526,7 +526,7 @@ c19:dataset-unemploymentMale028 a qb:Observation;
 c19:dataset-unemploymentMale128 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -535,7 +535,7 @@ c19:dataset-unemploymentMale128 a qb:Observation;
 c19:dataset-unemploymentMale029 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -544,7 +544,7 @@ c19:dataset-unemploymentMale029 a qb:Observation;
 c19:dataset-unemploymentMale129 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -553,7 +553,7 @@ c19:dataset-unemploymentMale129 a qb:Observation;
 c19:dataset-unemploymentMale030 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -562,7 +562,7 @@ c19:dataset-unemploymentMale030 a qb:Observation;
 c19:dataset-unemploymentMale130 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -571,7 +571,7 @@ c19:dataset-unemploymentMale130 a qb:Observation;
 c19:dataset-unemploymentMale031 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -580,7 +580,7 @@ c19:dataset-unemploymentMale031 a qb:Observation;
 c19:dataset-unemploymentMale131 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -589,7 +589,7 @@ c19:dataset-unemploymentMale131 a qb:Observation;
 c19:dataset-unemploymentMale032 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -598,7 +598,7 @@ c19:dataset-unemploymentMale032 a qb:Observation;
 c19:dataset-unemploymentMale132 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -607,7 +607,7 @@ c19:dataset-unemploymentMale132 a qb:Observation;
 c19:dataset-unemploymentMale033 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -616,7 +616,7 @@ c19:dataset-unemploymentMale033 a qb:Observation;
 c19:dataset-unemploymentMale133 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -625,7 +625,7 @@ c19:dataset-unemploymentMale133 a qb:Observation;
 c19:dataset-unemploymentMale034 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -634,7 +634,7 @@ c19:dataset-unemploymentMale034 a qb:Observation;
 c19:dataset-unemploymentMale134 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -643,7 +643,7 @@ c19:dataset-unemploymentMale134 a qb:Observation;
 c19:dataset-unemploymentMale035 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	17.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -652,7 +652,7 @@ c19:dataset-unemploymentMale035 a qb:Observation;
 c19:dataset-unemploymentMale135 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -661,7 +661,7 @@ c19:dataset-unemploymentMale135 a qb:Observation;
 c19:dataset-unemploymentMale036 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -670,7 +670,7 @@ c19:dataset-unemploymentMale036 a qb:Observation;
 c19:dataset-unemploymentMale136 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -679,7 +679,7 @@ c19:dataset-unemploymentMale136 a qb:Observation;
 c19:dataset-unemploymentMale037 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -688,7 +688,7 @@ c19:dataset-unemploymentMale037 a qb:Observation;
 c19:dataset-unemploymentMale137 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -697,7 +697,7 @@ c19:dataset-unemploymentMale137 a qb:Observation;
 c19:dataset-unemploymentMale038 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	18.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -706,7 +706,7 @@ c19:dataset-unemploymentMale038 a qb:Observation;
 c19:dataset-unemploymentMale138 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -715,7 +715,7 @@ c19:dataset-unemploymentMale138 a qb:Observation;
 c19:dataset-unemploymentMale039 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -724,7 +724,7 @@ c19:dataset-unemploymentMale039 a qb:Observation;
 c19:dataset-unemploymentMale139 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -733,7 +733,7 @@ c19:dataset-unemploymentMale139 a qb:Observation;
 c19:dataset-unemploymentMale040 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -742,7 +742,7 @@ c19:dataset-unemploymentMale040 a qb:Observation;
 c19:dataset-unemploymentMale140 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -751,7 +751,7 @@ c19:dataset-unemploymentMale140 a qb:Observation;
 c19:dataset-unemploymentMale041 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -760,7 +760,7 @@ c19:dataset-unemploymentMale041 a qb:Observation;
 c19:dataset-unemploymentMale141 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -769,7 +769,7 @@ c19:dataset-unemploymentMale141 a qb:Observation;
 c19:dataset-unemploymentMale042 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -778,7 +778,7 @@ c19:dataset-unemploymentMale042 a qb:Observation;
 c19:dataset-unemploymentMale142 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -787,7 +787,7 @@ c19:dataset-unemploymentMale142 a qb:Observation;
 c19:dataset-unemploymentMale043 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -796,7 +796,7 @@ c19:dataset-unemploymentMale043 a qb:Observation;
 c19:dataset-unemploymentMale143 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -805,7 +805,7 @@ c19:dataset-unemploymentMale143 a qb:Observation;
 c19:dataset-unemploymentMale044 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -814,7 +814,7 @@ c19:dataset-unemploymentMale044 a qb:Observation;
 c19:dataset-unemploymentMale144 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -823,7 +823,7 @@ c19:dataset-unemploymentMale144 a qb:Observation;
 c19:dataset-unemploymentMale045 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -832,7 +832,7 @@ c19:dataset-unemploymentMale045 a qb:Observation;
 c19:dataset-unemploymentMale145 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -841,7 +841,7 @@ c19:dataset-unemploymentMale145 a qb:Observation;
 c19:dataset-unemploymentMale046 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -850,7 +850,7 @@ c19:dataset-unemploymentMale046 a qb:Observation;
 c19:dataset-unemploymentMale146 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -859,7 +859,7 @@ c19:dataset-unemploymentMale146 a qb:Observation;
 c19:dataset-unemploymentMale047 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -868,7 +868,7 @@ c19:dataset-unemploymentMale047 a qb:Observation;
 c19:dataset-unemploymentMale147 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -877,7 +877,7 @@ c19:dataset-unemploymentMale147 a qb:Observation;
 c19:dataset-unemploymentMale048 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -886,7 +886,7 @@ c19:dataset-unemploymentMale048 a qb:Observation;
 c19:dataset-unemploymentMale148 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -895,7 +895,7 @@ c19:dataset-unemploymentMale148 a qb:Observation;
 c19:dataset-unemploymentMale049 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -904,7 +904,7 @@ c19:dataset-unemploymentMale049 a qb:Observation;
 c19:dataset-unemploymentMale149 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -913,7 +913,7 @@ c19:dataset-unemploymentMale149 a qb:Observation;
 c19:dataset-unemploymentMale050 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -922,7 +922,7 @@ c19:dataset-unemploymentMale050 a qb:Observation;
 c19:dataset-unemploymentMale150 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -931,7 +931,7 @@ c19:dataset-unemploymentMale150 a qb:Observation;
 c19:dataset-unemploymentMale051 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -940,7 +940,7 @@ c19:dataset-unemploymentMale051 a qb:Observation;
 c19:dataset-unemploymentMale151 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -949,7 +949,7 @@ c19:dataset-unemploymentMale151 a qb:Observation;
 c19:dataset-unemploymentMale052 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -958,7 +958,7 @@ c19:dataset-unemploymentMale052 a qb:Observation;
 c19:dataset-unemploymentMale152 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -967,7 +967,7 @@ c19:dataset-unemploymentMale152 a qb:Observation;
 c19:dataset-unemploymentMale053 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -976,7 +976,7 @@ c19:dataset-unemploymentMale053 a qb:Observation;
 c19:dataset-unemploymentMale153 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -985,7 +985,7 @@ c19:dataset-unemploymentMale153 a qb:Observation;
 c19:dataset-unemploymentMale054 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	21.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -994,7 +994,7 @@ c19:dataset-unemploymentMale054 a qb:Observation;
 c19:dataset-unemploymentMale154 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	20.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1003,7 +1003,7 @@ c19:dataset-unemploymentMale154 a qb:Observation;
 c19:dataset-unemploymentMale055 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1012,7 +1012,7 @@ c19:dataset-unemploymentMale055 a qb:Observation;
 c19:dataset-unemploymentMale155 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1021,7 +1021,7 @@ c19:dataset-unemploymentMale155 a qb:Observation;
 c19:dataset-unemploymentMale056 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1030,7 +1030,7 @@ c19:dataset-unemploymentMale056 a qb:Observation;
 c19:dataset-unemploymentMale156 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1039,7 +1039,7 @@ c19:dataset-unemploymentMale156 a qb:Observation;
 c19:dataset-unemploymentMale057 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1048,7 +1048,7 @@ c19:dataset-unemploymentMale057 a qb:Observation;
 c19:dataset-unemploymentMale157 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1057,7 +1057,7 @@ c19:dataset-unemploymentMale157 a qb:Observation;
 c19:dataset-unemploymentMale058 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1066,7 +1066,7 @@ c19:dataset-unemploymentMale058 a qb:Observation;
 c19:dataset-unemploymentMale158 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1075,7 +1075,7 @@ c19:dataset-unemploymentMale158 a qb:Observation;
 c19:dataset-unemploymentMale059 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1084,7 +1084,7 @@ c19:dataset-unemploymentMale059 a qb:Observation;
 c19:dataset-unemploymentMale159 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1093,7 +1093,7 @@ c19:dataset-unemploymentMale159 a qb:Observation;
 c19:dataset-unemploymentMale060 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1102,7 +1102,7 @@ c19:dataset-unemploymentMale060 a qb:Observation;
 c19:dataset-unemploymentMale160 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1111,7 +1111,7 @@ c19:dataset-unemploymentMale160 a qb:Observation;
 c19:dataset-unemploymentMale061 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1120,7 +1120,7 @@ c19:dataset-unemploymentMale061 a qb:Observation;
 c19:dataset-unemploymentMale161 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1129,7 +1129,7 @@ c19:dataset-unemploymentMale161 a qb:Observation;
 c19:dataset-unemploymentMale062 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1138,7 +1138,7 @@ c19:dataset-unemploymentMale062 a qb:Observation;
 c19:dataset-unemploymentMale162 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1147,7 +1147,7 @@ c19:dataset-unemploymentMale162 a qb:Observation;
 c19:dataset-unemploymentMale063 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1156,7 +1156,7 @@ c19:dataset-unemploymentMale063 a qb:Observation;
 c19:dataset-unemploymentMale163 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1165,7 +1165,7 @@ c19:dataset-unemploymentMale163 a qb:Observation;
 c19:dataset-unemploymentMale064 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1174,7 +1174,7 @@ c19:dataset-unemploymentMale064 a qb:Observation;
 c19:dataset-unemploymentMale164 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1183,7 +1183,7 @@ c19:dataset-unemploymentMale164 a qb:Observation;
 c19:dataset-unemploymentMale065 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1192,7 +1192,7 @@ c19:dataset-unemploymentMale065 a qb:Observation;
 c19:dataset-unemploymentMale165 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1201,7 +1201,7 @@ c19:dataset-unemploymentMale165 a qb:Observation;
 c19:dataset-unemploymentMale066 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	16.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1210,7 +1210,7 @@ c19:dataset-unemploymentMale066 a qb:Observation;
 c19:dataset-unemploymentMale166 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1219,7 +1219,7 @@ c19:dataset-unemploymentMale166 a qb:Observation;
 c19:dataset-unemploymentMale067 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1228,7 +1228,7 @@ c19:dataset-unemploymentMale067 a qb:Observation;
 c19:dataset-unemploymentMale167 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1237,7 +1237,7 @@ c19:dataset-unemploymentMale167 a qb:Observation;
 c19:dataset-unemploymentMale068 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1246,7 +1246,7 @@ c19:dataset-unemploymentMale068 a qb:Observation;
 c19:dataset-unemploymentMale168 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1255,7 +1255,7 @@ c19:dataset-unemploymentMale168 a qb:Observation;
 c19:dataset-unemploymentMale069 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1264,7 +1264,7 @@ c19:dataset-unemploymentMale069 a qb:Observation;
 c19:dataset-unemploymentMale169 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1273,7 +1273,7 @@ c19:dataset-unemploymentMale169 a qb:Observation;
 c19:dataset-unemploymentMale070 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1282,7 +1282,7 @@ c19:dataset-unemploymentMale070 a qb:Observation;
 c19:dataset-unemploymentMale170 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1291,7 +1291,7 @@ c19:dataset-unemploymentMale170 a qb:Observation;
 c19:dataset-unemploymentMale071 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1300,7 +1300,7 @@ c19:dataset-unemploymentMale071 a qb:Observation;
 c19:dataset-unemploymentMale171 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1309,7 +1309,7 @@ c19:dataset-unemploymentMale171 a qb:Observation;
 c19:dataset-unemploymentMale072 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1318,7 +1318,7 @@ c19:dataset-unemploymentMale072 a qb:Observation;
 c19:dataset-unemploymentMale172 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1327,7 +1327,7 @@ c19:dataset-unemploymentMale172 a qb:Observation;
 c19:dataset-unemploymentMale073 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1336,7 +1336,7 @@ c19:dataset-unemploymentMale073 a qb:Observation;
 c19:dataset-unemploymentMale173 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1345,7 +1345,7 @@ c19:dataset-unemploymentMale173 a qb:Observation;
 c19:dataset-unemploymentMale074 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1354,7 +1354,7 @@ c19:dataset-unemploymentMale074 a qb:Observation;
 c19:dataset-unemploymentMale174 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1363,7 +1363,7 @@ c19:dataset-unemploymentMale174 a qb:Observation;
 c19:dataset-unemploymentMale075 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1372,7 +1372,7 @@ c19:dataset-unemploymentMale075 a qb:Observation;
 c19:dataset-unemploymentMale175 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1381,7 +1381,7 @@ c19:dataset-unemploymentMale175 a qb:Observation;
 c19:dataset-unemploymentMale076 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1390,7 +1390,7 @@ c19:dataset-unemploymentMale076 a qb:Observation;
 c19:dataset-unemploymentMale176 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1399,7 +1399,7 @@ c19:dataset-unemploymentMale176 a qb:Observation;
 c19:dataset-unemploymentMale077 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1408,7 +1408,7 @@ c19:dataset-unemploymentMale077 a qb:Observation;
 c19:dataset-unemploymentMale177 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1417,7 +1417,7 @@ c19:dataset-unemploymentMale177 a qb:Observation;
 c19:dataset-unemploymentMale078 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1426,7 +1426,7 @@ c19:dataset-unemploymentMale078 a qb:Observation;
 c19:dataset-unemploymentMale178 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1435,7 +1435,7 @@ c19:dataset-unemploymentMale178 a qb:Observation;
 c19:dataset-unemploymentMale079 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1444,7 +1444,7 @@ c19:dataset-unemploymentMale079 a qb:Observation;
 c19:dataset-unemploymentMale179 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1453,7 +1453,7 @@ c19:dataset-unemploymentMale179 a qb:Observation;
 c19:dataset-unemploymentMale080 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1462,7 +1462,7 @@ c19:dataset-unemploymentMale080 a qb:Observation;
 c19:dataset-unemploymentMale180 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1471,7 +1471,7 @@ c19:dataset-unemploymentMale180 a qb:Observation;
 c19:dataset-unemploymentMale081 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1480,7 +1480,7 @@ c19:dataset-unemploymentMale081 a qb:Observation;
 c19:dataset-unemploymentMale181 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1489,7 +1489,7 @@ c19:dataset-unemploymentMale181 a qb:Observation;
 c19:dataset-unemploymentMale082 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1498,7 +1498,7 @@ c19:dataset-unemploymentMale082 a qb:Observation;
 c19:dataset-unemploymentMale182 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1507,7 +1507,7 @@ c19:dataset-unemploymentMale182 a qb:Observation;
 c19:dataset-unemploymentMale083 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1516,7 +1516,7 @@ c19:dataset-unemploymentMale083 a qb:Observation;
 c19:dataset-unemploymentMale183 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1525,7 +1525,7 @@ c19:dataset-unemploymentMale183 a qb:Observation;
 c19:dataset-unemploymentMale084 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1534,7 +1534,7 @@ c19:dataset-unemploymentMale084 a qb:Observation;
 c19:dataset-unemploymentMale184 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1543,7 +1543,7 @@ c19:dataset-unemploymentMale184 a qb:Observation;
 c19:dataset-unemploymentMale085 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1552,7 +1552,7 @@ c19:dataset-unemploymentMale085 a qb:Observation;
 c19:dataset-unemploymentMale185 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1561,7 +1561,7 @@ c19:dataset-unemploymentMale185 a qb:Observation;
 c19:dataset-unemploymentMale086 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1570,7 +1570,7 @@ c19:dataset-unemploymentMale086 a qb:Observation;
 c19:dataset-unemploymentMale186 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1579,7 +1579,7 @@ c19:dataset-unemploymentMale186 a qb:Observation;
 c19:dataset-unemploymentMale087 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1588,7 +1588,7 @@ c19:dataset-unemploymentMale087 a qb:Observation;
 c19:dataset-unemploymentMale187 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1597,7 +1597,7 @@ c19:dataset-unemploymentMale187 a qb:Observation;
 c19:dataset-unemploymentMale088 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1606,7 +1606,7 @@ c19:dataset-unemploymentMale088 a qb:Observation;
 c19:dataset-unemploymentMale188 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1615,7 +1615,7 @@ c19:dataset-unemploymentMale188 a qb:Observation;
 c19:dataset-unemploymentMale089 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1624,7 +1624,7 @@ c19:dataset-unemploymentMale089 a qb:Observation;
 c19:dataset-unemploymentMale189 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1633,7 +1633,7 @@ c19:dataset-unemploymentMale189 a qb:Observation;
 c19:dataset-unemploymentMale090 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1642,7 +1642,7 @@ c19:dataset-unemploymentMale090 a qb:Observation;
 c19:dataset-unemploymentMale190 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1651,7 +1651,7 @@ c19:dataset-unemploymentMale190 a qb:Observation;
 c19:dataset-unemploymentMale091 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1660,7 +1660,7 @@ c19:dataset-unemploymentMale091 a qb:Observation;
 c19:dataset-unemploymentMale191 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1669,7 +1669,7 @@ c19:dataset-unemploymentMale191 a qb:Observation;
 c19:dataset-unemploymentMale092 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1678,7 +1678,7 @@ c19:dataset-unemploymentMale092 a qb:Observation;
 c19:dataset-unemploymentMale192 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1687,7 +1687,7 @@ c19:dataset-unemploymentMale192 a qb:Observation;
 c19:dataset-unemploymentMale093 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1696,7 +1696,7 @@ c19:dataset-unemploymentMale093 a qb:Observation;
 c19:dataset-unemploymentMale193 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1705,7 +1705,7 @@ c19:dataset-unemploymentMale193 a qb:Observation;
 c19:dataset-unemploymentMale094 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1714,7 +1714,7 @@ c19:dataset-unemploymentMale094 a qb:Observation;
 c19:dataset-unemploymentMale194 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1723,7 +1723,7 @@ c19:dataset-unemploymentMale194 a qb:Observation;
 c19:dataset-unemploymentMale095 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	27.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1732,7 +1732,7 @@ c19:dataset-unemploymentMale095 a qb:Observation;
 c19:dataset-unemploymentMale195 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	20.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1741,7 +1741,7 @@ c19:dataset-unemploymentMale195 a qb:Observation;
 c19:dataset-unemploymentMale096 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1750,7 +1750,7 @@ c19:dataset-unemploymentMale096 a qb:Observation;
 c19:dataset-unemploymentMale196 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1759,7 +1759,7 @@ c19:dataset-unemploymentMale196 a qb:Observation;
 c19:dataset-unemploymentMale097 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	16.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1768,7 +1768,7 @@ c19:dataset-unemploymentMale097 a qb:Observation;
 c19:dataset-unemploymentMale197 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1777,7 +1777,7 @@ c19:dataset-unemploymentMale197 a qb:Observation;
 c19:dataset-unemploymentMale098 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	18.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1786,7 +1786,7 @@ c19:dataset-unemploymentMale098 a qb:Observation;
 c19:dataset-unemploymentMale198 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1795,7 +1795,7 @@ c19:dataset-unemploymentMale198 a qb:Observation;
 c19:dataset-unemploymentMale099 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1804,7 +1804,7 @@ c19:dataset-unemploymentMale099 a qb:Observation;
 c19:dataset-unemploymentMale199 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1813,7 +1813,7 @@ c19:dataset-unemploymentMale199 a qb:Observation;
 c19:dataset-unemploymentMale0100 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1822,7 +1822,7 @@ c19:dataset-unemploymentMale0100 a qb:Observation;
 c19:dataset-unemploymentMale1100 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1831,7 +1831,7 @@ c19:dataset-unemploymentMale1100 a qb:Observation;
 c19:dataset-unemploymentMale0101 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1840,7 +1840,7 @@ c19:dataset-unemploymentMale0101 a qb:Observation;
 c19:dataset-unemploymentMale1101 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1849,7 +1849,7 @@ c19:dataset-unemploymentMale1101 a qb:Observation;
 c19:dataset-unemploymentMale0102 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1858,7 +1858,7 @@ c19:dataset-unemploymentMale0102 a qb:Observation;
 c19:dataset-unemploymentMale1102 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1867,7 +1867,7 @@ c19:dataset-unemploymentMale1102 a qb:Observation;
 c19:dataset-unemploymentMale0103 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1876,7 +1876,7 @@ c19:dataset-unemploymentMale0103 a qb:Observation;
 c19:dataset-unemploymentMale1103 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1885,7 +1885,7 @@ c19:dataset-unemploymentMale1103 a qb:Observation;
 c19:dataset-unemploymentMale0104 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1894,7 +1894,7 @@ c19:dataset-unemploymentMale0104 a qb:Observation;
 c19:dataset-unemploymentMale1104 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1903,7 +1903,7 @@ c19:dataset-unemploymentMale1104 a qb:Observation;
 c19:dataset-unemploymentMale0105 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1912,7 +1912,7 @@ c19:dataset-unemploymentMale0105 a qb:Observation;
 c19:dataset-unemploymentMale1105 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1921,7 +1921,7 @@ c19:dataset-unemploymentMale1105 a qb:Observation;
 c19:dataset-unemploymentMale0106 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1930,7 +1930,7 @@ c19:dataset-unemploymentMale0106 a qb:Observation;
 c19:dataset-unemploymentMale1106 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1939,7 +1939,7 @@ c19:dataset-unemploymentMale1106 a qb:Observation;
 c19:dataset-unemploymentMale0107 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1948,7 +1948,7 @@ c19:dataset-unemploymentMale0107 a qb:Observation;
 c19:dataset-unemploymentMale1107 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1957,7 +1957,7 @@ c19:dataset-unemploymentMale1107 a qb:Observation;
 c19:dataset-unemploymentMale0108 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1966,7 +1966,7 @@ c19:dataset-unemploymentMale0108 a qb:Observation;
 c19:dataset-unemploymentMale1108 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1975,7 +1975,7 @@ c19:dataset-unemploymentMale1108 a qb:Observation;
 c19:dataset-unemploymentMale0109 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1984,7 +1984,7 @@ c19:dataset-unemploymentMale0109 a qb:Observation;
 c19:dataset-unemploymentMale1109 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -1993,7 +1993,7 @@ c19:dataset-unemploymentMale1109 a qb:Observation;
 c19:dataset-unemploymentMale0110 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2002,7 +2002,7 @@ c19:dataset-unemploymentMale0110 a qb:Observation;
 c19:dataset-unemploymentMale1110 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2011,7 +2011,7 @@ c19:dataset-unemploymentMale1110 a qb:Observation;
 c19:dataset-unemploymentMale0111 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2020,7 +2020,7 @@ c19:dataset-unemploymentMale0111 a qb:Observation;
 c19:dataset-unemploymentMale1111 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2029,7 +2029,7 @@ c19:dataset-unemploymentMale1111 a qb:Observation;
 c19:dataset-unemploymentMale0112 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	26.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2038,7 +2038,7 @@ c19:dataset-unemploymentMale0112 a qb:Observation;
 c19:dataset-unemploymentMale1112 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2047,7 +2047,7 @@ c19:dataset-unemploymentMale1112 a qb:Observation;
 c19:dataset-unemploymentMale0113 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2056,7 +2056,7 @@ c19:dataset-unemploymentMale0113 a qb:Observation;
 c19:dataset-unemploymentMale1113 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2065,7 +2065,7 @@ c19:dataset-unemploymentMale1113 a qb:Observation;
 c19:dataset-unemploymentMale0114 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2074,7 +2074,7 @@ c19:dataset-unemploymentMale0114 a qb:Observation;
 c19:dataset-unemploymentMale1114 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2083,7 +2083,7 @@ c19:dataset-unemploymentMale1114 a qb:Observation;
 c19:dataset-unemploymentMale0115 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2092,7 +2092,7 @@ c19:dataset-unemploymentMale0115 a qb:Observation;
 c19:dataset-unemploymentMale1115 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2101,7 +2101,7 @@ c19:dataset-unemploymentMale1115 a qb:Observation;
 c19:dataset-unemploymentMale0116 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	19.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2110,7 +2110,7 @@ c19:dataset-unemploymentMale0116 a qb:Observation;
 c19:dataset-unemploymentMale1116 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	21.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2119,7 +2119,7 @@ c19:dataset-unemploymentMale1116 a qb:Observation;
 c19:dataset-unemploymentMale0117 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2128,7 +2128,7 @@ c19:dataset-unemploymentMale0117 a qb:Observation;
 c19:dataset-unemploymentMale1117 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2137,7 +2137,7 @@ c19:dataset-unemploymentMale1117 a qb:Observation;
 c19:dataset-unemploymentMale0118 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2146,7 +2146,7 @@ c19:dataset-unemploymentMale0118 a qb:Observation;
 c19:dataset-unemploymentMale1118 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2155,7 +2155,7 @@ c19:dataset-unemploymentMale1118 a qb:Observation;
 c19:dataset-unemploymentMale0119 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2164,7 +2164,7 @@ c19:dataset-unemploymentMale0119 a qb:Observation;
 c19:dataset-unemploymentMale1119 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2173,7 +2173,7 @@ c19:dataset-unemploymentMale1119 a qb:Observation;
 c19:dataset-unemploymentMale0120 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2182,7 +2182,7 @@ c19:dataset-unemploymentMale0120 a qb:Observation;
 c19:dataset-unemploymentMale1120 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2191,7 +2191,7 @@ c19:dataset-unemploymentMale1120 a qb:Observation;
 c19:dataset-unemploymentMale0121 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2200,7 +2200,7 @@ c19:dataset-unemploymentMale0121 a qb:Observation;
 c19:dataset-unemploymentMale1121 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2209,7 +2209,7 @@ c19:dataset-unemploymentMale1121 a qb:Observation;
 c19:dataset-unemploymentMale0122 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2218,7 +2218,7 @@ c19:dataset-unemploymentMale0122 a qb:Observation;
 c19:dataset-unemploymentMale1122 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2227,7 +2227,7 @@ c19:dataset-unemploymentMale1122 a qb:Observation;
 c19:dataset-unemploymentMale0123 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2236,7 +2236,7 @@ c19:dataset-unemploymentMale0123 a qb:Observation;
 c19:dataset-unemploymentMale1123 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2245,7 +2245,7 @@ c19:dataset-unemploymentMale1123 a qb:Observation;
 c19:dataset-unemploymentMale0124 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	30.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2254,7 +2254,7 @@ c19:dataset-unemploymentMale0124 a qb:Observation;
 c19:dataset-unemploymentMale1124 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	21.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2263,7 +2263,7 @@ c19:dataset-unemploymentMale1124 a qb:Observation;
 c19:dataset-unemploymentMale0125 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2272,7 +2272,7 @@ c19:dataset-unemploymentMale0125 a qb:Observation;
 c19:dataset-unemploymentMale1125 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2281,7 +2281,7 @@ c19:dataset-unemploymentMale1125 a qb:Observation;
 c19:dataset-unemploymentMale0126 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2290,7 +2290,7 @@ c19:dataset-unemploymentMale0126 a qb:Observation;
 c19:dataset-unemploymentMale1126 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2299,7 +2299,7 @@ c19:dataset-unemploymentMale1126 a qb:Observation;
 c19:dataset-unemploymentMale0127 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2308,7 +2308,7 @@ c19:dataset-unemploymentMale0127 a qb:Observation;
 c19:dataset-unemploymentMale1127 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2317,7 +2317,7 @@ c19:dataset-unemploymentMale1127 a qb:Observation;
 c19:dataset-unemploymentMale0128 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2326,7 +2326,7 @@ c19:dataset-unemploymentMale0128 a qb:Observation;
 c19:dataset-unemploymentMale1128 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2335,7 +2335,7 @@ c19:dataset-unemploymentMale1128 a qb:Observation;
 c19:dataset-unemploymentMale0129 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2344,7 +2344,7 @@ c19:dataset-unemploymentMale0129 a qb:Observation;
 c19:dataset-unemploymentMale1129 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2353,7 +2353,7 @@ c19:dataset-unemploymentMale1129 a qb:Observation;
 c19:dataset-unemploymentMale0130 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2362,7 +2362,7 @@ c19:dataset-unemploymentMale0130 a qb:Observation;
 c19:dataset-unemploymentMale1130 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2371,7 +2371,7 @@ c19:dataset-unemploymentMale1130 a qb:Observation;
 c19:dataset-unemploymentMale0131 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2380,7 +2380,7 @@ c19:dataset-unemploymentMale0131 a qb:Observation;
 c19:dataset-unemploymentMale1131 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2389,7 +2389,7 @@ c19:dataset-unemploymentMale1131 a qb:Observation;
 c19:dataset-unemploymentMale0132 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2398,7 +2398,7 @@ c19:dataset-unemploymentMale0132 a qb:Observation;
 c19:dataset-unemploymentMale1132 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2407,7 +2407,7 @@ c19:dataset-unemploymentMale1132 a qb:Observation;
 c19:dataset-unemploymentMale0133 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2416,7 +2416,7 @@ c19:dataset-unemploymentMale0133 a qb:Observation;
 c19:dataset-unemploymentMale1133 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2425,7 +2425,7 @@ c19:dataset-unemploymentMale1133 a qb:Observation;
 c19:dataset-unemploymentMale0134 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2434,7 +2434,7 @@ c19:dataset-unemploymentMale0134 a qb:Observation;
 c19:dataset-unemploymentMale1134 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2443,7 +2443,7 @@ c19:dataset-unemploymentMale1134 a qb:Observation;
 c19:dataset-unemploymentMale0135 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2452,7 +2452,7 @@ c19:dataset-unemploymentMale0135 a qb:Observation;
 c19:dataset-unemploymentMale1135 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2461,7 +2461,7 @@ c19:dataset-unemploymentMale1135 a qb:Observation;
 c19:dataset-unemploymentMale0136 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2470,7 +2470,7 @@ c19:dataset-unemploymentMale0136 a qb:Observation;
 c19:dataset-unemploymentMale1136 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2479,7 +2479,7 @@ c19:dataset-unemploymentMale1136 a qb:Observation;
 c19:dataset-unemploymentMale0137 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2488,7 +2488,7 @@ c19:dataset-unemploymentMale0137 a qb:Observation;
 c19:dataset-unemploymentMale1137 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2497,7 +2497,7 @@ c19:dataset-unemploymentMale1137 a qb:Observation;
 c19:dataset-unemploymentMale0138 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2506,7 +2506,7 @@ c19:dataset-unemploymentMale0138 a qb:Observation;
 c19:dataset-unemploymentMale1138 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2515,7 +2515,7 @@ c19:dataset-unemploymentMale1138 a qb:Observation;
 c19:dataset-unemploymentMale0139 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2524,7 +2524,7 @@ c19:dataset-unemploymentMale0139 a qb:Observation;
 c19:dataset-unemploymentMale1139 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2533,7 +2533,7 @@ c19:dataset-unemploymentMale1139 a qb:Observation;
 c19:dataset-unemploymentMale0140 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2542,7 +2542,7 @@ c19:dataset-unemploymentMale0140 a qb:Observation;
 c19:dataset-unemploymentMale1140 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2551,7 +2551,7 @@ c19:dataset-unemploymentMale1140 a qb:Observation;
 c19:dataset-unemploymentMale0141 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2560,7 +2560,7 @@ c19:dataset-unemploymentMale0141 a qb:Observation;
 c19:dataset-unemploymentMale1141 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2569,7 +2569,7 @@ c19:dataset-unemploymentMale1141 a qb:Observation;
 c19:dataset-unemploymentMale0142 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2578,7 +2578,7 @@ c19:dataset-unemploymentMale0142 a qb:Observation;
 c19:dataset-unemploymentMale1142 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2587,7 +2587,7 @@ c19:dataset-unemploymentMale1142 a qb:Observation;
 c19:dataset-unemploymentMale0143 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2596,7 +2596,7 @@ c19:dataset-unemploymentMale0143 a qb:Observation;
 c19:dataset-unemploymentMale1143 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2605,7 +2605,7 @@ c19:dataset-unemploymentMale1143 a qb:Observation;
 c19:dataset-unemploymentMale0144 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2614,7 +2614,7 @@ c19:dataset-unemploymentMale0144 a qb:Observation;
 c19:dataset-unemploymentMale1144 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2623,7 +2623,7 @@ c19:dataset-unemploymentMale1144 a qb:Observation;
 c19:dataset-unemploymentMale0145 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2632,7 +2632,7 @@ c19:dataset-unemploymentMale0145 a qb:Observation;
 c19:dataset-unemploymentMale1145 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2641,7 +2641,7 @@ c19:dataset-unemploymentMale1145 a qb:Observation;
 c19:dataset-unemploymentMale0146 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2650,7 +2650,7 @@ c19:dataset-unemploymentMale0146 a qb:Observation;
 c19:dataset-unemploymentMale1146 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2659,7 +2659,7 @@ c19:dataset-unemploymentMale1146 a qb:Observation;
 c19:dataset-unemploymentMale0147 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	19.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2668,7 +2668,7 @@ c19:dataset-unemploymentMale0147 a qb:Observation;
 c19:dataset-unemploymentMale1147 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2677,7 +2677,7 @@ c19:dataset-unemploymentMale1147 a qb:Observation;
 c19:dataset-unemploymentMale0148 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2686,7 +2686,7 @@ c19:dataset-unemploymentMale0148 a qb:Observation;
 c19:dataset-unemploymentMale1148 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2695,7 +2695,7 @@ c19:dataset-unemploymentMale1148 a qb:Observation;
 c19:dataset-unemploymentMale0149 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2704,7 +2704,7 @@ c19:dataset-unemploymentMale0149 a qb:Observation;
 c19:dataset-unemploymentMale1149 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2713,7 +2713,7 @@ c19:dataset-unemploymentMale1149 a qb:Observation;
 c19:dataset-unemploymentMale0150 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2722,7 +2722,7 @@ c19:dataset-unemploymentMale0150 a qb:Observation;
 c19:dataset-unemploymentMale1150 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2731,7 +2731,7 @@ c19:dataset-unemploymentMale1150 a qb:Observation;
 c19:dataset-unemploymentMale0151 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	25.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2740,7 +2740,7 @@ c19:dataset-unemploymentMale0151 a qb:Observation;
 c19:dataset-unemploymentMale1151 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	25.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2749,7 +2749,7 @@ c19:dataset-unemploymentMale1151 a qb:Observation;
 c19:dataset-unemploymentMale0152 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2758,7 +2758,7 @@ c19:dataset-unemploymentMale0152 a qb:Observation;
 c19:dataset-unemploymentMale1152 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2767,7 +2767,7 @@ c19:dataset-unemploymentMale1152 a qb:Observation;
 c19:dataset-unemploymentMale0153 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2776,7 +2776,7 @@ c19:dataset-unemploymentMale0153 a qb:Observation;
 c19:dataset-unemploymentMale1153 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2785,7 +2785,7 @@ c19:dataset-unemploymentMale1153 a qb:Observation;
 c19:dataset-unemploymentMale0154 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2794,7 +2794,7 @@ c19:dataset-unemploymentMale0154 a qb:Observation;
 c19:dataset-unemploymentMale1154 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2803,7 +2803,7 @@ c19:dataset-unemploymentMale1154 a qb:Observation;
 c19:dataset-unemploymentMale0155 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2812,7 +2812,7 @@ c19:dataset-unemploymentMale0155 a qb:Observation;
 c19:dataset-unemploymentMale1155 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	19.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2821,7 +2821,7 @@ c19:dataset-unemploymentMale1155 a qb:Observation;
 c19:dataset-unemploymentMale0156 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	22.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2830,7 +2830,7 @@ c19:dataset-unemploymentMale0156 a qb:Observation;
 c19:dataset-unemploymentMale1156 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	20.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2839,7 +2839,7 @@ c19:dataset-unemploymentMale1156 a qb:Observation;
 c19:dataset-unemploymentMale0157 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2848,7 +2848,7 @@ c19:dataset-unemploymentMale0157 a qb:Observation;
 c19:dataset-unemploymentMale1157 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2857,7 +2857,7 @@ c19:dataset-unemploymentMale1157 a qb:Observation;
 c19:dataset-unemploymentMale0158 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2866,7 +2866,7 @@ c19:dataset-unemploymentMale0158 a qb:Observation;
 c19:dataset-unemploymentMale1158 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2875,7 +2875,7 @@ c19:dataset-unemploymentMale1158 a qb:Observation;
 c19:dataset-unemploymentMale0159 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2884,7 +2884,7 @@ c19:dataset-unemploymentMale0159 a qb:Observation;
 c19:dataset-unemploymentMale1159 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2893,7 +2893,7 @@ c19:dataset-unemploymentMale1159 a qb:Observation;
 c19:dataset-unemploymentMale0160 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2902,7 +2902,7 @@ c19:dataset-unemploymentMale0160 a qb:Observation;
 c19:dataset-unemploymentMale1160 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2911,7 +2911,7 @@ c19:dataset-unemploymentMale1160 a qb:Observation;
 c19:dataset-unemploymentMale0161 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2920,7 +2920,7 @@ c19:dataset-unemploymentMale0161 a qb:Observation;
 c19:dataset-unemploymentMale1161 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2929,7 +2929,7 @@ c19:dataset-unemploymentMale1161 a qb:Observation;
 c19:dataset-unemploymentMale0162 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	15.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2938,7 +2938,7 @@ c19:dataset-unemploymentMale0162 a qb:Observation;
 c19:dataset-unemploymentMale1162 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2947,7 +2947,7 @@ c19:dataset-unemploymentMale1162 a qb:Observation;
 c19:dataset-unemploymentMale0163 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2956,7 +2956,7 @@ c19:dataset-unemploymentMale0163 a qb:Observation;
 c19:dataset-unemploymentMale1163 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2965,7 +2965,7 @@ c19:dataset-unemploymentMale1163 a qb:Observation;
 c19:dataset-unemploymentMale0164 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2974,7 +2974,7 @@ c19:dataset-unemploymentMale0164 a qb:Observation;
 c19:dataset-unemploymentMale1164 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2983,7 +2983,7 @@ c19:dataset-unemploymentMale1164 a qb:Observation;
 c19:dataset-unemploymentMale0165 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -2992,7 +2992,7 @@ c19:dataset-unemploymentMale0165 a qb:Observation;
 c19:dataset-unemploymentMale1165 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3001,7 +3001,7 @@ c19:dataset-unemploymentMale1165 a qb:Observation;
 c19:dataset-unemploymentMale0166 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3010,7 +3010,7 @@ c19:dataset-unemploymentMale0166 a qb:Observation;
 c19:dataset-unemploymentMale1166 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3019,7 +3019,7 @@ c19:dataset-unemploymentMale1166 a qb:Observation;
 c19:dataset-unemploymentMale0167 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3028,7 +3028,7 @@ c19:dataset-unemploymentMale0167 a qb:Observation;
 c19:dataset-unemploymentMale1167 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	0.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3037,7 +3037,7 @@ c19:dataset-unemploymentMale1167 a qb:Observation;
 c19:dataset-unemploymentMale0168 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3046,7 +3046,7 @@ c19:dataset-unemploymentMale0168 a qb:Observation;
 c19:dataset-unemploymentMale1168 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3055,7 +3055,7 @@ c19:dataset-unemploymentMale1168 a qb:Observation;
 c19:dataset-unemploymentMale0169 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3064,7 +3064,7 @@ c19:dataset-unemploymentMale0169 a qb:Observation;
 c19:dataset-unemploymentMale1169 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3073,7 +3073,7 @@ c19:dataset-unemploymentMale1169 a qb:Observation;
 c19:dataset-unemploymentMale0170 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3082,7 +3082,7 @@ c19:dataset-unemploymentMale0170 a qb:Observation;
 c19:dataset-unemploymentMale1170 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	9.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3091,7 +3091,7 @@ c19:dataset-unemploymentMale1170 a qb:Observation;
 c19:dataset-unemploymentMale0171 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3100,7 +3100,7 @@ c19:dataset-unemploymentMale0171 a qb:Observation;
 c19:dataset-unemploymentMale1171 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3109,7 +3109,7 @@ c19:dataset-unemploymentMale1171 a qb:Observation;
 c19:dataset-unemploymentMale0172 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3118,7 +3118,7 @@ c19:dataset-unemploymentMale0172 a qb:Observation;
 c19:dataset-unemploymentMale1172 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3127,7 +3127,7 @@ c19:dataset-unemploymentMale1172 a qb:Observation;
 c19:dataset-unemploymentMale0173 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3136,7 +3136,7 @@ c19:dataset-unemploymentMale0173 a qb:Observation;
 c19:dataset-unemploymentMale1173 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3145,7 +3145,7 @@ c19:dataset-unemploymentMale1173 a qb:Observation;
 c19:dataset-unemploymentMale0174 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3154,7 +3154,7 @@ c19:dataset-unemploymentMale0174 a qb:Observation;
 c19:dataset-unemploymentMale1174 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	1.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3163,7 +3163,7 @@ c19:dataset-unemploymentMale1174 a qb:Observation;
 c19:dataset-unemploymentMale0175 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3172,7 +3172,7 @@ c19:dataset-unemploymentMale0175 a qb:Observation;
 c19:dataset-unemploymentMale1175 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3181,7 +3181,7 @@ c19:dataset-unemploymentMale1175 a qb:Observation;
 c19:dataset-unemploymentMale0176 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3190,7 +3190,7 @@ c19:dataset-unemploymentMale0176 a qb:Observation;
 c19:dataset-unemploymentMale1176 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3199,7 +3199,7 @@ c19:dataset-unemploymentMale1176 a qb:Observation;
 c19:dataset-unemploymentMale0177 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3208,7 +3208,7 @@ c19:dataset-unemploymentMale0177 a qb:Observation;
 c19:dataset-unemploymentMale1177 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3217,7 +3217,7 @@ c19:dataset-unemploymentMale1177 a qb:Observation;
 c19:dataset-unemploymentMale0178 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3226,7 +3226,7 @@ c19:dataset-unemploymentMale0178 a qb:Observation;
 c19:dataset-unemploymentMale1178 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	5.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3235,7 +3235,7 @@ c19:dataset-unemploymentMale1178 a qb:Observation;
 c19:dataset-unemploymentMale0179 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3244,7 +3244,7 @@ c19:dataset-unemploymentMale0179 a qb:Observation;
 c19:dataset-unemploymentMale1179 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3253,7 +3253,7 @@ c19:dataset-unemploymentMale1179 a qb:Observation;
 c19:dataset-unemploymentMale0180 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	13.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3262,7 +3262,7 @@ c19:dataset-unemploymentMale0180 a qb:Observation;
 c19:dataset-unemploymentMale1180 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3271,7 +3271,7 @@ c19:dataset-unemploymentMale1180 a qb:Observation;
 c19:dataset-unemploymentMale0181 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3280,7 +3280,7 @@ c19:dataset-unemploymentMale0181 a qb:Observation;
 c19:dataset-unemploymentMale1181 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	2.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3289,7 +3289,7 @@ c19:dataset-unemploymentMale1181 a qb:Observation;
 c19:dataset-unemploymentMale0182 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	8.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3298,7 +3298,7 @@ c19:dataset-unemploymentMale0182 a qb:Observation;
 c19:dataset-unemploymentMale1182 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	7.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3307,7 +3307,7 @@ c19:dataset-unemploymentMale1182 a qb:Observation;
 c19:dataset-unemploymentMale0183 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	11.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3316,7 +3316,7 @@ c19:dataset-unemploymentMale0183 a qb:Observation;
 c19:dataset-unemploymentMale1183 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	22.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3325,7 +3325,7 @@ c19:dataset-unemploymentMale1183 a qb:Observation;
 c19:dataset-unemploymentMale0184 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3334,7 +3334,7 @@ c19:dataset-unemploymentMale0184 a qb:Observation;
 c19:dataset-unemploymentMale1184 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	12.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3343,7 +3343,7 @@ c19:dataset-unemploymentMale1184 a qb:Observation;
 c19:dataset-unemploymentMale0185 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	14.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3352,7 +3352,7 @@ c19:dataset-unemploymentMale0185 a qb:Observation;
 c19:dataset-unemploymentMale1185 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	10.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3361,7 +3361,7 @@ c19:dataset-unemploymentMale1185 a qb:Observation;
 c19:dataset-unemploymentMale0186 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2000
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	6.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
@@ -3370,7 +3370,7 @@ c19:dataset-unemploymentMale0186 a qb:Observation;
 c19:dataset-unemploymentMale1186 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentMale;
     c19-dimension:refPeriod         c19-interval:Year2018
-    sdmx-dimension:sex              sdmx-code:sex-M ;
+    sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-measure:unemploymentMale	4.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;

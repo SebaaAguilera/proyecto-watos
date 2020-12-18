@@ -1,0 +1,18 @@
+
+c19-interval:Year2018 a time:Interval ;
+    time:hasBeginning "2018"^^xsd:gYear ;
+    time:hasEnd "2018"^^xsd:gYear ;
+    rdfs:label "2018" . 
+
+c19-interval:Year2000 a time:Interval ;
+    time:hasBeginning "2000"^^xsd:gYear ;
+    time:hasEnd "2000"^^xsd:gYear ;
+    rdfs:label "2000" .
+    
+
+c19-interval:Age15-24 a c19-interval:PercentileInterval ;
+    c19-interval:beginning 15 ;
+    c19-interval:end 24 ;
+    c19-interval:baseUnit wd:Q577 ;
+    rdfs:label "15-24" .
+    

@@ -1,0 +1,5 @@
+c19-measure:unemploymentMale a rdf:Property, qb:MeasureProperty;
+    rdfs:label ""@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+.
