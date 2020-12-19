@@ -1,3 +1,8 @@
+c19-interval:Year2015-18 a time:Interval ;
+    time:hasBeginning "2015"^^xsd:gYear ;
+    time:hasEnd "2018"^^xsd:gYear ;
+    rdfs:label "2015-18" .
+
 
 c19-interval:Year2018 a time:Interval ;
     time:hasBeginning "2018"^^xsd:gYear ;
