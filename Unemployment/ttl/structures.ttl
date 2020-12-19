@@ -1,4 +1,41 @@
 
+ # c19-structure:dsd-unemploymentAdvancedEducation
+c19-structure:dsd-unemploymentAdvancedEducation a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure c19-measure:unemploymentAdvancedEducation ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-unemploymentIntermediateEducation
+c19-structure:dsd-unemploymentIntermediateEducation a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure c19-measure:unemploymentIntermediateEducation ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+ # c19-structure:dsd-unemploymentBasicEducation
+c19-structure:dsd-unemploymentBasicEducation a qb:DataStructureDefinition;
+    qb:component
+    [ qb:dimension c19-dimension:refArea;               qb:order 2 ],
+    [ qb:dimension c19-dimension:refPeriod;               qb:order 1 ],
+    qb:component
+    [ qb:measure c19-measure:unemploymentBasicEducation ];
+    qb:component
+    [ qb:attribute sdmx-attribute:decimals ;
+    qb:attribute sdmx-attribute:unitMultiplier ;];
+.
+
+
  # c19-structure:dsd-unemploymentYouthFemale
 c19-structure:dsd-unemploymentYouthFemale a qb:DataStructureDefinition;
     qb:component
