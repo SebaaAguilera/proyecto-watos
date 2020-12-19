@@ -1,5 +1,36 @@
 c19-measure:unemploymentMale a rdf:Property, qb:MeasureProperty;
-    rdfs:label ""@en;
+    rdfs:label "Unemployment Male"@en;
     rdfs:subPropertyOf sdmx-measure:obsValue;
     rdfs:range xsd:decimal ;
 .
+
+c19-measure:unemploymentFemale a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Unemployment Female"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+.
+
+c19-measure:unemploymentYouthMale a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Unemployment Youth Male (15-24)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+.
+
+c19-measure:unemploymentYouthFemale a rdf:Property, qb:MeasureProperty;
+    rdfs:label "Unemployment Youth Female (15-24)"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:decimal ;
+.
+
+c19-dimension:refArea  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "reference area"@en;
+    rdfs:subPropertyOf sdmx-dimension:refArea;
+    qb:concept sdmx-concept:refArea ;
+    .
+
+c19-dimension:refPeriod  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "reference period"@en;
+    rdfs:subPropertyOf sdmx-dimension:refPeriod;
+    rdfs:range interval:Interval;
+    qb:concept sdmx-concept:refPeriod ;
+    .

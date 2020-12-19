@@ -2,10 +2,10 @@
  # c19-structure:dsd-unemploymentYouthFemale
 c19-structure:dsd-unemploymentYouthFemale a qb:DataStructureDefinition;
     qb:component
-    [ qb:dimension c19-dimension:refArea;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refArea;                 qb:order 4 ],
     [ qb:dimension c19-dimension:refPeriod;               qb:order 3 ],
-    [ qb:dimension c19-dimension:ageInterval;               qb:order 2 ],
-    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    [ qb:dimension c19-dimension:ageInterval;             qb:order 2 ],
+    [ qb:dimension sdmx-dimension:sex;                    qb:order 1 ];
     qb:component
     [ qb:measure c19-measure:unemploymentYouthFemale ];
     qb:component
@@ -16,10 +16,10 @@ c19-structure:dsd-unemploymentYouthFemale a qb:DataStructureDefinition;
  # c19-structure:dsd-unemploymentYouthMale
 c19-structure:dsd-unemploymentYouthMale a qb:DataStructureDefinition;
     qb:component
-    [ qb:dimension c19-dimension:refArea;               qb:order 4 ],
+    [ qb:dimension c19-dimension:refArea;                 qb:order 4 ],
     [ qb:dimension c19-dimension:refPeriod;               qb:order 3 ],
-    [ qb:dimension c19-dimension:ageInterval;               qb:order 2 ],
-    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    [ qb:dimension c19-dimension:ageInterval;             qb:order 2 ],
+    [ qb:dimension sdmx-dimension:sex;                    qb:order 1 ];
     qb:component
     [ qb:measure c19-measure:unemploymentYouthMale ];
     qb:component
@@ -30,9 +30,9 @@ c19-structure:dsd-unemploymentYouthMale a qb:DataStructureDefinition;
  # c19-structure:dsd-unemploymentFemale
 c19-structure:dsd-unemploymentFemale a qb:DataStructureDefinition;
     qb:component
-    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refArea;                 qb:order 3 ],
     [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
-    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    [ qb:dimension sdmx-dimension:sex;                    qb:order 1 ];
     qb:component
     [ qb:measure c19-measure:unemploymentFemale ];
     qb:component
@@ -43,9 +43,9 @@ c19-structure:dsd-unemploymentFemale a qb:DataStructureDefinition;
  # c19-structure:dsd-unemploymentMale
 c19-structure:dsd-unemploymentMale a qb:DataStructureDefinition;
     qb:component
-    [ qb:dimension c19-dimension:refArea;               qb:order 3 ],
+    [ qb:dimension c19-dimension:refArea;                 qb:order 3 ],
     [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
-    [ qb:dimension sdmx-dimension:sex;               qb:order 1 ];
+    [ qb:dimension sdmx-dimension:sex;                    qb:order 1 ];
     qb:component
     [ qb:measure c19-measure:unemploymentMale ];
     qb:component
