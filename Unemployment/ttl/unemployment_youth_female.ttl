@@ -2,7 +2,7 @@ c19:dataset-unemploymentYouthFemale a qb:Dataset;
     dct:title       "Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)"@en;
     rdfs:label      "unemployment_youth_female"@en;
     rdfs:comment    "The World Bank: 2.5 | Unemployment"@en;
-    dct:description "Unemployment, youth female (% of female labor force ages 15-24) (modeled ILO estimate)"@en;
+    dct:description "Youth unemployment refers to the share of the labor force ages 15-24 without work but available for and seeking employment."@en;
     dct:publisher   wd:Q7164;
     dct:issued      "2020-09-22"^^xsd:date;
     dct:source      <http://wdi.worldbank.org/table/2.5> ;
@@ -15,7 +15,7 @@ c19:dataset-unemploymentYouthFemale00 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.9 ;
+    c19-measure:unemployment        22.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q889 .
@@ -25,7 +25,7 @@ c19:dataset-unemploymentYouthFemale10 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.0 ;
+    c19-measure:unemployment        21.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q889 .
@@ -35,7 +35,7 @@ c19:dataset-unemploymentYouthFemale01 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	24.7 ;
+    c19-measure:unemployment        24.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q222 .
@@ -45,7 +45,7 @@ c19:dataset-unemploymentYouthFemale11 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	24.5 ;
+    c19-measure:unemployment        24.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q222 .
@@ -55,7 +55,7 @@ c19:dataset-unemploymentYouthFemale02 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	47.6 ;
+    c19-measure:unemployment        47.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q262 .
@@ -65,7 +65,7 @@ c19:dataset-unemploymentYouthFemale12 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	45.2 ;
+    c19-measure:unemployment        45.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q262 .
@@ -75,7 +75,7 @@ c19:dataset-unemploymentYouthFemale03 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.2 ;
+    c19-measure:unemployment        6.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q916 .
@@ -85,7 +85,7 @@ c19:dataset-unemploymentYouthFemale13 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.2 ;
+    c19-measure:unemployment        16.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q916 .
@@ -95,7 +95,7 @@ c19:dataset-unemploymentYouthFemale04 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	36.2 ;
+    c19-measure:unemployment        36.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q414 .
@@ -105,7 +105,7 @@ c19:dataset-unemploymentYouthFemale14 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	28.2 ;
+    c19-measure:unemployment        28.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q414 .
@@ -115,7 +115,7 @@ c19:dataset-unemploymentYouthFemale05 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	14.9 ;
+    c19-measure:unemployment        14.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q399 .
@@ -125,7 +125,7 @@ c19:dataset-unemploymentYouthFemale15 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	44.6 ;
+    c19-measure:unemployment        44.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q399 .
@@ -135,7 +135,7 @@ c19:dataset-unemploymentYouthFemale06 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.2 ;
+    c19-measure:unemployment        11.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q408 .
@@ -145,7 +145,7 @@ c19:dataset-unemploymentYouthFemale16 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.7 ;
+    c19-measure:unemployment        10.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q408 .
@@ -155,7 +155,7 @@ c19:dataset-unemploymentYouthFemale07 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.6 ;
+    c19-measure:unemployment        5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q40 .
@@ -165,7 +165,7 @@ c19:dataset-unemploymentYouthFemale17 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.4 ;
+    c19-measure:unemployment        9.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q40 .
@@ -175,7 +175,7 @@ c19:dataset-unemploymentYouthFemale08 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.2 ;
+    c19-measure:unemployment        21.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q227 .
@@ -185,7 +185,7 @@ c19:dataset-unemploymentYouthFemale18 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.3 ;
+    c19-measure:unemployment        15.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q227 .
@@ -195,7 +195,7 @@ c19:dataset-unemploymentYouthFemale09 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.1 ;
+    c19-measure:unemployment        19.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q778 .
@@ -205,7 +205,7 @@ c19:dataset-unemploymentYouthFemale19 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	28.1 ;
+    c19-measure:unemployment        28.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q778 .
@@ -215,7 +215,7 @@ c19:dataset-unemploymentYouthFemale010 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.6 ;
+    c19-measure:unemployment        11.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q398 .
@@ -225,7 +225,7 @@ c19:dataset-unemploymentYouthFemale110 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.9 ;
+    c19-measure:unemployment        10.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q398 .
@@ -235,7 +235,7 @@ c19:dataset-unemploymentYouthFemale011 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.4 ;
+    c19-measure:unemployment        10.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q902 .
@@ -245,7 +245,7 @@ c19:dataset-unemploymentYouthFemale111 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.5 ;
+    c19-measure:unemployment        16.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q902 .
@@ -255,7 +255,7 @@ c19:dataset-unemploymentYouthFemale012 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	24.1 ;
+    c19-measure:unemployment        24.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q244 .
@@ -265,7 +265,7 @@ c19:dataset-unemploymentYouthFemale112 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.2 ;
+    c19-measure:unemployment        30.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q244 .
@@ -275,7 +275,7 @@ c19:dataset-unemploymentYouthFemale013 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	18.4 ;
+    c19-measure:unemployment        18.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q184 .
@@ -285,7 +285,7 @@ c19:dataset-unemploymentYouthFemale113 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.4 ;
+    c19-measure:unemployment        8.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q184 .
@@ -295,7 +295,7 @@ c19:dataset-unemploymentYouthFemale014 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	18.3 ;
+    c19-measure:unemployment        18.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q31 .
@@ -305,7 +305,7 @@ c19:dataset-unemploymentYouthFemale114 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.3 ;
+    c19-measure:unemployment        15.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q31 .
@@ -315,7 +315,7 @@ c19:dataset-unemploymentYouthFemale015 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	33.5 ;
+    c19-measure:unemployment        33.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q242 .
@@ -325,7 +325,7 @@ c19:dataset-unemploymentYouthFemale115 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	25.4 ;
+    c19-measure:unemployment        25.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q242 .
@@ -335,7 +335,7 @@ c19:dataset-unemploymentYouthFemale016 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	0.7 ;
+    c19-measure:unemployment        0.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q962 .
@@ -345,7 +345,7 @@ c19:dataset-unemploymentYouthFemale116 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.1 ;
+    c19-measure:unemployment        5.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q962 .
@@ -355,7 +355,7 @@ c19:dataset-unemploymentYouthFemale017 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.1 ;
+    c19-measure:unemployment        6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q917 .
@@ -365,7 +365,7 @@ c19:dataset-unemploymentYouthFemale117 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.0 ;
+    c19-measure:unemployment        12.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q917 .
@@ -375,7 +375,7 @@ c19:dataset-unemploymentYouthFemale018 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.1 ;
+    c19-measure:unemployment        8.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q750 .
@@ -385,7 +385,7 @@ c19:dataset-unemploymentYouthFemale118 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.0 ;
+    c19-measure:unemployment        7.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q750 .
@@ -395,7 +395,7 @@ c19:dataset-unemploymentYouthFemale019 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	58.2 ;
+    c19-measure:unemployment        58.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q225 .
@@ -405,7 +405,7 @@ c19:dataset-unemploymentYouthFemale119 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	45.7 ;
+    c19-measure:unemployment        45.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q225 .
@@ -415,7 +415,7 @@ c19:dataset-unemploymentYouthFemale020 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	35.9 ;
+    c19-measure:unemployment        35.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q963 .
@@ -425,7 +425,7 @@ c19:dataset-unemploymentYouthFemale120 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	42.9 ;
+    c19-measure:unemployment        42.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q963 .
@@ -435,7 +435,7 @@ c19:dataset-unemploymentYouthFemale021 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	23.4 ;
+    c19-measure:unemployment        23.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q155 .
@@ -445,7 +445,7 @@ c19:dataset-unemploymentYouthFemale121 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	32.3 ;
+    c19-measure:unemployment        32.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q155 .
@@ -455,7 +455,7 @@ c19:dataset-unemploymentYouthFemale022 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.9 ;
+    c19-measure:unemployment        20.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q921 .
@@ -465,7 +465,7 @@ c19:dataset-unemploymentYouthFemale122 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	29.7 ;
+    c19-measure:unemployment        29.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q921 .
@@ -475,7 +475,7 @@ c19:dataset-unemploymentYouthFemale023 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	29.6 ;
+    c19-measure:unemployment        29.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q219 .
@@ -485,7 +485,7 @@ c19:dataset-unemploymentYouthFemale123 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.9 ;
+    c19-measure:unemployment        11.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q219 .
@@ -495,7 +495,7 @@ c19:dataset-unemploymentYouthFemale024 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.4 ;
+    c19-measure:unemployment        3.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q965 .
@@ -505,7 +505,7 @@ c19:dataset-unemploymentYouthFemale124 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.1 ;
+    c19-measure:unemployment        12.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q965 .
@@ -515,7 +515,7 @@ c19:dataset-unemploymentYouthFemale025 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	2.1 ;
+    c19-measure:unemployment        2.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q967 .
@@ -525,7 +525,7 @@ c19:dataset-unemploymentYouthFemale125 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.7 ;
+    c19-measure:unemployment        1.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q967 .
@@ -535,7 +535,7 @@ c19:dataset-unemploymentYouthFemale026 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	24.0 ;
+    c19-measure:unemployment        24.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1011 .
@@ -545,7 +545,7 @@ c19:dataset-unemploymentYouthFemale126 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	31.6 ;
+    c19-measure:unemployment        31.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1011 .
@@ -555,7 +555,7 @@ c19:dataset-unemploymentYouthFemale027 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	2.2 ;
+    c19-measure:unemployment        2.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q424 .
@@ -565,7 +565,7 @@ c19:dataset-unemploymentYouthFemale127 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.1 ;
+    c19-measure:unemployment        1.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q424 .
@@ -575,7 +575,7 @@ c19:dataset-unemploymentYouthFemale028 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.2 ;
+    c19-measure:unemployment        10.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1009 .
@@ -585,7 +585,7 @@ c19:dataset-unemploymentYouthFemale128 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.3 ;
+    c19-measure:unemployment        6.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1009 .
@@ -595,7 +595,7 @@ c19:dataset-unemploymentYouthFemale029 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.4 ;
+    c19-measure:unemployment        11.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q16 .
@@ -605,7 +605,7 @@ c19:dataset-unemploymentYouthFemale129 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.6 ;
+    c19-measure:unemployment        9.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q16 .
@@ -615,7 +615,7 @@ c19:dataset-unemploymentYouthFemale030 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.0 ;
+    c19-measure:unemployment        6.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q929 .
@@ -625,7 +625,7 @@ c19:dataset-unemploymentYouthFemale130 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.4 ;
+    c19-measure:unemployment        5.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q929 .
@@ -635,7 +635,7 @@ c19:dataset-unemploymentYouthFemale031 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.0 ;
+    c19-measure:unemployment        1.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q657 .
@@ -645,7 +645,7 @@ c19:dataset-unemploymentYouthFemale131 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	2.6 ;
+    c19-measure:unemployment        2.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q657 .
@@ -655,7 +655,7 @@ c19:dataset-unemploymentYouthFemale032 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.3 ;
+    c19-measure:unemployment        16.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q42314 .
@@ -665,7 +665,7 @@ c19:dataset-unemploymentYouthFemale132 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.3 ;
+    c19-measure:unemployment        15.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q42314 .
@@ -675,7 +675,7 @@ c19:dataset-unemploymentYouthFemale033 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.8 ;
+    c19-measure:unemployment        30.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q298 .
@@ -685,7 +685,7 @@ c19:dataset-unemploymentYouthFemale133 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.0 ;
+    c19-measure:unemployment        20.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q298 .
@@ -695,7 +695,7 @@ c19:dataset-unemploymentYouthFemale034 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.0 ;
+    c19-measure:unemployment        6.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q148 .
@@ -705,7 +705,7 @@ c19:dataset-unemploymentYouthFemale134 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.1 ;
+    c19-measure:unemployment        9.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q148 .
@@ -715,7 +715,7 @@ c19:dataset-unemploymentYouthFemale035 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	44.5 ;
+    c19-measure:unemployment        44.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q739 .
@@ -725,7 +725,7 @@ c19:dataset-unemploymentYouthFemale135 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	24.4 ;
+    c19-measure:unemployment        24.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q739 .
@@ -735,7 +735,7 @@ c19:dataset-unemploymentYouthFemale036 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.5 ;
+    c19-measure:unemployment        8.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q970 .
@@ -745,7 +745,7 @@ c19:dataset-unemploymentYouthFemale136 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.5 ;
+    c19-measure:unemployment        8.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q970 .
@@ -755,7 +755,7 @@ c19:dataset-unemploymentYouthFemale037 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.7 ;
+    c19-measure:unemployment        3.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q974 .
@@ -765,7 +765,7 @@ c19:dataset-unemploymentYouthFemale137 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.1 ;
+    c19-measure:unemployment        6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q974 .
@@ -775,7 +775,7 @@ c19:dataset-unemploymentYouthFemale038 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	38.8 ;
+    c19-measure:unemployment        38.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q971 .
@@ -785,7 +785,7 @@ c19:dataset-unemploymentYouthFemale138 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.0 ;
+    c19-measure:unemployment        21.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q971 .
@@ -795,7 +795,7 @@ c19:dataset-unemploymentYouthFemale039 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	14.5 ;
+    c19-measure:unemployment        14.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q800 .
@@ -805,7 +805,7 @@ c19:dataset-unemploymentYouthFemale139 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	32.2 ;
+    c19-measure:unemployment        32.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q800 .
@@ -815,7 +815,7 @@ c19:dataset-unemploymentYouthFemale040 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.6 ;
+    c19-measure:unemployment        5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1008 .
@@ -825,7 +825,7 @@ c19:dataset-unemploymentYouthFemale140 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.1 ;
+    c19-measure:unemployment        6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1008 .
@@ -835,7 +835,7 @@ c19:dataset-unemploymentYouthFemale041 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	41.3 ;
+    c19-measure:unemployment        41.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q224 .
@@ -845,7 +845,7 @@ c19:dataset-unemploymentYouthFemale141 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	29.4 ;
+    c19-measure:unemployment        29.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q224 .
@@ -855,7 +855,7 @@ c19:dataset-unemploymentYouthFemale042 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.9 ;
+    c19-measure:unemployment        11.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q241 .
@@ -865,7 +865,7 @@ c19:dataset-unemploymentYouthFemale142 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.2 ;
+    c19-measure:unemployment        4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q241 .
@@ -875,7 +875,7 @@ c19:dataset-unemploymentYouthFemale043 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	13.6 ;
+    c19-measure:unemployment        13.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q229 .
@@ -885,7 +885,7 @@ c19:dataset-unemploymentYouthFemale143 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.7 ;
+    c19-measure:unemployment        15.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q229 .
@@ -895,7 +895,7 @@ c19:dataset-unemploymentYouthFemale044 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.5 ;
+    c19-measure:unemployment        16.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q213 .
@@ -905,7 +905,7 @@ c19:dataset-unemploymentYouthFemale144 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.2 ;
+    c19-measure:unemployment        7.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q213 .
@@ -915,7 +915,7 @@ c19:dataset-unemploymentYouthFemale045 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.0 ;
+    c19-measure:unemployment        7.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q35 .
@@ -925,7 +925,7 @@ c19:dataset-unemploymentYouthFemale145 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.2 ;
+    c19-measure:unemployment        8.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q35 .
@@ -935,7 +935,7 @@ c19:dataset-unemploymentYouthFemale046 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.9 ;
+    c19-measure:unemployment        16.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q977 .
@@ -945,7 +945,7 @@ c19:dataset-unemploymentYouthFemale146 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.1 ;
+    c19-measure:unemployment        20.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q977 .
@@ -955,7 +955,7 @@ c19:dataset-unemploymentYouthFemale047 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.7 ;
+    c19-measure:unemployment        20.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q786 .
@@ -965,7 +965,7 @@ c19:dataset-unemploymentYouthFemale147 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.7 ;
+    c19-measure:unemployment        19.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q786 .
@@ -975,7 +975,7 @@ c19:dataset-unemploymentYouthFemale048 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.6 ;
+    c19-measure:unemployment        12.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q736 .
@@ -985,7 +985,7 @@ c19:dataset-unemploymentYouthFemale148 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.4 ;
+    c19-measure:unemployment        10.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q736 .
@@ -995,7 +995,7 @@ c19:dataset-unemploymentYouthFemale049 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	45.2 ;
+    c19-measure:unemployment        45.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q79 .
@@ -1005,7 +1005,7 @@ c19:dataset-unemploymentYouthFemale149 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	40.0 ;
+    c19-measure:unemployment        40.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q79 .
@@ -1015,7 +1015,7 @@ c19:dataset-unemploymentYouthFemale050 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.2 ;
+    c19-measure:unemployment        8.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q792 .
@@ -1025,7 +1025,7 @@ c19:dataset-unemploymentYouthFemale150 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.6 ;
+    c19-measure:unemployment        11.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q792 .
@@ -1035,7 +1035,7 @@ c19:dataset-unemploymentYouthFemale051 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.1 ;
+    c19-measure:unemployment        12.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q983 .
@@ -1045,7 +1045,7 @@ c19:dataset-unemploymentYouthFemale151 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.5 ;
+    c19-measure:unemployment        11.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q983 .
@@ -1055,7 +1055,7 @@ c19:dataset-unemploymentYouthFemale052 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.2 ;
+    c19-measure:unemployment        8.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q986 .
@@ -1065,7 +1065,7 @@ c19:dataset-unemploymentYouthFemale152 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.3 ;
+    c19-measure:unemployment        8.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q986 .
@@ -1075,7 +1075,7 @@ c19:dataset-unemploymentYouthFemale053 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.6 ;
+    c19-measure:unemployment        19.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q191 .
@@ -1085,7 +1085,7 @@ c19:dataset-unemploymentYouthFemale153 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.4 ;
+    c19-measure:unemployment        11.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q191 .
@@ -1095,7 +1095,7 @@ c19:dataset-unemploymentYouthFemale054 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	54.3 ;
+    c19-measure:unemployment        54.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1050 .
@@ -1105,7 +1105,7 @@ c19:dataset-unemploymentYouthFemale154 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	49.0 ;
+    c19-measure:unemployment        49.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1050 .
@@ -1115,7 +1115,7 @@ c19:dataset-unemploymentYouthFemale055 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.8 ;
+    c19-measure:unemployment        6.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q115 .
@@ -1125,7 +1125,7 @@ c19:dataset-unemploymentYouthFemale155 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.2 ;
+    c19-measure:unemployment        4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q115 .
@@ -1135,7 +1135,7 @@ c19:dataset-unemploymentYouthFemale056 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	14.3 ;
+    c19-measure:unemployment        14.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q712 .
@@ -1145,7 +1145,7 @@ c19:dataset-unemploymentYouthFemale156 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.4 ;
+    c19-measure:unemployment        22.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q712 .
@@ -1155,7 +1155,7 @@ c19:dataset-unemploymentYouthFemale057 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.9 ;
+    c19-measure:unemployment        30.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q33 .
@@ -1165,7 +1165,7 @@ c19:dataset-unemploymentYouthFemale157 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.8 ;
+    c19-measure:unemployment        16.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q33 .
@@ -1175,7 +1175,7 @@ c19:dataset-unemploymentYouthFemale058 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.5 ;
+    c19-measure:unemployment        22.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q142 .
@@ -1185,7 +1185,7 @@ c19:dataset-unemploymentYouthFemale158 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.9 ;
+    c19-measure:unemployment        19.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q142 .
@@ -1195,7 +1195,7 @@ c19:dataset-unemploymentYouthFemale059 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	39.7 ;
+    c19-measure:unemployment        39.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q30971 .
@@ -1205,7 +1205,7 @@ c19:dataset-unemploymentYouthFemale159 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	42.1 ;
+    c19-measure:unemployment        42.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q30971 .
@@ -1215,7 +1215,7 @@ c19:dataset-unemploymentYouthFemale060 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	42.5 ;
+    c19-measure:unemployment        42.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1000 .
@@ -1225,7 +1225,7 @@ c19:dataset-unemploymentYouthFemale160 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	42.1 ;
+    c19-measure:unemployment        42.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1000 .
@@ -1235,7 +1235,7 @@ c19:dataset-unemploymentYouthFemale061 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	17.2 ;
+    c19-measure:unemployment        17.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1005 .
@@ -1245,7 +1245,7 @@ c19:dataset-unemploymentYouthFemale161 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.8 ;
+    c19-measure:unemployment        16.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1005 .
@@ -1255,7 +1255,7 @@ c19:dataset-unemploymentYouthFemale062 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.4 ;
+    c19-measure:unemployment        20.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q230 .
@@ -1265,7 +1265,7 @@ c19:dataset-unemploymentYouthFemale162 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	34.1 ;
+    c19-measure:unemployment        34.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q230 .
@@ -1275,7 +1275,7 @@ c19:dataset-unemploymentYouthFemale063 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.4 ;
+    c19-measure:unemployment        7.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q183 .
@@ -1285,7 +1285,7 @@ c19:dataset-unemploymentYouthFemale163 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.1 ;
+    c19-measure:unemployment        5.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q183 .
@@ -1295,7 +1295,7 @@ c19:dataset-unemploymentYouthFemale064 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.4 ;
+    c19-measure:unemployment        16.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q117 .
@@ -1305,7 +1305,7 @@ c19:dataset-unemploymentYouthFemale164 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.4 ;
+    c19-measure:unemployment        8.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q117 .
@@ -1315,7 +1315,7 @@ c19:dataset-unemploymentYouthFemale065 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	38.2 ;
+    c19-measure:unemployment        38.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q41 .
@@ -1325,7 +1325,7 @@ c19:dataset-unemploymentYouthFemale165 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	43.9 ;
+    c19-measure:unemployment        43.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q41 .
@@ -1335,7 +1335,7 @@ c19:dataset-unemploymentYouthFemale066 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.6 ;
+    c19-measure:unemployment        30.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q16635 .
@@ -1345,7 +1345,7 @@ c19:dataset-unemploymentYouthFemale166 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	13.9 ;
+    c19-measure:unemployment        13.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q16635 .
@@ -1355,7 +1355,7 @@ c19:dataset-unemploymentYouthFemale067 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.2 ;
+    c19-measure:unemployment        5.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q774 .
@@ -1365,7 +1365,7 @@ c19:dataset-unemploymentYouthFemale167 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.1 ;
+    c19-measure:unemployment        8.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q774 .
@@ -1375,7 +1375,7 @@ c19:dataset-unemploymentYouthFemale068 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.7 ;
+    c19-measure:unemployment        4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1006 .
@@ -1385,7 +1385,7 @@ c19:dataset-unemploymentYouthFemale168 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.3 ;
+    c19-measure:unemployment        4.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1006 .
@@ -1395,7 +1395,7 @@ c19:dataset-unemploymentYouthFemale069 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.6 ;
+    c19-measure:unemployment        3.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1007 .
@@ -1405,7 +1405,7 @@ c19:dataset-unemploymentYouthFemale169 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.4 ;
+    c19-measure:unemployment        3.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1007 .
@@ -1415,7 +1415,7 @@ c19:dataset-unemploymentYouthFemale070 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	31.6 ;
+    c19-measure:unemployment        31.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q734 .
@@ -1425,7 +1425,7 @@ c19:dataset-unemploymentYouthFemale170 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	28.0 ;
+    c19-measure:unemployment        28.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q734 .
@@ -1435,7 +1435,7 @@ c19:dataset-unemploymentYouthFemale071 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	23.1 ;
+    c19-measure:unemployment        23.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q790 .
@@ -1445,7 +1445,7 @@ c19:dataset-unemploymentYouthFemale171 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	38.2 ;
+    c19-measure:unemployment        38.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q790 .
@@ -1455,7 +1455,7 @@ c19:dataset-unemploymentYouthFemale072 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.5 ;
+    c19-measure:unemployment        8.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q783 .
@@ -1465,7 +1465,7 @@ c19:dataset-unemploymentYouthFemale172 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.0 ;
+    c19-measure:unemployment        16.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q783 .
@@ -1475,7 +1475,7 @@ c19:dataset-unemploymentYouthFemale073 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.2 ;
+    c19-measure:unemployment        10.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q8646 .
@@ -1485,7 +1485,7 @@ c19:dataset-unemploymentYouthFemale173 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.9 ;
+    c19-measure:unemployment        7.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q8646 .
@@ -1495,7 +1495,7 @@ c19:dataset-unemploymentYouthFemale074 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.4 ;
+    c19-measure:unemployment        10.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q28 .
@@ -1505,7 +1505,7 @@ c19:dataset-unemploymentYouthFemale174 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.7 ;
+    c19-measure:unemployment        10.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q28 .
@@ -1515,7 +1515,7 @@ c19:dataset-unemploymentYouthFemale075 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.8 ;
+    c19-measure:unemployment        3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q189 .
@@ -1525,7 +1525,7 @@ c19:dataset-unemploymentYouthFemale175 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.5 ;
+    c19-measure:unemployment        5.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q189 .
@@ -1535,7 +1535,7 @@ c19:dataset-unemploymentYouthFemale076 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.9 ;
+    c19-measure:unemployment        16.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q668 .
@@ -1545,7 +1545,7 @@ c19:dataset-unemploymentYouthFemale176 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	24.3 ;
+    c19-measure:unemployment        24.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q668 .
@@ -1555,7 +1555,7 @@ c19:dataset-unemploymentYouthFemale077 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.3 ;
+    c19-measure:unemployment        19.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q252 .
@@ -1565,7 +1565,7 @@ c19:dataset-unemploymentYouthFemale177 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.4 ;
+    c19-measure:unemployment        16.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q252 .
@@ -1575,7 +1575,7 @@ c19:dataset-unemploymentYouthFemale078 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	32.7 ;
+    c19-measure:unemployment        32.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q794 .
@@ -1585,7 +1585,7 @@ c19:dataset-unemploymentYouthFemale178 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	42.3 ;
+    c19-measure:unemployment        42.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q794 .
@@ -1595,7 +1595,7 @@ c19:dataset-unemploymentYouthFemale079 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.2 ;
+    c19-measure:unemployment        19.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q796 .
@@ -1605,7 +1605,7 @@ c19:dataset-unemploymentYouthFemale179 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	62.8 ;
+    c19-measure:unemployment        62.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q796 .
@@ -1615,7 +1615,7 @@ c19:dataset-unemploymentYouthFemale080 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.7 ;
+    c19-measure:unemployment        6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q27 .
@@ -1625,7 +1625,7 @@ c19:dataset-unemploymentYouthFemale180 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.7 ;
+    c19-measure:unemployment        12.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q27 .
@@ -1635,7 +1635,7 @@ c19:dataset-unemploymentYouthFemale081 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	17.4 ;
+    c19-measure:unemployment        17.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q801 .
@@ -1645,7 +1645,7 @@ c19:dataset-unemploymentYouthFemale181 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.4 ;
+    c19-measure:unemployment        7.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q801 .
@@ -1655,7 +1655,7 @@ c19:dataset-unemploymentYouthFemale082 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	35.7 ;
+    c19-measure:unemployment        35.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q38 .
@@ -1665,7 +1665,7 @@ c19:dataset-unemploymentYouthFemale182 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	34.8 ;
+    c19-measure:unemployment        34.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q38 .
@@ -1675,7 +1675,7 @@ c19:dataset-unemploymentYouthFemale083 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	43.5 ;
+    c19-measure:unemployment        43.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q766 .
@@ -1685,7 +1685,7 @@ c19:dataset-unemploymentYouthFemale183 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.8 ;
+    c19-measure:unemployment        30.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q766 .
@@ -1695,7 +1695,7 @@ c19:dataset-unemploymentYouthFemale084 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.9 ;
+    c19-measure:unemployment        7.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q17 .
@@ -1705,7 +1705,7 @@ c19:dataset-unemploymentYouthFemale184 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.1 ;
+    c19-measure:unemployment        3.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q17 .
@@ -1715,7 +1715,7 @@ c19:dataset-unemploymentYouthFemale085 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	46.6 ;
+    c19-measure:unemployment        46.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q810 .
@@ -1725,7 +1725,7 @@ c19:dataset-unemploymentYouthFemale185 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	55.7 ;
+    c19-measure:unemployment        55.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q810 .
@@ -1735,7 +1735,7 @@ c19:dataset-unemploymentYouthFemale086 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	25.2 ;
+    c19-measure:unemployment        25.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q232 .
@@ -1745,7 +1745,7 @@ c19:dataset-unemploymentYouthFemale186 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.9 ;
+    c19-measure:unemployment        3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q232 .
@@ -1755,7 +1755,7 @@ c19:dataset-unemploymentYouthFemale087 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.5 ;
+    c19-measure:unemployment        6.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q114 .
@@ -1765,7 +1765,7 @@ c19:dataset-unemploymentYouthFemale187 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.3 ;
+    c19-measure:unemployment        7.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q114 .
@@ -1775,7 +1775,7 @@ c19:dataset-unemploymentYouthFemale088 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.7 ;
+    c19-measure:unemployment        5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q423 .
@@ -1785,7 +1785,7 @@ c19:dataset-unemploymentYouthFemale188 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.5 ;
+    c19-measure:unemployment        5.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q423 .
@@ -1795,7 +1795,7 @@ c19:dataset-unemploymentYouthFemale089 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.6 ;
+    c19-measure:unemployment        8.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q884 .
@@ -1805,7 +1805,7 @@ c19:dataset-unemploymentYouthFemale189 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.1 ;
+    c19-measure:unemployment        10.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q884 .
@@ -1815,7 +1815,7 @@ c19:dataset-unemploymentYouthFemale090 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.3 ;
+    c19-measure:unemployment        8.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q817 .
@@ -1825,7 +1825,7 @@ c19:dataset-unemploymentYouthFemale190 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	28.4 ;
+    c19-measure:unemployment        28.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q817 .
@@ -1835,7 +1835,7 @@ c19:dataset-unemploymentYouthFemale091 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	13.4 ;
+    c19-measure:unemployment        13.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q813 .
@@ -1845,7 +1845,7 @@ c19:dataset-unemploymentYouthFemale191 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.7 ;
+    c19-measure:unemployment        22.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q813 .
@@ -1855,7 +1855,7 @@ c19:dataset-unemploymentYouthFemale092 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.7 ;
+    c19-measure:unemployment        3.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q819 .
@@ -1865,7 +1865,7 @@ c19:dataset-unemploymentYouthFemale192 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.6 ;
+    c19-measure:unemployment        1.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q819 .
@@ -1875,7 +1875,7 @@ c19:dataset-unemploymentYouthFemale093 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.7 ;
+    c19-measure:unemployment        21.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q211 .
@@ -1885,7 +1885,7 @@ c19:dataset-unemploymentYouthFemale193 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.8 ;
+    c19-measure:unemployment        11.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q211 .
@@ -1895,7 +1895,7 @@ c19:dataset-unemploymentYouthFemale094 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.7 ;
+    c19-measure:unemployment        19.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q822 .
@@ -1905,7 +1905,7 @@ c19:dataset-unemploymentYouthFemale194 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.3 ;
+    c19-measure:unemployment        21.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q822 .
@@ -1915,7 +1915,7 @@ c19:dataset-unemploymentYouthFemale095 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	59.2 ;
+    c19-measure:unemployment        59.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1013 .
@@ -1925,7 +1925,7 @@ c19:dataset-unemploymentYouthFemale195 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	40.5 ;
+    c19-measure:unemployment        40.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1013 .
@@ -1935,7 +1935,7 @@ c19:dataset-unemploymentYouthFemale096 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.7 ;
+    c19-measure:unemployment        3.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1014 .
@@ -1945,7 +1945,7 @@ c19:dataset-unemploymentYouthFemale196 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	2.0 ;
+    c19-measure:unemployment        2.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1014 .
@@ -1955,7 +1955,7 @@ c19:dataset-unemploymentYouthFemale097 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	61.5 ;
+    c19-measure:unemployment        61.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1016 .
@@ -1965,7 +1965,7 @@ c19:dataset-unemploymentYouthFemale197 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	68.9 ;
+    c19-measure:unemployment        68.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1016 .
@@ -1975,7 +1975,7 @@ c19:dataset-unemploymentYouthFemale098 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	27.3 ;
+    c19-measure:unemployment        27.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q37 .
@@ -1985,7 +1985,7 @@ c19:dataset-unemploymentYouthFemale198 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.1 ;
+    c19-measure:unemployment        10.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q37 .
@@ -1995,7 +1995,7 @@ c19:dataset-unemploymentYouthFemale099 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.3 ;
+    c19-measure:unemployment        7.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q32 .
@@ -2005,7 +2005,7 @@ c19:dataset-unemploymentYouthFemale199 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.8 ;
+    c19-measure:unemployment        11.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q32 .
@@ -2015,7 +2015,7 @@ c19:dataset-unemploymentYouthFemale0100 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.2 ;
+    c19-measure:unemployment        7.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q14773 .
@@ -2025,7 +2025,7 @@ c19:dataset-unemploymentYouthFemale1100 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.0 ;
+    c19-measure:unemployment        4.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q14773 .
@@ -2035,7 +2035,7 @@ c19:dataset-unemploymentYouthFemale0101 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.0 ;
+    c19-measure:unemployment        7.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1019 .
@@ -2045,7 +2045,7 @@ c19:dataset-unemploymentYouthFemale1101 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	2.8 ;
+    c19-measure:unemployment        2.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1019 .
@@ -2055,7 +2055,7 @@ c19:dataset-unemploymentYouthFemale0102 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.5 ;
+    c19-measure:unemployment        8.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1020 .
@@ -2065,7 +2065,7 @@ c19:dataset-unemploymentYouthFemale1102 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.0 ;
+    c19-measure:unemployment        8.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1020 .
@@ -2075,7 +2075,7 @@ c19:dataset-unemploymentYouthFemale0103 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.0 ;
+    c19-measure:unemployment        10.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q833 .
@@ -2085,7 +2085,7 @@ c19:dataset-unemploymentYouthFemale1103 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.9 ;
+    c19-measure:unemployment        11.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q833 .
@@ -2095,7 +2095,7 @@ c19:dataset-unemploymentYouthFemale0104 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.1 ;
+    c19-measure:unemployment        5.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q826 .
@@ -2105,7 +2105,7 @@ c19:dataset-unemploymentYouthFemale1104 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.3 ;
+    c19-measure:unemployment        11.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q826 .
@@ -2115,7 +2115,7 @@ c19:dataset-unemploymentYouthFemale0105 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.3 ;
+    c19-measure:unemployment        8.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q912 .
@@ -2125,7 +2125,7 @@ c19:dataset-unemploymentYouthFemale1105 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	17.0 ;
+    c19-measure:unemployment        17.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q912 .
@@ -2135,7 +2135,7 @@ c19:dataset-unemploymentYouthFemale0106 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.5 ;
+    c19-measure:unemployment        10.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q233 .
@@ -2145,7 +2145,7 @@ c19:dataset-unemploymentYouthFemale1106 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.9 ;
+    c19-measure:unemployment        6.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q233 .
@@ -2155,7 +2155,7 @@ c19:dataset-unemploymentYouthFemale0107 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.3 ;
+    c19-measure:unemployment        15.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1025 .
@@ -2165,7 +2165,7 @@ c19:dataset-unemploymentYouthFemale1107 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.5 ;
+    c19-measure:unemployment        16.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1025 .
@@ -2175,7 +2175,7 @@ c19:dataset-unemploymentYouthFemale0108 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	29.4 ;
+    c19-measure:unemployment        29.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1027 .
@@ -2185,7 +2185,7 @@ c19:dataset-unemploymentYouthFemale1108 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.8 ;
+    c19-measure:unemployment        30.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1027 .
@@ -2195,7 +2195,7 @@ c19:dataset-unemploymentYouthFemale0109 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.2 ;
+    c19-measure:unemployment        6.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q96 .
@@ -2205,7 +2205,7 @@ c19:dataset-unemploymentYouthFemale1109 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.6 ;
+    c19-measure:unemployment        7.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q96 .
@@ -2215,7 +2215,7 @@ c19:dataset-unemploymentYouthFemale0110 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.4 ;
+    c19-measure:unemployment        15.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q217 .
@@ -2225,7 +2225,7 @@ c19:dataset-unemploymentYouthFemale1110 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.2 ;
+    c19-measure:unemployment        7.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q217 .
@@ -2235,7 +2235,7 @@ c19:dataset-unemploymentYouthFemale0111 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.7 ;
+    c19-measure:unemployment        9.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q711 .
@@ -2245,7 +2245,7 @@ c19:dataset-unemploymentYouthFemale1111 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.2 ;
+    c19-measure:unemployment        21.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q711 .
@@ -2255,7 +2255,7 @@ c19:dataset-unemploymentYouthFemale0112 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	64.0 ;
+    c19-measure:unemployment        64.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q236 .
@@ -2265,7 +2265,7 @@ c19:dataset-unemploymentYouthFemale1112 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	23.6 ;
+    c19-measure:unemployment        23.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q236 .
@@ -2275,7 +2275,7 @@ c19:dataset-unemploymentYouthFemale0113 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	17.0 ;
+    c19-measure:unemployment        17.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1028 .
@@ -2285,7 +2285,7 @@ c19:dataset-unemploymentYouthFemale1113 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.8 ;
+    c19-measure:unemployment        22.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1028 .
@@ -2295,7 +2295,7 @@ c19:dataset-unemploymentYouthFemale0114 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.9 ;
+    c19-measure:unemployment        3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1029 .
@@ -2305,7 +2305,7 @@ c19:dataset-unemploymentYouthFemale1114 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.7 ;
+    c19-measure:unemployment        6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1029 .
@@ -2315,7 +2315,7 @@ c19:dataset-unemploymentYouthFemale0115 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.5 ;
+    c19-measure:unemployment        1.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q836 .
@@ -2325,7 +2325,7 @@ c19:dataset-unemploymentYouthFemale1115 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.7 ;
+    c19-measure:unemployment        4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q836 .
@@ -2335,7 +2335,7 @@ c19:dataset-unemploymentYouthFemale0116 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	42.8 ;
+    c19-measure:unemployment        42.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1030 .
@@ -2345,7 +2345,7 @@ c19:dataset-unemploymentYouthFemale1116 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	38.5 ;
+    c19-measure:unemployment        38.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1030 .
@@ -2355,7 +2355,7 @@ c19:dataset-unemploymentYouthFemale0117 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	2.0 ;
+    c19-measure:unemployment        2.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q837 .
@@ -2365,7 +2365,7 @@ c19:dataset-unemploymentYouthFemale1117 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.7 ;
+    c19-measure:unemployment        1.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q837 .
@@ -2375,7 +2375,7 @@ c19:dataset-unemploymentYouthFemale0118 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.9 ;
+    c19-measure:unemployment        5.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q55 .
@@ -2385,7 +2385,7 @@ c19:dataset-unemploymentYouthFemale1118 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.7 ;
+    c19-measure:unemployment        6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q55 .
@@ -2395,7 +2395,7 @@ c19:dataset-unemploymentYouthFemale0119 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	46.9 ;
+    c19-measure:unemployment        46.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q33788 .
@@ -2405,7 +2405,7 @@ c19:dataset-unemploymentYouthFemale1119 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	36.3 ;
+    c19-measure:unemployment        36.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q33788 .
@@ -2415,7 +2415,7 @@ c19:dataset-unemploymentYouthFemale0120 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.4 ;
+    c19-measure:unemployment        12.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q664 .
@@ -2425,7 +2425,7 @@ c19:dataset-unemploymentYouthFemale1120 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.8 ;
+    c19-measure:unemployment        10.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q664 .
@@ -2435,7 +2435,7 @@ c19:dataset-unemploymentYouthFemale0121 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	14.4 ;
+    c19-measure:unemployment        14.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q811 .
@@ -2445,7 +2445,7 @@ c19:dataset-unemploymentYouthFemale1121 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	14.4 ;
+    c19-measure:unemployment        14.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q811 .
@@ -2455,7 +2455,7 @@ c19:dataset-unemploymentYouthFemale0122 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.9 ;
+    c19-measure:unemployment        1.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1032 .
@@ -2465,7 +2465,7 @@ c19:dataset-unemploymentYouthFemale1122 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	0.4 ;
+    c19-measure:unemployment        0.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1032 .
@@ -2475,7 +2475,7 @@ c19:dataset-unemploymentYouthFemale0123 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.7 ;
+    c19-measure:unemployment        8.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1033 .
@@ -2485,7 +2485,7 @@ c19:dataset-unemploymentYouthFemale1123 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	18.1 ;
+    c19-measure:unemployment        18.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1033 .
@@ -2495,7 +2495,7 @@ c19:dataset-unemploymentYouthFemale0124 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	61.1 ;
+    c19-measure:unemployment        61.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q221 .
@@ -2505,7 +2505,7 @@ c19:dataset-unemploymentYouthFemale1124 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	43.2 ;
+    c19-measure:unemployment        43.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q221 .
@@ -2515,7 +2515,7 @@ c19:dataset-unemploymentYouthFemale0125 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.2 ;
+    c19-measure:unemployment        11.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q20 .
@@ -2525,7 +2525,7 @@ c19:dataset-unemploymentYouthFemale1125 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.6 ;
+    c19-measure:unemployment        8.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q20 .
@@ -2535,7 +2535,7 @@ c19:dataset-unemploymentYouthFemale0126 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.0 ;
+    c19-measure:unemployment        15.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q842 .
@@ -2545,7 +2545,7 @@ c19:dataset-unemploymentYouthFemale1126 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	33.5 ;
+    c19-measure:unemployment        33.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q842 .
@@ -2555,7 +2555,7 @@ c19:dataset-unemploymentYouthFemale0127 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	0.7 ;
+    c19-measure:unemployment        0.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q843 .
@@ -2565,7 +2565,7 @@ c19:dataset-unemploymentYouthFemale1127 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.8 ;
+    c19-measure:unemployment        6.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q843 .
@@ -2575,7 +2575,7 @@ c19:dataset-unemploymentYouthFemale0128 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.6 ;
+    c19-measure:unemployment        10.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q804 .
@@ -2585,7 +2585,7 @@ c19:dataset-unemploymentYouthFemale1128 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.4 ;
+    c19-measure:unemployment        15.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q804 .
@@ -2595,7 +2595,7 @@ c19:dataset-unemploymentYouthFemale0129 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.4 ;
+    c19-measure:unemployment        4.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q691 .
@@ -2605,7 +2605,7 @@ c19:dataset-unemploymentYouthFemale1129 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.3 ;
+    c19-measure:unemployment        3.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q691 .
@@ -2615,7 +2615,7 @@ c19:dataset-unemploymentYouthFemale0130 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.0 ;
+    c19-measure:unemployment        22.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q733 .
@@ -2625,7 +2625,7 @@ c19:dataset-unemploymentYouthFemale1130 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.1 ;
+    c19-measure:unemployment        12.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q733 .
@@ -2635,7 +2635,7 @@ c19:dataset-unemploymentYouthFemale0131 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.7 ;
+    c19-measure:unemployment        8.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q419 .
@@ -2645,7 +2645,7 @@ c19:dataset-unemploymentYouthFemale1131 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.4 ;
+    c19-measure:unemployment        8.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q419 .
@@ -2655,7 +2655,7 @@ c19:dataset-unemploymentYouthFemale0132 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.0 ;
+    c19-measure:unemployment        12.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q928 .
@@ -2665,7 +2665,7 @@ c19:dataset-unemploymentYouthFemale1132 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.1 ;
+    c19-measure:unemployment        8.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q928 .
@@ -2675,7 +2675,7 @@ c19:dataset-unemploymentYouthFemale0133 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	37.1 ;
+    c19-measure:unemployment        37.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q36 .
@@ -2685,7 +2685,7 @@ c19:dataset-unemploymentYouthFemale1133 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.0 ;
+    c19-measure:unemployment        12.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q36 .
@@ -2695,7 +2695,7 @@ c19:dataset-unemploymentYouthFemale0134 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.8 ;
+    c19-measure:unemployment        11.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q45 .
@@ -2705,7 +2705,7 @@ c19:dataset-unemploymentYouthFemale1134 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.8 ;
+    c19-measure:unemployment        20.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q45 .
@@ -2715,7 +2715,7 @@ c19:dataset-unemploymentYouthFemale0135 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.9 ;
+    c19-measure:unemployment        15.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1183 .
@@ -2725,7 +2725,7 @@ c19:dataset-unemploymentYouthFemale1135 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.7 ;
+    c19-measure:unemployment        16.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1183 .
@@ -2735,7 +2735,7 @@ c19:dataset-unemploymentYouthFemale0136 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.4 ;
+    c19-measure:unemployment        10.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q846 .
@@ -2745,7 +2745,7 @@ c19:dataset-unemploymentYouthFemale1136 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.8 ;
+    c19-measure:unemployment        1.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q846 .
@@ -2755,7 +2755,7 @@ c19:dataset-unemploymentYouthFemale0137 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.8 ;
+    c19-measure:unemployment        15.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q218 .
@@ -2765,7 +2765,7 @@ c19:dataset-unemploymentYouthFemale1137 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.3 ;
+    c19-measure:unemployment        16.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q218 .
@@ -2775,7 +2775,7 @@ c19:dataset-unemploymentYouthFemale0138 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.2 ;
+    c19-measure:unemployment        22.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q159 .
@@ -2785,7 +2785,7 @@ c19:dataset-unemploymentYouthFemale1138 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	18.0 ;
+    c19-measure:unemployment        18.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q159 .
@@ -2795,7 +2795,7 @@ c19:dataset-unemploymentYouthFemale0139 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	0.9 ;
+    c19-measure:unemployment        0.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1037 .
@@ -2805,7 +2805,7 @@ c19:dataset-unemploymentYouthFemale1139 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	2.1 ;
+    c19-measure:unemployment        2.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1037 .
@@ -2815,7 +2815,7 @@ c19:dataset-unemploymentYouthFemale0140 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	14.2 ;
+    c19-measure:unemployment        14.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q683 .
@@ -2825,7 +2825,7 @@ c19:dataset-unemploymentYouthFemale1140 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.3 ;
+    c19-measure:unemployment        22.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q683 .
@@ -2835,7 +2835,7 @@ c19:dataset-unemploymentYouthFemale0141 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	26.6 ;
+    c19-measure:unemployment        26.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1039 .
@@ -2845,7 +2845,7 @@ c19:dataset-unemploymentYouthFemale1141 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	31.5 ;
+    c19-measure:unemployment        31.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1039 .
@@ -2855,7 +2855,7 @@ c19:dataset-unemploymentYouthFemale0142 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	33.0 ;
+    c19-measure:unemployment        33.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q851 .
@@ -2865,7 +2865,7 @@ c19:dataset-unemploymentYouthFemale1142 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	62.7 ;
+    c19-measure:unemployment        62.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q851 .
@@ -2875,7 +2875,7 @@ c19:dataset-unemploymentYouthFemale0143 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.8 ;
+    c19-measure:unemployment        11.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1041 .
@@ -2885,7 +2885,7 @@ c19:dataset-unemploymentYouthFemale1143 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.7 ;
+    c19-measure:unemployment        8.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1041 .
@@ -2895,7 +2895,7 @@ c19:dataset-unemploymentYouthFemale0144 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.0 ;
+    c19-measure:unemployment        30.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q403 .
@@ -2905,7 +2905,7 @@ c19:dataset-unemploymentYouthFemale1144 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	31.8 ;
+    c19-measure:unemployment        31.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q403 .
@@ -2915,7 +2915,7 @@ c19:dataset-unemploymentYouthFemale0145 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.5 ;
+    c19-measure:unemployment        3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1044 .
@@ -2925,7 +2925,7 @@ c19:dataset-unemploymentYouthFemale1145 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.6 ;
+    c19-measure:unemployment        5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1044 .
@@ -2935,7 +2935,7 @@ c19:dataset-unemploymentYouthFemale0146 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.7 ;
+    c19-measure:unemployment        9.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q334 .
@@ -2945,7 +2945,7 @@ c19:dataset-unemploymentYouthFemale1146 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.3 ;
+    c19-measure:unemployment        12.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q334 .
@@ -2955,7 +2955,7 @@ c19:dataset-unemploymentYouthFemale0147 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	33.3 ;
+    c19-measure:unemployment        33.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q214 .
@@ -2965,7 +2965,7 @@ c19:dataset-unemploymentYouthFemale1147 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.1 ;
+    c19-measure:unemployment        16.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q214 .
@@ -2975,7 +2975,7 @@ c19:dataset-unemploymentYouthFemale0148 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	18.4 ;
+    c19-measure:unemployment        18.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q215 .
@@ -2985,7 +2985,7 @@ c19:dataset-unemploymentYouthFemale1148 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.5 ;
+    c19-measure:unemployment        9.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q215 .
@@ -2995,7 +2995,7 @@ c19:dataset-unemploymentYouthFemale0149 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.5 ;
+    c19-measure:unemployment        3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q685 .
@@ -3005,7 +3005,7 @@ c19:dataset-unemploymentYouthFemale1149 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	1.4 ;
+    c19-measure:unemployment        1.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q685 .
@@ -3015,7 +3015,7 @@ c19:dataset-unemploymentYouthFemale0150 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	17.8 ;
+    c19-measure:unemployment        17.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1045 .
@@ -3025,7 +3025,7 @@ c19:dataset-unemploymentYouthFemale1150 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.7 ;
+    c19-measure:unemployment        16.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1045 .
@@ -3035,7 +3035,7 @@ c19:dataset-unemploymentYouthFemale0151 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	59.0 ;
+    c19-measure:unemployment        59.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q258 .
@@ -3045,7 +3045,7 @@ c19:dataset-unemploymentYouthFemale1151 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	59.2 ;
+    c19-measure:unemployment        59.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q258 .
@@ -3055,7 +3055,7 @@ c19:dataset-unemploymentYouthFemale0152 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	17.9 ;
+    c19-measure:unemployment        17.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q958 .
@@ -3065,7 +3065,7 @@ c19:dataset-unemploymentYouthFemale1152 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	17.5 ;
+    c19-measure:unemployment        17.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q958 .
@@ -3075,7 +3075,7 @@ c19:dataset-unemploymentYouthFemale0153 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	32.2 ;
+    c19-measure:unemployment        32.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q29 .
@@ -3085,7 +3085,7 @@ c19:dataset-unemploymentYouthFemale1153 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	33.3 ;
+    c19-measure:unemployment        33.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q29 .
@@ -3095,7 +3095,7 @@ c19:dataset-unemploymentYouthFemale0154 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.7 ;
+    c19-measure:unemployment        30.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q854 .
@@ -3105,7 +3105,7 @@ c19:dataset-unemploymentYouthFemale1154 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	29.4 ;
+    c19-measure:unemployment        29.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q854 .
@@ -3115,7 +3115,7 @@ c19:dataset-unemploymentYouthFemale0155 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	38.0 ;
+    c19-measure:unemployment        38.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q760 .
@@ -3125,7 +3125,7 @@ c19:dataset-unemploymentYouthFemale1155 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	51.9 ;
+    c19-measure:unemployment        51.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q760 .
@@ -3135,7 +3135,7 @@ c19:dataset-unemploymentYouthFemale0156 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	41.3 ;
+    c19-measure:unemployment        41.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q757 .
@@ -3145,7 +3145,7 @@ c19:dataset-unemploymentYouthFemale1156 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	43.9 ;
+    c19-measure:unemployment        43.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q757 .
@@ -3155,7 +3155,7 @@ c19:dataset-unemploymentYouthFemale0157 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	29.0 ;
+    c19-measure:unemployment        29.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1049 .
@@ -3165,7 +3165,7 @@ c19:dataset-unemploymentYouthFemale1157 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	42.9 ;
+    c19-measure:unemployment        42.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1049 .
@@ -3175,7 +3175,7 @@ c19:dataset-unemploymentYouthFemale0158 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	52.0 ;
+    c19-measure:unemployment        52.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q730 .
@@ -3185,7 +3185,7 @@ c19:dataset-unemploymentYouthFemale1158 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.6 ;
+    c19-measure:unemployment        21.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q730 .
@@ -3195,7 +3195,7 @@ c19:dataset-unemploymentYouthFemale0159 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.9 ;
+    c19-measure:unemployment        7.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q34 .
@@ -3205,7 +3205,7 @@ c19:dataset-unemploymentYouthFemale1159 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.5 ;
+    c19-measure:unemployment        15.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q34 .
@@ -3215,7 +3215,7 @@ c19:dataset-unemploymentYouthFemale0160 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.1 ;
+    c19-measure:unemployment        4.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q39 .
@@ -3225,7 +3225,7 @@ c19:dataset-unemploymentYouthFemale1160 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.4 ;
+    c19-measure:unemployment        7.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q39 .
@@ -3235,7 +3235,7 @@ c19:dataset-unemploymentYouthFemale0161 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	31.0 ;
+    c19-measure:unemployment        31.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q858 .
@@ -3245,7 +3245,7 @@ c19:dataset-unemploymentYouthFemale1161 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	46.6 ;
+    c19-measure:unemployment        46.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q858 .
@@ -3255,7 +3255,7 @@ c19:dataset-unemploymentYouthFemale0162 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	25.9 ;
+    c19-measure:unemployment        25.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q863 .
@@ -3265,7 +3265,7 @@ c19:dataset-unemploymentYouthFemale1162 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.3 ;
+    c19-measure:unemployment        20.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q863 .
@@ -3275,7 +3275,7 @@ c19:dataset-unemploymentYouthFemale0163 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.3 ;
+    c19-measure:unemployment        5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q924 .
@@ -3285,7 +3285,7 @@ c19:dataset-unemploymentYouthFemale1163 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.3 ;
+    c19-measure:unemployment        4.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q924 .
@@ -3295,7 +3295,7 @@ c19:dataset-unemploymentYouthFemale0164 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.2 ;
+    c19-measure:unemployment        6.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q869 .
@@ -3305,7 +3305,7 @@ c19:dataset-unemploymentYouthFemale1164 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.7 ;
+    c19-measure:unemployment        4.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q869 .
@@ -3315,7 +3315,7 @@ c19:dataset-unemploymentYouthFemale0165 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	12.5 ;
+    c19-measure:unemployment        12.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q574 .
@@ -3325,7 +3325,7 @@ c19:dataset-unemploymentYouthFemale1165 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	15.1 ;
+    c19-measure:unemployment        15.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q574 .
@@ -3335,7 +3335,7 @@ c19:dataset-unemploymentYouthFemale0166 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.4 ;
+    c19-measure:unemployment        7.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q945 .
@@ -3345,7 +3345,7 @@ c19:dataset-unemploymentYouthFemale1166 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.6 ;
+    c19-measure:unemployment        3.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q945 .
@@ -3355,7 +3355,7 @@ c19:dataset-unemploymentYouthFemale0167 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	13.6 ;
+    c19-measure:unemployment        13.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q678 .
@@ -3365,7 +3365,7 @@ c19:dataset-unemploymentYouthFemale1167 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.7 ;
+    c19-measure:unemployment        6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q678 .
@@ -3375,7 +3375,7 @@ c19:dataset-unemploymentYouthFemale0168 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.2 ;
+    c19-measure:unemployment        8.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q754 .
@@ -3385,7 +3385,7 @@ c19:dataset-unemploymentYouthFemale1168 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.1 ;
+    c19-measure:unemployment        6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q754 .
@@ -3395,7 +3395,7 @@ c19:dataset-unemploymentYouthFemale0169 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	27.6 ;
+    c19-measure:unemployment        27.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q948 .
@@ -3405,7 +3405,7 @@ c19:dataset-unemploymentYouthFemale1169 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	38.3 ;
+    c19-measure:unemployment        38.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q948 .
@@ -3415,7 +3415,7 @@ c19:dataset-unemploymentYouthFemale0170 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.9 ;
+    c19-measure:unemployment        11.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q43 .
@@ -3425,7 +3425,7 @@ c19:dataset-unemploymentYouthFemale1170 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	24.6 ;
+    c19-measure:unemployment        24.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q43 .
@@ -3435,7 +3435,7 @@ c19:dataset-unemploymentYouthFemale0171 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	18.5 ;
+    c19-measure:unemployment        18.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q874 .
@@ -3445,7 +3445,7 @@ c19:dataset-unemploymentYouthFemale1171 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.6 ;
+    c19-measure:unemployment        5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q874 .
@@ -3455,7 +3455,7 @@ c19:dataset-unemploymentYouthFemale0172 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	5.3 ;
+    c19-measure:unemployment        5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1036 .
@@ -3465,7 +3465,7 @@ c19:dataset-unemploymentYouthFemale1172 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	3.0 ;
+    c19-measure:unemployment        3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1036 .
@@ -3475,7 +3475,7 @@ c19:dataset-unemploymentYouthFemale0173 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.7 ;
+    c19-measure:unemployment        20.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q212 .
@@ -3485,7 +3485,7 @@ c19:dataset-unemploymentYouthFemale1173 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	19.4 ;
+    c19-measure:unemployment        19.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q212 .
@@ -3495,7 +3495,7 @@ c19:dataset-unemploymentYouthFemale0174 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	6.3 ;
+    c19-measure:unemployment        6.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q878 .
@@ -3505,7 +3505,7 @@ c19:dataset-unemploymentYouthFemale1174 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	13.1 ;
+    c19-measure:unemployment        13.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q878 .
@@ -3515,7 +3515,7 @@ c19:dataset-unemploymentYouthFemale0175 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.3 ;
+    c19-measure:unemployment        10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q145 .
@@ -3525,7 +3525,7 @@ c19:dataset-unemploymentYouthFemale1175 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	10.2 ;
+    c19-measure:unemployment        10.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q145 .
@@ -3535,7 +3535,7 @@ c19:dataset-unemploymentYouthFemale0176 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	8.8 ;
+    c19-measure:unemployment        8.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q30 .
@@ -3545,7 +3545,7 @@ c19:dataset-unemploymentYouthFemale1176 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.6 ;
+    c19-measure:unemployment        7.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q30 .
@@ -3555,7 +3555,7 @@ c19:dataset-unemploymentYouthFemale0177 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	34.6 ;
+    c19-measure:unemployment        34.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q77 .
@@ -3565,7 +3565,7 @@ c19:dataset-unemploymentYouthFemale1177 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	30.8 ;
+    c19-measure:unemployment        30.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q77 .
@@ -3575,7 +3575,7 @@ c19:dataset-unemploymentYouthFemale0178 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.6 ;
+    c19-measure:unemployment        22.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q265 .
@@ -3585,7 +3585,7 @@ c19:dataset-unemploymentYouthFemale1178 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	11.8 ;
+    c19-measure:unemployment        11.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q265 .
@@ -3595,7 +3595,7 @@ c19:dataset-unemploymentYouthFemale0179 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.1 ;
+    c19-measure:unemployment        9.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q686 .
@@ -3605,7 +3605,7 @@ c19:dataset-unemploymentYouthFemale1179 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.0 ;
+    c19-measure:unemployment        9.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q686 .
@@ -3615,7 +3615,7 @@ c19:dataset-unemploymentYouthFemale0180 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	26.8 ;
+    c19-measure:unemployment        26.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q717 .
@@ -3625,7 +3625,7 @@ c19:dataset-unemploymentYouthFemale1180 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	21.6 ;
+    c19-measure:unemployment        21.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q717 .
@@ -3635,7 +3635,7 @@ c19:dataset-unemploymentYouthFemale0181 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	4.2 ;
+    c19-measure:unemployment        4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q881 .
@@ -3645,7 +3645,7 @@ c19:dataset-unemploymentYouthFemale1181 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	7.3 ;
+    c19-measure:unemployment        7.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q881 .
@@ -3655,7 +3655,7 @@ c19:dataset-unemploymentYouthFemale0182 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	26.0 ;
+    c19-measure:unemployment        26.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q11703 .
@@ -3665,7 +3665,7 @@ c19:dataset-unemploymentYouthFemale1182 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	28.5 ;
+    c19-measure:unemployment        28.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q11703 .
@@ -3675,7 +3675,7 @@ c19:dataset-unemploymentYouthFemale0183 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	16.7 ;
+    c19-measure:unemployment        16.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q407199 .
@@ -3685,7 +3685,7 @@ c19:dataset-unemploymentYouthFemale1183 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	69.1 ;
+    c19-measure:unemployment        69.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q407199 .
@@ -3695,7 +3695,7 @@ c19:dataset-unemploymentYouthFemale0184 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	14.3 ;
+    c19-measure:unemployment        14.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q805 .
@@ -3705,7 +3705,7 @@ c19:dataset-unemploymentYouthFemale1184 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	34.1 ;
+    c19-measure:unemployment        34.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q805 .
@@ -3715,7 +3715,7 @@ c19:dataset-unemploymentYouthFemale0185 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	20.3 ;
+    c19-measure:unemployment        20.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q953 .
@@ -3725,7 +3725,7 @@ c19:dataset-unemploymentYouthFemale1185 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	22.4 ;
+    c19-measure:unemployment        22.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q953 .
@@ -3735,7 +3735,7 @@ c19:dataset-unemploymentYouthFemale0186 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2000 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.3 ;
+    c19-measure:unemployment        9.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q954 .
@@ -3745,7 +3745,7 @@ c19:dataset-unemploymentYouthFemale1186 a qb:Observation;
     c19-dimension:refPeriod         c19-interval:Year2018 ;
     sdmx-dimension:sex              sdmx-code:sex-F ;
     c19-dimension:ageInterval       c19-interval:Age15-24 ;
-    c19-measure:unemploymentYouthFemale	9.4 ;
+    c19-measure:unemployment        9.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q954 .
