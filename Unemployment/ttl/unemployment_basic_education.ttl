@@ -14,7 +14,7 @@ c19:dataset-unemploymentBasicEducation00 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	12.3 ;
+    c19-measure:unemployment 	12.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q889 .
@@ -23,7 +23,7 @@ c19:dataset-unemploymentBasicEducation01 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.4 ;
+    c19-measure:unemployment 	6.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q222 .
@@ -32,7 +32,7 @@ c19:dataset-unemploymentBasicEducation02 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	11.1 ;
+    c19-measure:unemployment 	11.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q414 .
@@ -41,7 +41,7 @@ c19:dataset-unemploymentBasicEducation03 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	20.6 ;
+    c19-measure:unemployment 	20.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q399 .
@@ -50,7 +50,7 @@ c19:dataset-unemploymentBasicEducation04 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	11.3 ;
+    c19-measure:unemployment 	11.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q40 .
@@ -59,7 +59,7 @@ c19:dataset-unemploymentBasicEducation05 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.5 ;
+    c19-measure:unemployment 	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q902 .
@@ -68,7 +68,7 @@ c19:dataset-unemploymentBasicEducation06 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	13.4 ;
+    c19-measure:unemployment 	13.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q184 .
@@ -77,7 +77,7 @@ c19:dataset-unemploymentBasicEducation07 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	12.4 ;
+    c19-measure:unemployment 	12.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q31 .
@@ -86,7 +86,7 @@ c19:dataset-unemploymentBasicEducation08 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.5 ;
+    c19-measure:unemployment 	6.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q242 .
@@ -95,7 +95,7 @@ c19:dataset-unemploymentBasicEducation09 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.5 ;
+    c19-measure:unemployment 	2.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q750 .
@@ -104,7 +104,7 @@ c19:dataset-unemploymentBasicEducation010 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	20.1 ;
+    c19-measure:unemployment 	20.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q225 .
@@ -113,7 +113,7 @@ c19:dataset-unemploymentBasicEducation011 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	14.6 ;
+    c19-measure:unemployment 	14.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q155 .
@@ -122,7 +122,7 @@ c19:dataset-unemploymentBasicEducation012 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.9 ;
+    c19-measure:unemployment 	8.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q921 .
@@ -131,7 +131,7 @@ c19:dataset-unemploymentBasicEducation013 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	15.0 ;
+    c19-measure:unemployment 	15.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q219 .
@@ -140,7 +140,7 @@ c19:dataset-unemploymentBasicEducation014 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.4 ;
+    c19-measure:unemployment 	6.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q965 .
@@ -149,7 +149,7 @@ c19:dataset-unemploymentBasicEducation015 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	9.3 ;
+    c19-measure:unemployment 	9.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1011 .
@@ -158,7 +158,7 @@ c19:dataset-unemploymentBasicEducation016 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	0.2 ;
+    c19-measure:unemployment 	0.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q424 .
@@ -167,7 +167,7 @@ c19:dataset-unemploymentBasicEducation017 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	11.9 ;
+    c19-measure:unemployment 	11.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q16 .
@@ -176,7 +176,7 @@ c19:dataset-unemploymentBasicEducation018 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.7 ;
+    c19-measure:unemployment 	5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q5785 .
@@ -185,7 +185,7 @@ c19:dataset-unemploymentBasicEducation019 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.9 ;
+    c19-measure:unemployment 	6.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q298 .
@@ -194,7 +194,7 @@ c19:dataset-unemploymentBasicEducation020 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.7 ;
+    c19-measure:unemployment 	6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q739 .
@@ -203,7 +203,7 @@ c19:dataset-unemploymentBasicEducation021 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.2 ;
+    c19-measure:unemployment 	10.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q800 .
@@ -212,7 +212,7 @@ c19:dataset-unemploymentBasicEducation022 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.2 ;
+    c19-measure:unemployment 	2.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1008 .
@@ -221,7 +221,7 @@ c19:dataset-unemploymentBasicEducation023 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	11.3 ;
+    c19-measure:unemployment 	11.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q224 .
@@ -230,7 +230,7 @@ c19:dataset-unemploymentBasicEducation024 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	9.6 ;
+    c19-measure:unemployment 	9.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q229 .
@@ -239,7 +239,7 @@ c19:dataset-unemploymentBasicEducation025 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.6 ;
+    c19-measure:unemployment 	10.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q213 .
@@ -248,7 +248,7 @@ c19:dataset-unemploymentBasicEducation026 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.6 ;
+    c19-measure:unemployment 	8.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q35 .
@@ -257,7 +257,7 @@ c19:dataset-unemploymentBasicEducation027 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.7 ;
+    c19-measure:unemployment 	5.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q786 .
@@ -266,7 +266,7 @@ c19:dataset-unemploymentBasicEducation028 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.0 ;
+    c19-measure:unemployment 	2.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q736 .
@@ -275,7 +275,7 @@ c19:dataset-unemploymentBasicEducation029 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	4.1 ;
+    c19-measure:unemployment 	4.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q79 .
@@ -284,7 +284,7 @@ c19:dataset-unemploymentBasicEducation030 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.7 ;
+    c19-measure:unemployment 	3.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q792 .
@@ -293,7 +293,7 @@ c19:dataset-unemploymentBasicEducation031 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.3 ;
+    c19-measure:unemployment 	10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q191 .
@@ -302,7 +302,7 @@ c19:dataset-unemploymentBasicEducation032 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	25.4 ;
+    c19-measure:unemployment 	25.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1050 .
@@ -311,7 +311,7 @@ c19:dataset-unemploymentBasicEducation033 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.6 ;
+    c19-measure:unemployment 	2.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q712 .
@@ -320,7 +320,7 @@ c19:dataset-unemploymentBasicEducation034 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	15.9 ;
+    c19-measure:unemployment 	15.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q33 .
@@ -329,7 +329,7 @@ c19:dataset-unemploymentBasicEducation035 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	15.9 ;
+    c19-measure:unemployment 	15.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q142 .
@@ -338,7 +338,7 @@ c19:dataset-unemploymentBasicEducation036 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	11.5 ;
+    c19-measure:unemployment 	11.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1005 .
@@ -347,7 +347,7 @@ c19:dataset-unemploymentBasicEducation037 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.5 ;
+    c19-measure:unemployment 	10.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q230 .
@@ -356,7 +356,7 @@ c19:dataset-unemploymentBasicEducation038 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.8 ;
+    c19-measure:unemployment 	8.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q183 .
@@ -365,7 +365,7 @@ c19:dataset-unemploymentBasicEducation039 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.5 ;
+    c19-measure:unemployment 	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q117 .
@@ -374,7 +374,7 @@ c19:dataset-unemploymentBasicEducation040 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	21.8 ;
+    c19-measure:unemployment 	21.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q41 .
@@ -383,7 +383,7 @@ c19:dataset-unemploymentBasicEducation041 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.1 ;
+    c19-measure:unemployment 	3.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q774 .
@@ -392,7 +392,7 @@ c19:dataset-unemploymentBasicEducation042 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	14.4 ;
+    c19-measure:unemployment 	14.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q734 .
@@ -401,7 +401,7 @@ c19:dataset-unemploymentBasicEducation043 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.3 ;
+    c19-measure:unemployment 	5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q783 .
@@ -410,7 +410,7 @@ c19:dataset-unemploymentBasicEducation044 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.9 ;
+    c19-measure:unemployment 	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q8646 .
@@ -419,7 +419,7 @@ c19:dataset-unemploymentBasicEducation045 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.3 ;
+    c19-measure:unemployment 	10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q28 .
@@ -428,7 +428,7 @@ c19:dataset-unemploymentBasicEducation046 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	4.5 ;
+    c19-measure:unemployment 	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q189 .
@@ -437,7 +437,7 @@ c19:dataset-unemploymentBasicEducation047 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	4.2 ;
+    c19-measure:unemployment 	4.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q668 .
@@ -446,7 +446,7 @@ c19:dataset-unemploymentBasicEducation048 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.0 ;
+    c19-measure:unemployment 	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q252 .
@@ -455,7 +455,7 @@ c19:dataset-unemploymentBasicEducation049 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.9 ;
+    c19-measure:unemployment 	8.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q794 .
@@ -464,7 +464,7 @@ c19:dataset-unemploymentBasicEducation050 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	9.7 ;
+    c19-measure:unemployment 	9.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q27 .
@@ -473,7 +473,7 @@ c19:dataset-unemploymentBasicEducation051 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.8 ;
+    c19-measure:unemployment 	6.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q801 .
@@ -482,7 +482,7 @@ c19:dataset-unemploymentBasicEducation052 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	14.5 ;
+    c19-measure:unemployment 	14.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q38 .
@@ -491,7 +491,7 @@ c19:dataset-unemploymentBasicEducation053 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.7 ;
+    c19-measure:unemployment 	6.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q232 .
@@ -500,7 +500,7 @@ c19:dataset-unemploymentBasicEducation054 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	1.6 ;
+    c19-measure:unemployment 	1.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q114 .
@@ -509,7 +509,7 @@ c19:dataset-unemploymentBasicEducation055 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	9.3 ;
+    c19-measure:unemployment 	9.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q710 .
@@ -518,7 +518,7 @@ c19:dataset-unemploymentBasicEducation056 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.0 ;
+    c19-measure:unemployment 	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q884 .
@@ -527,7 +527,7 @@ c19:dataset-unemploymentBasicEducation057 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	54.9 ;
+    c19-measure:unemployment 	54.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1246 .
@@ -536,7 +536,7 @@ c19:dataset-unemploymentBasicEducation058 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	11.0 ;
+    c19-measure:unemployment 	11.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q819 .
@@ -545,7 +545,7 @@ c19:dataset-unemploymentBasicEducation059 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	16.1 ;
+    c19-measure:unemployment 	16.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q211 .
@@ -554,7 +554,7 @@ c19:dataset-unemploymentBasicEducation060 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.8 ;
+    c19-measure:unemployment 	2.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1014 .
@@ -563,7 +563,7 @@ c19:dataset-unemploymentBasicEducation061 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	17.1 ;
+    c19-measure:unemployment 	17.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q37 .
@@ -572,7 +572,7 @@ c19:dataset-unemploymentBasicEducation062 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.4 ;
+    c19-measure:unemployment 	8.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q32 .
@@ -581,7 +581,7 @@ c19:dataset-unemploymentBasicEducation063 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.3 ;
+    c19-measure:unemployment 	2.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q14773 .
@@ -590,7 +590,7 @@ c19:dataset-unemploymentBasicEducation064 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	1.1 ;
+    c19-measure:unemployment 	1.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1019 .
@@ -599,7 +599,7 @@ c19:dataset-unemploymentBasicEducation065 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	29.6 ;
+    c19-measure:unemployment 	29.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1020 .
@@ -608,7 +608,7 @@ c19:dataset-unemploymentBasicEducation066 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.1 ;
+    c19-measure:unemployment 	2.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q833 .
@@ -617,7 +617,7 @@ c19:dataset-unemploymentBasicEducation067 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	9.4 ;
+    c19-measure:unemployment 	9.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q826 .
@@ -626,7 +626,7 @@ c19:dataset-unemploymentBasicEducation068 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.1 ;
+    c19-measure:unemployment 	2.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q912 .
@@ -635,7 +635,7 @@ c19:dataset-unemploymentBasicEducation069 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.3 ;
+    c19-measure:unemployment 	5.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q233 .
@@ -644,7 +644,7 @@ c19:dataset-unemploymentBasicEducation070 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	15.8 ;
+    c19-measure:unemployment 	15.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1025 .
@@ -653,7 +653,7 @@ c19:dataset-unemploymentBasicEducation071 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.9 ;
+    c19-measure:unemployment 	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1027 .
@@ -662,7 +662,7 @@ c19:dataset-unemploymentBasicEducation072 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.0 ;
+    c19-measure:unemployment 	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q96 .
@@ -671,7 +671,7 @@ c19:dataset-unemploymentBasicEducation073 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.2 ;
+    c19-measure:unemployment 	5.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q217 .
@@ -680,7 +680,7 @@ c19:dataset-unemploymentBasicEducation074 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.0 ;
+    c19-measure:unemployment 	3.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q711 .
@@ -689,7 +689,7 @@ c19:dataset-unemploymentBasicEducation075 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	20.3 ;
+    c19-measure:unemployment 	20.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q236 .
@@ -698,7 +698,7 @@ c19:dataset-unemploymentBasicEducation076 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.1 ;
+    c19-measure:unemployment 	6.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1029 .
@@ -707,7 +707,7 @@ c19:dataset-unemploymentBasicEducation077 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	0.6 ;
+    c19-measure:unemployment 	0.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q836 .
@@ -716,7 +716,7 @@ c19:dataset-unemploymentBasicEducation078 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	17.5 ;
+    c19-measure:unemployment 	17.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1030 .
@@ -725,7 +725,7 @@ c19:dataset-unemploymentBasicEducation079 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.4 ;
+    c19-measure:unemployment 	10.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q837 .
@@ -734,7 +734,7 @@ c19:dataset-unemploymentBasicEducation080 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.4 ;
+    c19-measure:unemployment 	6.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q55 .
@@ -743,7 +743,7 @@ c19:dataset-unemploymentBasicEducation081 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.1 ;
+    c19-measure:unemployment 	8.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1032 .
@@ -752,7 +752,7 @@ c19:dataset-unemploymentBasicEducation082 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.3 ;
+    c19-measure:unemployment 	6.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1033 .
@@ -761,7 +761,7 @@ c19:dataset-unemploymentBasicEducation083 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	23.3 ;
+    c19-measure:unemployment 	23.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q221 .
@@ -770,7 +770,7 @@ c19:dataset-unemploymentBasicEducation084 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.3 ;
+    c19-measure:unemployment 	8.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q20 .
@@ -779,7 +779,7 @@ c19:dataset-unemploymentBasicEducation085 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.9 ;
+    c19-measure:unemployment 	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q843 .
@@ -788,7 +788,7 @@ c19:dataset-unemploymentBasicEducation086 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.2 ;
+    c19-measure:unemployment 	3.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q804 .
@@ -797,7 +797,7 @@ c19:dataset-unemploymentBasicEducation087 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.0 ;
+    c19-measure:unemployment 	5.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q733 .
@@ -806,7 +806,7 @@ c19:dataset-unemploymentBasicEducation088 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.1 ;
+    c19-measure:unemployment 	2.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q419 .
@@ -815,7 +815,7 @@ c19:dataset-unemploymentBasicEducation089 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	4.5 ;
+    c19-measure:unemployment 	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q928 .
@@ -824,7 +824,7 @@ c19:dataset-unemploymentBasicEducation090 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	9.9 ;
+    c19-measure:unemployment 	9.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q36 .
@@ -833,7 +833,7 @@ c19:dataset-unemploymentBasicEducation091 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	7.1 ;
+    c19-measure:unemployment 	7.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q45 .
@@ -842,7 +842,7 @@ c19:dataset-unemploymentBasicEducation092 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.6 ;
+    c19-measure:unemployment 	5.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q218 .
@@ -851,7 +851,7 @@ c19:dataset-unemploymentBasicEducation093 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	12.7 ;
+    c19-measure:unemployment 	12.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q159 .
@@ -860,7 +860,7 @@ c19:dataset-unemploymentBasicEducation094 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	14.2 ;
+    c19-measure:unemployment 	14.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1037 .
@@ -869,7 +869,7 @@ c19:dataset-unemploymentBasicEducation095 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	14.6 ;
+    c19-measure:unemployment 	14.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q683 .
@@ -878,7 +878,7 @@ c19:dataset-unemploymentBasicEducation096 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	4.5 ;
+    c19-measure:unemployment 	4.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q238 .
@@ -887,7 +887,7 @@ c19:dataset-unemploymentBasicEducation097 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.4 ;
+    c19-measure:unemployment 	8.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1041 .
@@ -896,7 +896,7 @@ c19:dataset-unemploymentBasicEducation098 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	12.3 ;
+    c19-measure:unemployment 	12.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q403 .
@@ -905,7 +905,7 @@ c19:dataset-unemploymentBasicEducation099 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.3 ;
+    c19-measure:unemployment 	2.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1042 .
@@ -914,7 +914,7 @@ c19:dataset-unemploymentBasicEducation0100 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.5 ;
+    c19-measure:unemployment 	3.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q334 .
@@ -923,7 +923,7 @@ c19:dataset-unemploymentBasicEducation0101 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	29.8 ;
+    c19-measure:unemployment 	29.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q214 .
@@ -932,7 +932,7 @@ c19:dataset-unemploymentBasicEducation0102 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.4 ;
+    c19-measure:unemployment 	8.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q215 .
@@ -941,7 +941,7 @@ c19:dataset-unemploymentBasicEducation0103 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	32.7 ;
+    c19-measure:unemployment 	32.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q258 .
@@ -950,7 +950,7 @@ c19:dataset-unemploymentBasicEducation0104 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	21.6 ;
+    c19-measure:unemployment 	21.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q29 .
@@ -959,7 +959,7 @@ c19:dataset-unemploymentBasicEducation0105 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	2.6 ;
+    c19-measure:unemployment 	2.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q854 .
@@ -968,7 +968,7 @@ c19:dataset-unemploymentBasicEducation0106 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	25.4 ;
+    c19-measure:unemployment 	25.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q760 .
@@ -977,7 +977,7 @@ c19:dataset-unemploymentBasicEducation0107 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	18.7 ;
+    c19-measure:unemployment 	18.7 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q34 .
@@ -986,7 +986,7 @@ c19:dataset-unemploymentBasicEducation0108 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.1 ;
+    c19-measure:unemployment 	8.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q39 .
@@ -995,7 +995,7 @@ c19:dataset-unemploymentBasicEducation0109 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	0.6 ;
+    c19-measure:unemployment 	0.6 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q869 .
@@ -1004,7 +1004,7 @@ c19:dataset-unemploymentBasicEducation0110 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	4.3 ;
+    c19-measure:unemployment 	4.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q574 .
@@ -1013,7 +1013,7 @@ c19:dataset-unemploymentBasicEducation0111 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	4.8 ;
+    c19-measure:unemployment 	4.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q945 .
@@ -1022,7 +1022,7 @@ c19:dataset-unemploymentBasicEducation0112 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.8 ;
+    c19-measure:unemployment 	3.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q678 .
@@ -1031,7 +1031,7 @@ c19:dataset-unemploymentBasicEducation0113 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	3.9 ;
+    c19-measure:unemployment 	3.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q754 .
@@ -1040,7 +1040,7 @@ c19:dataset-unemploymentBasicEducation0114 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.8 ;
+    c19-measure:unemployment 	8.8 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q948 .
@@ -1049,7 +1049,7 @@ c19:dataset-unemploymentBasicEducation0115 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.0 ;
+    c19-measure:unemployment 	10.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q43 .
@@ -1058,7 +1058,7 @@ c19:dataset-unemploymentBasicEducation0116 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	8.1 ;
+    c19-measure:unemployment 	8.1 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q672 .
@@ -1067,7 +1067,7 @@ c19:dataset-unemploymentBasicEducation0117 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.5 ;
+    c19-measure:unemployment 	5.5 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q1036 .
@@ -1076,7 +1076,7 @@ c19:dataset-unemploymentBasicEducation0118 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.3 ;
+    c19-measure:unemployment 	10.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q212 .
@@ -1085,7 +1085,7 @@ c19:dataset-unemploymentBasicEducation0119 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	1.2 ;
+    c19-measure:unemployment 	1.2 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q878 .
@@ -1094,7 +1094,7 @@ c19:dataset-unemploymentBasicEducation0120 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	6.3 ;
+    c19-measure:unemployment 	6.3 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q145 .
@@ -1103,7 +1103,7 @@ c19:dataset-unemploymentBasicEducation0121 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	5.9 ;
+    c19-measure:unemployment 	5.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q30 .
@@ -1112,7 +1112,7 @@ c19:dataset-unemploymentBasicEducation0122 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	9.9 ;
+    c19-measure:unemployment 	9.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q77 .
@@ -1121,7 +1121,7 @@ c19:dataset-unemploymentBasicEducation0123 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	0.9 ;
+    c19-measure:unemployment 	0.9 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q881 .
@@ -1130,7 +1130,7 @@ c19:dataset-unemploymentBasicEducation0124 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	24.0 ;
+    c19-measure:unemployment 	24.0 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q407199 .
@@ -1139,7 +1139,7 @@ c19:dataset-unemploymentBasicEducation0125 a qb:Observation;
     qb:dataSet                      c19:dataset-unemploymentBasicEducation;
     c19-dimension:refPeriod         c19-interval:Year2015-18 ;
     c19-dimension:educationLevel 	wd:Q975085;
-    c19-measure:unemploymentBasicEducation	10.4 ;
+    c19-measure:unemployment 	10.4 ;
     sdmx-attribute:unitMultiplier   -2 ;
     sdmx-attribute:decimals         1 ;
     c19-dimension:refArea           wd:Q953 .

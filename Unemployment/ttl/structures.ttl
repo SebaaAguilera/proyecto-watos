@@ -6,7 +6,7 @@ c19-structure:dsd-unemploymentAdvancedEducation a qb:DataStructureDefinition;
     [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
     [ qb:dimension c19-dimension:educationLevel;               qb:order 1 ],
     qb:component
-    [ qb:measure c19-measure:unemploymentAdvancedEducation ];
+    [ qb:measure c19-measure:unemployment ];
     qb:component
     [ qb:attribute sdmx-attribute:decimals ;
     qb:attribute sdmx-attribute:unitMultiplier ;];
@@ -19,7 +19,7 @@ c19-structure:dsd-unemploymentIntermediateEducation a qb:DataStructureDefinition
     [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
     [ qb:dimension c19-dimension:educationLevel;               qb:order 1 ],
     qb:component
-    [ qb:measure c19-measure:unemploymentIntermediateEducation ];
+    [ qb:measure c19-measure:unemployment ];
     qb:component
     [ qb:attribute sdmx-attribute:decimals ;
     qb:attribute sdmx-attribute:unitMultiplier ;];
@@ -32,7 +32,7 @@ c19-structure:dsd-unemploymentBasicEducation a qb:DataStructureDefinition;
     [ qb:dimension c19-dimension:refPeriod;               qb:order 2 ],
     [ qb:dimension c19-dimension:educationLevel;               qb:order 1 ],
     qb:component
-    [ qb:measure c19-measure:unemploymentBasicEducation ];
+    [ qb:measure c19-measure:unemployment ];
     qb:component
     [ qb:attribute sdmx-attribute:decimals ;
     qb:attribute sdmx-attribute:unitMultiplier ;];

@@ -5,24 +5,6 @@ c19-measure:unemployment a rdf:Property, qb:MeasureProperty ;
     rdfs:range xsd:decimal ;
 .
 
-c19-measure:unemploymentBasicEducation a rdf:Property, qb:MeasureProperty ;
-    rdfs:label "Unemployment Basic Education"@en;
-    rdfs:subPropertyOf sdmx-measure:obsValue;
-    rdfs:range xsd:decimal ;
-.
-
-c19-measure:unemploymentIntermediateEducation a rdf:Property, qb:MeasureProperty ;
-    rdfs:label "Unemployment Intermediate Education"@en;
-    rdfs:subPropertyOf sdmx-measure:obsValue;
-    rdfs:range xsd:decimal ;
-.
-
-c19-measure:unemploymentAdvancedEducation a rdf:Property, qb:MeasureProperty ;
-    rdfs:label "Unemployment Advanced Education"@en;
-    rdfs:subPropertyOf sdmx-measure:obsValue;
-    rdfs:range xsd:decimal ;
-.
-
 c19-dimension:refArea  a rdf:Property, qb:DimensionProperty;
     rdfs:label "reference area"@en;
     rdfs:subPropertyOf sdmx-dimension:refArea;
